@@ -287,3 +287,13 @@ body {
     color: var(--color-text-secondary);
     line-height: 1.5;
 }
+/* --- Estilo para Imagem de Boas-Vindas (Adicionar ao final do style.css) --- */
+
+.welcome-image {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 30px auto 10px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(93, 64, 55, 0.2);
+}
