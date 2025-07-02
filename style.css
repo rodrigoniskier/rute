@@ -247,3 +247,32 @@ body {
     font-size: 2rem; /* Aumentado */
     direction: rtl;
 }
+/* --- Estilos para Navegação de Versículos (Adicionar ao final do style.css) --- */
+
+.verse-nav-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.verse-nav-btn {
+    padding: 8px 16px;
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    background-color: var(--color-text-secondary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.verse-nav-btn:hover:not(:disabled) {
+    background-color: var(--color-text-primary);
+}
+
+.verse-nav-btn:disabled {
+    background-color: #C8BDB7; /* Um cinza-marrom para indicar desabilitado */
+    cursor: not-allowed;
+}
