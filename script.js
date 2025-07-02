@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // II. LÓGICA DE RENDERIZAÇÃO E BUSCA DE DADOS
     // -------------------------------------------------------------------
     
-    // NOVO: Função para exibir a tela inicial
     function displayWelcomeScreen() {
         wordNav.classList.remove('visible');
         contentArea.innerHTML = `
@@ -152,6 +151,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const analysis = wordData.analysis;
         const didacticContent = grammarLibrary[analysis.didacticKey]; 
 
+        // ESTA É A CORREÇÃO CRÍTICA:
+        // As variáveis paradigmHtml e didacticHtml são recriadas do zero a cada chamada da função.
+        // Isso garante que não haja "memória" ou "estado" de cliques anteriores.
         let paradigmHtml = '';
         if (didacticContent && didacticContent.paradigm) {
             const paradigm = didacticContent.paradigm;
@@ -228,11 +230,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     wordNav.addEventListener('click', (e) => {
-        // CORRIGIDO: Agora chama a função da tela de boas-vindas
         if (e.target.matches('#btn-back-to-chapter')) {
             e.preventDefault();
             displayWelcomeScreen();
-            history.pushState(null, '', window.location.pathname); // Limpa a URL
+            history.pushState(null, '', window.location.pathname); 
             return;
         }
 
@@ -258,7 +259,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 displayVerseAnalysisView(chapter, verse);
             }
         } else {
-            // CORRIGIDO: Mostra a tela de boas-vindas ao carregar
             displayWelcomeScreen();
         }
     }
