@@ -290,8 +290,9 @@ body {
 /* --- Estilo para Imagem de Boas-Vindas (Adicionar ao final do style.css) --- */
 
 .welcome-image {
-    max-width: 80%;
-    height: auto;
+    max-width: 100%; /* Garante que a imagem nunca seja mais larga que o contêiner */
+    max-height: 400px; /* Limita a altura máxima */
+    object-fit: contain; /* Garante que toda a imagem apareça, sem cortar */
     display: block;
     margin: 30px auto 10px auto;
     border-radius: 8px;
