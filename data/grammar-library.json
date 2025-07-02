@@ -1,0 +1,80 @@
+{
+    "verb_qal_imperfect_vav_consecutive": {
+        "title": "Verbo: Qal Imperfeito com Vav Consecutivo",
+        "explanation": "O tronco Qal indica a ação simples e ativa. O Imperfeito descreve uma ação incompleta ou futura. O 'Vav Consecutivo' (וַ) antes de um verbo no Imperfeito o conecta à narrativa anterior e inverte seu tempo para o passado, sendo traduzido como 'E [então]...'.",
+        "paradigm": {
+            "type": "verb",
+            "title": "Paradigma Modelo: Verbo Qal Imperfeito (לָמַד - aprender)",
+            "rows": [
+                ["3ms", "יִלְמַד", "yilmad", "ele aprenderá"],
+                ["3fs", "תִּלְמַד", "tilmad", "ela aprenderá"],
+                ["2ms", "תִּלְמַד", "tilmad", "tu (m.) aprenderás"],
+                ["2fs", "תִּלְמְדִי", "tilmədî", "tu (f.) aprenderás"],
+                ["1cs", "אֶלְמַד", "’elmad", "eu aprenderei"],
+                ["3mp", "יִלְמְדוּ", "yilmədû", "eles aprenderão"],
+                ["1cp", "נִלְמַד", "nilmad", "nós aprenderemos"]
+            ]
+        }
+    },
+    "noun_construct_state": {
+        "title": "Substantivo: Estado Construto",
+        "explanation": "O estado construto indica uma relação de posse ou associação ('de'). A forma do substantivo é frequentemente alterada (encurtada) para se ligar à palavra seguinte. A definição de toda a 'cadeia construta' é determinada pelo último substantivo.",
+        "paradigm": {
+            "type": "noun",
+            "title": "Paradigma Modelo: Substantivo (סוּס - cavalo)",
+            "rows": [
+                ["Absoluto Singular", "סוּס", "sûs", "um cavalo"],
+                ["Construto Singular", "סוּס", "sûs", "cavalo de..."],
+                ["Absoluto Plural", "סוּסִים", "sûsîm", "cavalos"],
+                ["Construto Plural", "סוּסֵי", "sûsê", "cavalos de..."]
+            ]
+        }
+    },
+    "verb_qal_infinitive_construct": {
+        "title": "Verbo: Infinitivo Construto",
+        "explanation": "O Infinitivo Construto é uma forma verbal que funciona como um substantivo, expressando a ideia da ação ('o ato de...'). É frequentemente usado após preposições ou em cadeias construtas."
+    },
+    "participle_qal_active": {
+        "title": "Verbo: Particípio Ativo Qal",
+        "explanation": "O Particípio Ativo Qal descreve uma ação contínua ou o agente que realiza a ação ('aquele que...'), podendo funcionar como um verbo, adjetivo ou substantivo. No plural e com o artigo, como em 'os juízes', refere-se àqueles que praticam o ato de julgar."
+    },
+    "noun_absolute_state": {
+        "title": "Substantivo: Estado Absoluto",
+        "explanation": "Esta é a forma lexical padrão de um substantivo, indicando uma entidade por si só, sem estar gramaticalmente ligada por posse a outra palavra. Pode ser definida (com artigo) ou indefinida (sem artigo)."
+    },
+    "prep_insep_with_article": {
+        "title": "Preposição com Artigo Definido",
+        "explanation": "Quando a preposição inseparável (בְּ, כְּ, לְ) precede um substantivo com artigo definido (הַ), a letra 'He' do artigo é omitida e sua vogal é transferida para a preposição. Assim, בְּ + הָאָרֶץ torna-se בָּאָרֶץ ('na terra' específica)."
+    },
+    "verb_irregular_I_yod_vav": {
+        "title": "Verbo Irregular (I-Yod/Vav)",
+        "explanation": "Verbos cuja primeira letra da raiz é 'Yod' ou 'Vav' (como הָלַךְ, originalmente ולך) frequentemente apresentam irregularidades na conjugação. No imperfeito Qal, a raiz se manifesta de forma diferente da de um verbo regular."
+    },
+    "pronoun_personal_independent": {
+        "title": "Pronome Pessoal Independente",
+        "explanation": "Estes pronomes funcionam como sujeitos e são palavras separadas (ex: הוּא - ele; הֵם - eles). Eles enfatizam o sujeito da oração, que muitas vezes já está implícito na forma do verbo."
+    },
+    "noun_with_pronominal_suffix": {
+        "title": "Substantivo com Sufixo Pronominal",
+        "explanation": "Sufixos pronominais são adicionados a substantivos (e preposições) para indicar posse (ex: 'meu', 'seu', 'deles'). O substantivo assume uma forma similar à construta antes de receber o sufixo. Ex: אִשְׁתּוֹ = אֵשֶׁת (forma construta de אִשָּׁה) + וֹ (sufixo 'dele')."
+    },
+    "verb_qal_perfect": {
+        "title": "Verbo: Qal Perfeito",
+        "explanation": "O tronco Qal indica a ação simples e ativa. O tempo/aspecto Perfeito descreve uma ação completa, geralmente traduzida no passado (ex: 'ele guardou', 'ela disse'). A conjugação é feita por meio de sufixos adicionados à raiz.",
+        "paradigm": {
+            "type": "verb",
+            "title": "Paradigma Modelo: Verbo Qal Perfeito (שָׁמַר - guardar)",
+            "rows": [
+                ["3ms", "שָׁמַר", "šāmar", "ele guardou"],
+                ["3fs", "שָׁמְרָה", "šāmərâ", "ela guardou"],
+                ["2ms", "שָׁמַרְתָּ", "šāmartā", "tu (m.) guardaste"],
+                ["2fs", "שָׁמַרְתְּ", "šāmart", "tu (f.) guardaste"],
+                ["1cs", "שָׁמַרְתִּי", "šāmartî", "eu guardei"],
+                ["3cp", "שָׁמְרוּ", "šāmərû", "eles/elas guardaram"],
+                ["2mp", "שְׁמַרְתֶּם", "šəmartem", "vós (m.) guardastes"],
+                ["2fp", "שְׁמַרְתֶּן", "šəmarten", "vós (f.) guardastes"],
+                ["1cp", "שָׁמַרְנוּ", "šāmarnû", "nós guardamos"]
+            ]
+        }
+    }
+}
