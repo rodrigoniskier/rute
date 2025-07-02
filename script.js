@@ -17,6 +17,19 @@ document.addEventListener('DOMContentLoaded', () => {
     // -------------------------------------------------------------------
     // II. LÓGICA DE RENDERIZAÇÃO E BUSCA DE DADOS
     // -------------------------------------------------------------------
+    
+    // NOVO: Função para exibir a tela inicial
+    function displayWelcomeScreen() {
+        wordNav.classList.remove('visible');
+        contentArea.innerHTML = `
+            <div class="welcome-message">
+                <h2>Bem-vindo(a)</h2>
+                <p>Selecione um capítulo no menu à esquerda para começar a sua análise do livro de Rute.</p>
+                <p>Esta plataforma permite uma exploração palavra por palavra do texto hebraico, com análises morfológicas detalhadas e paradigmas de aprendizado.</p>
+                <img src="rute.png" alt="Ilustração de Rute nos campos de cevada" class="welcome-image">
+            </div>
+        `;
+    }
 
     async function loadGrammarLibrary() {
         if (grammarLibrary) return; 
@@ -86,23 +99,18 @@ document.addEventListener('DOMContentLoaded', () => {
         history.pushState({ chapter: chapterNumber, verse: verseNumber }, '', newUrl);
 
         contentArea.innerHTML = '<h2>Análise do Versículo</h2><p>Selecione uma palavra no menu à direita para ver sua análise detalhada.</p>';
-        wordNav.innerHTML = ''; // Limpa o painel de palavras
+        wordNav.innerHTML = ''; 
 
-        // --- INÍCIO DA ADIÇÃO: CABEÇALHO DO PAINEL DE PALAVRAS ---
         const paneHeader = document.createElement('div');
         paneHeader.className = 'word-pane-header';
-
         const paneTitle = document.createElement('h2');
         paneTitle.textContent = `Versículo ${chapterNumber}:${verseNumber}`;
-
         const backButton = document.createElement('button');
         backButton.id = 'btn-back-to-chapter';
         backButton.textContent = '← Voltar';
-        
         paneHeader.appendChild(paneTitle);
         paneHeader.appendChild(backButton);
         wordNav.appendChild(paneHeader);
-        // --- FIM DA ADIÇÃO ---
 
         const verseNavControls = document.createElement('div');
         verseNavControls.className = 'verse-nav-controls';
@@ -220,9 +228,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     wordNav.addEventListener('click', (e) => {
+        // CORRIGIDO: Agora chama a função da tela de boas-vindas
         if (e.target.matches('#btn-back-to-chapter')) {
             e.preventDefault();
-            fetchAndDisplayChapter(currentChapterNumber);
+            displayWelcomeScreen();
+            history.pushState(null, '', window.location.pathname); // Limpa a URL
             return;
         }
 
@@ -247,6 +257,9 @@ document.addEventListener('DOMContentLoaded', () => {
             if (verse && currentData[verse]) {
                 displayVerseAnalysisView(chapter, verse);
             }
+        } else {
+            // CORRIGIDO: Mostra a tela de boas-vindas ao carregar
+            displayWelcomeScreen();
         }
     }
 
