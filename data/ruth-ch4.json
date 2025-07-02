@@ -1,0 +1,22 @@
+{
+    "1": {
+        "hebrewText": "וּבֹ֨עַז עָלָ֣ה הַשַּׁעַר֮ וַיֵּ֣שֶׁב שָׁם֒ וְהִנֵּ֨ה הַגֹּאֵ֤ל עֹבֵר֙ אֲשֶׁ֣ר דִּבֶּר־בֹּ֔עַז וַיֹּ֛אמֶר ס֥וּרָה שְׁבָה־פֹּ֖ה פְּלֹנִ֣י אַלְמֹנִ֑י וַיָּ֖סַר וַיֵּשֵֽׁב׃",
+        "words": [
+            {
+                "hebrew": "פְּלֹנִ֣י",
+                "transliteration": "pəlōnî",
+                "lemma": "פְּלֹנִי",
+                "briefTranslation": "fulano",
+                "contextualTranslation": "...fulano de tal!",
+                "analysis": {
+                    "class": "Substantivo",
+                    "gender": "Masculino",
+                    "number": "Singular",
+                    "state": "Absoluto",
+                    "extra": "Uma palavra usada para se referir a uma pessoa ou lugar cujo nome é desconhecido, omitido ou irrelevante. É um artifício narrativo para manter o foco nos personagens principais.",
+                    "reference": "HALOT 937"
+                }
+            }
+        ]
+    }
+}
