@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const chapterLinks = document.querySelectorAll('.chapter-link');
     
     const dataCache = {};
-    let currentData = null; // Armazena dados do capítulo carregado
+    let currentData = null; 
     let currentChapterNumber = null;
     let currentVerseNumber = null;
 
@@ -75,7 +75,6 @@ document.addEventListener('DOMContentLoaded', () => {
         contentArea.innerHTML = '<h2>Análise do Versículo</h2><p>Selecione uma palavra no menu à direita para ver sua análise detalhada.</p>';
         wordNav.innerHTML = `<h2>Versículo ${chapterNumber}:${verseNumber}</h2>`;
 
-        // --- LÓGICA DOS BOTÕES DE NAVEGAÇÃO (NOVO) ---
         const verseNavControls = document.createElement('div');
         verseNavControls.className = 'verse-nav-controls';
 
@@ -89,7 +88,6 @@ document.addEventListener('DOMContentLoaded', () => {
         nextBtn.className = 'verse-nav-btn';
         nextBtn.textContent = 'Próximo →';
 
-        // Lógica para desabilitar botões
         const verseKeys = Object.keys(currentData).map(Number);
         const firstVerse = Math.min(...verseKeys);
         const lastVerse = Math.max(...verseKeys);
@@ -104,7 +102,6 @@ document.addEventListener('DOMContentLoaded', () => {
         verseNavControls.appendChild(prevBtn);
         verseNavControls.appendChild(nextBtn);
         wordNav.appendChild(verseNavControls);
-        // --- FIM DA LÓGICA DOS BOTÕES ---
 
         verseData.words.forEach((word, index) => {
             const btn = document.createElement('button');
@@ -121,23 +118,87 @@ document.addEventListener('DOMContentLoaded', () => {
         wordNav.classList.add('visible');
     }
 
+    // --- FUNÇÃO CORRIGIDA ---
     function displayWordAnalysis(wordIndex) {
         const wordData = currentData?.[currentVerseNumber]?.words[wordIndex];
         if (!wordData) {
             contentArea.innerHTML = "<p>Dados da palavra não encontrados.</p>";
             return;
         }
+
+        const analysis = wordData.analysis;
+
+        // Monta o HTML do paradigma, se existir
+        let paradigmHtml = '';
+        if (analysis.didactic && analysis.didactic.paradigm) {
+            const paradigm = analysis.didactic.paradigm;
+            const headers = (paradigm.type === 'verb' || paradigm.type === 'participle')
+                ? ['Forma', 'Hebraico', 'Transliteração', 'Tradução']
+                : ['Descrição', 'Hebraico', 'Transliteração', 'Tradução'];
+            
+            paradigmHtml = `
+                <h4>${paradigm.title}</h4>
+                <table class="paradigm-table">
+                    <thead>
+                        <tr>
+                            <th>${headers[0]}</th>
+                            <th>${headers[1]}</th>
+                            <th>${headers[2]}</th>
+                            <th>${headers[3]}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${paradigm.rows.map(row => `
+                            <tr>
+                                <td>${row[0]}</td>
+                                <td class="hebrew-form">${row[1]}</td>
+                                <td><em>${row[2]}</em></td>
+                                <td>${row[3]}</td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            `;
+        }
         
-        // Substitua por sua lógica de renderização completa se necessário
+        // Monta o HTML da seção didática, se existir
+        let didacticHtml = '';
+        if (analysis.didactic) {
+            didacticHtml = `
+                <h3>Revisão Gramatical Didática</h3>
+                <div class="didactic-explanation">
+                    <h4>${analysis.didactic.title}</h4>
+                    <p>${analysis.didactic.explanation}</p>
+                    ${paradigmHtml}
+                </div>
+            `;
+        }
+        
+        // Monta o HTML final com todas as seções da análise
         contentArea.innerHTML = `
             <div class="word-analysis">
-                <h3>Análise de: <span class="hebrew-lemma">${wordData.hebrew}</span></h3>
-                <p><strong>Lema:</strong> ${wordData.lemma}</p>
-                <p><strong>Tradução Contextual:</strong> ${wordData.contextualTranslation}</p>
-                <p>--- Análise morfológica detalhada e paradigmas seriam exibidos aqui ---</p>
+                <h3>Identificação</h3>
+                <p class="analysis-item"><strong>Palavra:</strong> <span class="hebrew-lemma">${wordData.hebrew}</span></p>
+                <p class="analysis-item"><strong>Lema (Raiz):</strong> <span class="hebrew-lemma">${wordData.lemma}</span></p>
+                <p class="analysis-item"><strong>Tradução Contextual:</strong> ${wordData.contextualTranslation}</p>
+
+                <h3>Análise Morfológica</h3>
+                <p class="analysis-item"><strong>Classe Gramatical:</strong> ${analysis.class}</p>
+                ${analysis.binyan ? `<p class="analysis-item"><strong>Tronco (Binyan):</strong> ${analysis.binyan}</p>` : ''}
+                ${analysis.tense ? `<p class="analysis-item"><strong>Tempo/Aspecto:</strong> ${analysis.tense}</p>` : ''}
+                ${analysis.pgn ? `<p class="analysis-item"><strong>Pessoa, Gênero, Número:</strong> ${analysis.pgn}</p>` : ''}
+                ${analysis.gender ? `<p class="analysis-item"><strong>Gênero:</strong> ${analysis.gender}</p>` : ''}
+                ${analysis.number ? `<p class="analysis-item"><strong>Número:</strong> ${analysis.number}</p>` : ''}
+                ${analysis.state ? `<p class="analysis-item"><strong>Estado:</strong> ${analysis.state}</p>` : ''}
+                ${analysis.extra ? `<p class="analysis-item"><strong>Informações Adicionais:</strong> ${analysis.extra}</p>` : ''}
+
+                ${didacticHtml}
+                
+                ${analysis.reference ? `<p class="grammar-reference">Para aprofundamento, consulte: ${analysis.reference}</p>` : ''}
             </div>
         `;
-
+        
+        // Atualiza o botão ativo na lista de palavras
         document.querySelectorAll('#word-nav .word-btn').forEach(btn => btn.classList.remove('active'));
         document.querySelector(`.word-btn[data-word-index='${wordIndex}']`).classList.add('active');
     }
@@ -146,12 +207,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const verseKeys = Object.keys(currentData).map(Number).sort((a,b) => a - b);
         const currentIndex = verseKeys.indexOf(parseInt(currentVerseNumber));
 
-        let nextIndex;
-        if (direction === 'next') {
-            nextIndex = currentIndex + 1;
-        } else {
-            nextIndex = currentIndex - 1;
-        }
+        let nextIndex = (direction === 'next') ? currentIndex + 1 : currentIndex - 1;
         
         if (nextIndex >= 0 && nextIndex < verseKeys.length) {
             const newVerseNumber = verseKeys[nextIndex];
