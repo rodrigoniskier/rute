@@ -1,0 +1,244 @@
+/* --- Variáveis de Estilo --- */
+:root {
+    --color-background: #F5F5DC; /* Bege (Parchment) */
+    --color-pane-background: #E8DDCB; /* Bege mais escuro (Papiro) */
+    --color-text-primary: #5D4037; /* Marrom escuro */
+    --color-text-secondary: #795548; /* Marrom médio */
+    --color-accent: #8D6E63; /* Marrom claro (para hover/active) */
+    --font-primary: 'Garamond', serif;
+    --font-hebrew: 'Noto Sans Hebrew', 'SBL Hebrew', 'Ezra SIL', sans-serif;
+}
+
+/* --- Reset Básico e Estilo do Corpo --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-primary);
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+    line-height: 1.6;
+}
+
+/* --- Estrutura Principal da Aplicação --- */
+.app-container {
+    display: grid;
+    grid-template-columns: 250px 1fr 300px;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+        "header header header"
+        "nav-left content nav-right";
+    height: 100vh;
+    gap: 20px;
+    padding: 20px;
+}
+
+.app-header {
+    grid-area: header;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--color-accent);
+}
+
+.app-header h1 {
+    font-weight: 700;
+}
+
+.navigation-pane {
+    background: var(--color-pane-background);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow-y: auto;
+}
+
+#chapter-nav {
+    grid-area: nav-left;
+}
+
+#chapter-nav h2 {
+    border-bottom: 1px solid var(--color-accent);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+#chapter-nav ul {
+    list-style-type: none;
+}
+
+#chapter-nav .chapter-link {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: var(--color-text-primary);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: background-color 0.3s;
+}
+
+#chapter-nav .chapter-link:hover {
+    background-color: var(--color-accent);
+    color: white;
+}
+
+#chapter-nav .chapter-link.active {
+    background-color: var(--color-text-primary);
+    color: white;
+    font-weight: bold;
+}
+
+.content-pane {
+    grid-area: content;
+    background: url('https://www.transparenttextures.com/patterns/papyrus.png'), var(--color-pane-background);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow-y: auto;
+}
+
+#word-nav {
+    grid-area: nav-right;
+    display: none; /* Começa escondido */
+}
+
+#word-nav.visible {
+    display: block;
+}
+
+/* --- Estilos de Conteúdo --- */
+.hebrew-text-display .verse {
+    font-family: var(--font-hebrew);
+    font-size: 1.8rem;
+    direction: rtl;
+    text-align: right;
+    margin-bottom: 20px;
+    line-height: 2.2;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hebrew-text-display .verse:hover {
+    background-color: rgba(141, 110, 99, 0.1);
+}
+
+.verse-number {
+    font-family: var(--font-primary);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--color-accent);
+    margin-left: 10px;
+}
+
+/* --- Menu de Palavras (Direita) --- */
+.word-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #fdfaf2;
+    border: 1px solid var(--color-accent);
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: right;
+    transition: background-color 0.3s;
+}
+
+.word-btn:hover {
+    background-color: #fff;
+    border-color: var(--color-text-primary);
+}
+
+.word-btn.active {
+    background-color: var(--color-text-primary);
+    border-color: var(--color-text-primary);
+    color: white;
+}
+
+.word-btn.active .hebrew-word,
+.word-btn.active .transliteration,
+.word-btn.active .translation {
+    color: white;
+}
+
+.hebrew-word {
+    font-family: var(--font-hebrew);
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--color-text-primary);
+}
+
+.transliteration, .translation {
+    font-family: var(--font-primary);
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    direction: ltr;
+    text-align: right;
+}
+
+/* --- Área de Análise da Palavra --- */
+.word-analysis h3 {
+    border-bottom: 2px solid var(--color-accent);
+    padding-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.word-analysis .hebrew-lemma {
+    font-family: var(--font-hebrew);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.analysis-item {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.analysis-item strong {
+    color: var(--color-text-primary);
+}
+
+.didactic-explanation {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgba(93, 64, 55, 0.05);
+    border-left: 4px solid var(--color-accent);
+}
+
+.grammar-reference {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    text-align: right;
+    color: var(--color-text-secondary);
+}
+
+/* Tabela de Paradigmas */
+.paradigm-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+.paradigm-table th, .paradigm-table td {
+    border: 1px solid var(--color-accent);
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.paradigm-table thead {
+    background-color: var(--color-text-primary);
+    color: white;
+}
+
+.paradigm-table .hebrew-form {
+    font-family: var(--font-hebrew);
+    font-size: 1.2rem;
+    direction: rtl;
+}
