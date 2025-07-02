@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const chapterLinks = document.querySelectorAll('.chapter-link');
     
     const dataCache = {};
-    let grammarLibrary = null; // Armazenará a biblioteca de gramática
+    let grammarLibrary = null; 
     let currentData = null; 
     let currentChapterNumber = null;
     let currentVerseNumber = null;
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // -------------------------------------------------------------------
 
     async function loadGrammarLibrary() {
-        if (grammarLibrary) return; // Não carrega se já estiver em memória
+        if (grammarLibrary) return; 
         try {
             const response = await fetch('./data/grammar-library.json');
             if (!response.ok) throw new Error('Falha ao carregar a biblioteca de gramática.');
@@ -86,7 +86,23 @@ document.addEventListener('DOMContentLoaded', () => {
         history.pushState({ chapter: chapterNumber, verse: verseNumber }, '', newUrl);
 
         contentArea.innerHTML = '<h2>Análise do Versículo</h2><p>Selecione uma palavra no menu à direita para ver sua análise detalhada.</p>';
-        wordNav.innerHTML = `<h2>Versículo ${chapterNumber}:${verseNumber}</h2>`;
+        wordNav.innerHTML = ''; // Limpa o painel de palavras
+
+        // --- INÍCIO DA ADIÇÃO: CABEÇALHO DO PAINEL DE PALAVRAS ---
+        const paneHeader = document.createElement('div');
+        paneHeader.className = 'word-pane-header';
+
+        const paneTitle = document.createElement('h2');
+        paneTitle.textContent = `Versículo ${chapterNumber}:${verseNumber}`;
+
+        const backButton = document.createElement('button');
+        backButton.id = 'btn-back-to-chapter';
+        backButton.textContent = '← Voltar';
+        
+        paneHeader.appendChild(paneTitle);
+        paneHeader.appendChild(backButton);
+        wordNav.appendChild(paneHeader);
+        // --- FIM DA ADIÇÃO ---
 
         const verseNavControls = document.createElement('div');
         verseNavControls.className = 'verse-nav-controls';
@@ -126,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const analysis = wordData.analysis;
-        const didacticContent = grammarLibrary[analysis.didacticKey]; // Busca na biblioteca
+        const didacticContent = grammarLibrary[analysis.didacticKey]; 
 
         let paradigmHtml = '';
         if (didacticContent && didacticContent.paradigm) {
@@ -204,6 +220,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     wordNav.addEventListener('click', (e) => {
+        if (e.target.matches('#btn-back-to-chapter')) {
+            e.preventDefault();
+            fetchAndDisplayChapter(currentChapterNumber);
+            return;
+        }
+
         const wordBtn = e.target.closest('.word-btn');
         if (wordBtn) {
             e.preventDefault();
@@ -215,13 +237,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     async function initializeApp() {
-        await loadGrammarLibrary(); // Garante que a gramática seja carregada primeiro
+        await loadGrammarLibrary(); 
         const params = new URLSearchParams(window.location.search);
         const chapter = params.get('capitulo');
         const verse = params.get('versiculo');
 
         if (chapter) {
-            await fetchAndDisplayChapter(chapter); // Espera o capítulo carregar
+            await fetchAndDisplayChapter(chapter);
             if (verse && currentData[verse]) {
                 displayVerseAnalysisView(chapter, verse);
             }
