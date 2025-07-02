@@ -1,0 +1,26 @@
+{
+    "1": {
+        "hebrewText": "וַיְהִ֗י בִּימֵי֙ שְׁפֹ֣ט הַשֹּׁפְטִ֔ים וַיְהִ֥י רָעָ֖ב בָּאָ֑רֶץ וַיֵּ֨לֶךְ אִ֜ישׁ מִבֵּ֧ית לֶ֣חֶם יְהוּדָ֗ה לָג֛וּר בִּשְׂדֵ֥י מוֹאָ֖ב ה֥וּא וְאִשְׁתּ֖וֹ וּשְׁנֵ֥י בָנָֽיו׃",
+        "words": [
+            {
+                "hebrew": "וַיְהִ֗י",
+                "transliteration": "wayhî",
+                "lemma": "הָיָה",
+                "briefTranslation": "e aconteceu",
+                "contextualTranslation": "E aconteceu...",
+                "analysis": {
+                    "class": "Verbo",
+                    "binyan": "Qal",
+                    "tense": "Imperfeito com Vav Consecutivo",
+                    "pgn": "3ms",
+                    "extra": "O Vav Consecutivo (וַ) inverte o tempo do verbo, resultando em uma tradução no passado.",
+                    "reference": "GKC §111a-h, §49c"
+                }
+            }
+        ]
+    },
+    "2": {
+        "hebrewText": "וְשֵׁ֤ם הָאִישׁ֙ אֱ‍לִימֶ֔לֶךְ וְשֵׁ֤ם אִשְׁתּוֹ֙ נָעֳמִ֔י וְשֵׁ֥ם שְׁנֵֽי־בָנָ֖יו מַחְל֣וֹן וְכִלְי֑וֹן אֶפְרָתִ֔ים מִבֵּ֥ית לֶ֖חֶם יְהוּדָ֑ה וַיָּבֹ֥אוּ שְׂדֵי־מוֹאָ֖ב וַיִּֽהְיוּ־שָֽׁם׃",
+        "words": []
+    }
+}
