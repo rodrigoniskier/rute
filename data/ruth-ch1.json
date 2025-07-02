@@ -2,267 +2,113 @@
     "1": {
         "hebrewText": "וַיְהִ֗י בִּימֵי֙ שְׁפֹ֣ט הַשֹּׁפְטִ֔ים וַיְהִ֥י רָעָ֖ב בָּאָ֑רֶץ וַיֵּ֨לֶךְ אִ֜ישׁ מִבֵּ֧ית לֶ֣חֶם יְהוּדָ֗ה לָג֛וּר בִּשְׂדֵ֥י מוֹאָ֖ב ה֥וּא וְאִשְׁתּ֖וֹ וּשְׁנֵ֥י בָנָֽיו׃",
         "words": [
-            {
-                "hebrew": "וַיְהִ֗י",
-                "transliteration": "wayhî",
-                "lemma": "הָיָה",
-                "briefTranslation": "e aconteceu",
-                "contextualTranslation": "E aconteceu...",
-                "analysis": {
-                    "class": "Verbo",
-                    "binyan": "Qal",
-                    "tense": "Imperfeito com Vav Consecutivo",
-                    "pgn": "3ms (3ª pessoa, masculino, singular)",
-                    "extra": "A forma apocopada (encurtada) de יִהְיֶה. O Vav Consecutivo inverte o tempo do verbo, resultando em uma tradução no passado.",
-                    "didactic": {
-                        "title": "Verbo: Qal Imperfeito com Vav Consecutivo",
-                        "explanation": "O tronco Qal indica a ação simples e ativa. O Imperfeito descreve uma ação incompleta ou futura. O 'Vav Consecutivo' (וַ) antes de um verbo no Imperfeito o conecta à narrativa anterior e inverte seu tempo para o passado, sendo traduzido como 'E [então]...'.",
-                        "paradigm": {
-                            "type": "verb",
-                            "title": "Paradigma Modelo: Verbo Qal Imperfeito (לָמַד - aprender)",
-                            "rows": [
-                                ["3ms", "יִלְמַד", "yilmad", "ele aprenderá"],
-                                ["3fs", "תִּלְמַד", "tilmad", "ela aprenderá"],
-                                ["2ms", "תִּלְמַד", "tilmad", "tu (m.) aprenderás"],
-                                ["2fs", "תִּלְמְדִי", "tilmədî", "tu (f.) aprenderás"],
-                                ["1cs", "אֶלְמַד", "’elmad", "eu aprenderei"],
-                                ["3mp", "יִלְמְדוּ", "yilmədû", "eles aprenderão"],
-                                ["3fp", "תִּלְמַדְנָה", "tilmadnâ", "elas aprenderão"],
-                                ["2mp", "תִּלְמְדוּ", "tilmədû", "vós (m.) aprendereis"],
-                                ["2fp", "תִּלְמַדְנָה", "tilmadnâ", "vós (f.) aprendereis"],
-                                ["1cp", "נִלְמַד", "nilmad", "nós aprenderemos"]
-                            ]
-                        }
-                    },
-                    "reference": "GKC §111a-h, §49c"
-                }
-            },
-            {
-                "hebrew": "בִּימֵי֙",
-                "transliteration": "bîmê",
-                "lemma": "יוֹם",
-                "briefTranslation": "nos dias de",
-                "contextualTranslation": "...nos dias em que...",
-                "analysis": {
-                    "class": "Substantivo com Preposição Inseparável",
-                    "gender": "Masculino",
-                    "number": "Plural",
-                    "state": "Construto",
-                    "extra": "Preposição inseparável בְּ (em, com) + forma construta plural de יוֹם (dia).",
-                    "didactic": {
-                        "title": "Substantivo: Estado Construto",
-                        "explanation": "O estado construto indica uma relação de posse ou associação ('de'). A forma do substantivo é frequentemente alterada (encurtada) para se ligar à palavra seguinte. Aqui, 'os dias de...' indica uma relação temporal com o substantivo que se segue.",
-                        "paradigm": {
-                            "type": "noun",
-                            "title": "Paradigma Modelo: Substantivo (סוּס - cavalo)",
-                            "rows": [
-                                ["Absoluto Singular", "סוּס", "sûs", "um cavalo"],
-                                ["Construto Singular", "סוּס", "sûs", "cavalo de..."],
-                                ["Absoluto Plural", "סוּסִים", "sûsîm", "cavalos"],
-                                ["Construto Plural", "סוּסֵי", "sûsê", "cavalos de..."]
-                            ]
-                        }
-                    },
-                    "reference": "GKC §89, §128"
-                }
-            },
-            {
-                "hebrew": "שְׁפֹט",
-                "transliteration": "šəpōṭ",
-                "lemma": "שָׁפַט",
-                "briefTranslation": "o julgar de",
-                "contextualTranslation": "...em que julgavam...",
-                "analysis": {
-                    "class": "Verbo",
-                    "binyan": "Qal",
-                    "tense": "Infinitivo Construto",
-                    "pgn": "N/A",
-                    "extra": "Usado como um substantivo verbal. Forma a cabeça de uma cadeia construta com a palavra seguinte. A preposição בְּ de 'bîmê' governa toda a frase 'bîmê šəpōṭ haššōpəṭîm'.",
-                    "didactic": {
-                        "title": "Verbo: Infinitivo Construto",
-                        "explanation": "O Infinitivo Construto é uma forma verbal que funciona como um substantivo, expressando a ideia da ação ('o ato de...'). É frequentemente usado após preposições ou em cadeias construtas, como aqui: 'nos dias de o julgar de os juízes', ou seja, 'quando os juízes julgavam'."
-                    },
-                    "reference": "GKC §114"
-                }
-            },
-            {
-                "hebrew": "הַשֹּׁפְטִ֔ים",
-                "transliteration": "haššōp̄əṭîm",
-                "lemma": "שָׁפַט",
-                "briefTranslation": "os juízes",
-                "contextualTranslation": "...os juízes.",
-                "analysis": {
-                    "class": "Particípio (usado como Substantivo)",
-                    "binyan": "Qal",
-                    "tense": "Particípio Ativo",
-                    "gender": "Masculino",
-                    "number": "Plural",
-                    "state": "Absoluto",
-                    "extra": "Contém o artigo definido 'הַ' (o, a). O particípio ativo descreve alguém que realiza a ação do verbo ('aquele que julga').",
-                    "didactic": {
-                        "title": "Verbo: Particípio Ativo Qal",
-                        "explanation": "O Particípio Ativo Qal descreve uma ação contínua ou o agente que realiza a ação, podendo funcionar como um verbo, adjetivo ou substantivo. No plural e com o artigo, como aqui, significa 'os juízes'."
-                    },
-                    "reference": "GKC §116"
-                }
-            },
-            {
-                "hebrew": "וַיְהִ֥י",
-                "transliteration": "wayhî",
-                "lemma": "הָיָה",
-                "briefTranslation": "e houve",
-                "contextualTranslation": "e houve fome...",
-                "analysis": {
-                    "class": "Verbo",
-                    "binyan": "Qal",
-                    "tense": "Imperfeito com Vav Consecutivo",
-                    "pgn": "3ms",
-                    "extra": "Repetição da forma inicial, comum em narrativa hebraica para conectar cláusulas.",
-                    "didactic": {
-                        "title": "Uso Idiomático de 'wayhî'",
-                        "explanation": "A expressão 'wayhî' (E aconteceu/E houve) é um marcador discursivo padrão no hebraico bíblico narrativo, usado para introduzir uma nova cena, evento ou informação crucial na história. Sua repetição aqui estabelece o cenário de crise: o tempo dos juízes e a fome."
-                    },
-                    "reference": "GKC §111a"
-                }
-            },
-            {
-                "hebrew": "רָעָ֖ב",
-                "transliteration": "rā‘āḇ",
-                "lemma": "רָעָב",
-                "briefTranslation": "fome",
-                "contextualTranslation": "...fome na terra.",
-                "analysis": {
-                    "class": "Substantivo",
-                    "gender": "Masculino",
-                    "number": "Singular",
-                    "state": "Absoluto",
-                    "extra": "",
-                    "didactic": {
-                        "title": "Substantivo Masculino Singular Absoluto",
-                        "explanation": "Esta é a forma lexical padrão de um substantivo, indicando uma única entidade (fome) sem estar gramaticalmente ligada a outra palavra numa relação de posse."
-                    },
-                    "reference": "JM §135a"
-                }
-            },
-            {
-                "hebrew": "בָּאָ֑רֶץ",
-                "transliteration": "bā’āreṣ",
-                "lemma": "אֶרֶץ",
-                "briefTranslation": "na terra",
-                "contextualTranslation": "...na terra.",
-                "analysis": {
-                    "class": "Substantivo com Preposição e Artigo",
-                    "gender": "Feminino",
-                    "number": "Singular",
-                    "state": "Absoluto",
-                    "extra": "Composto por: Preposição 'בְּ' + Artigo 'הַ' + Substantivo 'אֶרֶץ'. A vogal 'qamets' (ָ) sob o 'bet' indica a contração da preposição com o artigo definido.",
-                    "didactic": {
-                        "title": "Preposição com Artigo Definido",
-                        "explanation": "Quando a preposição inseparável (בְּ, כְּ, לְ) precede um substantivo com artigo definido (הַ), a letra 'He' do artigo é omitida e sua vogal é transferida para a preposição. Assim, בְּ + הָאָרֶץ torna-se בָּאָרֶץ ('na terra' específica, e não 'numa terra')."
-                    },
-                    "reference": "GKC §35n"
-                }
-            },
-            {
-                "hebrew": "וַיֵּ֨לֶךְ",
-                "transliteration": "wayyēleḵ",
-                "lemma": "הָלַךְ",
-                "briefTranslation": "e ele foi",
-                "contextualTranslation": "E um homem... foi...",
-                "analysis": {
-                    "class": "Verbo",
-                    "binyan": "Qal",
-                    "tense": "Imperfeito com Vav Consecutivo",
-                    "pgn": "3ms",
-                    "extra": "Verbo de raiz I-Yod (ou I-Vav), onde o 'he' inicial se comporta de forma irregular.",
-                    "didactic": {
-                        "title": "Verbo Irregular (I-Yod/Vav)",
-                        "explanation": "Verbos cuja primeira letra da raiz é 'Yod' ou 'Vav' (como הָלַךְ, que originalmente era ולך) frequentemente apresentam irregularidades na conjugação. No imperfeito Qal, a raiz se manifesta como 'yēleḵ' em vez de uma forma regular como 'yihlok'."
-                    },
-                    "reference": "GKC §69"
-                }
-            },
-            {
-                "hebrew": "אִ֜ישׁ",
-                "transliteration": "’îš",
-                "lemma": "אִישׁ",
-                "briefTranslation": "um homem",
-                "contextualTranslation": "um homem de Belém de Judá...",
-                "analysis": {
-                    "class": "Substantivo",
-                    "gender": "Masculino",
-                    "number": "Singular",
-                    "state": "Absoluto",
-                    "extra": "",
-                    "didactic": {
-                        "title": "Substantivo Indefinido",
-                        "explanation": "No hebraico, a indefinição (um/uma) é geralmente indicada pela ausência do artigo definido 'הַ'. Aqui, '’îš' refere-se a 'um certo homem', que só será nomeado no versículo seguinte, uma técnica narrativa comum."
-                    },
-                    "reference": "JM §137b"
-                }
-            }
+            {"hebrew": "וַיְהִ֗י", "transliteration": "wayhî", "lemma": "הָיָה", "briefTranslation": "e aconteceu", "contextualTranslation": "E aconteceu...", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Imperfeito com Vav Consecutivo", "pgn": "3ms", "extra": "Forma apocopada (encurtada) de יִהְיֶה.", "reference": "GKC §111a-h", "didacticKey": "verb_qal_imperfect_vav_consecutive"}},
+            {"hebrew": "בִּימֵי֙", "transliteration": "bîmê", "lemma": "יוֹם", "briefTranslation": "nos dias de", "contextualTranslation": "...nos dias em que...", "analysis": {"class": "Substantivo com Preposição", "gender": "Masculino", "number": "Plural", "state": "Construto", "extra": "Preposição inseparável בְּ (em).", "reference": "GKC §89", "didacticKey": "noun_construct_state"}},
+            {"hebrew": "שְׁפֹט", "transliteration": "šəpōṭ", "lemma": "שָׁפַט", "briefTranslation": "o julgar de", "contextualTranslation": "...em que julgavam...", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Infinitivo Construto", "pgn": "N/A", "extra": "Funciona como um substantivo verbal.", "reference": "GKC §114", "didacticKey": "verb_qal_infinitive_construct"}},
+            {"hebrew": "הַשֹּׁפְטִ֔ים", "transliteration": "haššōp̄əṭîm", "lemma": "שָׁפַט", "briefTranslation": "os juízes", "contextualTranslation": "...os juízes.", "analysis": {"class": "Particípio (Substantivado)", "binyan": "Qal", "tense": "Particípio Ativo", "gender": "Masculino", "number": "Plural", "state": "Absoluto", "extra": "Com artigo definido 'הַ'.", "reference": "GKC §116", "didacticKey": "participle_qal_active"}},
+            {"hebrew": "וַיְהִ֥י", "transliteration": "wayhî", "lemma": "הָיָה", "briefTranslation": "e houve", "contextualTranslation": "e houve fome...", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Imperfeito com Vav Consecutivo", "pgn": "3ms", "extra": "Repetição para conectar cláusulas.", "reference": "GKC §111a", "didacticKey": "verb_qal_imperfect_vav_consecutive"}},
+            {"hebrew": "רָעָ֖ב", "transliteration": "rā‘āḇ", "lemma": "רָעָב", "briefTranslation": "fome", "contextualTranslation": "...fome na terra.", "analysis": {"class": "Substantivo", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "extra": "", "reference": "JM §135a", "didacticKey": "noun_absolute_state"}},
+            {"hebrew": "בָּאָ֑רֶץ", "transliteration": "bā’āreṣ", "lemma": "אֶרֶץ", "briefTranslation": "na terra", "contextualTranslation": "...na terra.", "analysis": {"class": "Substantivo com Preposição e Artigo", "gender": "Feminino", "number": "Singular", "state": "Absoluto", "extra": "Preposição 'בְּ' + Artigo 'הַ' contraídos.", "reference": "GKC §35n", "didacticKey": "prep_insep_with_article"}},
+            {"hebrew": "וַיֵּ֨לֶךְ", "transliteration": "wayyēleḵ", "lemma": "הָלַךְ", "briefTranslation": "e ele foi", "contextualTranslation": "E um homem... foi...", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Imperfeito com Vav Consecutivo", "pgn": "3ms", "extra": "Raiz irregular I-Yod/Vav.", "reference": "GKC §69", "didacticKey": "verb_irregular_I_yod_vav"}},
+            {"hebrew": "אִ֜ישׁ", "transliteration": "’îš", "lemma": "אִישׁ", "briefTranslation": "um homem", "contextualTranslation": "um homem de Belém de Judá...", "analysis": {"class": "Substantivo", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "extra": "Indefinido pela ausência de artigo.", "reference": "JM §137b", "didacticKey": "noun_absolute_state"}},
+            {"hebrew": "מִבֵּ֧ית", "transliteration": "mibbêṯ", "lemma": "בַּיִת", "briefTranslation": "de Casa de", "contextualTranslation": "de Belém...", "analysis": {"class": "Substantivo com Preposição", "gender": "Masculino", "number": "Singular", "state": "Construto", "extra": "Preposição 'מִן' (de). O 'nun' assimilou-se no 'bet', causando o dagesh.", "reference": "GKC §19c", "didacticKey": "noun_construct_state"}},
+            {"hebrew": "לֶ֣חֶם", "transliteration": "leḥem", "lemma": "לֶחֶם", "briefTranslation": "pão", "contextualTranslation": "Belém (Casa do Pão)...", "analysis": {"class": "Substantivo", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "extra": "Parte do nome próprio composto 'בֵּית לֶחֶם'.", "reference": "HALOT 535", "didacticKey": "noun_absolute_state"}},
+            {"hebrew": "יְהוּדָ֗ה", "transliteration": "yəhûḏâ", "lemma": "יְהוּדָה", "briefTranslation": "Judá", "contextualTranslation": "...de Judá", "analysis": {"class": "Nome Próprio", "gender": "Masculino", "number": "Singular", "state": "N/A", "extra": "Especifica a localização de Belém.", "reference": "N/A", "didacticKey": "noun_absolute_state"}},
+            {"hebrew": "לָג֖וּר", "transliteration": "lāḡûr", "lemma": "גּוּר", "briefTranslation": "para peregrinar", "contextualTranslation": "...para peregrinar nos campos de Moabe.", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Infinitivo Construto", "pgn": "N/A", "extra": "Com a preposição inseparável 'לְ', indicando propósito.", "reference": "GKC §114f", "didacticKey": "verb_qal_infinitive_construct"}},
+            {"hebrew": "בִּשְׂדֵ֥י", "transliteration": "biśḏê", "lemma": "שָׂדֶה", "briefTranslation": "nos campos de", "contextualTranslation": "...nos campos de Moabe", "analysis": {"class": "Substantivo com Preposição", "gender": "Masculino", "number": "Plural", "state": "Construto", "extra": "Preposição 'בְּ' (em).", "reference": "GKC §93ss", "didacticKey": "noun_construct_state"}},
+            {"hebrew": "מוֹאָ֖ב", "transliteration": "mô’āḇ", "lemma": "מוֹאָב", "briefTranslation": "Moabe", "contextualTranslation": "...de Moabe", "analysis": {"class": "Nome Próprio", "gender": "Masculino", "number": "Singular", "state": "N/A", "extra": "", "reference": "N/A", "didacticKey": "noun_absolute_state"}},
+            {"hebrew": "ה֥וּא", "transliteration": "hû", "lemma": "הוּא", "briefTranslation": "ele", "contextualTranslation": "ele e sua esposa...", "analysis": {"class": "Pronome", "gender": "Masculino", "number": "Singular", "pgn": "3ms", "extra": "Pronome pessoal independente, usado para ênfase.", "reference": "GKC §135a", "didacticKey": "pronoun_personal_independent"}},
+            {"hebrew": "וְאִשְׁתּ֖וֹ", "transliteration": "wə’ištô", "lemma": "אִשָּׁה", "briefTranslation": "e sua esposa", "contextualTranslation": "...e sua esposa...", "analysis": {"class": "Substantivo com Sufixo Pronominal", "gender": "Feminino", "number": "Singular", "state": "N/A", "extra": "Conjunção 'וְ' + substantivo 'אִשָּׁה' com sufixo pronominal da 3ª masc. sing. 'וֹ' (dele).", "reference": "GKC §91e", "didacticKey": "noun_with_pronominal_suffix"}},
+            {"hebrew": "וּשְׁנֵ֥י", "transliteration": "ûšənê", "lemma": "שְׁנַיִם", "briefTranslation": "e os dois de", "contextualTranslation": "...e seus dois filhos.", "analysis": {"class": "Numeral", "gender": "Masculino", "number": "Dual", "state": "Construto", "extra": "Conjunção 'וְ' + forma construta do numeral 'dois'.", "reference": "GKC §97f", "didacticKey": "noun_construct_state"}},
+            {"hebrew": "בָנָֽיו׃", "transliteration": "ḇānāyw", "lemma": "בֵּן", "briefTranslation": "seus filhos", "contextualTranslation": "...seus filhos.", "analysis": {"class": "Substantivo com Sufixo Pronominal", "gender": "Masculino", "number": "Plural", "state": "N/A", "extra": "Substantivo 'בֵּן' no plural com sufixo pronominal da 3ª masc. sing. 'יו' (dele).", "reference": "GKC §91e", "didacticKey": "noun_with_pronominal_suffix"}}
         ]
     },
     "2": {
-        "hebrewText": "וְשֵׁ֤ם הָאִישׁ֙ אֱ‍לִימֶ֔לֶךְ וְשֵׁ֤ם אִשְׁתּוֹ֙ נָעֳמִ֔י וְשֵׁ֥ם שְׁנֵֽי־בָנָ֖יו מַחְל֣וֹן וְכִלְי֑וֹן אֶפְרָתִ֔ים מִבֵּ֥ית לֶ֖חֶם יְהוּdָ֑ה וַיָּבֹ֥אוּ שְׂדֵי־מוֹאָ֖ב וַיִּֽהְיוּ־שָֽׁם׃",
+        "hebrewText": "וְשֵׁ֤ם הָאִישׁ֙ אֱ‍לִימֶ֔לֶךְ וְשֵׁ֤ם אִשְׁתּוֹ֙ נָעֳמִ֔י וְשֵׁ֥ם שְׁנֵֽי־בָנָ֖יו מַחְל֣וֹן וְכִלְי֑וֹן אֶפְרָתִ֔ים מִבֵּ֥ית לֶ֖חֶם יְהוּדָ֑ה וַיָּבֹ֥אוּ שְׂדֵי־מוֹאָ֖ב וַיִּֽהְיוּ־שָֽׁם׃",
+        "words": []
+    },
+    "3": {
+        "hebrewText": "וַיָּ֥מָת אֱלִימֶ֖לֶךְ אִ֣ישׁ נָעֳמִ֑י וַתִּשָּׁאֵ֥ר הִ֖יא וּשְׁנֵ֥י בָנֶֽיהָ׃",
+        "words": []
+    },
+    "4": {
+        "hebrewText": "וַיִּשְׂא֨וּ לָהֶ֜ם נָשִׁ֣ים מֹאֲבִיּ֗וֹת שֵׁ֤ם הָֽאַחַת֙ עָרְפָּ֔ה וְשֵׁ֥ם הַשֵּׁנִ֖ית ר֑וּת וַיֵּ֥שְׁבוּ שָׁ֖ם כְּעֶ֥שֶׂר שָׁנִֽים׃",
+        "words": []
+    },
+    "5": {
+        "hebrewText": "וַיָּמ֥וּתוּ גַם־שְׁנֵיהֶ֖ם מַחְל֣וֹן וְכִלְי֑וֹן וַתִּשָּׁאֵר֙ הָאִשָּׁ֔ה מִשְּׁנֵ֥י יְלָדֶ֖יהָ וּמֵאִישָֽׁהּ׃",
+        "words": []
+    },
+    "6": {
+        "hebrewText": "וַתָּ֤קָם הִיא֙ וְכַלֹּתֶ֔יהָ וַתָּ֖שָׁב מִשְּׂדֵ֣י מוֹאָ֑ב כִּ֤י שָֽׁמְעָה֙ בִּשְׂדֵ֣ה מוֹאָ֔ב כִּֽי־פָקַ֤ד יְהוָה֙ אֶת־עַמּ֔וֹ לָתֵ֥ת לָהֶ֖ם לָֽחֶם׃",
+        "words": []
+    },
+    "7": {
+        "hebrewText": "וַתֵּצֵא֙ מִן־הַמָּק֔וֹם אֲשֶׁ֥ר הָיְתָה־שָׁ֖מָּה וּשְׁתֵּ֣י כַלֹּתֶ֣יהָ עִמָּ֑הּ וַתֵּלַ֙כְנָה֙ בַדֶּ֔רֶךְ לָשׁ֖וּב אֶל־אֶ֥רֶץ יְהוּדָֽה׃",
+        "words": []
+    },
+    "8": {
+        "hebrewText": "וַתֹּ֤אמֶר נָעֳמִי֙ לִשְׁתֵּ֣י כַלֹּתֶ֔יהָ לֵ֣כְנָה שֹּׁ֔בְנָה אִשָּׁ֖ה לְבֵ֣ית אִמָּ֑הּ יעשה יְהוָה עִמָּכֶם חֶסֶד כַּאֲשֶׁר עֲשִׂיתֶם עִם־הַמֵּתִים וְעִמָּדִֽי׃",
         "words": [
-            {
-                "hebrew": "וְשֵׁ֤ם",
-                "transliteration": "wəšēm",
-                "lemma": "שֵׁם",
-                "briefTranslation": "e o nome",
-                "contextualTranslation": "E o nome do homem...",
-                "analysis": {
-                    "class": "Substantivo com Conjunção",
-                    "gender": "Masculino",
-                    "number": "Singular",
-                    "state": "Construto",
-                    "extra": "Conjunção 'וְ' (e) + substantivo 'שֵׁם' (nome). Está no estado construto, ligando-se a 'hā’îš'.",
-                    "didactic": {
-                        "title": "Cadeia Construta Simples",
-                        "explanation": "A frase 'šēm hā’îš' ('o nome do homem') é um exemplo clássico de uma cadeia construta. O primeiro substantivo ('šēm') está no estado construto e é indefinido, enquanto o segundo ('hā’îš') está no estado absoluto e é definido. A definição do último substantivo torna toda a cadeia definida."
-                    },
-                    "reference": "GKC §128"
-                }
-            },
-            {
-                "hebrew": "הָאִישׁ֙",
-                "transliteration": "hā’îš",
-                "lemma": "אִישׁ",
-                "briefTranslation": "o homem",
-                "contextualTranslation": "...do homem...",
-                "analysis": {
-                    "class": "Substantivo com Artigo",
-                    "gender": "Masculino",
-                    "number": "Singular",
-                    "state": "Absoluto",
-                    "extra": "Artigo definido 'הַ' + 'אִישׁ'. Refere-se ao homem anônimo do versículo anterior.",
-                    "didactic": {
-                        "title": "Artigo Definido",
-                        "explanation": "O artigo definido 'הַ' ('o', 'a', 'os', 'as') é usado para se referir a um substantivo específico, já conhecido ou proeminente no contexto. Aqui, ele especifica que se trata do mesmo homem introduzido no versículo 1."
-                    },
-                    "reference": "GKC §126a"
-                }
-            },
-            {
-                "hebrew": "אֱ‍לִימֶ֔לֶךְ",
-                "transliteration": "’ĕlîmeleḵ",
-                "lemma": "אֱלִימֶלֶךְ",
-                "briefTranslation": "Elimeleque",
-                "contextualTranslation": "...(era) Elimeleque.",
-                "analysis": {
-                    "class": "Nome Próprio",
-                    "gender": "Masculino",
-                    "number": "Singular",
-                    "state": "Absoluto",
-                    "extra": "Nome teofórico.",
-                    "didactic": {
-                        "title": "Nomes Teofóricos",
-                        "explanation": "Nomes próprios em hebraico frequentemente contêm um elemento divino. 'Elimeleque' significa 'Meu Deus é Rei' (אֵלִי 'meu Deus' + מֶלֶךְ 'rei'). Isso pode ter um significado irônico, pois sua família enfrenta o infortúnio apesar de seu nome piedoso."
-                    },
-                    "reference": "HALOT 58"
-                }
-            }
+             {"hebrew": "יַעֲשֶׂה", "transliteration": "ya‘ăśeh", "lemma": "עָשָׂה", "briefTranslation": "faça", "contextualTranslation": "Faça o SENHOR convosco misericórdia...", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Imperfeito (Jussivo)", "pgn": "3ms", "extra": "O Imperfeito aqui expressa um desejo ou oração (Jussivo).", "reference": "GKC §109c", "didacticKey": "verb_qal_imperfect_vav_consecutive"}}
+        ]
+    },
+    "9": {
+        "hebrewText": "יִתֵּ֤ן יְהוָה֙ לָכֶ֔ם וּמְצֶ֣אןָ מְנוּחָ֔ה אִשָּׁ֖ה בֵּ֣ית אִישָׁ֑הּ וַתִּשַּׁ֥ק לָהֶ֖ן וַתִּשֶּׂ֥אנָה קוֹלָ֖ן וַתִּבְכֶּֽינָה׃",
+        "words": []
+    },
+    "10": {
+        "hebrewText": "וַתֹּאמַ֖רְנָה־לָּ֑הּ כִּי־אִתָּ֥ךְ נָשׁ֖וּב לְעַמֵּֽךְ׃",
+        "words": []
+    },
+    "11": {
+        "hebrewText": "וַתֹּ֤אמֶר נָעֳמִי֙ שֹׁ֣בְנָה בְנֹתַ֔י לָ֥מָּה תֵלַ֖כְנָה עִמִּ֑י הַֽעוֹד־לִ֤י בָנִים֙ בְּֽמֵעַ֔י וְהָי֥וּ לָכֶ֖ם לַאֲנָשִֽׁים׃",
+        "words": []
+    },
+    "12": {
+        "hebrewText": "שֹׁ֤בְנָה בְנֹתַי֙ לֵ֔כְןָ כִּ֥י זָקַ֖נְתִּי מִהְי֣וֹת לְאִ֑ישׁ כִּ֤י אָמַ֙רְתִּי֙ יֶשׁ־לִ֣י תִקְוָ֔ה גַּ֣ם הָיִ֤יתִי הַלַּ֙יְלָה֙ לְאִ֔ישׁ וְגַ֖ם יָלַ֥דְתִּי בָנִֽים׃",
+        "words": []
+    },
+    "13": {
+        "hebrewText": "הֲלָהֵן֙ תְּשַׂבֵּ֔רְנָה עַ֚ד אֲשֶׁ֣ר יִגְדָּ֔לוּ הֲלָהֵן֙ תֵּֽעָגֵ֔נָה לְבִלְתִּ֖י הֱי֣וֹת לְאִ֑ישׁ אַ֣ל בְּנֹתַ֗י כִּֽי־מַר־לִ֤י מְאֹד֙ מִכֶּ֔ם כִּֽי־יָצְאָ֥ה בִ֛י יַד־יְהוָֽה׃",
+        "words": []
+    },
+    "14": {
+        "hebrewText": "וַתִּשֶּׂ֤נָה קוֹלָן֙ וַתִּבְכֶּ֣ינָה ע֔וֹד וַתִּשַּׁ֥ק עָרְפָּ֖ה לַחֲמוֹתָ֑הּ וְר֖וּת דָּ֥בְקָה בָּֽהּ׃",
+        "words": []
+    },
+    "15": {
+        "hebrewText": "וַתֹּ֗אמֶר הִנֵּה֙ שָׁבָ֣ה יְבִמְתֵּ֔ךְ אֶל־עַמָּ֖הּ וְאֶל־אֱלֹהֶ֑יהָ שׁ֖וּבִי אַחֲרֵ֥י יְבִמְתֵּֽךְ׃",
+        "words": []
+    },
+    "16": {
+        "hebrewText": "וַתֹּ֤אמֶר רוּת֙ אַל־תִּפְגְּעִי־בִ֔י לְעָזְבֵ֖ךְ לָשׁ֣וּב מֵאַחֲרָ֑יִךְ כִּ֠י אֶל־אֲשֶׁ֨ר תֵּלְכִ֜י אֵלֵ֗ךְ וּבַאֲשֶׁ֤ר תָּלִ֙ינִי֙ אָלִ֔ין עַמֵּ֣ךְ עַמִּ֔י וֵאלֹהַ֖יִךְ אֱלֹהָֽי׃",
+        "words": []
+    },
+    "17": {
+        "hebrewText": "בַּאֲשֶׁ֤ר תָּמ֙וּתִי֙ אָמ֔וּת וְשָׁ֖ם אֶקָּבֵ֑ר כֹּ֤ה יַעֲשֶׂה־לִּ֤י יְהוָה֙ וְכֹ֣ה יֹסִ֔יף כִּ֣י הַמָּ֔וֶת יַפְרִ֖יד בֵּינִ֥י וּבֵינֵֽךְ׃",
+        "words": []
+    },
+    "18": {
+        "hebrewText": "וַתֵּ֔רֶא כִּֽי־מִתְאַמֶּ֥צֶת הִ֖יא לָלֶ֣כֶת אִתָּ֑הּ וַתֶּחְדַּ֖ל לְדַבֵּ֥ר אֵלֶֽיהָ׃",
+        "words": []
+    },
+    "19": {
+        "hebrewText": "וַתֵּלַ֙כְנָה֙ שְׁתֵּיהֶ֔ם עַד־בּוֹאָ֖נָה בֵּ֣ית לָ֑חֶם וַיְהִ֗י כְּבֹאָנָה֙ בֵּ֣ית לֶ֔חֶם וַתֵּהֹ֤ם כָּל־הָעִיר֙ עֲלֵיהֶ֔ן וַתֹּאמַ֖רְנָה הֲזֹ֥את נָעֳמִֽי׃",
+        "words": []
+    },
+    "20": {
+        "hebrewText": "וַתֹּ֣אמֶר אֲלֵיהֶ֔ן אַל־תִּקְרֶ֥אנָה לִּ֖י נָעֳמִ֑י קְרֶ֤אןָ לִּי֙ מָרָ֔א כִּי־הֵמַ֥ר שַׁדַּ֛י לִ֖י מְאֹֽד׃",
+        "words": []
+    },
+    "21": {
+        "hebrewText": "אֲנִי֙ מְלֵאָ֣ה הָלַ֔כְתִּי וְרֵיקָ֖ם הֱשִׁיבַ֣נִי יְהוָ֑ה לָ֤מָּה תִקְרֶ֙אנָה֙ לִ֣י נָעֳמִ֔י וַֽיהוָה֙ עָ֣נָה בִ֔י וְשַׁדַּ֖י הֵ֥רַֽע לִֽי׃",
+        "words": []
+    },
+    "22": {
+        "hebrewText": "וַתָּ֤שָׁב נָעֳמִי֙ וְר֨וּת הַמּוֹאֲבִיָּ֤ה כַלָּתָהּ֙ עִמָּ֔הּ הַשָּׁ֖בָה מִשְּׂדֵ֣י מוֹאָ֑ב וְהֵ֗מָּה בָּ֚אוּ בֵּ֣ית לֶ֔חֶם בִּתְחִלַּ֖ת קְצִ֥יר שְׂעֹרִֽים׃",
+        "words": [
+             {"hebrew": "בִּתְחִלַּת", "transliteration": "bitḥillat", "lemma": "תְּחִלָּה", "briefTranslation": "no começo de", "contextualTranslation": "...no começo da colheita da cevada.", "analysis": {"class": "Substantivo com Preposição", "gender": "Feminino", "number": "Singular", "state": "Construto", "extra": "Preposição 'בְּ' (em) + forma construta de 'תְּחִלָּה' (começo).", "reference": "GKC §128", "didacticKey": "noun_construct_state"}}
         ]
     }
 }
