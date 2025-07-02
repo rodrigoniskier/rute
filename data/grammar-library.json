@@ -16,47 +16,9 @@
             ]
         }
     },
-    "noun_construct_state": {
-        "title": "Substantivo: Estado Construto",
-        "explanation": "O estado construto indica uma relação de posse ou associação ('de'). A forma do substantivo é frequentemente alterada (encurtada) para se ligar à palavra seguinte. A definição de toda a 'cadeia construta' é determinada pelo último substantivo.",
-        "paradigm": {
-            "type": "noun",
-            "title": "Paradigma Modelo: Substantivo (סוּס - cavalo)",
-            "rows": [
-                ["Absoluto Singular", "סוּס", "sûs", "um cavalo"],
-                ["Construto Singular", "סוּס", "sûs", "cavalo de..."],
-                ["Absoluto Plural", "סוּסִים", "sûsîm", "cavalos"],
-                ["Construto Plural", "סוּסֵי", "sûsê", "cavalos de..."]
-            ]
-        }
-    },
-    "verb_qal_infinitive_construct": {
-        "title": "Verbo: Infinitivo Construto",
-        "explanation": "O Infinitivo Construto é uma forma verbal que funciona como um substantivo, expressando a ideia da ação ('o ato de...'). É frequentemente usado após preposições ou em cadeias construtas."
-    },
-    "participle_qal_active": {
-        "title": "Verbo: Particípio Ativo Qal",
-        "explanation": "O Particípio Ativo Qal descreve uma ação contínua ou o agente que realiza a ação ('aquele que...'), podendo funcionar como um verbo, adjetivo ou substantivo. No plural e com o artigo, como em 'os juízes', refere-se àqueles que praticam o ato de julgar."
-    },
-    "noun_absolute_state": {
-        "title": "Substantivo: Estado Absoluto",
-        "explanation": "Esta é a forma lexical padrão de um substantivo, indicando uma entidade por si só, sem estar gramaticalmente ligada por posse a outra palavra. Pode ser definida (com artigo) ou indefinida (sem artigo)."
-    },
-    "prep_insep_with_article": {
-        "title": "Preposição com Artigo Definido",
-        "explanation": "Quando a preposição inseparável (בְּ, כְּ, לְ) precede um substantivo com artigo definido (הַ), a letra 'He' do artigo é omitida e sua vogal é transferida para a preposição. Assim, בְּ + הָאָרֶץ torna-se בָּאָרֶץ ('na terra' específica)."
-    },
-    "verb_irregular_I_yod_vav": {
-        "title": "Verbo Irregular (I-Yod/Vav)",
-        "explanation": "Verbos cuja primeira letra da raiz é 'Yod' ou 'Vav' (como הָלַךְ, originalmente ולך) frequentemente apresentam irregularidades na conjugação. No imperfeito Qal, a raiz se manifesta de forma diferente da de um verbo regular."
-    },
-    "pronoun_personal_independent": {
-        "title": "Pronome Pessoal Independente",
-        "explanation": "Estes pronomes funcionam como sujeitos e são palavras separadas (ex: הוּא - ele; הֵם - eles). Eles enfatizam o sujeito da oração, que muitas vezes já está implícito na forma do verbo."
-    },
-    "noun_with_pronominal_suffix": {
-        "title": "Substantivo com Sufixo Pronominal",
-        "explanation": "Sufixos pronominais são adicionados a substantivos (e preposições) para indicar posse (ex: 'meu', 'seu', 'deles'). O substantivo assume uma forma similar à construta antes de receber o sufixo. Ex: אִשְׁתּוֹ = אֵשֶׁת (forma construta de אִשָּׁה) + וֹ (sufixo 'dele')."
+    "verb_qal_imperfect": {
+        "title": "Verbo: Qal Imperfeito",
+        "explanation": "O tronco Qal indica a ação simples e ativa. O tempo/aspecto Imperfeito, sem o Vav Consecutivo, descreve uma ação incompleta, contínua ou futura. O contexto determina se deve ser traduzido como 'ele aprenderá', 'ele aprende', ou 'que ele aprenda'."
     },
     "verb_qal_perfect": {
         "title": "Verbo: Qal Perfeito",
@@ -76,5 +38,131 @@
                 ["1cp", "שָׁמַרְנוּ", "šāmarnû", "nós guardamos"]
             ]
         }
+    },
+    "verb_qal_infinitive_construct": {
+        "title": "Verbo: Infinitivo Construto",
+        "explanation": "O Infinitivo Construto é uma forma verbal que funciona como um substantivo, expressando a ideia da ação ('o ato de...'). É frequentemente usado após preposições (como לְ para indicar propósito) ou em cadeias construtas."
+    },
+    "verb_qal_imperative": {
+        "title": "Verbo: Qal Imperativo",
+        "explanation": "O Imperativo é usado para dar um comando ou ordem direta. É derivado da forma do Imperfeito e existe apenas para a 2ª pessoa (tu, vós)."
+    },
+    "verb_qal_jussive": {
+        "title": "Verbo: Qal Jussivo",
+        "explanation": "O Jussivo é uma forma do Imperfeito (geralmente encurtada) usada para expressar um desejo, permissão ou comando indireto na 3ª pessoa ('que ele faça...'). Em orações, como a de Noemi, funciona como uma bênção ou súplica."
+    },
+    "verb_nifal_imperfect": {
+        "title": "Verbo: Nifal Imperfeito",
+        "explanation": "O tronco Nifal tipicamente expressa uma ação passiva ('ser feito') ou reflexiva ('fazer a si mesmo'). O Imperfeito descreve essa ação como incompleta ou futura."
+    },
+    "verb_hifil_perfect": {
+        "title": "Verbo: Hifil Perfeito",
+        "explanation": "O tronco Hifil expressa uma ação causativa, ou seja, 'fazer alguém/algo realizar a ação do verbo'. Por exemplo, a raiz 'amargar' no Hifil significa 'fazer ser amargo' ou 'tratar com amargura'. O Perfeito indica que essa ação causativa foi completada."
+    },
+    "verb_hifil_imperfect": {
+        "title": "Verbo: Hifil Imperfeito",
+        "explanation": "O tronco Hifil expressa uma ação causativa. O Imperfeito descreve essa ação causativa como incompleta ou futura. Em um juramento, como o de Rute, pode ter um sentido jussivo ('que Ele acrescente')."
+    },
+    "verb_piel_imperfect": {
+        "title": "Verbo: Piel Imperfeito",
+        "explanation": "O tronco Piel geralmente indica uma ação intensiva, repetitiva ou deliberada. O Imperfeito descreve essa ação como contínua ou futura. Em 'esperarieis', o Piel carrega a ideia de uma espera intensa e prolongada."
+    },
+    "verb_piel_infinitive_construct": {
+        "title": "Verbo: Piel Infinitivo Construto",
+        "explanation": "Assim como no Qal, o Infinitivo Construto Piel funciona como um substantivo verbal, mas para a ação intensiva do Piel. 'Lədabbēr' significa 'o ato de falar (intensivamente)'. "
+    },
+    "verb_hitpael_participle": {
+        "title": "Verbo: Hitpael Particípio",
+        "explanation": "O tronco Hitpael expressa uma ação reflexiva ('fazer a si mesmo') ou recíproca. O Particípio descreve o agente realizando essa ação reflexiva. 'Mit’ammeṣeṯ' significa 'aquela que se fortalece', ou seja, 'determinada'."
+    },
+    "verb_irregular_I_yod_vav": {
+        "title": "Verbo Irregular (I-Yod/Vav)",
+        "explanation": "Verbos cuja primeira letra da raiz é 'Yod' ou 'Vav' (como הָלַךְ, originalmente ולך) frequentemente apresentam irregularidades na conjugação. No imperfeito Qal, a raiz se manifesta de forma diferente da de um verbo regular."
+    },
+    "verb_irregular_III_he": {
+        "title": "Verbo Irregular (III-He)",
+        "explanation": "Verbos cuja terceira letra da raiz é um 'He' (ה) são fracos. O 'He' final frequentemente se transforma em outras vogais ou em um 'Yod' (י) quando sufixos são adicionados, como em 'wattibkeynâ' (e elas choraram) da raiz 'bāḵâ' (בָּכָה)."
+    },
+    "noun_construct_state": {
+        "title": "Substantivo: Estado Construto",
+        "explanation": "O estado construto indica uma relação de posse ou associação ('de'). A forma do substantivo é frequentemente alterada (encurtada) para se ligar à palavra seguinte. A definição de toda a 'cadeia construta' é determinada pelo último substantivo.",
+        "paradigm": {
+            "type": "noun",
+            "title": "Paradigma Modelo: Substantivo (סוּס - cavalo)",
+            "rows": [
+                ["Absoluto Singular", "סוּס", "sûs", "um cavalo"],
+                ["Construto Singular", "סוּס", "sûs", "cavalo de..."],
+                ["Absoluto Plural", "סוּסִים", "sûsîm", "cavalos"],
+                ["Construto Plural", "סוּסֵי", "sûsê", "cavalos de..."]
+            ]
+        }
+    },
+    "noun_absolute_state": {
+        "title": "Substantivo: Estado Absoluto",
+        "explanation": "Esta é a forma lexical padrão de um substantivo, indicando uma entidade por si só, sem estar gramaticalmente ligada por posse a outra palavra. Pode ser definida (com artigo) ou indefinida (sem artigo)."
+    },
+    "noun_with_pronominal_suffix": {
+        "title": "Substantivo com Sufixo Pronominal",
+        "explanation": "Sufixos pronominais são adicionados a substantivos (e preposições) para indicar posse (ex: 'meu', 'seu', 'deles'). O substantivo assume uma forma similar à construta antes de receber o sufixo. Ex: אִשְׁתּוֹ = אֵשֶׁת (forma construta de אִשָּׁה) + וֹ (sufixo 'dele')."
+    },
+    "participle_qal_active": {
+        "title": "Verbo: Particípio Ativo Qal",
+        "explanation": "O Particípio Ativo Qal descreve uma ação contínua ou o agente que realiza a ação ('aquele que...'), podendo funcionar como um verbo, adjetivo ou substantivo. No plural e com o artigo, como em 'os juízes', refere-se àqueles que praticam o ato de julgar."
+    },
+    "adjective": {
+        "title": "Adjetivo",
+        "explanation": "Um adjetivo descreve uma qualidade de um substantivo. No hebraico, ele geralmente vem depois do substantivo que modifica e concorda com ele em gênero, número e definição (presença ou ausência do artigo)."
+    },
+    "pronoun_personal_independent": {
+        "title": "Pronome Pessoal Independente",
+        "explanation": "Estes pronomes funcionam como sujeitos e são palavras separadas (ex: הוּא - ele; הֵם - eles). Eles enfatizam o sujeito da oração, que muitas vezes já está implícito na forma do verbo."
+    },
+    "pronoun_relative": {
+        "title": "Pronome Relativo (אֲשֶׁר)",
+        "explanation": "A palavra '’ăšer' é o principal pronome relativo em hebraico, significando 'que', 'o qual', 'quem'. Ela introduz uma cláusula subordinada que modifica um substantivo. Pode ser combinada com preposições para significar 'onde' (ba’ăšer), 'de onde', etc."
+    },
+    "interrogative_pronoun": {
+        "title": "Pronome Interrogativo (לָמָּה)",
+        "explanation": "Usado para fazer uma pergunta. 'Lāmmâ' (לָמָּה) é uma contração de 'ləmâ' (para quê?) e é a forma padrão para perguntar 'por quê?'."
+    },
+    "interrogative_particle": {
+        "title": "Partícula Interrogativa (הֲ)",
+        "explanation": "A partícula 'hă' (הֲ), prefixada a uma palavra, transforma uma declaração em uma pergunta de sim/não, sem alterar o significado da palavra. 'Hălāhēn' significa 'Por eles?'."
+    },
+    "particle_existence": {
+        "title": "Partícula de Existência (יֵשׁ)",
+        "explanation": "A palavra 'yēš' (יֵשׁ) afirma a existência ou presença de algo ('há', 'existe'). Combinada com uma preposição e sufixo como 'lî' (para mim), ela expressa posse: 'yēš lî' significa 'eu tenho' (literalmente, 'há para mim')."
+    },
+    "particle_negative": {
+        "title": "Partícula Negativa (אַל / לְבִלְתִּי)",
+        "explanation": "O hebraico usa diferentes partículas para negação. '’Al' (אַל) é usada com o Jussivo ou Imperativo para expressar uma proibição ('não faças!'). 'Ləḇiltî' (לְבִלְתִּי) é uma forma mais forte usada especificamente para negar um infinitivo ('para não ser/fazer')."
+    },
+    "particle_interjection": {
+        "title": "Partícula/Interjeição (הִנֵּה)",
+        "explanation": "'Hinnēh' (הִנֵּה) é uma partícula presentativa, usada para chamar a atenção do ouvinte para a cena ou para uma nova informação. É frequentemente traduzida como 'Eis!', 'Vê!', ou simplesmente não é traduzida, mas marca um ponto de foco na narrativa."
+    },
+    "prep_insep_with_article": {
+        "title": "Preposição Inseparável com Artigo",
+        "explanation": "Quando a preposição inseparável (בְּ, כְּ, לְ) precede um substantivo com artigo definido (הַ), a letra 'He' do artigo é omitida e sua vogal é transferida para a preposição. Assim, בְּ + הָאָרֶץ torna-se בָּאָרֶץ ('na terra' específica)."
+    },
+    "prep_insep_with_noun": {
+        "title": "Preposição Inseparável com Substantivo",
+        "explanation": "As preposições בְּ (em, com), כְּ (como), e לְ (para, a) são prefixadas diretamente a um substantivo. A vogal sob a preposição pode mudar dependendo da primeira letra do substantivo."
+    },
+    "prep_insep_with_suffix_comparative": {
+        "title": "Preposição com Sufixo (Comparativo)",
+        "explanation": "A preposição 'min' (מִן) é usada para expressar comparação ('mais do que'). Quando prefixada a uma palavra, seu 'nun' (נ) frequentemente se assimila, causando um dagesh na letra seguinte. 'Mikkem' (מִכֶּם) significa 'mais do que vós'."
+    },
+    "preposition": {
+        "title": "Preposição",
+        "explanation": "Uma preposição é uma palavra (como 'em', 'para', 'atrás de') que mostra a relação entre um substantivo ou pronome e outra palavra na frase, indicando lugar, tempo ou direção."
+    },
+    "conjunction": {
+        "title": "Conjunção",
+        "explanation": "Uma conjunção conecta palavras, frases ou cláusulas. 'Wə' (וְ) pode significar 'e', 'mas', 'então', ou ter um sentido circunstancial. 'Kî' (כִּי) pode significar 'pois', 'que', 'quando' ou 'se', dependendo do contexto."
+    },
+    "adverb": {
+        "title": "Advérbio",
+        "explanation": "Um advérbio modifica um verbo, adjetivo ou outro advérbio, fornecendo informações sobre tempo ('de novo'), lugar ('lá') ou modo ('grandemente')."
     }
 }
