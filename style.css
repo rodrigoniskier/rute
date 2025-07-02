@@ -276,3 +276,14 @@ body {
     background-color: #C8BDB7; /* Um cinza-marrom para indicar desabilitado */
     cursor: not-allowed;
 }
+/* --- Estilo para o Rodapé da Navegação (Adicionar ao final do style.css) --- */
+
+.nav-footer {
+    margin-top: 40px; /* Adiciona espaço entre os links e o rodapé */
+    padding-top: 20px;
+    border-top: 1px solid var(--color-accent);
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    line-height: 1.5;
+}
