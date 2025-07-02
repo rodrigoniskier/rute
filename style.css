@@ -21,6 +21,7 @@ body {
     background-color: var(--color-background);
     color: var(--color-text-primary);
     line-height: 1.6;
+    font-size: 18px; /* Aumenta a base da fonte */
 }
 
 /* --- Estrutura Principal da Aplicação --- */
@@ -45,6 +46,7 @@ body {
 
 .app-header h1 {
     font-weight: 700;
+    font-size: 2.5rem; /* Aumentado */
 }
 
 .navigation-pane {
@@ -59,10 +61,11 @@ body {
     grid-area: nav-left;
 }
 
-#chapter-nav h2 {
+#chapter-nav h2, #word-nav h2 {
     border-bottom: 1px solid var(--color-accent);
     padding-bottom: 10px;
     margin-bottom: 15px;
+    font-size: 1.8rem; /* Aumentado */
 }
 
 #chapter-nav ul {
@@ -77,6 +80,7 @@ body {
     border-radius: 5px;
     margin-bottom: 5px;
     transition: background-color 0.3s;
+    font-size: 1.2rem; /* Aumentado */
 }
 
 #chapter-nav .chapter-link:hover {
@@ -111,13 +115,13 @@ body {
 /* --- Estilos de Conteúdo --- */
 .hebrew-text-display .verse {
     font-family: var(--font-hebrew);
-    font-size: 1.8rem;
+    font-size: 3.2rem; /* Aumentado */
     direction: rtl;
     text-align: right;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     line-height: 2.2;
     cursor: pointer;
-    padding: 10px;
+    padding: 15px;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
@@ -128,10 +132,10 @@ body {
 
 .verse-number {
     font-family: var(--font-primary);
-    font-size: 1.2rem;
+    font-size: 2.2rem; /* Aumentado */
     font-weight: bold;
     color: var(--color-accent);
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 /* --- Menu de Palavras (Direita) --- */
@@ -167,14 +171,14 @@ body {
 
 .hebrew-word {
     font-family: var(--font-hebrew);
-    font-size: 1.6rem;
+    font-size: 3rem; /* Aumentado */
     font-weight: bold;
     color: var(--color-text-primary);
 }
 
 .transliteration, .translation {
     font-family: var(--font-primary);
-    font-size: 0.9rem;
+    font-size: 1.2rem; /* Aumentado */
     color: var(--color-text-secondary);
     direction: ltr;
     text-align: right;
@@ -183,21 +187,21 @@ body {
 /* --- Área de Análise da Palavra --- */
 .word-analysis h3 {
     border-bottom: 2px solid var(--color-accent);
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     margin-top: 25px;
-    margin-bottom: 15px;
-    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-size: 2.5rem; /* Aumentado */
 }
 
 .word-analysis .hebrew-lemma {
     font-family: var(--font-hebrew);
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 3.5rem; /* Aumentado */
 }
 
 .analysis-item {
-    margin-bottom: 10px;
-    font-size: 1.1rem;
+    margin-bottom: 15px;
+    font-size: 1.5rem; /* Aumentado */
 }
 
 .analysis-item strong {
@@ -206,14 +210,15 @@ body {
 
 .didactic-explanation {
     margin-top: 20px;
-    padding: 15px;
+    padding: 20px;
     background-color: rgba(93, 64, 55, 0.05);
     border-left: 4px solid var(--color-accent);
+    font-size: 1.4rem; /* Aumentado */
 }
 
 .grammar-reference {
     margin-top: 30px;
-    font-size: 0.9rem;
+    font-size: 1.2rem; /* Aumentado */
     text-align: right;
     color: var(--color-text-secondary);
 }
@@ -223,12 +228,12 @@ body {
     width: 100%;
     margin-top: 20px;
     border-collapse: collapse;
-    font-size: 1rem;
+    font-size: 1.3rem; /* Aumentado */
 }
 
 .paradigm-table th, .paradigm-table td {
     border: 1px solid var(--color-accent);
-    padding: 8px 12px;
+    padding: 12px 15px;
     text-align: left;
 }
 
@@ -239,6 +244,6 @@ body {
 
 .paradigm-table .hebrew-form {
     font-family: var(--font-hebrew);
-    font-size: 1.2rem;
+    font-size: 2rem; /* Aumentado */
     direction: rtl;
 }
