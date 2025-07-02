@@ -111,7 +111,7 @@
             {"hebrew": "לָהֶ֖ם", "transliteration": "lāhem", "lemma": "לְ", "briefTranslation": "a eles", "contextualTranslation": "...a eles...", "analysis": {"class": "Preposição com Sufixo", "gender": "Masculino", "number": "Plural", "pgn": "3mp", "extra": "", "reference": "GKC §103f", "didacticKey": "noun_with_pronominal_suffix"}},
             {"hebrew": "לָֽחֶם׃", "transliteration": "lāḥem", "lemma": "לֶחֶם", "briefTranslation": "pão", "contextualTranslation": "...pão.", "analysis": {"class": "Substantivo", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "extra": "", "reference": "HALOT 535", "didacticKey": "noun_absolute_state"}}
         ]
-    } 
+    }, 
    "7": { "hebrewText": "וַתֵּצֵא֙ מִן־הַמָּק֔וֹם אֲשֶׁ֥ר הָיְתָה־שָׁ֖מָּה וּשְׁתֵּ֣י כַלֹּתֶ֣יהָ עִמָּ֑הּ וַתֵּלַ֙כְנָה֙ בַדֶּ֔רֶךְ לָשׁ֖וּב אֶל־אֶ֥רֶץ יְהוּדָֽה׃",
     "words": [
         {"hebrew": "וַתֵּצֵא֙", "transliteration": "wattēṣē’", "lemma": "יָצָא", "briefTranslation": "e ela saiu", "contextualTranslation": "E ela saiu do lugar...", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Imperfeito com Vav Consecutivo", "pgn": "3fs", "extra": "Raiz I-Yod/Vav.", "reference": "GKC §69", "didacticKey": "verb_qal_imperfect_vav_consecutive"}},
@@ -127,7 +127,7 @@
         {"hebrew": "אֶל־אֶ֥רֶץ", "transliteration": "’el-’ereṣ", "lemma": "אֶרֶץ", "briefTranslation": "para a terra de", "contextualTranslation": "...para a terra de Judá.", "analysis": {"class": "Substantivo com Preposição", "gender": "Feminino", "number": "Singular", "state": "Construto", "extra": "Preposição 'אֶל' (para).", "reference": "GKC §128", "didacticKey": "noun_construct_state"}},
         {"hebrew": "יְהוּדָֽה׃", "transliteration": "yəhûḏâ", "lemma": "יְהוּדָה", "briefTranslation": "Judá", "contextualTranslation": "...Judá.", "analysis": {"class": "Nome Próprio", "gender": "Masculino", "number": "Singular", "state": "N/A", "extra": "", "reference": "N/A", "didacticKey": "noun_absolute_state"}}
     ]
-}
+},
    "8": {
     "hebrewText": "וַתֹּ֤אמֶר נָעֳמִי֙ לִשְׁתֵּ֣י כַלֹּתֶ֔יהָ לֵ֣כְנָה שֹּׁ֔בְנָה אִשָּׁ֖ה לְבֵ֣ית אִמָּ֑הּ יַעַשׂ יְהוָה עִמָּכֶם חֶסֶד כַּאֲשֶׁר עֲשִׂיתֶם עִם־הַמֵּתִים וְעִמָּדִֽי׃",
     "words": [
@@ -149,7 +149,7 @@
         {"hebrew": "עִם־הַמֵּתִים", "transliteration": "‘im-hammēṯîm", "lemma": "מֵת", "briefTranslation": "com os mortos", "contextualTranslation": "...com os mortos...", "analysis": {"class": "Particípio (Substantivado) com Preposição e Artigo", "binyan": "Qal", "tense": "Particípio Ativo", "gender": "Masculino", "number": "Plural", "state": "Absoluto", "extra": "Refere-se aos maridos falecidos, Malom e Quiliom.", "reference": "GKC §116", "didacticKey": "participle_qal_active"}},
         {"hebrew": "וְעִמָּדִֽי׃", "transliteration": "wə‘immāḏî", "lemma": "עִם", "briefTranslation": "e comigo", "contextualTranslation": "...e comigo.", "analysis": {"class": "Preposição com Sufixo", "gender": "Comum", "number": "Singular", "pgn": "1cs", "extra": "Conjunção 'וְ' + Preposição 'עִם' + sufixo da 1ª pessoa.", "reference": "GKC §103f", "didacticKey": "noun_with_pronominal_suffix"}}
     ]
-}
+},
 "9": {
     "hebrewText": "יִתֵּ֤ן יְהוָה֙ לָכֶ֔ם וּמְצֶ֣אןָ מְנוּחָ֔ה אִשָּׁ֖ה בֵּ֣ית אִישָׁ֑הּ וַתִּשַּׁ֥ק לָהֶ֖ן וַתִּשֶּׂ֥אנָה קוֹלָ֖ן וַתִּבְכֶּֽינָה׃",
     "words": [
@@ -167,7 +167,7 @@
         {"hebrew": "קוֹלָ֖ן", "transliteration": "qôlān", "lemma": "קוֹל", "briefTranslation": "a voz delas", "contextualTranslation": "...sua voz...", "analysis": {"class": "Substantivo com Sufixo Pronominal", "gender": "Masculino", "number": "Singular", "state": "N/A", "extra": "Sufixo pronominal da 3ª fem. plural 'ן' (delas).", "reference": "GKC §91e", "didacticKey": "noun_with_pronominal_suffix"}},
         {"hebrew": "וַתִּבְכֶּֽינָה׃", "transliteration": "wattibkeynâ", "lemma": "בָּכָה", "briefTranslation": "e elas choraram", "contextualTranslation": "...e choraram.", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Imperfeito com Vav Consecutivo", "pgn": "3fp", "extra": "Raiz III-He. O 'he' final se manifesta como 'yod' antes do sufixo.", "reference": "GKC §75n", "didacticKey": "verb_irregular_III_he"}}
     ]
-}
+},
 "10": {
     "hebrewText": "וַתֹּאמַ֖רְנָה־לָּ֑הּ כִּי־אִתָּ֥ךְ נָשׁ֖וּב לְעַמֵּֽךְ׃",
     "words": [
@@ -177,7 +177,7 @@
         {"hebrew": "נָשׁ֖וּב", "transliteration": "nāšûḇ", "lemma": "שׁוּב", "briefTranslation": "nós voltaremos", "contextualTranslation": "...nós voltaremos...", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Imperfeito", "pgn": "1cp (1ª pessoa, comum, plural)", "extra": "Verbo 'oco' (II-Vav). Indica uma ação futura.", "reference": "GKC §67g", "didacticKey": "verb_qal_imperfect"}},
         {"hebrew": "לְעַמֵּֽךְ׃", "transliteration": "lə‘ammēḵ", "lemma": "עַם", "briefTranslation": "para teu povo", "contextualTranslation": "...para teu povo.", "analysis": {"class": "Substantivo com Preposição e Sufixo", "gender": "Masculino", "number": "Singular", "state": "N/A", "extra": "Preposição 'לְ' + Substantivo 'עַם' + sufixo da 2ª fem. sing. 'ךְ'.", "reference": "GKC §91e", "didacticKey": "noun_with_pronominal_suffix"}}
     ]
-}
+},
 "11": {
     "hebrewText": "וַתֹּ֤אמֶר נָעֳמִי֙ שֹׁ֣בְנָה בְנֹתַ֔י לָ֥מָּה תֵלַ֖כְנָה עִמִּ֑י הַֽעוֹד־לִ֤י בָנִים֙ בְּֽמֵעַ֔י וְהָי֥וּ לָכֶ֖ם לַאֲנָשִֽׁים׃",
     "words": [
@@ -195,7 +195,7 @@
         {"hebrew": "לָכֶ֖ם", "transliteration": "lāḵem", "lemma": "לְ", "briefTranslation": "para vós", "contextualTranslation": "...para vós...", "analysis": {"class": "Preposição com Sufixo", "gender": "Masculino", "number": "Plural", "pgn": "2mp", "extra": "", "reference": "GKC §103f", "didacticKey": "noun_with_pronominal_suffix"}},
         {"hebrew": "לַאֲנָשִֽׁים׃", "transliteration": "la’ănāšîm", "lemma": "אִישׁ", "briefTranslation": "por maridos", "contextualTranslation": "...por maridos.", "analysis": {"class": "Substantivo com Preposição", "gender": "Masculino", "number": "Plural", "state": "Absoluto", "extra": "Preposição 'לְ' indicando resultado ou propósito ('para serem').", "reference": "GKC §119i", "didacticKey": "prep_insep_with_noun"}}
     ]
-}
+},
 "12": {
     "hebrewText": "שֹׁ֤בְנָה בְנֹתַי֙ לֵ֔כְןָ כִּ֥י זָקַ֖נְתִּי מִהְי֣וֹת לְאִ֑ישׁ כִּ֤י אָמַ֙רְתִּי֙ יֶשׁ־לִ֣י תִקְוָ֔ה גַּ֣ם הָיִ֤יתִי הַלַּ֙יְלָה֙ לְאִ֔ישׁ וְגַ֖ם יָלַ֥דְתִּי בָנִֽים׃",
     "words": [
@@ -218,7 +218,7 @@
         {"hebrew": "יָלַ֥דְתִּי", "transliteration": "yālaḏtî", "lemma": "יָלַד", "briefTranslation": "eu gerasse", "contextualTranslation": "...eu gerasse...", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Perfeito", "pgn": "1cs", "extra": "Continua a condição hipotética.", "reference": "GKC §112v", "didacticKey": "verb_qal_perfect"}},
         {"hebrew": "בָנִֽים׃", "transliteration": "ḇānîm", "lemma": "בֵּן", "briefTranslation": "filhos", "contextualTranslation": "...filhos.", "analysis": {"class": "Substantivo", "gender": "Masculino", "number": "Plural", "state": "Absoluto", "extra": "", "reference": "GKC §124a", "didacticKey": "noun_absolute_state"}}
     ]
-}
+},
     "13": {
     "hebrewText": "הֲלָהֵן֙ תְּשַׂבֵּ֔רְנָה עַ֚ד אֲשֶׁ֣ר יִגְדָּ֔לוּ הֲלָהֵן֙ תֵּֽעָגֵ֔נָה לְבִלְתִּ֖י הֱי֣וֹת לְאִ֑ישׁ אַ֣ל בְּנֹתַ֗י כִּֽי־מַר־לִ֤י מְאֹד֙ מִכֶּ֔ם כִּֽי־יָצְאָ֥ה בִ֛י יַד־יְהוָֽה׃",
     "words": [
@@ -241,7 +241,7 @@
         {"hebrew": "בִ֛י", "transliteration": "ḇî", "lemma": "בְּ", "briefTranslation": "contra mim", "contextualTranslation": "...contra mim...", "analysis": {"class": "Preposição com Sufixo", "gender": "Comum", "number": "Singular", "pgn": "1cs", "extra": "", "reference": "GKC §103f", "didacticKey": "noun_with_pronominal_suffix"}},
         {"hebrew": "יַד־יְהוָֽה׃", "transliteration": "yaḏ-YHWH", "lemma": "יָד, יהוה", "briefTranslation": "a mão do SENHOR", "contextualTranslation": "...a mão do SENHOR.", "analysis": {"class": "Substantivo + Nome Próprio", "gender": "Feminino", "number": "Singular", "state": "Construto", "extra": "Expressão idiomática para o poder ou juízo de Deus.", "reference": "GKC §128", "didacticKey": "noun_construct_state"}}
     ]
-}
+},
     "14": {
     "hebrewText": "וַתִּשֶּׂ֤נָה קוֹלָן֙ וַתִּבְכֶּ֣ינָה ע֔וֹד וַתִּשַּׁ֥ק עָרְפָּ֖ה לַחֲמוֹתָ֑הּ וְר֖וּת דָּ֥בְקָה בָּֽהּ׃",
     "words": [
@@ -256,7 +256,7 @@
         {"hebrew": "דָּ֥בְקָה", "transliteration": "dāḇəqâ", "lemma": "דָּבַק", "briefTranslation": "se apegou", "contextualTranslation": "...se apegou a ela.", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Perfeito", "pgn": "3fs", "extra": "", "reference": "GKC §44", "didacticKey": "verb_qal_perfect"}},
         {"hebrew": "בָּֽהּ׃", "transliteration": "bāh", "lemma": "בְּ", "briefTranslation": "nela", "contextualTranslation": "...a ela.", "analysis": {"class": "Preposição com Sufixo", "gender": "Feminino", "number": "Singular", "pgn": "3fs", "extra": "Preposição 'בְּ' com sufixo referente a Noemi.", "reference": "GKC §103f", "didacticKey": "noun_with_pronominal_suffix"}}
     ]
-}
+},
     "15": {
     "hebrewText": "וַתֹּ֗אמֶר הִנֵּה֙ שָׁבָ֣ה יְבִמְתֵּ֔ךְ אֶל־עַמָּ֖הּ וְאֶל־אֱלֹהֶ֑יהָ שׁ֖וּבִי אַחֲרֵ֥י יְבִמְתֵּֽךְ׃",
     "words": [
@@ -270,7 +270,7 @@
         {"hebrew": "אַחֲרֵ֥י", "transliteration": "’aḥărê", "lemma": "אַחַר", "briefTranslation": "atrás de", "contextualTranslation": "...após tua cunhada.", "analysis": {"class": "Preposição", "gender": "N/A", "number": "N/A", "state": "N/A", "extra": "", "reference": "N/A", "didacticKey": "preposition"}},
         {"hebrew": "יְבִמְתֵּֽךְ׃", "transliteration": "yəḇimteḵ", "lemma": "יְבֵמֶת", "briefTranslation": "tua cunhada", "contextualTranslation": "...tua cunhada.", "analysis": {"class": "Substantivo com Sufixo Pronominal", "gender": "Feminino", "number": "Singular", "state": "N/A", "extra": "Sufixo pronominal da 2ª fem. sing. 'ךְ'.", "reference": "GKC §91e", "didacticKey": "noun_with_pronominal_suffix"}}
     ]
-}
+},
     "16": {
     "hebrewText": "וַתֹּ֤אמֶר רוּת֙ אַל־תִּפְגְּעִי־בִ֔י לְעָזְבֵ֖ךְ לָשׁ֣וּב מֵאַחֲרָ֑יִךְ כִּ֠י אֶל־אֲשֶׁ֨ר תֵּלְכִ֜י אֵלֵ֗ךְ וּבַאֲשֶׁ֤ר תָּלִ֙ינִי֙ אָלִ֔ין עַמֵּ֣ךְ עַמִּ֔י וֵאלֹהַ֖יִךְ אֱלֹהָֽי׃",
     "words": [
@@ -292,7 +292,7 @@
         {"hebrew": "וֵאלֹהַ֖יִךְ", "transliteration": "wē’lōhayiḵ", "lemma": "אֱלֹהִים", "briefTranslation": "e teu Deus", "contextualTranslation": "e o teu Deus...", "analysis": {"class": "Substantivo com Sufixo Pronominal", "gender": "Masculino", "number": "Plural", "state": "N/A", "extra": "Conjunção 'וְ' + sufixo plural da 2ª fem. sing. 'ַיִךְ'.", "reference": "GKC §103f", "didacticKey": "noun_with_pronominal_suffix"}},
         {"hebrew": "אֱלֹהָֽי׃", "transliteration": "’ĕlōhāy", "lemma": "אֱלֹהִים", "briefTranslation": "meu Deus", "contextualTranslation": "...o meu Deus.", "analysis": {"class": "Substantivo com Sufixo Pronominal", "gender": "Masculino", "number": "Plural", "state": "N/A", "extra": "Sufixo plural da 1ª sing. 'ַי'.", "reference": "GKC §103f", "didacticKey": "noun_with_pronominal_suffix"}}
     ]
-}
+},
     "17": {
     "hebrewText": "בַּאֲשֶׁ֤ר תָּמ֙וּתִי֙ אָמ֔וּת וְשָׁ֖ם אֶקָּבֵ֑ר כֹּ֤ה יַעֲשֶׂה־לִּ֤י יְהוָה֙ וְכֹ֣ה יֹסִ֔יף כִּ֣י הַמָּ֔וֶת יַפְרִ֖יד בֵּינִ֥י וּבֵינֵֽךְ׃",
     "words": [
@@ -312,7 +312,7 @@
         {"hebrew": "בֵּינִ֥י", "transliteration": "bênî", "lemma": "בַּיִן", "briefTranslation": "entre mim", "contextualTranslation": "entre mim...", "analysis": {"class": "Preposição com Sufixo", "gender": "Comum", "number": "Singular", "pgn": "1cs", "extra": "", "reference": "GKC §103f", "didacticKey": "preposition"}},
         {"hebrew": "וּבֵינֵֽךְ׃", "transliteration": "ûḇênēḵ", "lemma": "בַּיִן", "briefTranslation": "e entre ti", "contextualTranslation": "...e ti.", "analysis": {"class": "Conjunção + Preposição com Sufixo", "gender": "Feminino", "number": "Singular", "pgn": "2fs", "extra": "", "reference": "GKC §103f", "didacticKey": "preposition"}}
     ]
-}
+},
     "18": {
     "hebrewText": "וַתֵּ֔רֶא כִּֽי־מִתְאַמֶּ֥צֶת הִ֖יא לָלֶ֣כֶת אִתָּ֑הּ וַתֶּחְדַּ֖ל לְדַבֵּ֥ר אֵלֶֽיהָ׃",
     "words": [
@@ -325,7 +325,7 @@
         {"hebrew": "לְדַבֵּ֥ר", "transliteration": "ləḏabbēr", "lemma": "דָּבַר", "briefTranslation": "de falar", "contextualTranslation": "...de insistir...", "analysis": {"class": "Verbo", "binyan": "Piel", "tense": "Infinitivo Construto", "pgn": "N/A", "extra": "Preposição 'לְ'.", "reference": "GKC §52", "didacticKey": "verb_piel_infinitive_construct"}},
         {"hebrew": "אֵלֶֽיהָ׃", "transliteration": "’ēleyhā", "lemma": "אֶל", "briefTranslation": "para ela", "contextualTranslation": "...com ela.", "analysis": {"class": "Preposição com Sufixo", "gender": "Feminino", "number": "Singular", "pgn": "3fs", "extra": "Sufixo referente a Rute.", "reference": "GKC §103f", "didacticKey": "noun_with_pronominal_suffix"}}
     ]
-}
+},
     "19": {
     "hebrewText": "וַתֵּלַ֙כְנָה֙ שְׁתֵּיהֶ֔ם עַד־בּוֹאָ֖נָה בֵּ֣ית לָ֑חֶם וַיְהִ֗י כְּבֹאָנָה֙ בֵּ֣ית לֶ֔חֶם וַתֵּהֹ֤ם כָּל־הָעִיר֙ עֲלֵיהֶ֔ן וַתֹּאמַ֖רְנָה הֲזֹ֥את נָעֳמִֽי׃",
     "words": [
@@ -345,7 +345,7 @@
         {"hebrew": "הֲזֹ֥את", "transliteration": "hăzō’ṯ", "lemma": "זֹאת", "briefTranslation": "É esta?", "contextualTranslation": "É esta Noemi?", "analysis": {"class": "Partícula Interrogativa + Pronome Demonstrativo", "gender": "Feminino", "number": "Singular", "state": "N/A", "extra": "'הֲ' + 'זֹאת'.", "reference": "GKC §150a", "didacticKey": "interrogative_particle"}},
         {"hebrew": "נָעֳמִֽי׃", "transliteration": "nā‘ŏmî", "lemma": "נָעֳמִי", "briefTranslation": "Noemi", "contextualTranslation": "...Noemi?", "analysis": {"class": "Nome Próprio", "gender": "Feminino", "number": "Singular", "state": "Absoluto", "extra": "", "reference": "HALOT 706", "didacticKey": "noun_absolute_state"}}
     ]
-}
+},
     "20": {
     "hebrewText": "וַתֹּ֣אמֶר אֲלֵיהֶ֔ן אַל־תִּקְרֶ֥אנָה לִּ֖י נָעֳמִ֑י קְרֶ֤אןָ לִּי֙ מָרָ֔א כִּֽי־הֵמַ֥ר שַׁדַּ֛י לִ֖י מְאֹֽד׃",
     "words": [
@@ -362,7 +362,7 @@
         {"hebrew": "לִ֖י", "transliteration": "lî", "lemma": "לְ", "briefTranslation": "para mim", "contextualTranslation": "...comigo...", "analysis": {"class": "Preposição com Sufixo", "gender": "Comum", "number": "Singular", "pgn": "1cs", "extra": "", "reference": "GKC §103f", "didacticKey": "noun_with_pronominal_suffix"}},
         {"hebrew": "מְאֹֽד׃", "transliteration": "mə’ōḏ", "lemma": "מְאֹד", "briefTranslation": "grandemente", "contextualTranslation": "...com grande amargura.", "analysis": {"class": "Advérbio", "gender": "N/A", "number": "N/A", "state": "N/A", "extra": "Intensifica a ação.", "reference": "N/A", "didacticKey": "adverb"}}
     ]
-}
+},
     "21": {
     "hebrewText": "אֲנִי֙ מְלֵאָ֣ה הָלַ֔כְתִּי וְרֵיקָ֖ם הֱשִׁיבַ֣נִי יְהוָ֑ה לָ֤מָּה תִקְרֶ֙אנָה֙ לִ֣י נָעֳמִ֔י וַֽיהוָה֙ עָ֣נָה בִ֔י וְשַׁדַּ֖י הֵ֥רַֽע לִֽי׃",
     "words": [
@@ -383,7 +383,7 @@
         {"hebrew": "הֵ֥רַֽע", "transliteration": "hēra‘", "lemma": "רָעַע", "briefTranslation": "me fez mal", "contextualTranslation": "...me afligiu.", "analysis": {"class": "Verbo", "binyan": "Hifil", "tense": "Perfeito", "pgn": "3ms", "extra": "Hifil causativo: 'fazer mal', 'causar aflição'.", "reference": "GKC §53d", "didacticKey": "verb_hifil_perfect"}},
         {"hebrew": "לִֽי׃", "transliteration": "lî", "lemma": "לְ", "briefTranslation": "a mim", "contextualTranslation": "...me...", "analysis": {"class": "Preposição com Sufixo", "gender": "Comum", "number": "Singular", "pgn": "1cs", "extra": "", "reference": "GKC §103f", "didacticKey": "noun_with_pronominal_suffix"}}
     ]
-}
+},
     "22": {
     "hebrewText": "וַתָּ֤שָׁב נָעֳמִי֙ וְר֨וּת הַמּוֹאֲבִיָּ֤ה כַלָּתָהּ֙ עִמָּ֔הּ הַשָּׁ֖בָה מִשְּׂדֵ֣י מוֹאָ֑ב וְהֵ֗מָּה בָּ֚אוּ בֵּ֣ית לֶ֔חֶם בִּתְחִלַּ֖ת קְצִ֥יר שְׂעֹרִֽים׃",
     "words": [
