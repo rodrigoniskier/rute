@@ -1,31 +1,10 @@
 {
-    "verb_qal_imperfect_vav_consecutive": {
-        "title": "Verbo: Qal Imperfeito com Vav Consecutivo",
-        "explanation": "O tronco Qal indica a ação simples e ativa. O Imperfeito descreve uma ação incompleta ou futura. O 'Vav Consecutivo' (וַ) antes de um verbo no Imperfeito o conecta à narrativa anterior e inverte seu tempo para o passado, sendo traduzido como 'E [então]...'.",
-        "paradigm": {
-            "type": "verb",
-            "title": "Paradigma Modelo: Verbo Qal Imperfeito (לָמַד - aprender)",
-            "rows": [
-                ["3ms", "יִלְמַד", "yilmad", "ele aprenderá"],
-                ["3fs", "תִּלְמַד", "tilmad", "ela aprenderá"],
-                ["2ms", "תִּלְמַד", "tilmad", "tu (m.) aprenderás"],
-                ["2fs", "תִּלְמְדִי", "tilmədî", "tu (f.) aprenderás"],
-                ["1cs", "אֶלְמַד", "’elmad", "eu aprenderei"],
-                ["3mp", "יִלְמְדוּ", "yilmədû", "eles aprenderão"],
-                ["1cp", "נִלְמַד", "nilmad", "nós aprenderemos"]
-            ]
-        }
-    },
-    "verb_qal_imperfect": {
-        "title": "Verbo: Qal Imperfeito",
-        "explanation": "O tronco Qal indica a ação simples e ativa. O tempo/aspecto Imperfeito, sem o Vav Consecutivo, descreve uma ação incompleta, contínua ou futura. O contexto determina se deve ser traduzido como 'ele aprenderá', 'ele aprende', ou 'que ele aprenda'."
-    },
     "verb_qal_perfect": {
         "title": "Verbo: Qal Perfeito",
-        "explanation": "O tronco Qal indica a ação simples e ativa. O tempo/aspecto Perfeito descreve uma ação completa, geralmente traduzida no passado (ex: 'ele guardou', 'ela disse'). A conjugação é feita por meio de sufixos adicionados à raiz.",
+        "explanation": "O tronco Qal indica a ação simples e ativa. O tempo/aspecto Perfeito descreve uma ação completa, geralmente traduzida no passado. A conjugação é feita por meio de sufixos adicionados à raiz.",
         "paradigm": {
             "type": "verb",
-            "title": "Paradigma Modelo: Verbo Qal Perfeito (שָׁמַר - guardar)",
+            "title": "Paradigma Modelo: Qal Perfeito (שָׁמַר - guardar)",
             "rows": [
                 ["3ms", "שָׁמַר", "šāmar", "ele guardou"],
                 ["3fs", "שָׁמְרָה", "šāmərâ", "ela guardou"],
@@ -37,132 +16,517 @@
                 ["2fp", "שְׁמַרְתֶּן", "šəmarten", "vós (f.) guardastes"],
                 ["1cp", "שָׁמַרְנוּ", "šāmarnû", "nós guardamos"]
             ]
-        }
+        },
+        "example": "וְשָׁמַרְתָּ אֶת־הַדָּבָר - 'E tu guardaste a palavra.'"
     },
-    "verb_qal_infinitive_construct": {
-        "title": "Verbo: Infinitivo Construto",
-        "explanation": "O Infinitivo Construto é uma forma verbal que funciona como um substantivo, expressando a ideia da ação ('o ato de...'). É frequentemente usado após preposições (como לְ para indicar propósito) ou em cadeias construtas."
+    "verb_qal_imperfect": {
+        "title": "Verbo: Qal Imperfeito",
+        "explanation": "O tronco Qal indica a ação simples e ativa. O tempo/aspecto Imperfeito, sem o Vav Consecutivo, descreve uma ação incompleta, contínua ou futura. O contexto determina se deve ser traduzido como 'ele aprenderá', 'ele aprende', ou 'que ele aprenda'.",
+        "paradigm": {
+            "type": "verb",
+            "title": "Paradigma Modelo: Qal Imperfeito (לָמַד - aprender)",
+            "rows": [
+                ["3ms", "יִלְמַד", "yilmad", "ele aprenderá"],
+                ["3fs", "תִּלְמַד", "tilmad", "ela aprenderá"],
+                ["2ms", "תִּלְמַד", "tilmad", "tu (m.) aprenderás"],
+                ["2fs", "תִּלְמְדִי", "tilmədî", "tu (f.) aprenderás"],
+                ["1cs", "אֶלְמַד", "’elmad", "eu aprenderei"],
+                ["3mp", "יִלְמְדוּ", "yilmədû", "eles aprenderão"],
+                ["1cp", "נִלְמַד", "nilmad", "nós aprenderemos"]
+            ]
+        },
+        "example": "יֵשׁ לִי תּוֹרָה - 'Eu terei (aprenderei) a Torá.'"
+    },
+    "verb_qal_imperfect_vav_consecutive": {
+        "title": "Verbo: Qal Imperfeito com Vav Consecutivo",
+        "explanation": "O tronco Qal indica a ação simples e ativa. O Imperfeito descreve uma ação incompleta ou futura. O 'Vav Consecutivo' (וַ) antes de um verbo no Imperfeito o conecta à narrativa anterior e inverte seu tempo para o passado, sendo traduzido como 'E [então]...'.",
+        "paradigm": {
+            "type": "verb",
+            "title": "Paradigma Modelo: Qal Imperfeito Vav Consecutivo (לָמַד - aprender)",
+            "rows": [
+                ["3ms", "וַיִּלְמַד", "vayyilmad", "e ele aprendeu"],
+                ["3fs", "וַתִּלְמַד", "vattílmad", "e ela aprendeu"],
+                ["2ms", "וַתִּלְמַד", "vattílmad", "e tu (m.) aprendeste"],
+                ["2fs", "וַתִּלְמְדִי", "vattilmədî", "e tu (f.) aprendeste"],
+                ["1cs", "וָאֶלְמַד", "va’elmád", "e eu aprendi"],
+                ["3mp", "וַיִּלְמְדוּ", "vayyilmədû", "e eles aprenderam"],
+                ["1cp", "וַנִּלְמַד", "vannilmád", "e nós aprendemos"]
+            ]
+        },
+        "example": "וַיֵּלֶךְ אַבְרָהָם - 'E então Abraão foi.'"
     },
     "verb_qal_imperative": {
         "title": "Verbo: Qal Imperativo",
-        "explanation": "O Imperativo é usado para dar um comando ou ordem direta. É derivado da forma do Imperfeito e existe apenas para a 2ª pessoa (tu, vós)."
+        "explanation": "O Imperativo é usado para dar um comando ou ordem direta. É derivado da forma do Imperfeito e existe apenas para a 2ª pessoa.",
+        "paradigm": {
+            "type": "verb",
+            "title": "Paradigma Modelo: Qal Imperativo (שָׁמַר - guardar)",
+            "rows": [
+                ["2ms", "שְׁמֹר", "šəmor", "guarda! (tu, m.)"],
+                ["2fs", "שִׁמְרִי", "šimrî", "guarda! (tu, f.)"],
+                ["2mp", "שִׁמְרוּ", "šimrû", "guardai! (vós, m.)"],
+                ["2fp", "שְׁמֹרְנָה", "šəmornâ", "guardai! (vós, f.)"]
+            ]
+        },
+        "example": "שְׁמֹר אֶת־הַשַּׁבָּת - 'Guarda o sábado!'"
     },
     "verb_qal_jussive": {
         "title": "Verbo: Qal Jussivo",
-        "explanation": "O Jussivo é uma forma do Imperfeito (geralmente encurtada) usada para expressar um desejo, permissão ou comando indireto na 3ª pessoa ('que ele faça...'). Em orações, como a de Noemi, funciona como uma bênção ou súplica."
+        "explanation": "O Jussivo é uma forma do Imperfeito (geralmente encurtada) usada para expressar um desejo, permissão ou comando indireto na 3ª pessoa ('que ele faça...'). Em orações, como a de Noemi, funciona como uma bênção ou súplica.",
+        "paradigm": {},
+        "example": "יֵלְךְ־נָא - 'Que ele vá, por favor.'"
+    },
+    "verb_qal_infinitive_construct": {
+        "title": "Verbo: Qal Infinitivo Construto",
+        "explanation": "O Infinitivo Construto é uma forma verbal que funciona como um substantivo, expressando a ideia da ação ('o ato de...'). É frequentemente usado após preposições (como לְ para indicar propósito) ou em cadeias construtas.",
+        "paradigm": {},
+        "example": "לִשְׁמֹר - 'para guardar'"
+    },
+    "verb_qal_infinitive_absolute": {
+        "title": "Verbo: Qal Infinitivo Absoluto",
+        "explanation": "O Infinitivo Absoluto é usado para enfatizar ou intensificar o verbo principal, podendo ser traduzido como 'certamente fazer', 'fazer de fato', etc.",
+        "paradigm": {},
+        "example": "שָׁמוֹר תִּשְׁמֹר - 'Certamente guardarás.'"
+    },
+    "verb_qal_participle": {
+        "title": "Verbo: Particípio Qal",
+        "explanation": "O Particípio Qal descreve uma ação contínua ou o agente que realiza a ação ('aquele que...'), podendo funcionar como um verbo, adjetivo ou substantivo.",
+        "paradigm": {
+            "type": "verb",
+            "title": "Paradigma Modelo: Particípio Qal (שָׁמַר - guardar)",
+            "rows": [
+                ["ms", "שׁוֹמֵר", "šōmēr", "guardando / o guardador"],
+                ["fs", "שׁוֹמֶרֶת", "šōméret", "guardando (fem.)"],
+                ["mp", "שׁוֹמְרִים", "šōmrîm", "guardando (masc. pl.)"],
+                ["fp", "שׁוֹמְרוֹת", "šōmrôt", "guardando (fem. pl.)"]
+            ]
+        },
+        "example": "הַשּׁוֹמֵר אֵין־פֹּה - 'O guardião não está aqui.'"
+    },
+
+    ,
+    "verb_nifal_perfect": {
+        "title": "Verbo: Nifal Perfeito",
+        "explanation": "O tronco Nifal normalmente expressa voz passiva ou reflexiva do verbo. O perfeito indica uma ação completa, geralmente no passado.",
+        "paradigm": {
+            "type": "verb",
+            "title": "Paradigma Modelo: Nifal Perfeito (שָׁמַר - guardar)",
+            "rows": [
+                ["3ms", "נִשְׁמַר", "nišmar", "ele foi guardado"],
+                ["3fs", "נִשְׁמְרָה", "nišmərâ", "ela foi guardada"],
+                ["2ms", "נִשְׁמַרְתָּ", "nišmartā", "tu (m.) foste guardado"],
+                ["2fs", "נִשְׁמַרְתְּ", "nišmart", "tu (f.) foste guardada"],
+                ["1cs", "נִשְׁמַרְתִּי", "nišmartî", "eu fui guardado(a)"],
+                ["3cp", "נִשְׁמְרוּ", "nišmərû", "eles/elas foram guardados(as)"],
+                ["2mp", "נִשְׁמַרְתֶּם", "nišmartem", "vós (m.) fostes guardados"],
+                ["2fp", "נִשְׁמַרְתֶּן", "nišmarten", "vós (f.) fostes guardadas"],
+                ["1cp", "נִשְׁמַרְנוּ", "nišmarnû", "nós fomos guardados(as)"]
+            ]
+        },
+        "example": "וְנִשְׁמַרְתָּ מִכָּל־רָע - 'E tu foste guardado de todo mal.'"
     },
     "verb_nifal_imperfect": {
         "title": "Verbo: Nifal Imperfeito",
-        "explanation": "O tronco Nifal tipicamente expressa uma ação passiva ('ser feito') ou reflexiva ('fazer a si mesmo'). O Imperfeito descreve essa ação como incompleta ou futura."
+        "explanation": "O tronco Nifal expressa ação passiva ou reflexiva. O Imperfeito descreve uma ação inacabada, contínua ou futura.",
+        "paradigm": {
+            "type": "verb",
+            "title": "Paradigma Modelo: Nifal Imperfeito (שָׁמַר - guardar)",
+            "rows": [
+                ["3ms", "יִשָּׁמֵר", "yiššāmēr", "ele será guardado"],
+                ["3fs", "תִּשָּׁמֵר", "tiššāmēr", "ela será guardada"],
+                ["2ms", "תִּשָּׁמֵר", "tiššāmēr", "tu (m.) serás guardado"],
+                ["2fs", "תִּשָּׁמְרִי", "tiššāmərî", "tu (f.) serás guardada"],
+                ["1cs", "אֶשָּׁמֵר", "’eššāmēr", "eu serei guardado(a)"],
+                ["3mp", "יִשָּׁמְרוּ", "yiššāmərû", "eles serão guardados"],
+                ["1cp", "נִשָּׁמֵר", "niššāmēr", "nós seremos guardados(as)"]
+            ]
+        },
+        "example": "יִשָּׁמֵר אִישׁ - 'O homem será guardado.'"
     },
-    "verb_hifil_perfect": {
-        "title": "Verbo: Hifil Perfeito",
-        "explanation": "O tronco Hifil expressa uma ação causativa, ou seja, 'fazer alguém/algo realizar a ação do verbo'. Por exemplo, a raiz 'amargar' no Hifil significa 'fazer ser amargo' ou 'tratar com amargura'. O Perfeito indica que essa ação causativa foi completada."
-    },
-    "verb_hifil_imperfect": {
-        "title": "Verbo: Hifil Imperfeito",
-        "explanation": "O tronco Hifil expressa uma ação causativa. O Imperfeito descreve essa ação causativa como incompleta ou futura. Em um juramento, como o de Rute, pode ter um sentido jussivo ('que Ele acrescente')."
+    "verb_piel_perfect": {
+        "title": "Verbo: Piel Perfeito",
+        "explanation": "O tronco Piel indica uma ação intensiva, causativa ou repetitiva. O Perfeito apresenta a ação como concluída.",
+        "paradigm": {
+            "type": "verb",
+            "title": "Paradigma Modelo: Piel Perfeito (דִּבֵּר - falar)",
+            "rows": [
+                ["3ms", "דִּבֵּר", "dibbēr", "ele falou intensamente"],
+                ["3fs", "דִּבְּרָה", "dibbərâ", "ela falou intensamente"],
+                ["2ms", "דִּבַּרְתָּ", "dibbartā", "tu (m.) falaste intensamente"],
+                ["2fs", "דִּבַּרְתְּ", "dibbart", "tu (f.) falaste intensamente"],
+                ["1cs", "דִּבַּרְתִּי", "dibbartî", "eu falei intensamente"],
+                ["3cp", "דִּבְּרוּ", "dibbərû", "eles/elas falaram intensamente"],
+                ["1cp", "דִּבַּרְנוּ", "dibbarnû", "nós falamos intensamente"]
+            ]
+        },
+        "example": "וַיְדַבֵּר יְהוָה - 'E falou o Senhor.'"
     },
     "verb_piel_imperfect": {
         "title": "Verbo: Piel Imperfeito",
-        "explanation": "O tronco Piel geralmente indica uma ação intensiva, repetitiva ou deliberada. O Imperfeito descreve essa ação como contínua ou futura. Em 'esperarieis', o Piel carrega a ideia de uma espera intensa e prolongada."
+        "explanation": "O tronco Piel indica ação intensiva ou repetitiva. O Imperfeito expressa uma ação inacabada, contínua ou futura.",
+        "paradigm": {
+            "type": "verb",
+            "title": "Paradigma Modelo: Piel Imperfeito (דִּבֵּר - falar)",
+            "rows": [
+                ["3ms", "יְדַבֵּר", "yədabbēr", "ele falará intensamente"],
+                ["3fs", "תְּדַבֵּר", "tədabbēr", "ela falará intensamente"],
+                ["2ms", "תְּדַבֵּר", "tədabbēr", "tu (m.) falarás intensamente"],
+                ["2fs", "תְּדַבְּרִי", "tədabbərî", "tu (f.) falarás intensamente"],
+                ["1cs", "אֲדַבֵּר", "’adabbēr", "eu falarei intensamente"],
+                ["3mp", "יְדַבְּרוּ", "yədabbərû", "eles falarão intensamente"],
+                ["1cp", "נְדַבֵּר", "nədabbēr", "nós falaremos intensamente"]
+            ]
+        },
+        "example": "יְדַבֵּר אִישׁ אֶת־רֵעֵהוּ - 'Cada um falará ao seu próximo.'"
     },
     "verb_piel_infinitive_construct": {
         "title": "Verbo: Piel Infinitivo Construto",
-        "explanation": "Assim como no Qal, o Infinitivo Construto Piel funciona como um substantivo verbal, mas para a ação intensiva do Piel. 'Lədabbēr' significa 'o ato de falar (intensivamente)'. "
+        "explanation": "Assim como no Qal, o Infinitivo Construto Piel funciona como um substantivo verbal, mas para a ação intensiva do Piel.",
+        "paradigm": {},
+        "example": "לְדַבֵּר - 'para falar intensamente'"
+    },
+    "verb_hifil_perfect": {
+        "title": "Verbo: Hifil Perfeito",
+        "explanation": "O tronco Hifil expressa ação causativa. O Perfeito indica que a ação de fazer/causar foi completada.",
+        "paradigm": {
+            "type": "verb",
+            "title": "Paradigma Modelo: Hifil Perfeito (הֶעֱמִיד - colocar de pé)",
+            "rows": [
+                ["3ms", "הֶעֱמִיד", "he‘emîd", "ele fez ficar de pé"],
+                ["3fs", "הֶעֱמִידָה", "he‘emîdâ", "ela fez ficar de pé"],
+                ["2ms", "הֶעֱמַדְתָּ", "he‘emadtā", "tu (m.) fizeste ficar de pé"],
+                ["2fs", "הֶעֱמַדְתְּ", "he‘emadt", "tu (f.) fizeste ficar de pé"],
+                ["1cs", "הֶעֱמַדְתִּי", "he‘emadtî", "eu fiz ficar de pé"],
+                ["3cp", "הֶעֱמִידוּ", "he‘emîdû", "eles fizeram ficar de pé"],
+                ["1cp", "הֶעֱמַדְנוּ", "he‘emadnû", "nós fizemos ficar de pé"]
+            ]
+        },
+        "example": "וַיַּעֲמֵד מֶלֶךְ - 'E o rei colocou em pé.'"
+    },
+    "verb_hifil_imperfect": {
+        "title": "Verbo: Hifil Imperfeito",
+        "explanation": "O tronco Hifil expressa uma ação causativa. O Imperfeito descreve essa ação como incompleta ou futura.",
+        "paradigm": {
+            "type": "verb",
+            "title": "Paradigma Modelo: Hifil Imperfeito (הֶעֱמִיד - colocar de pé)",
+            "rows": [
+                ["3ms", "יַעֲמִיד", "ya‘amîd", "ele fará ficar de pé"],
+                ["3fs", "תַּעֲמִיד", "ta‘amîd", "ela fará ficar de pé"],
+                ["2ms", "תַּעֲמִיד", "ta‘amîd", "tu (m.) farás ficar de pé"],
+                ["2fs", "תַּעֲמִידִי", "ta‘amîdî", "tu (f.) farás ficar de pé"],
+                ["1cs", "אַעֲמִיד", "’a‘amîd", "eu farei ficar de pé"],
+                ["3mp", "יַעֲמִידוּ", "ya‘amîdû", "eles farão ficar de pé"],
+                ["1cp", "נַעֲמִיד", "na‘amîd", "nós faremos ficar de pé"]
+            ]
+        },
+        "example": "יַעֲמִיד אִישׁ - 'Ele fará alguém ficar de pé.'"
+    },
+    "verb_pual_perfect": {
+        "title": "Verbo: Pual Perfeito",
+        "explanation": "O tronco Pual é a voz passiva do Piel, indicando ação intensiva sofrida. O Perfeito indica ação completada.",
+        "paradigm": {
+            "type": "verb",
+            "title": "Paradigma Modelo: Pual Perfeito (דִּבֵּר - falar)",
+            "rows": [
+                ["3ms", "דֻּבַּר", "dubbár", "ele foi falado (intensivamente)"],
+                ["3fs", "דֻּבְּרָה", "dubbərâ", "ela foi falada"],
+                ["2ms", "דֻּבַּרְתָּ", "dubbártā", "tu (m.) foste falado"],
+                ["2fs", "דֻּבַּרְתְּ", "dubbárt", "tu (f.) foste falada"],
+                ["1cs", "דֻּבַּרְתִּי", "dubbártî", "eu fui falado(a)"],
+                ["3cp", "דֻּבְּרוּ", "dubbərû", "eles foram falados"],
+                ["1cp", "דֻּבַּרְנוּ", "dubbárnû", "nós fomos falados"]
+            ]
+        },
+        "example": "דֻּבַּר הַדָּבָר - 'A palavra foi falada.'"
+    },
+    "verb_hofal_perfect": {
+        "title": "Verbo: Hofal Perfeito",
+        "explanation": "O tronco Hofal é a voz passiva do Hifil. Indica que o sujeito foi feito a receber/sofrer a ação. O perfeito indica ação completada.",
+        "paradigm": {
+            "type": "verb",
+            "title": "Paradigma Modelo: Hofal Perfeito (הֶעֱמִיד - colocar de pé)",
+            "rows": [
+                ["3ms", "הָעֳמַד", "hā‘omad", "ele foi colocado de pé"],
+                ["3fs", "הָעֳמְדָה", "hā‘omdâ", "ela foi colocada de pé"],
+                ["2ms", "הָעֳמַדְתָּ", "hā‘omadtā", "tu (m.) foste colocado de pé"],
+                ["2fs", "הָעֳמַדְתְּ", "hā‘omadt", "tu (f.) foste colocada de pé"],
+                ["1cs", "הָעֳמַדְתִּי", "hā‘omadtî", "eu fui colocado(a) de pé"],
+                ["3cp", "הָעֳמְדוּ", "hā‘omdû", "eles foram colocados de pé"],
+                ["1cp", "הָעֳמַדְנוּ", "hā‘omadnû", "nós fomos colocados de pé"]
+            ]
+        },
+        "example": "הָעֳמַד הַעָם - 'O povo foi posto de pé.'"
+    },
+    "verb_hitpael_perfect": {
+        "title": "Verbo: Hitpael Perfeito",
+        "explanation": "O tronco Hitpael expressa ação reflexiva, recíproca ou intensiva sobre si mesmo. O perfeito indica ação completada.",
+        "paradigm": {
+            "type": "verb",
+            "title": "Paradigma Modelo: Hitpael Perfeito (חִתְפַּתֵּל - purificar-se)",
+            "rows": [
+                ["3ms", "הִתְפַּתֵּל", "hitpattēl", "ele se purificou"],
+                ["3fs", "הִתְפַּתְּלָה", "hitpatlā", "ela se purificou"],
+                ["2ms", "הִתְפַּתַּלְתָּ", "hitpataltā", "tu (m.) te purificaste"],
+                ["2fs", "הִתְפַּתַּלְתְּ", "hitpatalt", "tu (f.) te purificaste"],
+                ["1cs", "הִתְפַּתַּלְתִּי", "hitpataltî", "eu me purifiquei"],
+                ["3cp", "הִתְפַּתְּלוּ", "hitpatlû", "eles/elas se purificaram"],
+                ["1cp", "הִתְפַּתַּלְנוּ", "hitpatalnû", "nós nos purificamos"]
+            ]
+        },
+        "example": "הִתְפַּתֵּל בַּמַּיִם - 'Purificou-se na água.'"
     },
     "verb_hitpael_participle": {
         "title": "Verbo: Hitpael Particípio",
-        "explanation": "O tronco Hitpael expressa uma ação reflexiva ('fazer a si mesmo') ou recíproca. O Particípio descreve o agente realizando essa ação reflexiva. 'Mit’ammeṣeṯ' significa 'aquela que se fortalece', ou seja, 'determinada'."
+        "explanation": "O tronco Hitpael expressa uma ação reflexiva ('fazer a si mesmo') ou recíproca. O Particípio descreve o agente realizando essa ação reflexiva.",
+        "paradigm": {
+            "type": "verb",
+            "title": "Paradigma Modelo: Particípio Hitpael (חִתְפַּתֵּל - purificar-se)",
+            "rows": [
+                ["ms", "מִתְפַּתֵּל", "mitpattēl", "purificando-se (masc.)"],
+                ["fs", "מִתְפַּתֶּלֶת", "mitpattélet", "purificando-se (fem.)"],
+                ["mp", "מִתְפַּתְּלִים", "mitpattəlîm", "purificando-se (masc. pl.)"],
+                ["fp", "מִתְפַּתְּלוֹת", "mitpattəlôt", "purificando-se (fem. pl.)"]
+            ]
+        },
+        "example": "הַמִּתְפַּתֵּלִים בַּמַּיִם - 'Os que se purificam na água.'"
     },
-    "verb_irregular_I_yod_vav": {
-        "title": "Verbo Irregular (I-Yod/Vav)",
-        "explanation": "Verbos cuja primeira letra da raiz é 'Yod' ou 'Vav' (como הָלַךְ, originalmente ולך) frequentemente apresentam irregularidades na conjugação. No imperfeito Qal, a raiz se manifesta de forma diferente da de um verbo regular."
+,
+    "noun_masculine_regular": {
+        "title": "Substantivo Masculino Regular",
+        "explanation": "Substantivos masculinos regulares normalmente formam o plural com a terminação -ים (im).",
+        "paradigm": {
+            "type": "noun",
+            "title": "Paradigma Modelo: Masculino Regular (סֵפֶר - livro)",
+            "rows": [
+                ["Singular Absoluto", "סֵפֶר", "séfer", "livro"],
+                ["Plural Absoluto", "סְפָרִים", "səfārîm", "livros"],
+                ["Singular Construto", "סֵפֶר", "séfer", "livro de..."],
+                ["Plural Construto", "סִפְרֵי", "sifrê", "livros de..."]
+            ]
+        },
+        "example": "סֵפֶר טוֹב - 'um bom livro'"
     },
-    "verb_irregular_III_he": {
-        "title": "Verbo Irregular (III-He)",
-        "explanation": "Verbos cuja terceira letra da raiz é um 'He' (ה) são fracos. O 'He' final frequentemente se transforma em outras vogais ou em um 'Yod' (י) quando sufixos são adicionados, como em 'wattibkeynâ' (e elas choraram) da raiz 'bāḵâ' (בָּכָה)."
+    "noun_feminine_regular": {
+        "title": "Substantivo Feminino Regular",
+        "explanation": "Substantivos femininos regulares normalmente terminam em -ָה (ah) no singular e formam o plural em -וֹת (ot).",
+        "paradigm": {
+            "type": "noun",
+            "title": "Paradigma Modelo: Feminino Regular (מַלְכָּה - rainha)",
+            "rows": [
+                ["Singular Absoluto", "מַלְכָּה", "malkâ", "rainha"],
+                ["Plural Absoluto", "מַלְכוֹת", "malkôt", "rainhas"],
+                ["Singular Construto", "מַלְכַּת", "malkat", "rainha de..."],
+                ["Plural Construto", "מַלְכוֹת", "malkôt", "rainhas de..."]
+            ]
+        },
+        "example": "מַלְכָּה גְּדוֹלָה - 'grande rainha'"
+    },
+    "noun_irregular": {
+        "title": "Substantivo Irregular",
+        "explanation": "Certos substantivos têm plural ou construto irregulares. O plural pode ser heterogêneo (forma masculina com sentido feminino ou vice-versa).",
+        "paradigm": {
+            "type": "noun",
+            "title": "Paradigma Modelo: Irregular (אִישׁ - homem; נָשִׁים - mulheres)",
+            "rows": [
+                ["Singular Absoluto", "אִישׁ", "’îš", "homem"],
+                ["Plural Absoluto", "אֲנָשִׁים", "’ănāšîm", "homens"],
+                ["Singular Absoluto", "אִשָּׁה", "’iššâ", "mulher"],
+                ["Plural Absoluto", "נָשִׁים", "nāšîm", "mulheres"]
+            ]
+        },
+        "example": "אִשָּׁה טוֹבָה - 'boa mulher'"
+    },
+    "noun_absolute_state": {
+        "title": "Substantivo: Estado Absoluto",
+        "explanation": "Forma lexical padrão de um substantivo, indicando uma entidade independente, não ligada gramaticalmente a outra por posse.",
+        "paradigm": {},
+        "example": "סוּס - 'um cavalo'"
     },
     "noun_construct_state": {
         "title": "Substantivo: Estado Construto",
-        "explanation": "O estado construto indica uma relação de posse ou associação ('de'). A forma do substantivo é frequentemente alterada (encurtada) para se ligar à palavra seguinte. A definição de toda a 'cadeia construta' é determinada pelo último substantivo.",
+        "explanation": "Indica relação de posse ou associação. A forma é frequentemente encurtada e definida pela última palavra da cadeia construta.",
         "paradigm": {
             "type": "noun",
-            "title": "Paradigma Modelo: Substantivo (סוּס - cavalo)",
+            "title": "Paradigma Modelo: Construto (סוּס - cavalo)",
             "rows": [
                 ["Absoluto Singular", "סוּס", "sûs", "um cavalo"],
                 ["Construto Singular", "סוּס", "sûs", "cavalo de..."],
                 ["Absoluto Plural", "סוּסִים", "sûsîm", "cavalos"],
                 ["Construto Plural", "סוּסֵי", "sûsê", "cavalos de..."]
             ]
-        }
-    },
-    "noun_absolute_state": {
-        "title": "Substantivo: Estado Absoluto",
-        "explanation": "Esta é a forma lexical padrão de um substantivo, indicando uma entidade por si só, sem estar gramaticalmente ligada por posse a outra palavra. Pode ser definida (com artigo) ou indefinida (sem artigo)."
+        },
+        "example": "סוּס מֶלֶךְ - 'o cavalo do rei'"
     },
     "noun_with_pronominal_suffix": {
         "title": "Substantivo com Sufixo Pronominal",
-        "explanation": "Sufixos pronominais são adicionados a substantivos (e preposições) para indicar posse (ex: 'meu', 'seu', 'deles'). O substantivo assume uma forma similar à construta antes de receber o sufixo. Ex: אִשְׁתּוֹ = אֵשֶׁת (forma construta de אִשָּׁה) + וֹ (sufixo 'dele')."
-    },
-    "participle_qal_active": {
-        "title": "Verbo: Particípio Ativo Qal",
-        "explanation": "O Particípio Ativo Qal descreve uma ação contínua ou o agente que realiza a ação ('aquele que...'), podendo funcionar como um verbo, adjetivo ou substantivo. No plural e com o artigo, como em 'os juízes', refere-se àqueles que praticam o ato de julgar."
+        "explanation": "Sufixos pronominais indicam posse (meu, seu, dele). O substantivo adota forma construta antes do sufixo.",
+        "paradigm": {
+            "type": "noun",
+            "title": "Paradigma Modelo: Sufixo Pronominal (אִמָּהּ - sua mãe)",
+            "rows": [
+                ["minha mãe", "אִמִּי", "’immî", "minha mãe"],
+                ["sua mãe (dele)", "אִמּוֹ", "’immô", "mãe dele"],
+                ["sua mãe (dela)", "אִמָּהּ", "’immâ", "mãe dela"],
+                ["nossa mãe", "אִמֵּנוּ", "’immênû", "nossa mãe"]
+            ]
+        },
+        "example": "אָבִיךָ - 'teu pai'"
     },
     "adjective": {
         "title": "Adjetivo",
-        "explanation": "Um adjetivo descreve uma qualidade de um substantivo. No hebraico, ele geralmente vem depois do substantivo que modifica e concorda com ele em gênero, número e definição (presença ou ausência do artigo)."
+        "explanation": "Adjetivo descreve qualidade do substantivo e concorda em gênero, número e definição.",
+        "paradigm": {
+            "type": "adjective",
+            "title": "Paradigma Modelo: Gadol (גָּדוֹל - grande)",
+            "rows": [
+                ["Masc. Singular", "גָּדוֹל", "gādôl", "grande (masc.)"],
+                ["Fem. Singular", "גְּדוֹלָה", "gədolâ", "grande (fem.)"],
+                ["Masc. Plural", "גְּדוֹלִים", "gədolîm", "grandes (masc.)"],
+                ["Fem. Plural", "גְּדוֹלוֹת", "gədolôt", "grandes (fem.)"]
+            ]
+        },
+        "example": "סֵפֶר גָּדוֹל - 'um livro grande'"
+    },
+    "article_definite": {
+        "title": "Artigo Definido (הַ-)",
+        "explanation": "Prefixo הַ- indica definição do substantivo. Sua vogal e pronúncia variam conforme a letra inicial do substantivo.",
+        "paradigm": {},
+        "example": "הַמֶּלֶךְ - 'o rei'",
+        "note": "Quando precedido por preposição inseparável, ocorre assimilação vocálica: בְּ + הַ becomes בַּ."
     },
     "pronoun_personal_independent": {
         "title": "Pronome Pessoal Independente",
-        "explanation": "Estes pronomes funcionam como sujeitos e são palavras separadas (ex: הוּא - ele; הֵם - eles). Eles enfatizam o sujeito da oração, que muitas vezes já está implícito na forma do verbo."
+        "explanation": "Funcionam como sujeitos explícitos, enfatizando quem executa a ação.",
+        "paradigm": {
+            "type": "pronoun",
+            "title": "Paradigma Modelo: Pessoal",
+            "rows": [
+                ["Eu", "אֲנִי / אָנֹכִי", "’ănî / ’ānōkhî", "eu"],
+                ["Tu (masc.)", "אַתָּה", "’attâ", "tu (masc.)"],
+                ["Tu (fem.)", "אַתְּ", "’att", "tu (fem.)"],
+                ["Ele", "הוּא", "hû’", "ele"],
+                ["Ela", "הִיא", "hî’", "ela"],
+                ["Nós", "אֲנַחְנוּ", "’ănakhnu", "nós"],
+                ["Vós (masc.)", "אַתֶּם", "’attem", "vós (masc.)"],
+                ["Vós (fem.)", "אַתֶּן", "’atten", "vós (fem.)"],
+                ["Eles", "הֵם", "hēm", "eles"],
+                ["Elas", "הֵן", "hēn", "elas"]
+            ]
+        },
+        "example": "אֲנִי יֹשֵׁב - 'eu estou sentado'"
+    },
+    "pronoun_demonstrative": {
+        "title": "Pronome Demonstrativo",
+        "explanation": "Indicam proximidade (este, esta) ou distância (aquele, aquela) em relação ao falante.",
+        "paradigm": {
+            "type": "pronoun",
+            "title": "Paradigma Modelo: Demonstrativo",
+            "rows": [
+                ["este, esta (sing.)", "זֶה / זֹאת", "zé / zôt", "este (masc.) / esta (fem.)"],
+                ["estes, estas (pl.)", "אֵלֶּה", "’ēlleh", "estes, estas"],
+                ["aquele, aquela", "הוּא / הִיא", "hû’ / hî’", "aquele, aquela"]
+            ]
+        },
+        "example": "זֶה הַיּוֹם - 'Este é o dia'"
+    },
+    "pronoun_interrogative": {
+        "title": "Pronome Interrogativo",
+        "explanation": "Utilizados para perguntas: מי (quem?), מה (o que?).",
+        "paradigm": {
+            "type": "pronoun",
+            "title": "Paradigma Modelo: Interrogativos",
+            "rows": [
+                ["quem?", "מִי", "mî", "quem?"],
+                ["o que?", "מָה", "mâ", "o que?"],
+                ["por que?", "לָמָּה", "lāmâ", "por que?"]
+            ]
+        },
+        "example": "מִי הוּא זֶה? - 'Quem é este?'"
     },
     "pronoun_relative": {
-        "title": "Pronome Relativo (אֲשֶׁר)",
-        "explanation": "A palavra '’ăšer' é o principal pronome relativo em hebraico, significando 'que', 'o qual', 'quem'. Ela introduz uma cláusula subordinada que modifica um substantivo. Pode ser combinada com preposições para significar 'onde' (ba’ăšer), 'de onde', etc."
-    },
-    "interrogative_pronoun": {
-        "title": "Pronome Interrogativo (לָמָּה)",
-        "explanation": "Usado para fazer uma pergunta. 'Lāmmâ' (לָמָּה) é uma contração de 'ləmâ' (para quê?) e é a forma padrão para perguntar 'por quê?'."
+        "title": "Pronome Relativo (אֲשֶׁר)",
+        "explanation": "A palavra ’ăšer introduz cláusula subordinada relativa ('que', 'o qual', 'quem').",
+        "paradigm": {},
+        "example": "הָאִישׁ אֲשֶׁר בָּא - 'O homem que veio'"
     },
     "interrogative_particle": {
         "title": "Partícula Interrogativa (הֲ)",
-        "explanation": "A partícula 'hă' (הֲ), prefixada a uma palavra, transforma uma declaração em uma pergunta de sim/não, sem alterar o significado da palavra. 'Hălāhēn' significa 'Por eles?'."
+        "explanation": "Prefixa-se para indicar pergunta de sim/não.",
+        "paradigm": {},
+        "example": "הֲיֵשׁ לְךָ? - 'Tens?'"
     },
     "particle_existence": {
         "title": "Partícula de Existência (יֵשׁ)",
-        "explanation": "A palavra 'yēš' (יֵשׁ) afirma a existência ou presença de algo ('há', 'existe'). Combinada com uma preposição e sufixo como 'lî' (para mim), ela expressa posse: 'yēš lî' significa 'eu tenho' (literalmente, 'há para mim')."
+        "explanation": "'yēš' expressa existência ou posse.",
+        "paradigm": {},
+        "example": "יֵשׁ אֱלֹהִים - 'há Deus'; יֵשׁ לִי - 'eu tenho'"
     },
     "particle_negative": {
-        "title": "Partícula Negativa (אַל / לְבִלְתִּי)",
-        "explanation": "O hebraico usa diferentes partículas para negação. '’Al' (אַל) é usada com o Jussivo ou Imperativo para expressar uma proibição ('não faças!'). 'Ləḇiltî' (לְבִלְתִּי) é uma forma mais forte usada especificamente para negar um infinitivo ('para não ser/fazer')."
+        "title": "Partícula Negativa (לֹא / אַל / לְבִלְתִּי)",
+        "explanation": "'lo’' (לֹא) nega sentenças; '’al' (אַל) nega imperativos ou jussivos; 'ləviltî' (לְבִלְתִּי) nega infinitivos.",
+        "paradigm": {},
+        "example": "לֹא אֵשֵׁב - 'não sentarei'; אַל תִּירָא - 'não temas!'"
     },
     "particle_interjection": {
         "title": "Partícula/Interjeição (הִנֵּה)",
-        "explanation": "'Hinnēh' (הִנֵּה) é uma partícula presentativa, usada para chamar a atenção do ouvinte para a cena ou para uma nova informação. É frequentemente traduzida como 'Eis!', 'Vê!', ou simplesmente não é traduzida, mas marca um ponto de foco na narrativa."
+        "explanation": "'Hinnēh' é presentativa: 'Eis!' ou 'Vê!'.",
+        "paradigm": {},
+        "example": "הִנֵּה עֵץ - 'Eis uma árvore!'"
     },
-    "prep_insep_with_article": {
-        "title": "Preposição Inseparável com Artigo",
-        "explanation": "Quando a preposição inseparável (בְּ, כְּ, לְ) precede um substantivo com artigo definido (הַ), a letra 'He' do artigo é omitida e sua vogal é transferida para a preposição. Assim, בְּ + הָאָרֶץ torna-se בָּאָרֶץ ('na terra' específica)."
-    },
-    "prep_insep_with_noun": {
-        "title": "Preposição Inseparável com Substantivo",
-        "explanation": "As preposições בְּ (em, com), כְּ (como), e לְ (para, a) são prefixadas diretamente a um substantivo. A vogal sob a preposição pode mudar dependendo da primeira letra do substantivo."
-    },
-    "prep_insep_with_suffix_comparative": {
-        "title": "Preposição com Sufixo (Comparativo)",
-        "explanation": "A preposição 'min' (מִן) é usada para expressar comparação ('mais do que'). Quando prefixada a uma palavra, seu 'nun' (נ) frequentemente se assimila, causando um dagesh na letra seguinte. 'Mikkem' (מִכֶּם) significa 'mais do que vós'."
+    "particle_asseverative": {
+        "title": "Partícula Asseverativa (אָכֵן, אָמְנָם)",
+        "explanation": "Usadas para reforçar afirmação: 'certamente', 'de fato'.",
+        "paradigm": {},
+        "example": "אָכֵן יֵשׁ אֱלֹהִים - 'Certamente há Deus.'"
     },
     "preposition": {
         "title": "Preposição",
-        "explanation": "Uma preposição é uma palavra (como 'em', 'para', 'atrás de') que mostra a relação entre um substantivo ou pronome e outra palavra na frase, indicando lugar, tempo ou direção."
+        "explanation": "Indica relação entre substantivo/pronome e outra palavra (em, para, atrás de).",
+        "paradigm": {
+            "type": "preposition",
+            "title": "Principais Preposições",
+            "rows": [
+                ["em", "בְּ", "bə", "em"],
+                ["para, a", "לְ", "lə", "para, a"],
+                ["como", "כְּ", "kə", "como"],
+                ["de, desde", "מִן", "min", "de, desde"],
+                ["sobre", "עַל", "’al", "sobre"],
+                ["com", "עִם", "’im", "com"]
+            ]
+        },
+        "example": "בַּבַּיִת - 'na casa'"
+    },
+    "prep_insep_with_article": {
+        "title": "Preposição Inseparável com Artigo",
+        "explanation": "A preposição inseparável (בְּ, כְּ, לְ) ao preceder substantivo definido, ocorre assimilação vocálica.",
+        "paradigm": {},
+        "example": "בַּמֶּלֶךְ - 'no rei'"
+    },
+    "prep_insep_with_suffix_comparative": {
+        "title": "Preposição com Sufixo (Comparativo)",
+        "explanation": "'min' (מִן) usada para comparação; nun final frequentemente assimilado.",
+        "paradigm": {},
+        "example": "מִכֶּם - 'mais do que vós'"
     },
     "conjunction": {
         "title": "Conjunção",
-        "explanation": "Uma conjunção conecta palavras, frases ou cláusulas. 'Wə' (וְ) pode significar 'e', 'mas', 'então', ou ter um sentido circunstancial. 'Kî' (כִּי) pode significar 'pois', 'que', 'quando' ou 'se', dependendo do contexto."
+        "explanation": "Conecta palavras ou orações: 've' (וְ) = e; 'ki' (כִּי) = pois, porque, quando.",
+        "paradigm": {},
+        "example": "וְאִישׁ - 'e um homem'; כִּי טוֹב - 'porque é bom'"
     },
     "adverb": {
         "title": "Advérbio",
-        "explanation": "Um advérbio modifica um verbo, adjetivo ou outro advérbio, fornecendo informações sobre tempo ('de novo'), lugar ('lá') ou modo ('grandemente')."
+        "explanation": "Modifica verbo, adjetivo ou outro advérbio, informando tempo, lugar ou modo.",
+        "paradigm": {
+            "type": "adverb",
+            "title": "Exemplos de Advérbios",
+            "rows": [
+                ["aqui", "פֹּה", "pô", "aqui"],
+                ["lá", "שָׁם", "sham", "lá"],
+                ["agora", "עַתָּה", "’attâ", "agora"],
+                ["muito", "מְאֹד", "mə’od", "muito"]
+            ]
+        },
+        "example": "עַתָּה יֹשֵׁב - 'agora está sentado'"
     }
 }
