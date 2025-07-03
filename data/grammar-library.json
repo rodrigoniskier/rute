@@ -104,7 +104,6 @@
         "example": "הַשּׁוֹמֵר אֵין־פֹּה - 'O guardião não está aqui.'"
     },
 
-    ,
     "verb_nifal_perfect": {
         "title": "Verbo: Nifal Perfeito",
         "explanation": "O tronco Nifal normalmente expressa voz passiva ou reflexiva do verbo. O perfeito indica uma ação completa, geralmente no passado.",
@@ -290,7 +289,7 @@
         },
         "example": "הַמִּתְפַּתֵּלִים בַּמַּיִם - 'Os que se purificam na água.'"
     },
-,
+    
     "noun_masculine_regular": {
         "title": "Substantivo Masculino Regular",
         "explanation": "Substantivos masculinos regulares normalmente formam o plural com a terminação -ים (im).",
