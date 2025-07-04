@@ -4,45 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Análise Gramatical Interativa: O Livro de Rute</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Garamond:wght@400;700&family=Noto+Sans+Hebrew:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="app-container">
-        <header class="app-header">
-            <h1>Análise Gramatical Interativa: O Livro de Rute</h1>
-        </header>
+    <div class="container">
+        <!-- BARRA LATERAL ESQUERDA (NAVEGAÇÃO PRINCIPAL) -->
+        <aside class="sidebar-left">
+            <h1>Análise de Rute</h1>
+            <img src="rute.png" alt="Ilustração de Rute nos campos de cevada" class="hero-image" onerror="this.onerror=null;this.src='https://placehold.co/250x150/8B4513/FFFFFF?text=Rute.png';">
+            <p>Uma plataforma interativa para o estudo do Hebraico Bíblico.</p>
+            <nav>
+                <ul>
+                    <li><button class="chapter-button" data-chapter="1">Capítulo 1</button></li>
+                    <li><button class="chapter-button" data-chapter="2">Capítulo 2</button></li>
+                    <li><button class="chapter-button" data-chapter="3">Capítulo 3</button></li>
+                    <li><button class="chapter-button" data-chapter="4">Capítulo 4</button></li>
+                </ul>
+            </nav>
+            <div class="credits">
+                <p>Desenvolvido por RODRIGO NISKIER e GEMINI.</p>
+                <p>Hospedado no GitHub.</p>
+            </div>
+        </aside>
 
-       <nav id="chapter-nav" class="navigation-pane">
-    <h2>Capítulos</h2>
-    <ul>
-        <li><a href="#" class="chapter-link active" data-chapter="1">Capítulo 1</a></li>
-        <li><a href="#" class="chapter-link" data-chapter="2">Capítulo 2</a></li>
-        <li><a href="#" class="chapter-link" data-chapter="3">Capítulo 3</a></li>
-        <li><a href="#" class="chapter-link" data-chapter="4">Capítulo 4</a></li>
-    </ul>
+        <!-- ÁREA DE CONTEÚDO PRINCIPAL -->
+        <main class="content-area">
+            
+            <!-- TELA DE BOAS-VINDAS (INICIALMENTE VISÍVEL) -->
+            <section id="welcome-screen">
+                <h2>Bem-vindo(a)</h2>
+                <p>Selecione um capítulo no menu à esquerda para começar sua jornada pelo livro de Rute.</p>
+            </section>
 
-    <div class="nav-footer">
-        <p>Desenvolvido por RODRIGO NISKIER e GEMINI.</p>
-        <p>Hospedado no GitHub.</p>
-    </div>
-    </nav>
+            <!-- VISUALIZAÇÃO DO CAPÍTULO (INICIALMENTE OCULTA) -->
+            <section id="chapter-view" style="display: none;">
+                <h2 id="chapter-title"></h2>
+                <div id="verse-list"></div>
+            </section>
 
-        <main id="content-area" class="content-pane">
-    <div class="welcome-message">
-        <h2>Bem-vindo(a)</h2>
-        <p>Selecione um capítulo no menu à esquerda para começar a sua análise do livro de Rute.</p>
-        <p>Esta plataforma permite uma exploração palavra por palavra do texto hebraico, com análises morfológicas detalhadas e paradigmas de aprendizado.</p>
-        
-        <img src="rute.png" alt="Ilustração de Rute nos campos de cevada" class="welcome-image">
-        </div>
-</main>
+            <!-- VISUALIZAÇÃO DE ANÁLISE (INICIALMENTE OCULTA) -->
+            <section id="analysis-view" style="display: none;">
+                <!-- BARRA LATERAL DIREITA (ANÁLISE DE PALAVRAS) -->
+                <aside class="sidebar-right">
+                    <h3 id="analysis-verse-number"></h3>
+                    <div class="verse-nav-controls">
+                        <button id="prev-verse">← Anterior</button>
+                        <button id="next-verse">Próximo →</button>
+                    </div>
+                    <div id="word-list"></div>
+                    <button id="back-to-welcome">Voltar ao Início</button>
+                </aside>
 
-        <aside id="word-nav" class="navigation-pane word-pane">
-            </aside>
+                <!-- ÁREA DE DETALHES DA ANÁLISE -->
+                <div class="word-analysis-area">
+                    <h3 id="word-analysis-title">Selecione uma palavra</h3>
+                    <div id="word-details">
+                        <p>Clique em uma palavra na lista para ver sua análise detalhada.</p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
     </div>
 
     <script src="script.js"></script>
