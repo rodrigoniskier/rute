@@ -93,10 +93,18 @@ document.addEventListener('DOMContentLoaded', () => {
         const words = currentChapterData[verseNum].words;
         words.forEach((wordData, index) => {
             const wordBtn = document.createElement('button');
-            wordBtn.textContent = wordData.hebrew;
+            
+            // Usamos innerHTML para criar uma estrutura mais rica dentro do botão
+            wordBtn.innerHTML = `
+                <span class="hebrew-word">${wordData.hebrew}</span>
+                <span class="transliteration-word">${wordData.transliteration}</span>
+                <span class="translation-word">${wordData.briefTranslation}</span>
+            `;
+
             wordBtn.dataset.chapter = currentChapterNumber;
             wordBtn.dataset.verse = verseNum;
             wordBtn.dataset.wordIndex = index;
+
             wordBtn.addEventListener('click', () => {
                 displayWordAnalysis(wordData);
             });
