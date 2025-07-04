@@ -1,229 +1,218 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
+    // --- Seletores de Elementos ---
+    const welcomeScreen = document.getElementById("welcome-screen");
+    const chapterView = document.getElementById("chapter-view");
+    const analysisView = document.getElementById("analysis-view");
+    const chapterTitle = document.getElementById("chapter-title");
+    const verseList = document.getElementById("verse-list");
+    const analysisVerseNumber = document.getElementById("analysis-verse-number");
+    const backToWelcomeButton = document.getElementById("back-to-welcome");
+    const prevVerseButton = document.getElementById("prev-verse");
+    const nextVerseButton = document.getElementById("next-verse");
+    const wordList = document.getElementById("word-list");
+    const wordAnalysisTitle = document.getElementById("word-analysis-title");
+    const wordDetails = document.getElementById("word-details");
 
-    const chapterNav = document.getElementById('chapter-nav');
-    const contentArea = document.getElementById('content-area');
-    const wordNav = document.getElementById('word-nav');
-    const chapterLinks = document.querySelectorAll('.chapter-link');
-    
+    // --- Estado da Aplicação ---
     const dataCache = {};
-    let currentData = null; 
-    let currentChapterNumber = null;
-    let currentVerseNumber = null;
-    
-    function displayWelcomeScreen() {
-        wordNav.classList.remove('visible');
-        contentArea.innerHTML = `
-            <div class="welcome-message">
-                <h2>Bem-vindo(a)</h2>
-                <p>Selecione um capítulo no menu à esquerda para começar a sua análise do livro de Rute.</p>
-                <p>Esta plataforma permite uma exploração palavra por palavra do texto hebraico, com análises morfológicas detalhadas e paradigmas de aprendizado.</p>
-                <img src="rute.png" alt="Ilustração de Rute nos campos de cevada" class="welcome-image">
-            </div>
-        `;
-    }
-    
-    function renderChapter(chapterData, chapterNumber) {
-        currentData = chapterData;
-        currentChapterNumber = chapterNumber;
-        wordNav.innerHTML = '';
-        wordNav.classList.remove('visible');
-        contentArea.innerHTML = '';
+    let currentChapterData = null;
+    let currentChapterNum = -1;
+    let currentVerseNum = -1;
 
-        const chapterContainer = document.createElement('div');
-        chapterContainer.className = 'hebrew-text-display';
-        chapterContainer.innerHTML = `<h2>Rute, Capítulo ${chapterNumber}</h2>`;
+    // --- Funções de Lógica ---
 
-        for (const verseNum in chapterData) {
-            const verseData = chapterData[verseNum];
-            const verseEl = document.createElement('p');
-            verseEl.className = 'verse';
-            verseEl.dataset.chapterNum = chapterNumber;
-            verseEl.dataset.verseNum = verseNum;
-            verseEl.innerHTML = `<span class="verse-number">${verseNum}</span> ${verseData.hebrewText}`;
-            chapterContainer.appendChild(verseEl);
-        }
-        contentArea.appendChild(chapterContainer);
-    }
-    
-    async function fetchAndDisplayChapter(chapterNumber) {
-        chapterLinks.forEach(link => link.classList.remove('active'));
-        document.querySelector(`.chapter-link[data-chapter='${chapterNumber}']`).classList.add('active');
-
-        wordNav.classList.remove('visible');
-        contentArea.innerHTML = '<p>Carregando capítulo...</p>';
-
-        if (dataCache[chapterNumber]) {
-            renderChapter(dataCache[chapterNumber], chapterNumber);
+    async function loadChapter(chapterNum) {
+        if (dataCache[chapterNum]) {
+            currentChapterData = dataCache[chapterNum];
+            displayChapter(chapterNum);
             return;
         }
-
         try {
-            const response = await fetch(`./data/ruth-ch${chapterNumber}.json`);
+            // Usando o nome do arquivo que você forneceu
+            const response = await fetch(`./ruth-ch${chapterNum}.json`);
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-            const chapterData = await response.json();
-            dataCache[chapterNumber] = chapterData;
-            renderChapter(chapterData, chapterNumber);
+            const data = await response.json();
+            dataCache[chapterNum] = data;
+            currentChapterData = data;
+            displayChapter(chapterNum);
         } catch (error) {
-            console.error("Falha ao carregar capítulo:", error);
-            contentArea.innerHTML = '<p>Erro ao carregar os dados deste capítulo.</p>';
+            console.error("Erro ao carregar o capítulo:", error);
+            alert(`Erro ao carregar o capítulo ${chapterNum}. Verifique se o arquivo 'ruth-ch${chapterNum}.json' existe na mesma pasta.`);
         }
     }
 
-    function displayVerseAnalysisView(chapterNumber, verseNumber) {
-        currentVerseNumber = verseNumber;
-        const verseData = currentData?.[verseNumber];
-        if (!verseData) return;
+    function displayChapter(chapterNum) {
+        welcomeScreen.style.display = "none";
+        analysisView.style.display = "none";
+        chapterView.style.display = "block";
 
-        contentArea.innerHTML = '<h2>Análise do Versículo</h2><p>Selecione uma palavra no menu à direita para ver sua análise detalhada.</p>';
-        wordNav.innerHTML = ''; 
+        chapterTitle.textContent = `Capítulo ${chapterNum}`;
+        verseList.innerHTML = "";
+        currentChapterNum = chapterNum;
 
-        const paneHeader = document.createElement('div');
-        paneHeader.className = 'word-pane-header';
-        const paneTitle = document.createElement('h2');
-        paneTitle.textContent = `Versículo ${chapterNumber}:${verseNumber}`;
-        const backButton = document.createElement('button');
-        backButton.id = 'btn-back-to-chapter';
-        backButton.textContent = '← Voltar';
-        paneHeader.appendChild(paneTitle);
-        paneHeader.appendChild(backButton);
-        wordNav.appendChild(paneHeader);
-
-        const verseNavControls = document.createElement('div');
-        verseNavControls.className = 'verse-nav-controls';
-        const prevBtn = document.createElement('button');
-        prevBtn.id = 'btn-prev-verse';
-        prevBtn.className = 'verse-nav-btn';
-        prevBtn.textContent = '← Anterior';
-        const nextBtn = document.createElement('button');
-        nextBtn.id = 'btn-next-verse';
-        nextBtn.className = 'verse-nav-btn';
-        nextBtn.textContent = 'Próximo →';
-        const verseKeys = Object.keys(currentData).map(Number);
-        const firstVerse = Math.min(...verseKeys);
-        const lastVerse = Math.max(...verseKeys);
-        if (parseInt(verseNumber) <= firstVerse) prevBtn.disabled = true;
-        if (parseInt(verseNumber) >= lastVerse) nextBtn.disabled = true;
-        verseNavControls.appendChild(prevBtn);
-        verseNavControls.appendChild(nextBtn);
-        wordNav.appendChild(verseNavControls);
-
-        verseData.words.forEach((word, index) => {
-            const btn = document.createElement('button');
-            btn.className = 'word-btn';
-            btn.dataset.wordIndex = index;
-            btn.innerHTML = `<div class="hebrew-word">${word.hebrew}</div><div class="transliteration">${word.transliteration}</div><div class="translation">${word.briefTranslation}</div>`;
-            wordNav.appendChild(btn);
-        });
+        if (!currentChapterData) return;
         
-        wordNav.classList.add('visible');
+        // ADAPTADO: Itera sobre as chaves do objeto, não um array
+        for (const verseNumber in currentChapterData) {
+            const verseData = currentChapterData[verseNumber];
+            const verseDiv = document.createElement("div");
+            verseDiv.classList.add("verse-item");
+            verseDiv.dataset.verse = verseNumber;
+
+            const verseNumberSpan = document.createElement("span");
+            verseNumberSpan.classList.add("verse-number");
+            verseNumberSpan.textContent = `${verseNumber}:`;
+
+            const hebrewTextSpan = document.createElement("span");
+            hebrewTextSpan.classList.add("hebrew-text");
+            hebrewTextSpan.textContent = verseData.hebrewText;
+
+            verseDiv.appendChild(verseNumberSpan);
+            verseDiv.appendChild(hebrewTextSpan);
+            verseList.appendChild(verseDiv);
+        }
     }
 
-    function displayWordAnalysis(wordIndex) {
-        const wordData = currentData?.[currentVerseNumber]?.words[wordIndex];
-        if (!wordData) {
-            contentArea.innerHTML = "<p>Dados da palavra não encontrados.</p>";
-            return;
+    function displayVerseAnalysis(verseNum) {
+        chapterView.style.display = "none";
+        welcomeScreen.style.display = "none";
+        analysisView.style.display = "flex";
+
+        currentVerseNum = verseNum;
+        // ADAPTADO: Acessa o versículo pela chave do objeto
+        const verse = currentChapterData[currentVerseNum];
+        analysisVerseNumber.textContent = `Versículo ${currentChapterNum}:${verseNum}`;
+
+        wordList.innerHTML = "";
+        if (verse.words && verse.words.length > 0) {
+            verse.words.forEach((word, index) => {
+                const wordButton = document.createElement("button");
+                wordButton.classList.add("word-list-item");
+                wordButton.dataset.wordIndex = index;
+                wordButton.innerHTML = `
+                    <span class="hebrew-word">${word.hebrew}</span>
+                    <span class="transliteration">${word.transliteration}</span>
+                    <span class="basic-translation">${word.briefTranslation}</span>
+                `;
+                wordList.appendChild(wordButton);
+            });
         }
 
-        const analysis = wordData.analysis;
-        const didacticContent = analysis.didactic; 
+        wordAnalysisTitle.textContent = "Selecione uma palavra";
+        wordDetails.innerHTML = "<p>Clique em uma palavra na lista para ver sua análise detalhada.</p>";
+        updateNavigationButtons();
+    }
 
-        let paradigmHtml = '';
-        if (didacticContent && didacticContent.paradigm) {
-            const paradigm = didacticContent.paradigm;
-            const headers = (paradigm.type === 'verb' || paradigm.type === 'participle' || paradigm.type.startsWith('pronominal')) ? ['Forma', 'Hebraico', 'Transliteração', 'Tradução'] : ['Descrição', 'Hebraico', 'Transliteração', 'Tradução'];
-            paradigmHtml = `
-                <h4>${paradigm.title}</h4>
-                <table class="paradigm-table">
-                    <thead><tr><th>${headers[0]}</th><th>${headers[1]}</th><th>${headers[2]}</th><th>${headers[3]}</th></tr></thead>
-                    <tbody>${paradigm.rows.map(row => `<tr><td>${row[0]}</td><td class="hebrew-form">${row[1]}</td><td><em>${row[2]}</em></td><td>${row[3]}</td></tr>`).join('')}</tbody>
-                </table>`;
-        }
+    function displayWordDetails(wordIndex) {
+        const word = currentChapterData[currentVerseNum].words[wordIndex];
+        if (!word) return;
+
+        const analysis = word.analysis;
+        const didacticContent = analysis.didactic;
+
+        wordAnalysisTitle.textContent = `Análise de: ${word.hebrew}`;
         
         let didacticHtml = '';
         if (didacticContent && didacticContent.identification) {
             const identificationSteps = didacticContent.identification.map(step => 
-                `<p class="analysis-item"><strong>${step.feature}:</strong> ${step.indicator}</p>`
+                `<p><strong>${step.feature}:</strong> ${step.indicator}</p>`
             ).join('');
+
+            let paradigmHtml = '';
+            if (didacticContent.paradigm) {
+                const paradigm = didacticContent.paradigm;
+                const headers = (paradigm.type.includes('verb') || paradigm.type.includes('pronominal')) 
+                    ? ['Forma', 'Hebraico', 'Transliteração', 'Tradução'] 
+                    : ['Descrição', 'Hebraico', 'Transliteração', 'Tradução'];
+                
+                paradigmHtml = `
+                    <h4>${paradigm.title}</h4>
+                    <table class="paradigm-table">
+                        <thead><tr><th>${headers[0]}</th><th>${headers[1]}</th><th>${headers[2]}</th><th>${headers[3]}</th></tr></thead>
+                        <tbody>${paradigm.rows.map(row => `<tr><td>${row[0]}</td><td class="hebrew-form">${row[1]}</td><td><em>${row[2]}</em></td><td>${row[3]}</td></tr>`).join('')}</tbody>
+                    </table>`;
+            }
 
             didacticHtml = `
                 <h3>Revisão Gramatical Didática</h3>
-                <div class="didactic-explanation">
-                    <h4>${didacticContent.conceptTitle}</h4>
-                    ${identificationSteps}
-                    ${paradigmHtml}
-                </div>`;
+                <h4>${didacticContent.conceptTitle}</h4>
+                ${identificationSteps}
+                ${paradigmHtml}`;
         }
-        
-        contentArea.innerHTML = `
-            <div class="word-analysis">
-                <h3>Identificação</h3>
-                <p class="analysis-item"><strong>Palavra:</strong> <span class="hebrew-lemma">${wordData.hebrew}</span></p>
-                <p class="analysis-item"><strong>Lema (Raiz):</strong> <span class="hebrew-lemma">${wordData.lemma}</span> (${analysis.lemmaTranslation})</p>
-                <p class="analysis-item"><strong>Tradução Contextual:</strong> ${wordData.contextualTranslation}</p>
-                <h3>Análise Morfológica</h3>
-                <p class="analysis-item"><strong>Classe Gramatical:</strong> ${analysis.class}</p>
-                ${analysis.binyan ? `<p class="analysis-item"><strong>Tronco (Binyan):</strong> ${analysis.binyan}</p>` : ''}
-                ${analysis.tense ? `<p class="analysis-item"><strong>Tempo/Aspecto:</strong> ${analysis.tense}</p>` : ''}
-                ${analysis.pgn ? `<p class="analysis-item"><strong>Pessoa, Gênero, Número:</strong> ${analysis.pgn}</p>` : ''}
-                ${analysis.gender ? `<p class="analysis-item"><strong>Gênero:</strong> ${analysis.gender}</p>` : ''}
-                ${analysis.number ? `<p class="analysis-item"><strong>Número:</strong> ${analysis.number}</p>` : ''}
-                ${analysis.state ? `<p class="analysis-item"><strong>Estado:</strong> ${analysis.state}</p>` : ''}
-                ${analysis.extra ? `<p class="analysis-item"><strong>Informações Adicionais:</strong> ${analysis.extra}</p>` : ''}
-                ${didacticHtml}
-                ${analysis.reference ? `<p class="grammar-reference">Para aprofundamento, consulte: ${analysis.reference}</p>` : ''}
-            </div>`;
-        
-        document.querySelectorAll('#word-nav .word-btn').forEach(btn => btn.classList.remove('active'));
-        document.querySelector(`.word-btn[data-word-index='${wordIndex}']`).classList.add('active');
+
+        wordDetails.innerHTML = `
+            <p><strong>Lema:</strong> ${word.lemma} (${analysis.lemmaTranslation})</p>
+            <p><strong>Tradução Contextual:</strong> ${word.contextualTranslation}</p>
+            <h3>Análise Morfológica</h3>
+            <p><strong>Classe:</strong> ${analysis.class}</p>
+            ${analysis.binyan ? `<p><strong>Tronco (Binyan):</strong> ${analysis.binyan}</p>` : ''}
+            ${analysis.tense ? `<p><strong>Tempo/Aspecto:</strong> ${analysis.tense}</p>` : ''}
+            ${analysis.pgn ? `<p><strong>PGN:</strong> ${analysis.pgn}</p>` : ''}
+            ${analysis.gender ? `<p><strong>Gênero:</strong> ${analysis.gender}</p>` : ''}
+            ${analysis.number ? `<p><strong>Número:</strong> ${analysis.number}</p>` : ''}
+            ${analysis.state ? `<p><strong>Estado:</strong> ${analysis.state}</p>` : ''}
+            ${analysis.extra ? `<p><strong>Informações Adicionais:</strong> ${analysis.extra}</p>` : ''}
+            ${didacticHtml}
+            ${analysis.reference ? `<p class="grammar-reference">Para aprofundamento, consulte: ${analysis.reference}</p>` : ''}
+        `;
     }
 
-    function navigateToVerse(direction) {
-        const verseKeys = Object.keys(currentData).map(Number).sort((a,b) => a - b);
-        const currentIndex = verseKeys.indexOf(parseInt(currentVerseNumber));
-        let nextIndex = (direction === 'next') ? currentIndex + 1 : currentIndex - 1;
-        
-        if (nextIndex >= 0 && nextIndex < verseKeys.length) {
-            const newVerseNumber = verseKeys[nextIndex];
-            displayVerseAnalysisView(currentChapterNumber, newVerseNumber.toString());
-        }
+    function updateNavigationButtons() {
+        // ADAPTADO: Funciona com chaves de objeto em vez de índices de array
+        const verseKeys = Object.keys(currentChapterData).map(Number).sort((a, b) => a - b);
+        const currentIndex = verseKeys.indexOf(Number(currentVerseNum));
+        prevVerseButton.disabled = currentIndex === 0;
+        nextVerseButton.disabled = currentIndex === verseKeys.length - 1;
     }
-    
-    chapterNav.addEventListener('click', (e) => {
-        if (e.target.matches('.chapter-link')) {
-            e.preventDefault();
-            fetchAndDisplayChapter(e.target.dataset.chapter);
+
+    // --- Event Listeners ---
+
+    document.querySelectorAll(".chapter-button").forEach(button => {
+        button.addEventListener("click", (event) => {
+            loadChapter(event.target.dataset.chapter);
+        });
+    });
+
+    verseList.addEventListener("click", (event) => {
+        const verseItem = event.target.closest(".verse-item");
+        if (verseItem) {
+            displayVerseAnalysis(verseItem.dataset.verse);
         }
     });
 
-    contentArea.addEventListener('click', (e) => {
-        const verseEl = e.target.closest('.verse');
-        if (verseEl) {
-            e.preventDefault();
-            displayVerseAnalysisView(verseEl.dataset.chapterNum, verseEl.dataset.verseNum);
+    wordList.addEventListener("click", (event) => {
+        const wordItem = event.target.closest(".word-list-item");
+        if (wordItem) {
+            document.querySelectorAll('.word-list-item').forEach(btn => btn.classList.remove('active'));
+            wordItem.classList.add('active');
+            displayWordDetails(wordItem.dataset.wordIndex);
         }
     });
-    
-    wordNav.addEventListener('click', (e) => {
-        if (e.target.matches('#btn-back-to-chapter')) {
-            e.preventDefault();
-            displayWelcomeScreen();
-            return;
-        }
 
-        const wordBtn = e.target.closest('.word-btn');
-        if (wordBtn) {
-            e.preventDefault();
-            displayWordAnalysis(wordBtn.dataset.wordIndex);
-            return;
-        }
-        if (e.target.matches('#btn-next-verse')) navigateToVerse('next');
-        if (e.target.matches('#btn-prev-verse')) navigateToVerse('previous');
+    backToWelcomeButton.addEventListener("click", () => {
+        analysisView.style.display = "none";
+        chapterView.style.display = "none";
+        welcomeScreen.style.display = "block";
     });
 
-    function initializeApp() {
-        displayWelcomeScreen();
-    }
+    prevVerseButton.addEventListener("click", () => {
+        const verseKeys = Object.keys(currentChapterData).map(Number).sort((a, b) => a - b);
+        const currentIndex = verseKeys.indexOf(Number(currentVerseNum));
+        if (currentIndex > 0) {
+            displayVerseAnalysis(verseKeys[currentIndex - 1].toString());
+        }
+    });
 
-    initializeApp();
+    nextVerseButton.addEventListener("click", () => {
+        const verseKeys = Object.keys(currentChapterData).map(Number).sort((a, b) => a - b);
+        const currentIndex = verseKeys.indexOf(Number(currentVerseNum));
+        if (currentIndex < verseKeys.length - 1) {
+            displayVerseAnalysis(verseKeys[currentIndex + 1].toString());
+        }
+    });
+
+    // Inicialização
+    welcomeScreen.style.display = "block";
+    chapterView.style.display = "none";
+    analysisView.style.display = "none";
 });
