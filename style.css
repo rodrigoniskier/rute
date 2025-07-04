@@ -118,11 +118,12 @@ body {
 }
 
 /* Tela de Boas-Vindas */
-#welcome-screen {
+#welcome-screen.active {
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 100%;
+    justify-content: flex-start; /* Alinha no topo */
+    flex-direction: column; /* Organiza a imagem e o texto em coluna */
+    padding-top: 5rem; /* Adiciona um espaço no topo para não ficar colado */
     gap: 2rem;
 }
 .welcome-image {
