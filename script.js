@@ -2,32 +2,24 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     // --- SELETORES DE ELEMENTOS DO DOM ---
-    // Mapeia os elementos do HTML para variáveis para fácil acesso
     const mainContent = document.getElementById('main-content');
     const chapterNav = document.getElementById('chapter-navigation');
     const sidebarRight = document.getElementById('sidebar-right');
     const wordList = document.getElementById('word-list');
-    
-    // Seletores para as diferentes "telas" do conteúdo principal
     const welcomeScreen = document.getElementById('welcome-screen');
     const chapterView = document.getElementById('chapter-view');
     const wordAnalysisView = document.getElementById('word-analysis-view');
-    
-    // Contêineres de conteúdo dinâmico
     const chapterTitle = document.getElementById('chapter-title');
     const verseContainer = document.getElementById('verse-container');
-    
-    // Botões de controle
     const prevVerseBtn = document.getElementById('prev-verse-btn');
     const nextVerseBtn = document.getElementById('next-verse-btn');
     const backToChapterBtn = document.getElementById('back-to-chapter-btn');
 
     // --- VARIÁVEIS DE ESTADO DA APLICAÇÃO ---
-    // Guardam a informação sobre o que está sendo exibido no momento
     let currentChapterData = null;
     let currentChapterNumber = 0;
     let currentVerseNumber = 0;
-    const totalChapters = 4; // Defina o número total de capítulos que você terá
+    const totalChapters = 4;
 
     // --- FUNÇÕES PRINCIPAIS ---
 
@@ -37,20 +29,23 @@ document.addEventListener('DOMContentLoaded', () => {
      */
     async function loadChapter(chapterNum) {
         try {
-            // Usa a API fetch para buscar o arquivo JSON localmente
-            const response = await fetch(`ruth-ch1.json`); // ATENÇÃO: Por enquanto, só carrega o cap 1.
-            // Quando tiver os outros arquivos, podemos mudar para: `ruth-ch${chapterNum}.json`
+            // ***** CORREÇÃO APLICADA AQUI *****
+            // Agora, o nome do arquivo é construído dinamicamente com base no botão clicado.
+            const response = await fetch(`ruth-ch${chapterNum}.json`);
+            
             if (!response.ok) {
-                throw new Error(`Não foi possível carregar o capítulo ${chapterNum}.`);
+                // Esta mensagem de erro agora será mais precisa.
+                throw new Error(`Não foi possível carregar o arquivo ruth-ch${chapterNum}.json.`);
             }
             const data = await response.json();
-            currentChapterData = data; // Armazena os dados do capítulo na variável de estado
+            currentChapterData = data;
             currentChapterNumber = chapterNum;
-            displayChapterText(chapterNum); // Chama a função para exibir o texto na tela
+            displayChapterText(chapterNum);
             updateActiveChapterButton(chapterNum);
         } catch (error) {
             console.error(error);
-            verseContainer.innerHTML = `<p>Erro ao carregar dados do capítulo. Verifique o console.</p>`;
+            // Mensagem de erro mais clara para o usuário
+            alert(`Erro ao carregar dados do capítulo ${chapterNum}. Verifique se o arquivo "ruth-ch${chapterNum}.json" existe na pasta correta e se você está usando um servidor local (veja a próxima explicação).`);
         }
     }
 
@@ -59,11 +54,9 @@ document.addEventListener('DOMContentLoaded', () => {
      * @param {HTMLElement} viewToShow - O elemento da tela a ser exibido.
      */
     function showMainView(viewToShow) {
-        // Esconde todas as telas
         [welcomeScreen, chapterView, wordAnalysisView].forEach(view => {
             view.classList.remove('active');
         });
-        // Mostra apenas a tela desejada
         viewToShow.classList.add('active');
     }
 
@@ -72,32 +65,23 @@ document.addEventListener('DOMContentLoaded', () => {
      * @param {number} chapterNum - O número do capítulo.
      */
     function displayChapterText(chapterNum) {
-        verseContainer.innerHTML = ''; // Limpa o conteúdo anterior
+        verseContainer.innerHTML = '';
         chapterTitle.textContent = `Capítulo ${chapterNum}`;
-
-        // Itera sobre cada versículo nos dados carregados
         for (const verseNum in currentChapterData) {
             const verseData = currentChapterData[verseNum];
-            
-            // Cria um elemento para o versículo
             const verseEl = document.createElement('div');
             verseEl.className = 'verse';
             verseEl.dataset.chapter = chapterNum;
             verseEl.dataset.verse = verseNum;
-            
-            // Adiciona o número do versículo e o texto hebraico
             verseEl.innerHTML = `<strong class="verse-number">${verseNum}</strong> ${verseData.hebrewText}`;
-            
-            // Adiciona um evento de clique para cada versículo
             verseEl.addEventListener('click', () => {
                 currentVerseNumber = parseInt(verseNum);
                 displayVerseWords(currentVerseNumber);
             });
-            
             verseContainer.appendChild(verseEl);
         }
-        showMainView(chapterView); // Mostra a tela de visualização do capítulo
-        sidebarRight.classList.remove('visible'); // Garante que a barra de palavras esteja escondida
+        showMainView(chapterView);
+        sidebarRight.classList.remove('visible');
     }
     
     /**
@@ -105,25 +89,20 @@ document.addEventListener('DOMContentLoaded', () => {
      * @param {number} verseNum - O número do versículo.
      */
     function displayVerseWords(verseNum) {
-        wordList.innerHTML = ''; // Limpa a lista anterior
+        wordList.innerHTML = '';
         const words = currentChapterData[verseNum].words;
-
-        // Itera sobre cada palavra do versículo
         words.forEach((wordData, index) => {
             const wordBtn = document.createElement('button');
             wordBtn.textContent = wordData.hebrew;
             wordBtn.dataset.chapter = currentChapterNumber;
             wordBtn.dataset.verse = verseNum;
             wordBtn.dataset.wordIndex = index;
-
-            // Adiciona evento de clique para mostrar a análise da palavra
             wordBtn.addEventListener('click', () => {
                 displayWordAnalysis(wordData);
             });
             wordList.appendChild(wordBtn);
         });
-
-        sidebarRight.classList.add('visible'); // Mostra a barra lateral direita
+        sidebarRight.classList.add('visible');
     }
 
     /**
@@ -133,15 +112,15 @@ document.addEventListener('DOMContentLoaded', () => {
     function displayWordAnalysis(wordData) {
         const analysis = wordData.analysis;
         const didactic = analysis.didactic;
+        let analysisHTML = `...`; // O restante da função continua igual
         
-        let analysisHTML = `
+        analysisHTML = `
             <div class="analysis-card">
                 <p class="analysis-hebrew">${wordData.hebrew}</p>
                 <div class="analysis-header">
                     <h2>${wordData.transliteration}</h2>
                     <p>"${wordData.contextualTranslation}"</p>
                 </div>
-                
                 <div class="analysis-section">
                     <h3>Análise Principal</h3>
                     <div class="analysis-item"><strong>Tradução Breve:</strong> <span>${wordData.briefTranslation}</span></div>
@@ -156,69 +135,45 @@ document.addEventListener('DOMContentLoaded', () => {
                     ${analysis.extra ? `<div class="analysis-item"><strong>Extra:</strong> <span>${analysis.extra}</span></div>` : ''}
                 </div>
         `;
-
         if (didactic) {
-            analysisHTML += `
-                <div class="analysis-section">
-                    <h3>Análise Didática: ${didactic.conceptTitle}</h3>`;
+            analysisHTML += `<div class="analysis-section"><h3>Análise Didática: ${didactic.conceptTitle}</h3>`;
             didactic.identification.forEach(item => {
                 analysisHTML += `<p><strong>${item.feature}:</strong> ${item.indicator}</p>`;
             });
-
             if (didactic.paradigm) {
                 analysisHTML += createParadigmTable(didactic.paradigm);
             }
             analysisHTML += `</div>`;
         }
-
         analysisHTML += `</div>`;
         wordAnalysisView.innerHTML = analysisHTML;
         showMainView(wordAnalysisView);
     }
     
-    /**
-     * Helper para criar a tabela de paradigmas.
-     * @param {object} paradigmData - Os dados do paradigma.
-     * @returns {string} - O HTML da tabela.
-     */
     function createParadigmTable(paradigmData) {
         let tableHTML = `<br><h4>${paradigmData.title}</h4><table class="paradigm-table">`;
         tableHTML += `<tr><th>Caso</th><th>Hebraico</th><th>Translit.</th><th>Tradução</th></tr>`;
         paradigmData.rows.forEach(row => {
-            tableHTML += `<tr>
-                <td>${row[0]}</td>
-                <td>${row[1]}</td>
-                <td>${row[2]}</td>
-                <td>${row[3]}</td>
-            </tr>`;
+            tableHTML += `<tr><td>${row[0]}</td><td>${row[1]}</td><td>${row[2]}</td><td>${row[3]}</td></tr>`;
         });
         tableHTML += `</table>`;
         return tableHTML;
     }
 
-    /**
-     * Navega para o próximo ou anterior versículo.
-     * @param {number} direction - 1 para próximo, -1 para anterior.
-     */
     function navigateVerse(direction) {
         if (!currentChapterData) return;
         const nextVerse = currentVerseNumber + direction;
-        // Verifica se o próximo versículo existe nos dados
         if (currentChapterData[nextVerse]) {
             currentVerseNumber = nextVerse;
             displayVerseWords(currentVerseNumber);
         }
     }
     
-    /**
-     * Gera os botões dos capítulos na barra de navegação esquerda.
-     */
     function createChapterButtons() {
         for (let i = 1; i <= totalChapters; i++) {
             const btn = document.createElement('button');
             btn.textContent = `Capítulo ${i}`;
             btn.dataset.chapter = i;
-            // ATENÇÃO: Desabilitando botões de capítulos ainda não disponíveis
             if (i > 1) { 
                 btn.disabled = true;
                 btn.style.cursor = 'not-allowed';
@@ -228,9 +183,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    /**
-     * Atualiza qual botão de capítulo está com o estilo "ativo".
-     */
     function updateActiveChapterButton(chapterNum) {
         const buttons = chapterNav.querySelectorAll('button');
         buttons.forEach(btn => {
@@ -242,19 +194,15 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // --- CONFIGURAÇÃO DE EVENTOS (EVENT LISTENERS) ---
-
-    // Evento para os botões dos capítulos
+    // --- CONFIGURAÇÃO DE EVENTOS ---
     chapterNav.addEventListener('click', (e) => {
-        if (e.target.tagName === 'BUTTON') {
+        if (e.target.tagName === 'BUTTON' && !e.target.disabled) {
             const chapterNum = e.target.dataset.chapter;
             if(chapterNum) {
                 loadChapter(parseInt(chapterNum));
             }
         }
     });
-
-    // Eventos para os botões de controle de versículo
     prevVerseBtn.addEventListener('click', () => navigateVerse(-1));
     nextVerseBtn.addEventListener('click', () => navigateVerse(1));
     backToChapterBtn.addEventListener('click', () => {
@@ -262,7 +210,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // --- INICIALIZAÇÃO ---
-    // Prepara a página quando ela é carregada
     createChapterButtons();
-
 });
