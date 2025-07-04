@@ -1944,113 +1944,680 @@
     "17": {
     "hebrewText": "בַּאֲשֶׁ֤ר תָּמ֙וּתִי֙ אָמ֔וּת וְשָׁ֖ם אֶקָּבֵ֑ר כֹּ֤ה יַעֲשֶׂה־לִּ֤י יְהוָה֙ וְכֹ֣ה יֹסִ֔יף כִּ֣י הַמָּ֔וֶת יַפְרִ֖יד בֵּינִ֥י וּבֵינֵֽךְ׃",
     "words": [
-        {"hebrew": "בַּאֲשֶׁ֤ר", "transliteration": "ba’ăšer", "lemma": "אֲשֶׁר", "briefTranslation": "onde", "contextualTranslation": "Onde quer que morreres...", "analysis": {"class": "Preposição + Pronome Relativo", "gender": "N/A", "number": "N/A", "state": "N/A", "extra": "Preposição 'בְּ' + 'אֲשֶׁר'.", "reference": "GKC §155l", "didacticKey": "pronoun_relative"}},
-        {"hebrew": "תָּמ֙וּתִי֙", "transliteration": "tāmûṯî", "lemma": "מוּת", "briefTranslation": "tu morreres", "contextualTranslation": "...morreres...", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Imperfeito", "pgn": "2fs", "extra": "Verbo 'oco' (II-Vav).", "reference": "GKC §107", "didacticKey": "verb_qal_imperfect"}},
-        {"hebrew": "אָמ֔וּת", "transliteration": "’āmûṯ", "lemma": "מוּת", "briefTranslation": "eu morrerei", "contextualTranslation": "...morrerei eu.", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Imperfeito", "pgn": "1cs", "extra": "Verbo 'oco' (II-Vav).", "reference": "GKC §107", "didacticKey": "verb_qal_imperfect"}},
-        {"hebrew": "וְשָׁ֖ם", "transliteration": "wəšām", "lemma": "שָׁם", "briefTranslation": "e lá", "contextualTranslation": "e aí...", "analysis": {"class": "Conjunção + Advérbio", "gender": "N/A", "number": "N/A", "state": "N/A", "extra": "'וְ' + 'שָׁם' (lá).", "reference": "N/A", "didacticKey": "adverb"}},
-        {"hebrew": "אֶקָּבֵ֑ר", "transliteration": "’eqqāḇēr", "lemma": "קָבַר", "briefTranslation": "serei sepultada", "contextualTranslation": "...serei sepultada.", "analysis": {"class": "Verbo", "binyan": "Nifal", "tense": "Imperfeito", "pgn": "1cs", "extra": "Nifal passivo.", "reference": "GKC §51d", "didacticKey": "verb_nifal_imperfect"}},
-        {"hebrew": "כֹּ֤ה", "transliteration": "kōh", "lemma": "כֹּה", "briefTranslation": "assim", "contextualTranslation": "Assim me faça o SENHOR...", "analysis": {"class": "Advérbio", "gender": "N/A", "number": "N/A", "state": "N/A", "extra": "Parte de uma fórmula de juramento.", "reference": "GKC §149c", "didacticKey": "adverb"}},
-        {"hebrew": "יַעֲשֶׂה־לִּ֤י", "transliteration": "ya‘ăśeh-lî", "lemma": "עָשָׂה", "briefTranslation": "me faça", "contextualTranslation": "...me faça...", "analysis": {"class": "Verbo + Preposição com Sufixo", "binyan": "Qal", "tense": "Imperfeito (Jussivo)", "pgn": "3ms", "extra": "O sujeito é YHWH.", "reference": "GKC §109c", "didacticKey": "verb_qal_jussive"}},
-        {"hebrew": "יְהוָה֙", "transliteration": "YHWH", "lemma": "יהוה", "briefTranslation": "SENHOR", "contextualTranslation": "o SENHOR", "analysis": {"class": "Nome Próprio (Divino)", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "extra": "", "reference": "N/A", "didacticKey": "noun_absolute_state"}},
-        {"hebrew": "וְכֹ֣ה", "transliteration": "wəḵōh", "lemma": "כֹּה", "briefTranslation": "e assim", "contextualTranslation": "...e outro tanto...", "analysis": {"class": "Conjunção + Advérbio", "gender": "N/A", "number": "N/A", "state": "N/A", "extra": "Continuação da fórmula de juramento.", "reference": "GKC §149c", "didacticKey": "adverb"}},
-        {"hebrew": "יֹסִ֔יף", "transliteration": "yôsîp̄", "lemma": "יָסַף", "briefTranslation": "ele acrescente", "contextualTranslation": "...me acrescente.", "analysis": {"class": "Verbo", "binyan": "Hifil", "tense": "Imperfeito (Jussivo)", "pgn": "3ms", "extra": "Hifil causativo: 'fazer acrescentar'.", "reference": "GKC §53d", "didacticKey": "verb_hifil_imperfect"}},
-        {"hebrew": "כִּ֣י", "transliteration": "kî", "lemma": "כִּי", "briefTranslation": "se", "contextualTranslation": "se outra coisa que não seja a morte...", "analysis": {"class": "Conjunção", "gender": "N/A", "number": "N/A", "state": "N/A", "extra": "Introduz a condição do juramento.", "reference": "GKC §149e", "didacticKey": "conjunction"}},
-        {"hebrew": "הַמָּ֔וֶת", "transliteration": "hammāweṯ", "lemma": "מָוֶת", "briefTranslation": "a morte", "contextualTranslation": "...a morte...", "analysis": {"class": "Substantivo com Artigo", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "extra": "", "reference": "HALOT 566", "didacticKey": "noun_absolute_state"}},
-        {"hebrew": "יַפְרִ֖יד", "transliteration": "yap̄rîḏ", "lemma": "פָּרַד", "briefTranslation": "separar", "contextualTranslation": "...me separar de ti.", "analysis": {"class": "Verbo", "binyan": "Hifil", "tense": "Imperfeito", "pgn": "3ms", "extra": "Hifil causativo: 'fazer separar'.", "reference": "GKC §53d", "didacticKey": "verb_hifil_imperfect"}},
-        {"hebrew": "בֵּינִ֥י", "transliteration": "bênî", "lemma": "בַּיִן", "briefTranslation": "entre mim", "contextualTranslation": "entre mim...", "analysis": {"class": "Preposição com Sufixo", "gender": "Comum", "number": "Singular", "pgn": "1cs", "extra": "", "reference": "GKC §103f", "didacticKey": "preposition"}},
-        {"hebrew": "וּבֵינֵֽךְ׃", "transliteration": "ûḇênēḵ", "lemma": "בַּיִן", "briefTranslation": "e entre ti", "contextualTranslation": "...e ti.", "analysis": {"class": "Conjunção + Preposição com Sufixo", "gender": "Feminino", "number": "Singular", "pgn": "2fs", "extra": "", "reference": "GKC §103f", "didacticKey": "preposition"}}
+        {
+            "hebrew": "בַּאֲשֶׁ֤ר", "transliteration": "ba'asher", "lemma": "אֲשֶׁר", "briefTranslation": "onde", "contextualTranslation": "Onde quer que morreres...",
+            "analysis": {
+                "class": "Preposição + Pronome Relativo", "gender": "N/A", "number": "N/A", "state": "N/A", "lemmaTranslation": "que, o qual, onde", "extra": "Preposição 'בְּ' + 'אֲשֶׁר'.", "reference": "GKC §155l",
+                "didactic": { "conceptTitle": "Cláusula Relativa de Lugar", "identification": [{"feature": "Construção", "indicator": "A combinação 'ba'asher' significa 'no lugar em que...' ou simplesmente 'onde'."}]}
+            }
+        },
+        {
+            "hebrew": "תָּמ֙וּתִי֙", "transliteration": "tamuti", "lemma": "מוּת", "briefTranslation": "tu morreres", "contextualTranslation": "...morreres...",
+            "analysis": {
+                "class": "Verbo", "binyan": "Qal", "tense": "Imperfeito", "pgn": "2fs", "lemmaTranslation": "morrer", "extra": "Verbo 'oco' (II-Vav).", "reference": "GKC §107",
+                "didactic": { "conceptTitle": "Verbo Oco: Qal Imperfeito (2fs)", "identification": [{"feature": "PGN - 2fs", "indicator": "O prefixo 'תָּ־' (ta-) e o sufixo '־ִי' (-i) marcam a 2ª pessoa do feminino singular."}]}
+            }
+        },
+        {
+            "hebrew": "אָמ֔וּת", "transliteration": "amut", "lemma": "מוּת", "briefTranslation": "eu morrerei", "contextualTranslation": "...morrerei eu.",
+            "analysis": { "class": "Verbo", "binyan": "Qal", "tense": "Imperfeito", "pgn": "1cs", "lemmaTranslation": "morrer", "extra": "Verbo 'oco' (II-Vav).", "reference": "GKC §107", "didactic": { "conceptTitle": "Verbo Oco: Qal Imperfeito (1cs)", "identification": [{"feature": "PGN - 1cs", "indicator": "O prefixo 'אָ־' (a-) é o marcador da 1ª pessoa do singular ('eu')."}]}}
+        },
+        {
+            "hebrew": "וְשָׁ֖ם", "transliteration": "ve'sham", "lemma": "שָׁם", "briefTranslation": "e lá", "contextualTranslation": "e aí...",
+            "analysis": { "class": "Conjunção + Advérbio", "gender": "N/A", "number": "N/A", "state": "N/A", "lemmaTranslation": "lá, ali", "extra": "'וְ' + 'שָׁם' (lá).", "reference": "N/A", "didactic": { "conceptTitle": "Advérbio de Lugar", "identification": [{"feature": "Função", "indicator": "Advérbios modificam o verbo para fornecer informações adicionais. 'Sham' especifica o local da ação 'serei sepultada'."}]}}
+        },
+        {
+            "hebrew": "אֶקָּבֵ֑ר", "transliteration": "ekaver", "lemma": "קָבַר", "briefTranslation": "serei sepultada", "contextualTranslation": "...serei sepultada.",
+            "analysis": {
+                "class": "Verbo", "binyan": "Nifal", "tense": "Imperfeito", "pgn": "1cs", "lemmaTranslation": "sepultar", "extra": "Nifal passivo.", "reference": "GKC §51d",
+                "didactic": {
+                    "conceptTitle": "Verbo: Nifal Imperfeito (Passivo)",
+                    "identification": [
+                        {"feature": "Identificação do Tronco (Nifal)", "indicator": "O prefixo 'אֶ' com dagesh na primeira letra da raiz ('ק') é característico do Nifal Imperfeito na 1ª pessoa."},
+                        {"feature": "Significado Passivo", "indicator": "O Nifal aqui expressa claramente a voz passiva: Rute não sepultará a si mesma, mas 'será sepultada' por outros."}
+                    ]
+                }
+            }
+        },
+        {
+            "hebrew": "כֹּ֤ה", "transliteration": "kô", "lemma": "כֹּה", "briefTranslation": "assim", "contextualTranslation": "Assim me faça o SENHOR...",
+            "analysis": {
+                "class": "Advérbio", "gender": "N/A", "number": "N/A", "state": "N/A", "lemmaTranslation": "assim, deste modo", "extra": "Parte de uma fórmula de juramento.", "reference": "GKC §149c",
+                "didactic": { "conceptTitle": "Fórmula de Juramento", "identification": [{"feature": "Construção", "indicator": "A frase 'kô ya'aseh YHWH... ve'chô yosif' (Assim me faça o SENHOR e assim me acrescente) é uma fórmula de juramento padrão e solene, onde a pessoa invoca uma maldição sobre si mesma caso não cumpra o voto."}]}
+            }
+        },
+        {
+            "hebrew": "יַעֲשֶׂה־לִּ֤י", "transliteration": "ia'asseh-li", "lemma": "עָשָׂה", "briefTranslation": "me faça", "contextualTranslation": "...me faça...",
+            "analysis": {
+                "class": "Verbo + Preposição com Sufixo", "binyan": "Qal", "tense": "Imperfeito (Jussivo)", "pgn": "3ms", "lemmaTranslation": "fazer, agir", "extra": "O sujeito é YHWH.", "reference": "GKC §109c",
+                "didactic": { "conceptTitle": "Verbo: Qal Jussivo", "identification": [{"feature": "Modo - Jussivo", "indicator": "A forma do imperfeito é usada para expressar o desejo ou a condição do juramento: 'que Ele faça'."}]}
+            }
+        },
+        {
+            "hebrew": "יְהוָה֙", "transliteration": "YHWH", "lemma": "יהוה", "briefTranslation": "SENHOR", "contextualTranslation": "o SENHOR",
+            "analysis": { "class": "Nome Próprio (Divino)", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "lemmaTranslation": "SENHOR", "extra": "", "reference": "N/A", "didactic": { "conceptTitle": "O Tetragrama (YHWH)", "identification": [{"feature": "Função", "indicator": "Funciona como o sujeito do verbo 'ia'asseh'."}]}}
+        },
+        {
+            "hebrew": "וְכֹ֣ה", "transliteration": "ve'chô", "lemma": "כֹּה", "briefTranslation": "e assim", "contextualTranslation": "...e outro tanto...",
+            "analysis": { "class": "Conjunção + Advérbio", "gender": "N/A", "number": "N/A", "state": "N/A", "lemmaTranslation": "assim, deste modo", "extra": "Continuação da fórmula de juramento.", "reference": "GKC §149c", "didactic": { "conceptTitle": "Fórmula de Juramento", "identification": [{"feature": "Construção", "indicator": "A repetição 'assim... e assim...' intensifica a seriedade do juramento."}]}}
+        },
+        {
+            "hebrew": "יֹסִ֔יף", "transliteration": "iossif", "lemma": "יָסַף", "briefTranslation": "ele acrescente", "contextualTranslation": "...me acrescente.",
+            "analysis": {
+                "class": "Verbo", "binyan": "Hifil", "tense": "Imperfeito (Jussivo)", "pgn": "3ms", "lemmaTranslation": "acrescentar, adicionar", "extra": "Hifil causativo.", "reference": "GKC §53d",
+                "didactic": {
+                    "conceptTitle": "Verbo: Tronco Hifil",
+                    "identification": [
+                        {"feature": "Identificação do Tronco (Hifil)", "indicator": "O padrão de vogais com 'i' longo (hireq-yod) após a segunda letra da raiz é uma marca do Hifil Imperfeito."},
+                        {"feature": "Significado do Hifil", "indicator": "O Hifil geralmente expressa uma ação causativa. A raiz 'yasaf' significa 'acrescentar', e no Hifil, 'fazer acrescentar' ou simplesmente 'acrescentar'."}
+                    ]
+                }
+            }
+        },
+        {
+            "hebrew": "כִּ֣י", "transliteration": "ki", "lemma": "כִּי", "briefTranslation": "se", "contextualTranslation": "se outra coisa que não seja a morte...",
+            "analysis": {
+                "class": "Conjunção", "gender": "N/A", "number": "N/A", "state": "N/A", "lemmaTranslation": "porque, que, se", "extra": "Introduz a condição do juramento.", "reference": "GKC §149e",
+                "didactic": { "conceptTitle": "Conjunção 'Ki' em Juramentos", "identification": [{"feature": "Função", "indicator": "Em uma fórmula de juramento, 'כִּי' (ki) introduz a única condição que anularia o voto. É traduzido como 'se', mas com a implicação de 'a não ser que'."}]}
+            }
+        },
+        {
+            "hebrew": "הַמָּ֔וֶת", "transliteration": "hamavet", "lemma": "מָוֶת", "briefTranslation": "a morte", "contextualTranslation": "...a morte...",
+            "analysis": { "class": "Substantivo com Artigo", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "lemmaTranslation": "morte", "extra": "", "reference": "HALOT 566", "didactic": { "conceptTitle": "Substantivo Definido", "identification": [{"feature": "Identificação do Artigo", "indicator": "O prefixo 'הַ' (ha-), com o dagesh na letra seguinte, é o artigo definido 'a'."}]}}
+        },
+        {
+            "hebrew": "יַפְרִ֖יד", "transliteration": "iafrid", "lemma": "פָּרַד", "briefTranslation": "separar", "contextualTranslation": "...me separar de ti.",
+            "analysis": {
+                "class": "Verbo", "binyan": "Hifil", "tense": "Imperfeito", "pgn": "3ms", "lemmaTranslation": "separar, dividir", "extra": "Hifil causativo: 'fazer separar'.", "reference": "GKC §53d",
+                "didactic": { "conceptTitle": "Verbo: Tronco Hifil", "identification": [{"feature": "Identificação do Tronco (Hifil)", "indicator": "O padrão de vogais com 'a' (patah) no prefixo e 'i' longo (hireq-yod) após a segunda letra da raiz é característico do Hifil Imperfeito."}]}
+            }
+        },
+        {
+            "hebrew": "בֵּינִ֥י", "transliteration": "beini", "lemma": "בַּיִן", "briefTranslation": "entre mim", "contextualTranslation": "entre mim...",
+            "analysis": { "class": "Preposição com Sufixo", "gender": "Comum", "number": "Singular", "pgn": "1cs", "lemmaTranslation": "entre", "extra": "", "reference": "GKC §103f", "didactic": { "conceptTitle": "Preposição com Sufixo", "identification": [{"feature": "Componentes", "indicator": "A forma é composta da preposição 'בַּיִן' (bayin) + o sufixo pronominal da 1ª pessoa do singular '־ִי' (-i)."}]}}
+        },
+        {
+            "hebrew": "וּבֵינֵֽךְ׃", "transliteration": "uveinech", "lemma": "בַּיִן", "briefTranslation": "e entre ti", "contextualTranslation": "...e ti.",
+            "analysis": { "class": "Conjunção + Preposição com Sufixo", "gender": "Feminino", "number": "Singular", "pgn": "2fs", "lemmaTranslation": "entre", "extra": "", "reference": "GKC §103f", "didactic": { "conceptTitle": "Preposição com Sufixo", "identification": [{"feature": "Componentes", "indicator": "A forma é composta da conjunção 'וְ' (u) + a preposição 'בַּיִן' (bayin) + o sufixo pronominal da 2ª pessoa do feminino singular '־ֵךְ' (-ech)."}]}}
+        }
     ]
-},
+}
+,
     "18": {
     "hebrewText": "וַתֵּ֔רֶא כִּֽי־מִתְאַמֶּ֥צֶת הִ֖יא לָלֶ֣כֶת אִתָּ֑הּ וַתֶּחְדַּ֖ל לְדַבֵּ֥ר אֵלֶֽיהָ׃",
     "words": [
-        {"hebrew": "וַתֵּ֔רֶא", "transliteration": "wattēre’", "lemma": "רָאָה", "briefTranslation": "e ela viu", "contextualTranslation": "Vendo, pois, Noemi...", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Imperfeito com Vav Consecutivo", "pgn": "3fs", "extra": "Raiz III-He. O sujeito é Noemi.", "reference": "GKC §75h", "didacticKey": "verb_irregular_III_he"}},
-        {"hebrew": "כִּֽי־מִתְאַמֶּ֥צֶת", "transliteration": "kî-miṯ’ammeṣeṯ", "lemma": "אָמַץ", "briefTranslation": "que ela estava determinada", "contextualTranslation": "...que Rute estava determinada a ir com ela...", "analysis": {"class": "Verbo", "binyan": "Hitpael", "tense": "Particípio", "gender": "Feminino", "number": "Singular", "extra": "Conjunção 'כִּי' (que) + Particípio Hitpael. O Hitpael indica uma ação reflexiva: 'fortalecendo-se a si mesma'.", "reference": "GKC §54f", "didacticKey": "verb_hitpael_participle"}},
-        {"hebrew": "הִ֖יא", "transliteration": "hî", "lemma": "הִיא", "briefTranslation": "ela", "contextualTranslation": "...ela (Rute)...", "analysis": {"class": "Pronome", "gender": "Feminino", "number": "Singular", "pgn": "3fs", "extra": "Enfatiza o sujeito do particípio.", "reference": "GKC §135a", "didacticKey": "pronoun_personal_independent"}},
-        {"hebrew": "לָלֶ֣כֶת", "transliteration": "lāleḵeṯ", "lemma": "הָלַךְ", "briefTranslation": "para ir", "contextualTranslation": "...a ir...", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Infinitivo Construto", "pgn": "N/A", "extra": "Preposição 'לְ' indicando propósito.", "reference": "GKC §69g", "didacticKey": "verb_qal_infinitive_construct"}},
-        {"hebrew": "אִתָּ֑הּ", "transliteration": "’ittāh", "lemma": "אֵת", "briefTranslation": "com ela", "contextualTranslation": "...com ela...", "analysis": {"class": "Preposição com Sufixo", "gender": "Feminino", "number": "Singular", "pgn": "3fs", "extra": "Preposição 'אֵת' (com) + sufixo referente a Noemi.", "reference": "GKC §103f", "didacticKey": "noun_with_pronominal_suffix"}},
-        {"hebrew": "וַתֶּחְדַּ֖ל", "transliteration": "watteḥdal", "lemma": "חָדַל", "briefTranslation": "e ela cessou", "contextualTranslation": "...deixou de insistir com ela.", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Imperfeito com Vav Consecutivo", "pgn": "3fs", "extra": "O sujeito é Noemi.", "reference": "GKC §47k", "didacticKey": "verb_qal_imperfect_vav_consecutive"}},
-        {"hebrew": "לְדַבֵּ֥ר", "transliteration": "ləḏabbēr", "lemma": "דָּבַר", "briefTranslation": "de falar", "contextualTranslation": "...de insistir...", "analysis": {"class": "Verbo", "binyan": "Piel", "tense": "Infinitivo Construto", "pgn": "N/A", "extra": "Preposição 'לְ'.", "reference": "GKC §52", "didacticKey": "verb_piel_infinitive_construct"}},
-        {"hebrew": "אֵלֶֽיהָ׃", "transliteration": "’ēleyhā", "lemma": "אֶל", "briefTranslation": "para ela", "contextualTranslation": "...com ela.", "analysis": {"class": "Preposição com Sufixo", "gender": "Feminino", "number": "Singular", "pgn": "3fs", "extra": "Sufixo referente a Rute.", "reference": "GKC §103f", "didacticKey": "noun_with_pronominal_suffix"}}
+        {
+            "hebrew": "וַתֵּ֔רֶא", "transliteration": "vatêre", "lemma": "רָאָה", "briefTranslation": "e ela viu", "contextualTranslation": "Vendo, pois, Noemi...",
+            "analysis": {
+                "class": "Verbo", "binyan": "Qal", "tense": "Imperfeito com Vav Consecutivo", "pgn": "3fs", "lemmaTranslation": "ver, perceber", "extra": "Raiz III-He. O sujeito é Noemi.", "reference": "GKC §75h",
+                "didactic": {
+                    "conceptTitle": "Verbo Irregular: Raiz III-He",
+                    "identification": [
+                        {"feature": "Identificação da Raiz", "indicator": "Verbos cuja terceira letra da raiz é um 'He' (ה) são fracos. O 'He' final frequentemente se contrai ou desaparece na conjugação, como aqui na forma apocopada (encurtada) 'vatêre'."}
+                    ]
+                }
+            }
+        },
+        {
+            "hebrew": "כִּֽי־מִתְאַמֶּ֥צֶת", "transliteration": "ki-mit'ametset", "lemma": "אָמַץ", "briefTranslation": "que ela estava determinada", "contextualTranslation": "...que Rute estava determinada a ir com ela...",
+            "analysis": {
+                "class": "Verbo", "binyan": "Hitpael", "tense": "Particípio", "gender": "Feminino", "number": "Singular", "lemmaTranslation": "ser forte, firme", "extra": "Conjunção 'כִּי' (que) + Particípio Hitpael.", "reference": "GKC §54f",
+                "didactic": {
+                    "conceptTitle": "Verbo: Tronco Hitpael (Particípio)",
+                    "identification": [
+                        {"feature": "Identificação do Tronco (Hitpael)", "indicator": "O prefixo 'מִתְ־' (mit-) é o marcador característico do tronco Hitpael. Ele geralmente indica uma ação reflexiva ('fazer a si mesmo') ou recíproca."},
+                        {"feature": "Significado do Hitpael", "indicator": "A raiz 'a.m.ts' significa 'ser forte'. No Hitpael, 'mit'ametset' significa 'aquela que se fortalece a si mesma', ou seja, 'determinada', 'resoluta'."}
+                    ]
+                }
+            }
+        },
+        {
+            "hebrew": "הִ֖יא", "transliteration": "hi", "lemma": "הִיא", "briefTranslation": "ela", "contextualTranslation": "...ela (Rute)...",
+            "analysis": { "class": "Pronome", "gender": "Feminino", "number": "Singular", "pgn": "3fs", "lemmaTranslation": "ela", "extra": "Enfatiza o sujeito do particípio.", "reference": "GKC §135a", "didactic": { "conceptTitle": "Pronome Pessoal Independente", "identification": [{"feature": "Função de Ênfase", "indicator": "O pronome 'hi' enfatiza que a determinação era uma característica ativa de Rute naquele momento."}]}}
+        },
+        {
+            "hebrew": "לָלֶ֣כֶת", "transliteration": "lalechet", "lemma": "הָלַךְ", "briefTranslation": "para ir", "contextualTranslation": "...a ir...",
+            "analysis": {
+                "class": "Verbo", "binyan": "Qal", "tense": "Infinitivo Construto", "pgn": "N/A", "lemmaTranslation": "ir, andar", "extra": "Preposição 'לְ' indicando propósito.", "reference": "GKC §69g",
+                "didactic": { "conceptTitle": "Verbo: Infinitivo Construto Irregular", "identification": [{"feature": "Forma Irregular", "indicator": "A raiz 'h.l.k' tem uma forma de infinitivo construto altamente irregular: 'lechet'. Com a preposição 'lə' (para), torna-se 'lalechet'."}]}
+            }
+        },
+        {
+            "hebrew": "אִתָּ֑הּ", "transliteration": "itah", "lemma": "אֵת", "briefTranslation": "com ela", "contextualTranslation": "...com ela...",
+            "analysis": {
+                "class": "Preposição com Sufixo", "gender": "Feminino", "number": "Singular", "pgn": "3fs", "lemmaTranslation": "com", "extra": "Preposição 'אֵת' (com) + sufixo referente a Noemi.", "reference": "GKC §103f",
+                "didactic": { "conceptTitle": "Preposição com Sufixo Pronominal", "identification": [{"feature": "Distinção", "indicator": "É crucial distinguir a preposição 'אֵת' ('et, com), que leva sufixos, do marcador de objeto direto 'אֶת' ('et), que não os leva."}]}
+            }
+        },
+        {
+            "hebrew": "וַתֶּחְדַּ֖ל", "transliteration": "vatechdal", "lemma": "חָדַל", "briefTranslation": "e ela cessou", "contextualTranslation": "...deixou de insistir com ela.",
+            "analysis": {
+                "class": "Verbo", "binyan": "Qal", "tense": "Imperfeito com Vav Consecutivo", "pgn": "3fs", "lemmaTranslation": "cessar, parar, deixar de", "extra": "O sujeito é Noemi.", "reference": "GKC §47k",
+                "didactic": { "conceptTitle": "Verbo: Qal Imperfeito com Vav Consecutivo", "identification": [{"feature": "Padrão Narrativo", "indicator": "O padrão 'וַ' + verbo no imperfeito é a forma padrão de narrar eventos passados em sequência."}]}
+            }
+        },
+        {
+            "hebrew": "לְדַבֵּ֥ר", "transliteration": "ledaber", "lemma": "דָּבַר", "briefTranslation": "de falar", "contextualTranslation": "...de insistir...",
+            "analysis": {
+                "class": "Verbo", "binyan": "Piel", "tense": "Infinitivo Construto", "pgn": "N/A", "lemmaTranslation": "falar", "extra": "Preposição 'לְ'.", "reference": "GKC §52",
+                "didactic": {
+                    "conceptTitle": "Verbo: Piel Infinitivo Construto",
+                    "identification": [
+                        {"feature": "Identificação do Tronco (Piel)", "indicator": "O padrão de vogais e o dagesh na segunda letra da raiz ('ב') são característicos do Piel."},
+                        {"feature": "Função", "indicator": "Como um substantivo verbal, 'ledaber' significa 'o ato de falar'. O verbo 'chadal' (cessar) é frequentemente seguido por um infinitivo com 'lə' para indicar a ação que foi interrompida."}
+                    ]
+                }
+            }
+        },
+        {
+            "hebrew": "אֵלֶֽיהָ׃", "transliteration": "eleyha", "lemma": "אֶל", "briefTranslation": "para ela", "contextualTranslation": "...com ela.",
+            "analysis": {
+                "class": "Preposição com Sufixo", "gender": "Feminino", "number": "Singular", "pgn": "3fs", "lemmaTranslation": "para, a", "extra": "Sufixo referente a Rute.", "reference": "GKC §103f",
+                "didactic": { "conceptTitle": "Preposição com Sufixo Pronominal", "identification": [{"feature": "Componentes", "indicator": "A forma é composta da preposição 'אֶל' (el) + o sufixo pronominal da 3ª pessoa do feminino singular '־ֶיהָ' (-eyha)."}]}
+            }
+        }
     ]
-},
+}
+,
     "19": {
     "hebrewText": "וַתֵּלַ֙כְנָה֙ שְׁתֵּיהֶ֔ם עַד־בּוֹאָ֖נָה בֵּ֣ית לָ֑חֶם וַיְהִ֗י כְּבֹאָנָה֙ בֵּ֣ית לֶ֔חֶם וַתֵּהֹ֤ם כָּל־הָעִיר֙ עֲלֵיהֶ֔ן וַתֹּאמַ֖רְנָה הֲזֹ֥את נָעֳמִֽי׃",
     "words": [
-        {"hebrew": "וַתֵּלַ֙כְנָה֙", "transliteration": "wattēlaknâ", "lemma": "הָלַךְ", "briefTranslation": "e elas foram", "contextualTranslation": "E foram-se ambas...", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Imperfeito com Vav Consecutivo", "pgn": "3fp", "extra": "O sujeito são Noemi e Rute.", "reference": "GKC §47m", "didacticKey": "verb_qal_imperfect_vav_consecutive"}},
-        {"hebrew": "שְׁתֵּיהֶ֔ם", "transliteration": "štêhem", "lemma": "שְׁתַּיִם", "briefTranslation": "ambas", "contextualTranslation": "...ambas...", "analysis": {"class": "Numeral com Sufixo Pronominal", "gender": "Feminino", "number": "Dual", "state": "N/A", "extra": "Forma construta 'שְׁתֵּי' + sufixo da 3ª masc. plural 'הֶם', usado aqui para um par feminino.", "reference": "GKC §135p", "didacticKey": "noun_with_pronominal_suffix"}},
-        {"hebrew": "עַד־בּוֹאָ֖נָה", "transliteration": "‘aḏ-bô’ānâ", "lemma": "בּוֹא", "briefTranslation": "até a chegada delas", "contextualTranslation": "...até chegarem a Belém.", "analysis": {"class": "Verbo com Conjunção e Sufixo", "binyan": "Qal", "tense": "Infinitivo Construto", "pgn": "N/A", "extra": "Conjunção 'עַד' (até) + infinitivo com sufixo da 3ª fem. plural 'נָה', que funciona como sujeito.", "reference": "GKC §114i", "didacticKey": "verb_qal_infinitive_construct"}},
-        {"hebrew": "בֵּ֣ית", "transliteration": "bêṯ", "lemma": "בַּיִת", "briefTranslation": "a Casa de", "contextualTranslation": "...a Belém.", "analysis": {"class": "Substantivo", "gender": "Masculino", "number": "Singular", "state": "Construto", "extra": "", "reference": "GKC §129", "didacticKey": "noun_construct_state"}},
-        {"hebrew": "לָ֑חֶם", "transliteration": "lāḥem", "lemma": "לֶחֶם", "briefTranslation": "Pão", "contextualTranslation": "Belém", "analysis": {"class": "Substantivo", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "extra": "Nome próprio composto 'Casa do Pão'.", "reference": "HALOT 535", "didacticKey": "noun_absolute_state"}},
-        {"hebrew": "וַיְהִ֗י", "transliteration": "wayhî", "lemma": "הָיָה", "briefTranslation": "e aconteceu", "contextualTranslation": "E sucedeu que...", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Imperfeito com Vav Consecutivo", "pgn": "3ms", "extra": "Fórmula narrativa padrão.", "reference": "GKC §111a", "didacticKey": "verb_qal_imperfect_vav_consecutive"}},
-        {"hebrew": "כְּבֹאָנָה֙", "transliteration": "kəḇô’ānâ", "lemma": "בּוֹא", "briefTranslation": "na chegada delas", "contextualTranslation": "...entrando elas em Belém...", "analysis": {"class": "Verbo com Preposição e Sufixo", "binyan": "Qal", "tense": "Infinitivo Construto", "pgn": "N/A", "extra": "Preposição 'כְּ' (quando) + infinitivo com sufixo da 3ª fem. plural.", "reference": "GKC §114i", "didacticKey": "verb_qal_infinitive_construct"}},
-        {"hebrew": "בֵּ֣ית", "transliteration": "bêṯ", "lemma": "בַּיִת", "briefTranslation": "a Casa de", "contextualTranslation": "...a Belém.", "analysis": {"class": "Substantivo", "gender": "Masculino", "number": "Singular", "state": "Construto", "extra": "", "reference": "GKC §129", "didacticKey": "noun_construct_state"}},
-        {"hebrew": "לֶ֔חֶם", "transliteration": "leḥem", "lemma": "לֶחֶם", "briefTranslation": "Pão", "contextualTranslation": "Belém", "analysis": {"class": "Substantivo", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "extra": "", "reference": "HALOT 535", "didacticKey": "noun_absolute_state"}},
-        {"hebrew": "וַתֵּהֹ֤ם", "transliteration": "wattēhom", "lemma": "הוּם", "briefTranslation": "e se comoveu", "contextualTranslation": "...toda a cidade se comoveu...", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Imperfeito com Vav Consecutivo", "pgn": "3fs", "extra": "O verbo está no feminino para concordar com 'עִיר' (cidade).", "reference": "GKC §47k", "didacticKey": "verb_qal_imperfect_vav_consecutive"}},
-        {"hebrew": "כָּל־הָעִיר֙", "transliteration": "kol-hā‘îr", "lemma": "כֹּל, עִיר", "briefTranslation": "toda a cidade", "contextualTranslation": "...toda a cidade...", "analysis": {"class": "Quantificador + Substantivo com Artigo", "gender": "Feminino", "number": "Singular", "state": "Construto/Absoluto", "extra": "A palavra 'kol' (todo) em estado construto seguida de um substantivo definido.", "reference": "GKC §127d", "didacticKey": "noun_construct_state"}},
-        {"hebrew": "עֲלֵיהֶ֔ן", "transliteration": "‘ălêhen", "lemma": "עַל", "briefTranslation": "por causa delas", "contextualTranslation": "...por causa delas...", "analysis": {"class": "Preposição com Sufixo", "gender": "Feminino", "number": "Plural", "pgn": "3fp", "extra": "", "reference": "GKC §103f", "didacticKey": "noun_with_pronominal_suffix"}},
-        {"hebrew": "וַתֹּאמַ֖רְנָה", "transliteration": "wattō’marnâ", "lemma": "אָמַר", "briefTranslation": "e elas diziam", "contextualTranslation": "...e diziam:", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Imperfeito com Vav Consecutivo", "pgn": "3fp", "extra": "O sujeito são as mulheres da cidade.", "reference": "GKC §47m", "didacticKey": "verb_qal_imperfect_vav_consecutive"}},
-        {"hebrew": "הֲזֹ֥את", "transliteration": "hăzō’ṯ", "lemma": "זֹאת", "briefTranslation": "É esta?", "contextualTranslation": "É esta Noemi?", "analysis": {"class": "Partícula Interrogativa + Pronome Demonstrativo", "gender": "Feminino", "number": "Singular", "state": "N/A", "extra": "'הֲ' + 'זֹאת'.", "reference": "GKC §150a", "didacticKey": "interrogative_particle"}},
-        {"hebrew": "נָעֳמִֽי׃", "transliteration": "nā‘ŏmî", "lemma": "נָעֳמִי", "briefTranslation": "Noemi", "contextualTranslation": "...Noemi?", "analysis": {"class": "Nome Próprio", "gender": "Feminino", "number": "Singular", "state": "Absoluto", "extra": "", "reference": "HALOT 706", "didacticKey": "noun_absolute_state"}}
+        {
+            "hebrew": "וַתֵּלַ֙כְנָה֙", "transliteration": "vatelachna", "lemma": "הָלַךְ", "briefTranslation": "e elas foram", "contextualTranslation": "E foram-se ambas...",
+            "analysis": {
+                "class": "Verbo", "binyan": "Qal", "tense": "Imperfeito com Vav Consecutivo", "pgn": "3fp", "lemmaTranslation": "ir, andar", "extra": "O sujeito são Noemi e Rute.", "reference": "GKC §47m",
+                "didactic": { "conceptTitle": "Verbo: Qal Imperfeito com Vav Consecutivo (3fp)", "identification": [{"feature": "PGN - 3fp", "indicator": "A combinação do prefixo 'תֵּ־' (te-) e do sufixo '־נָה' (-nah) é o marcador da 3ª pessoa do feminino plural ('elas')."}]}
+            }
+        },
+        {
+            "hebrew": "שְׁתֵּיהֶ֔ם", "transliteration": "shteihem", "lemma": "שְׁתַּיִם", "briefTranslation": "ambas", "contextualTranslation": "...ambas...",
+            "analysis": {
+                "class": "Numeral com Sufixo Pronominal", "gender": "Feminino", "number": "Dual", "state": "N/A", "lemmaTranslation": "dois (f.)", "extra": "Forma construta 'שְׁתֵּי' + sufixo da 3ª masc. plural 'הֶם'.", "reference": "GKC §135p",
+                "didactic": {
+                    "conceptTitle": "Numeral com Sufixo Pronominal (Gênero)",
+                    "identification": [
+                        {"feature": "Forma Incomum", "indicator": "A forma do numeral é feminina ('shtei'), mas o sufixo pronominal é masculino ('hem', deles), em vez do esperado feminino ('hen', delas). Isso pode ocorrer em hebraico quando se refere a um grupo misto ou como uma forma mais genérica."}
+                    ]
+                }
+            }
+        },
+        {
+            "hebrew": "עַד־בּוֹאָ֖נָה", "transliteration": "ad-bo'anah", "lemma": "בּוֹא", "briefTranslation": "até a chegada delas", "contextualTranslation": "...até chegarem a Belém.",
+            "analysis": {
+                "class": "Verbo com Conjunção e Sufixo", "binyan": "Qal", "tense": "Infinitivo Construto", "pgn": "N/A", "lemmaTranslation": "vir, chegar", "extra": "Conjunção 'עַד' (até) + infinitivo com sufixo da 3ª fem. plural 'נָה'.", "reference": "GKC §114i",
+                "didactic": {
+                    "conceptTitle": "Infinitivo Construto com Sufixo como Sujeito",
+                    "identification": [
+                        {"feature": "Função do Sufixo", "indicator": "Quando um sufixo pronominal é adicionado a um infinitivo, ele funciona como o sujeito da ação verbal. 'Bo'anah' significa 'a chegada delas' ou 'quando elas chegaram'."}
+                    ]
+                }
+            }
+        },
+        {
+            "hebrew": "בֵּ֣ית", "transliteration": "beit", "lemma": "בַּיִת", "briefTranslation": "a Casa de", "contextualTranslation": "...a Belém.",
+            "analysis": { "class": "Substantivo", "gender": "Masculino", "number": "Singular", "state": "Construto", "lemmaTranslation": "casa", "extra": "", "reference": "GKC §129", "didactic": { "conceptTitle": "Substantivo: Estado Construto", "identification": [{"feature": "Função", "indicator": "A forma 'beit' liga-se a 'lachem' para formar o nome próprio 'Beit Lachem' (Belém)."}]}}
+        },
+        {
+            "hebrew": "לָ֑חֶם", "transliteration": "lachem", "lemma": "לֶחֶם", "briefTranslation": "Pão", "contextualTranslation": "Belém",
+            "analysis": { "class": "Substantivo", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "lemmaTranslation": "pão, alimento", "extra": "Nome próprio composto 'Casa do Pão'.", "reference": "HALOT 535", "didactic": { "conceptTitle": "Nome de Lugar Composto", "identification": [{"feature": "Significado do Nome", "indicator": "'Beit Lechem' significa literalmente 'Casa do Pão'."}]}}
+        },
+        {
+            "hebrew": "וַיְהִ֗י", "transliteration": "vayhi", "lemma": "הָיָה", "briefTranslation": "e aconteceu", "contextualTranslation": "E sucedeu que...",
+            "analysis": { "class": "Verbo", "binyan": "Qal", "tense": "Imperfeito com Vav Consecutivo", "pgn": "3ms", "lemmaTranslation": "ser, estar, acontecer", "extra": "Fórmula narrativa padrão.", "reference": "GKC §111a", "didactic": { "conceptTitle": "Fórmula Narrativa 'Wayhi'", "identification": [{"feature": "Função", "indicator": "A expressão 'wayhi' (E aconteceu/E houve) é um marcador discursivo padrão no hebraico bíblico narrativo, usado para introduzir uma nova cena ou um ponto de virada na história."}]}}
+        },
+        {
+            "hebrew": "כְּבֹאָנָה֙", "transliteration": "kevo'anah", "lemma": "בּוֹא", "briefTranslation": "na chegada delas", "contextualTranslation": "...entrando elas em Belém...",
+            "analysis": {
+                "class": "Verbo com Preposição e Sufixo", "binyan": "Qal", "tense": "Infinitivo Construto", "pgn": "N/A", "lemmaTranslation": "vir, chegar", "extra": "Preposição 'כְּ' (quando) + infinitivo com sufixo da 3ª fem. plural.", "reference": "GKC §114i",
+                "didactic": { "conceptTitle": "Infinitivo Construto com Preposição Temporal", "identification": [{"feature": "Função da Preposição", "indicator": "A preposição 'כְּ' (kə) antes de um Infinitivo Construto frequentemente tem um sentido temporal: 'quando [elas] chegaram' ou 'no momento da chegada delas'."}]}
+            }
+        },
+        {
+            "hebrew": "בֵּ֣ית", "transliteration": "beit", "lemma": "בַּיִת", "briefTranslation": "a Casa de", "contextualTranslation": "...a Belém.",
+            "analysis": { "class": "Substantivo", "gender": "Masculino", "number": "Singular", "state": "Construto", "lemmaTranslation": "casa", "extra": "", "reference": "GKC §129", "didactic": { "conceptTitle": "Substantivo: Estado Construto", "identification": [{"feature": "Função", "indicator": "Repetição para ênfase e estrutura poética."}]}}
+        },
+        {
+            "hebrew": "לֶ֔חֶם", "transliteration": "lechem", "lemma": "לֶחֶם", "briefTranslation": "Pão", "contextualTranslation": "Belém",
+            "analysis": { "class": "Substantivo", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "lemmaTranslation": "pão, alimento", "extra": "", "reference": "HALOT 535", "didactic": { "conceptTitle": "Nome de Lugar Composto", "identification": [{"feature": "Significado do Nome", "indicator": "'Beit Lechem' significa literalmente 'Casa do Pão'."}]}}
+        },
+        {
+            "hebrew": "וַתֵּהֹ֤ם", "transliteration": "vatehom", "lemma": "הוּם", "briefTranslation": "e se comoveu", "contextualTranslation": "...toda a cidade se comoveu...",
+            "analysis": {
+                "class": "Verbo", "binyan": "Qal", "tense": "Imperfeito com Vav Consecutivo", "pgn": "3fs", "lemmaTranslation": "fazer barulho, agitar-se", "extra": "O verbo está no feminino para concordar com 'עִיר' (cidade).", "reference": "GKC §47k",
+                "didactic": { "conceptTitle": "Concordância de Gênero (Verbo-Sujeito)", "identification": [{"feature": "Regra de Concordância", "indicator": "O verbo concorda em gênero e número com seu sujeito. Como 'ir' (cidade) é um substantivo feminino, o verbo 'vatehom' está na 3ª pessoa do feminino singular."}]}
+            }
+        },
+        {
+            "hebrew": "כָּל־הָעִיר֙", "transliteration": "kol-ha'ir", "lemma": "כֹּל, עִיר", "briefTranslation": "toda a cidade", "contextualTranslation": "...toda a cidade...",
+            "analysis": {
+                "class": "Quantificador + Substantivo", "gender": "Feminino", "number": "Singular", "state": "Construto/Absoluto", "lemmaTranslation": "todo, cidade", "extra": "A palavra 'kol' (todo) em estado construto seguida de um substantivo definido.", "reference": "GKC §127d",
+                "didactic": { "conceptTitle": "Quantificador 'Kol'", "identification": [{"feature": "Uso", "indicator": "Para dizer 'toda a [coisa]', o hebraico usa a forma construta 'kol-' seguida por um substantivo com o artigo definido ('ha-')."}]}
+            }
+        },
+        {
+            "hebrew": "עֲלֵיהֶ֔ן", "transliteration": "aleihen", "lemma": "עַל", "briefTranslation": "por causa delas", "contextualTranslation": "...por causa delas...",
+            "analysis": { "class": "Preposição com Sufixo", "gender": "Feminino", "number": "Plural", "pgn": "3fp", "lemmaTranslation": "sobre, por causa de", "extra": "", "reference": "GKC §103f", "didactic": { "conceptTitle": "Preposição com Sufixo Pronominal", "identification": [{"feature": "Componentes", "indicator": "A forma é composta da preposição 'עַל' (al) + o sufixo pronominal da 3ª pessoa do feminino plural '־הֶן' (-hen)."}]}
+            }
+        },
+        {
+            "hebrew": "וַתֹּאמַ֖רְנָה", "transliteration": "vatômarnah", "lemma": "אָמַר", "briefTranslation": "e elas diziam", "contextualTranslation": "...e diziam:",
+            "analysis": { "class": "Verbo", "binyan": "Qal", "tense": "Imperfeito com Vav Consecutivo", "pgn": "3fp", "lemmaTranslation": "dizer", "extra": "O sujeito são as mulheres da cidade.", "reference": "GKC §47m", "didactic": { "conceptTitle": "Verbo: Qal Imperfeito com Vav Consecutivo (3fp)", "identification": [{"feature": "PGN - 3fp", "indicator": "A combinação do prefixo 'תֹּ־' (to-) e do sufixo '־נָה' (-nah) é o marcador da 3ª pessoa do feminino plural ('elas')."}]}}
+        },
+        {
+            "hebrew": "הֲזֹ֥את", "transliteration": "hazot", "lemma": "זֹאת", "briefTranslation": "É esta?", "contextualTranslation": "É esta Noemi?",
+            "analysis": {
+                "class": "Partícula Interrogativa + Pronome Demonstrativo", "gender": "Feminino", "number": "Singular", "state": "N/A", "lemmaTranslation": "esta", "extra": "'הֲ' + 'זֹאת'.", "reference": "GKC §150a",
+                "didactic": { "conceptTitle": "Pergunta com Partícula Interrogativa", "identification": [{"feature": "Construção", "indicator": "A partícula 'הֲ' (ha-) prefixada a uma palavra transforma a declaração em uma pergunta de sim/não. 'Zot Noemi' = 'Esta é Noemi'. 'Hazot Noemi?' = 'É esta Noemi?'."}]}
+            }
+        },
+        {
+            "hebrew": "נָעֳמִֽי׃", "transliteration": "noomi", "lemma": "נָעֳמִי", "briefTranslation": "Noemi", "contextualTranslation": "...Noemi?",
+            "analysis": { "class": "Nome Próprio", "gender": "Feminino", "number": "Singular", "state": "Absoluto", "lemmaTranslation": "Noemi", "extra": "", "reference": "HALOT 706", "didactic": { "conceptTitle": "Nome Próprio", "identification": [{"feature": "Função", "indicator": "Funciona como o predicado da pergunta."}]}}
+        }
     ]
-},
+}
+,
     "20": {
     "hebrewText": "וַתֹּ֣אמֶר אֲלֵיהֶ֔ן אַל־תִּקְרֶ֥אנָה לִּ֖י נָעֳמִ֑י קְרֶ֤אןָ לִּי֙ מָרָ֔א כִּֽי־הֵמַ֥ר שַׁדַּ֛י לִ֖י מְאֹֽד׃",
     "words": [
-        {"hebrew": "וַתֹּ֣אמֶר", "transliteration": "wattō’mer", "lemma": "אָמַר", "briefTranslation": "e ela disse", "contextualTranslation": "Porém ela lhes dizia...", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Imperfeito com Vav Consecutivo", "pgn": "3fs", "extra": "Sujeito: Noemi.", "reference": "GKC §47k", "didacticKey": "verb_qal_imperfect_vav_consecutive"}},
-        {"hebrew": "אֲלֵיהֶ֔ן", "transliteration": "’ălêhen", "lemma": "אֶל", "briefTranslation": "a elas", "contextualTranslation": "...lhes...", "analysis": {"class": "Preposição com Sufixo", "gender": "Feminino", "number": "Plural", "pgn": "3fp", "extra": "Refere-se às mulheres da cidade.", "reference": "GKC §103f", "didacticKey": "noun_with_pronominal_suffix"}},
-        {"hebrew": "אַל־תִּקְרֶ֥אנָה", "transliteration": "’al-tiqre’nâ", "lemma": "קָרָא", "briefTranslation": "não chameis", "contextualTranslation": "Não me chameis Noemi...", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Imperfeito (Jussivo)", "pgn": "2fp", "extra": "Partícula negativa 'אַל' para proibição.", "reference": "GKC §109d", "didacticKey": "particle_negative"}},
-        {"hebrew": "לִּ֖י", "transliteration": "lî", "lemma": "לְ", "briefTranslation": "a mim", "contextualTranslation": "...me...", "analysis": {"class": "Preposição com Sufixo", "gender": "Comum", "number": "Singular", "pgn": "1cs", "extra": "", "reference": "GKC §103f", "didacticKey": "noun_with_pronominal_suffix"}},
-        {"hebrew": "נָעֳמִ֑י", "transliteration": "nā‘ŏmî", "lemma": "נָעֳמִי", "briefTranslation": "Noemi", "contextualTranslation": "...Noemi", "analysis": {"class": "Nome Próprio", "gender": "Feminino", "number": "Singular", "state": "Absoluto", "extra": "Significa 'minha agradabilidade'.", "reference": "HALOT 706", "didacticKey": "noun_absolute_state"}},
-        {"hebrew": "קְרֶ֤אןָ", "transliteration": "qəre’nā", "lemma": "קָרָא", "briefTranslation": "chamai", "contextualTranslation": "chamai-me Mara.", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Imperativo", "pgn": "2fp", "extra": "", "reference": "GKC §46c", "didacticKey": "verb_qal_imperative"}},
-        {"hebrew": "לִּי֙", "transliteration": "lî", "lemma": "לְ", "briefTranslation": "a mim", "contextualTranslation": "...me...", "analysis": {"class": "Preposição com Sufixo", "gender": "Comum", "number": "Singular", "pgn": "1cs", "extra": "", "reference": "GKC §103f", "didacticKey": "noun_with_pronominal_suffix"}},
-        {"hebrew": "מָרָ֔א", "transliteration": "mārā’", "lemma": "מָרָא", "briefTranslation": "Mara", "contextualTranslation": "...Mara", "analysis": {"class": "Nome Próprio", "gender": "Feminino", "number": "Singular", "state": "Absoluto", "extra": "Significa 'amarga'.", "reference": "HALOT 601", "didacticKey": "noun_absolute_state"}},
-        {"hebrew": "כִּֽי־הֵמַ֥ר", "transliteration": "kî-hēmar", "lemma": "מָרַר", "briefTranslation": "pois Ele tornou amargo", "contextualTranslation": "pois o Todo-Poderoso tratou-me com amargura.", "analysis": {"class": "Verbo", "binyan": "Hifil", "tense": "Perfeito", "pgn": "3ms", "extra": "Conjunção 'כִּי' (pois) + verbo Hifil causativo: 'fez ser amargo'.", "reference": "GKC §53d", "didacticKey": "verb_hifil_perfect"}},
-        {"hebrew": "שַׁדַּ֛י", "transliteration": "šadday", "lemma": "שַׁדַּי", "briefTranslation": "o Todo-Poderoso", "contextualTranslation": "o Todo-Poderoso", "analysis": {"class": "Nome Próprio (Divino)", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "extra": "", "reference": "N/A", "didacticKey": "noun_absolute_state"}},
-        {"hebrew": "לִ֖י", "transliteration": "lî", "lemma": "לְ", "briefTranslation": "para mim", "contextualTranslation": "...comigo...", "analysis": {"class": "Preposição com Sufixo", "gender": "Comum", "number": "Singular", "pgn": "1cs", "extra": "", "reference": "GKC §103f", "didacticKey": "noun_with_pronominal_suffix"}},
-        {"hebrew": "מְאֹֽד׃", "transliteration": "mə’ōḏ", "lemma": "מְאֹד", "briefTranslation": "grandemente", "contextualTranslation": "...com grande amargura.", "analysis": {"class": "Advérbio", "gender": "N/A", "number": "N/A", "state": "N/A", "extra": "Intensifica a ação.", "reference": "N/A", "didacticKey": "adverb"}}
+        {
+            "hebrew": "וַתֹּ֣אמֶר", "transliteration": "vatômer", "lemma": "אָמַר", "briefTranslation": "e ela disse", "contextualTranslation": "Porém ela lhes dizia...",
+            "analysis": { "class": "Verbo", "binyan": "Qal", "tense": "Imperfeito com Vav Consecutivo", "pgn": "3fs", "lemmaTranslation": "dizer", "extra": "Sujeito: Noemi.", "reference": "GKC §47k", "didactic": { "conceptTitle": "Verbo: Qal Imperfeito com Vav Consecutivo", "identification": [{"feature": "Padrão Narrativo", "indicator": "O padrão 'וַ' + verbo no imperfeito é a forma padrão de narrar eventos passados em sequência."}]}}
+        },
+        {
+            "hebrew": "אֲלֵיהֶ֔ן", "transliteration": "aleihen", "lemma": "אֶל", "briefTranslation": "a elas", "contextualTranslation": "...lhes...",
+            "analysis": {
+                "class": "Preposição com Sufixo", "gender": "Feminino", "number": "Plural", "pgn": "3fp", "lemmaTranslation": "para, a", "extra": "Refere-se às mulheres da cidade.", "reference": "GKC §103f",
+                "didactic": { "conceptTitle": "Preposição com Sufixo Pronominal", "identification": [{"feature": "Componentes", "indicator": "A forma é composta da preposição 'אֶל' (el) + o sufixo pronominal da 3ª pessoa do feminino plural '־הֶן' (-hen)."}]}
+            }
+        },
+        {
+            "hebrew": "אַל־תִּקְרֶ֥אנָה", "transliteration": "al-tikrena", "lemma": "קָרָא", "briefTranslation": "não chameis", "contextualTranslation": "Não me chameis Noemi...",
+            "analysis": {
+                "class": "Verbo", "binyan": "Qal", "tense": "Imperfeito (Jussivo)", "pgn": "2fp", "lemmaTranslation": "chamar, clamar", "extra": "Partícula negativa 'אַל' para proibição.", "reference": "GKC §109d",
+                "didactic": {
+                    "conceptTitle": "Proibição com 'Al' + Jussivo",
+                    "identification": [
+                        {"feature": "Negação de Comando", "indicator": "A partícula 'אַל' (al) é usada para negar um comando ou um desejo. Ela é sempre seguida por um verbo no modo Jussivo (uma forma do Imperfeito)."},
+                        {"feature": "PGN - 2fp Jussivo", "indicator": "A forma 'tikrena' (com o sufixo '־נָה') é a 2ª pessoa do feminino plural, indicando que o comando é direcionado às mulheres da cidade."}
+                    ]
+                }
+            }
+        },
+        {
+            "hebrew": "לִּ֖י", "transliteration": "li", "lemma": "לְ", "briefTranslation": "a mim", "contextualTranslation": "...me...",
+            "analysis": { "class": "Preposição com Sufixo", "gender": "Comum", "number": "Singular", "pgn": "1cs", "lemmaTranslation": "para, a", "extra": "", "reference": "GKC §103f", "didactic": { "conceptTitle": "Preposição com Sufixo Pronominal", "identification": [{"feature": "Componentes", "indicator": "A forma é composta da preposição 'לְ' (lə) + o sufixo pronominal da 1ª pessoa do singular '־ִי' (-i)."}]}}
+        },
+        {
+            "hebrew": "נָעֳמִ֑י", "transliteration": "noomi", "lemma": "נָעֳמִי", "briefTranslation": "Noemi", "contextualTranslation": "...Noemi",
+            "analysis": { "class": "Nome Próprio", "gender": "Feminino", "number": "Singular", "state": "Absoluto", "lemmaTranslation": "Noemi", "extra": "Significa 'minha agradabilidade'.", "reference": "HALOT 706", "didactic": { "conceptTitle": "Jogo de Palavras: Noemi", "identification": [{"feature": "Significado vs. Realidade", "indicator": "Noemi rejeita seu nome, que significa 'agradável' ou 'doce', porque ele não reflete mais a sua realidade amarga."}]}}
+        },
+        {
+            "hebrew": "קְרֶ֤אןָ", "transliteration": "krena", "lemma": "קָרָא", "briefTranslation": "chamai", "contextualTranslation": "chamai-me Mara.",
+            "analysis": { "class": "Verbo", "binyan": "Qal", "tense": "Imperativo", "pgn": "2fp", "lemmaTranslation": "chamar, clamar", "extra": "", "reference": "GKC §46c", "didactic": { "conceptTitle": "Verbo: Qal Imperativo (2fp)", "identification": [{"feature": "PGN - 2fp", "indicator": "O sufixo '־ןָ' (-na) após a vogal 'e' é um marcador do imperativo feminino plural."}]}}
+        },
+        {
+            "hebrew": "לִּי֙", "transliteration": "li", "lemma": "לְ", "briefTranslation": "a mim", "contextualTranslation": "...me...",
+            "analysis": { "class": "Preposição com Sufixo", "gender": "Comum", "number": "Singular", "pgn": "1cs", "lemmaTranslation": "para, a", "extra": "", "reference": "GKC §103f", "didactic": { "conceptTitle": "Preposição com Sufixo Pronominal", "identification": [{"feature": "Componentes", "indicator": "A forma é composta da preposição 'לְ' (lə) + o sufixo pronominal da 1ª pessoa do singular '־ִי' (-i)."}]}}
+        },
+        {
+            "hebrew": "מָרָ֔א", "transliteration": "mará", "lemma": "מָרָא", "briefTranslation": "Mara", "contextualTranslation": "...Mara",
+            "analysis": { "class": "Nome Próprio", "gender": "Feminino", "number": "Singular", "state": "Absoluto", "lemmaTranslation": "Mara", "extra": "Significa 'amarga'.", "reference": "HALOT 601", "didactic": { "conceptTitle": "Jogo de Palavras: Mara", "identification": [{"feature": "Significado do Novo Nome", "indicator": "Noemi adota um novo nome, 'Mara' (amarga), para refletir a sua experiência de sofrimento e perda."}]}}
+        },
+        {
+            "hebrew": "כִּֽי־הֵמַ֥ר", "transliteration": "ki-hemar", "lemma": "מָרַר", "briefTranslation": "pois Ele tornou amargo", "contextualTranslation": "pois o Todo-Poderoso tratou-me com amargura.",
+            "analysis": {
+                "class": "Verbo", "binyan": "Hifil", "tense": "Perfeito", "pgn": "3ms", "lemmaTranslation": "ser amargo", "extra": "Conjunção 'כִּי' (pois) + verbo Hifil causativo.", "reference": "GKC §53d",
+                "didactic": {
+                    "conceptTitle": "Verbo: Tronco Hifil (Causativo)",
+                    "identification": [
+                        {"feature": "Identificação do Tronco (Hifil)", "indicator": "O prefixo 'הֵ־' (he-) é uma marca característica do Hifil Perfeito."},
+                        {"feature": "Significado Causativo", "indicator": "O Hifil expressa uma ação causativa. A raiz 'm.r.r' significa 'ser amargo'. No Hifil, 'hemar' significa 'fazer ser amargo' ou 'tratar com amargura'."}
+                    ]
+                }
+            }
+        },
+        {
+            "hebrew": "שַׁדַּ֛י", "transliteration": "shadai", "lemma": "שַׁדַּי", "briefTranslation": "o Todo-Poderoso", "contextualTranslation": "o Todo-Poderoso",
+            "analysis": { "class": "Nome Próprio (Divino)", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "lemmaTranslation": "Todo-Poderoso", "extra": "Um dos nomes arcaicos para Deus.", "reference": "N/A", "didactic": { "conceptTitle": "Nome Divino: 'Shaddai'", "identification": [{"feature": "Uso", "indicator": "'Shaddai' é um nome para Deus frequentemente usado nos tempos patriarcais (ver Gênesis). Ele enfatiza o poder e a soberania de Deus, que Noemi vê como a fonte de sua aflição."}]}}
+        },
+        {
+            "hebrew": "לִ֖י", "transliteration": "li", "lemma": "לְ", "briefTranslation": "para mim", "contextualTranslation": "...comigo...",
+            "analysis": { "class": "Preposição com Sufixo", "gender": "Comum", "number": "Singular", "pgn": "1cs", "lemmaTranslation": "para, a", "extra": "", "reference": "GKC §103f", "didactic": { "conceptTitle": "Preposição com Sufixo Pronominal", "identification": [{"feature": "Componentes", "indicator": "A forma é composta da preposição 'לְ' (lə) + o sufixo pronominal da 1ª pessoa do singular '־ִי' (-i)."}]}}
+        },
+        {
+            "hebrew": "מְאֹֽד׃", "transliteration": "me'od", "lemma": "מְאֹד", "briefTranslation": "grandemente", "contextualTranslation": "...com grande amargura.",
+            "analysis": { "class": "Advérbio", "gender": "N/A", "number": "N/A", "state": "N/A", "lemmaTranslation": "muito, grandemente", "extra": "Intensifica a ação.", "reference": "N/A", "didactic": { "conceptTitle": "Advérbio de Intensidade", "identification": [{"feature": "Função", "indicator": "Advérbios como 'מְאֹד' (me'od) modificam adjetivos ou verbos para aumentar sua intensidade."}]}}
+        }
     ]
-},
+}
+,
     "21": {
     "hebrewText": "אֲנִי֙ מְלֵאָ֣ה הָלַ֔כְתִּי וְרֵיקָ֖ם הֱשִׁיבַ֣נִי יְהוָ֑ה לָ֤מָּה תִקְרֶ֙אנָה֙ לִ֣י נָעֳמִ֔י וַֽיהוָה֙ עָ֣נָה בִ֔י וְשַׁדַּ֖י הֵ֥רַֽע לִֽי׃",
     "words": [
-        {"hebrew": "אֲנִי֙", "transliteration": "’ănî", "lemma": "אֲנִי", "briefTranslation": "Eu", "contextualTranslation": "Eu parti cheia...", "analysis": {"class": "Pronome", "gender": "Comum", "number": "Singular", "pgn": "1cs", "extra": "Pronome pessoal independente.", "reference": "GKC §135a", "didacticKey": "pronoun_personal_independent"}},
-        {"hebrew": "מְלֵאָ֣ה", "transliteration": "məlē’â", "lemma": "מָלֵא", "briefTranslation": "cheia", "contextualTranslation": "...cheia...", "analysis": {"class": "Adjetivo", "gender": "Feminino", "number": "Singular", "state": "Absoluto", "extra": "Funciona como um predicado, descrevendo o estado de 'eu'.", "reference": "GKC §121c", "didacticKey": "adjective"}},
-        {"hebrew": "הָלַ֔כְתִּי", "transliteration": "hālaḵtî", "lemma": "הָלַךְ", "briefTranslation": "eu fui", "contextualTranslation": "...eu parti...", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Perfeito", "pgn": "1cs", "extra": "", "reference": "GKC §44", "didacticKey": "verb_qal_perfect"}},
-        {"hebrew": "וְרֵיקָ֖ם", "transliteration": "wərêqām", "lemma": "רֵיקָם", "briefTranslation": "e vazia", "contextualTranslation": "...e vazia o SENHOR me fez tornar.", "analysis": {"class": "Advérbio com Conjunção", "gender": "N/A", "number": "N/A", "state": "N/A", "extra": "Conjunção 'וְ'. Significa 'com as mãos vazias'.", "reference": "HALOT 1228", "didacticKey": "adverb"}},
-        {"hebrew": "הֱשִׁיבַ֣נִי", "transliteration": "hĕšîḇanî", "lemma": "שׁוּב", "briefTranslation": "Ele me fez voltar", "contextualTranslation": "...me fez tornar...", "analysis": {"class": "Verbo com Sufixo Pronominal", "binyan": "Hifil", "tense": "Perfeito", "pgn": "3ms", "extra": "Hifil causativo: 'fazer voltar'. Sufixo da 1ª pessoa 'נִי' (me) como objeto direto.", "reference": "GKC §58i", "didacticKey": "verb_hifil_perfect"}},
-        {"hebrew": "יְהוָ֑ה", "transliteration": "YHWH", "lemma": "יהוה", "briefTranslation": "o SENHOR", "contextualTranslation": "o SENHOR", "analysis": {"class": "Nome Próprio (Divino)", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "extra": "Sujeito do verbo 'hĕšîḇanî'.", "reference": "N/A", "didacticKey": "noun_absolute_state"}},
-        {"hebrew": "לָ֤מָּה", "transliteration": "lāmmâ", "lemma": "לָמָה", "briefTranslation": "por que", "contextualTranslation": "Por que, pois, me chamais Noemi...", "analysis": {"class": "Pronome Interrogativo", "gender": "N/A", "number": "N/A", "state": "N/A", "extra": "", "reference": "GKC §100o", "didacticKey": "interrogative_pronoun"}},
-        {"hebrew": "תִקְרֶ֙אנָה֙", "transliteration": "ṯiqre’nâ", "lemma": "קָרָא", "briefTranslation": "vós chamais", "contextualTranslation": "...me chamais...", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Imperfeito", "pgn": "2fp", "extra": "", "reference": "GKC §107", "didacticKey": "verb_qal_imperfect"}},
-        {"hebrew": "לִ֣י", "transliteration": "lî", "lemma": "לְ", "briefTranslation": "a mim", "contextualTranslation": "...me...", "analysis": {"class": "Preposição com Sufixo", "gender": "Comum", "number": "Singular", "pgn": "1cs", "extra": "", "reference": "GKC §103f", "didacticKey": "noun_with_pronominal_suffix"}},
-        {"hebrew": "נָעֳמִ֔י", "transliteration": "nā‘ŏmî", "lemma": "נָעֳמִי", "briefTranslation": "Noemi", "contextualTranslation": "...Noemi", "analysis": {"class": "Nome Próprio", "gender": "Feminino", "number": "Singular", "state": "Absoluto", "extra": "", "reference": "HALOT 706", "didacticKey": "noun_absolute_state"}},
-        {"hebrew": "וַֽיהוָה֙", "transliteration": "wYHWH", "lemma": "יהוה", "briefTranslation": "visto que o SENHOR", "contextualTranslation": "visto que o SENHOR...", "analysis": {"class": "Nome Próprio (Divino) com Conjunção", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "extra": "A conjunção 'וְ' aqui tem sentido circunstancial.", "reference": "GKC §161a", "didacticKey": "noun_absolute_state"}},
-        {"hebrew": "עָ֣נָה", "transliteration": "‘ānâ", "lemma": "עָנָה", "briefTranslation": "testificou", "contextualTranslation": "...testificou contra mim...", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Perfeito", "pgn": "3ms", "extra": "O sentido aqui não é 'responder', mas 'testemunhar contra'.", "reference": "HALOT 855", "didacticKey": "verb_qal_perfect"}},
-        {"hebrew": "בִ֔י", "transliteration": "ḇî", "lemma": "בְּ", "briefTranslation": "contra mim", "contextualTranslation": "...contra mim...", "analysis": {"class": "Preposição com Sufixo", "gender": "Comum", "number": "Singular", "pgn": "1cs", "extra": "", "reference": "GKC §103f", "didacticKey": "noun_with_pronominal_suffix"}},
-        {"hebrew": "וְשַׁדַּ֖י", "transliteration": "wəšadday", "lemma": "שַׁדַּי", "briefTranslation": "e o Todo-Poderoso", "contextualTranslation": "e o Todo-Poderoso...", "analysis": {"class": "Nome Próprio (Divino) com Conjunção", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "extra": "", "reference": "N/A", "didacticKey": "noun_absolute_state"}},
-        {"hebrew": "הֵ֥רַֽע", "transliteration": "hēra‘", "lemma": "רָעַע", "briefTranslation": "me fez mal", "contextualTranslation": "...me afligiu.", "analysis": {"class": "Verbo", "binyan": "Hifil", "tense": "Perfeito", "pgn": "3ms", "extra": "Hifil causativo: 'fazer mal', 'causar aflição'.", "reference": "GKC §53d", "didacticKey": "verb_hifil_perfect"}},
-        {"hebrew": "לִֽי׃", "transliteration": "lî", "lemma": "לְ", "briefTranslation": "a mim", "contextualTranslation": "...me...", "analysis": {"class": "Preposição com Sufixo", "gender": "Comum", "number": "Singular", "pgn": "1cs", "extra": "", "reference": "GKC §103f", "didacticKey": "noun_with_pronominal_suffix"}}
+        {
+            "hebrew": "אֲנִי֙", "transliteration": "ani", "lemma": "אֲנִי", "briefTranslation": "Eu", "contextualTranslation": "Eu parti cheia...",
+            "analysis": {
+                "class": "Pronome", "gender": "Comum", "number": "Singular", "pgn": "1cs", "lemmaTranslation": "eu", "extra": "Pronome pessoal independente.", "reference": "GKC §135a",
+                "didactic": { "conceptTitle": "Pronome Pessoal Independente", "identification": [{"feature": "Função de Ênfase", "indicator": "O uso do pronome 'אֲנִי' (ani) no início da frase, embora o verbo já contenha o sujeito, serve para criar um forte contraste e enfatizar o 'eu' de Noemi."}]}
+            }
+        },
+        {
+            "hebrew": "מְלֵאָ֣ה", "transliteration": "mele'á", "lemma": "מָלֵא", "briefTranslation": "cheia", "contextualTranslation": "...cheia...",
+            "analysis": {
+                "class": "Adjetivo", "gender": "Feminino", "number": "Singular", "state": "Absoluto", "lemmaTranslation": "cheio, pleno", "extra": "Funciona como um predicado.", "reference": "GKC §121c",
+                "didactic": {
+                    "conceptTitle": "Adjetivo como Predicado",
+                    "identification": [
+                        {"feature": "Função", "indicator": "O adjetivo 'מְלֵאָה' (mele'á) não está modificando um substantivo, mas descrevendo o estado do sujeito ('eu'). Isso é chamado de uso predicativo."},
+                        {"feature": "Concordância", "indicator": "Ele concorda em gênero (feminino) com Noemi."}
+                    ]
+                }
+            }
+        },
+        {
+            "hebrew": "הָלַ֔כְתִּי", "transliteration": "halachti", "lemma": "הָלַךְ", "briefTranslation": "eu fui", "contextualTranslation": "...eu parti...",
+            "analysis": {
+                "class": "Verbo", "binyan": "Qal", "tense": "Perfeito", "pgn": "1cs", "lemmaTranslation": "ir, andar", "extra": "", "reference": "GKC §44",
+                "didactic": {
+                    "conceptTitle": "Verbo: Qal Perfeito (1cs)",
+                    "identification": [
+                        {"feature": "Tempo/Aspecto - Perfeito", "indicator": "Descreve uma ação completa, concluída no passado."},
+                        {"feature": "Pessoa, Gênero e Número (PGN) - 1cs", "indicator": "O sufixo '־תִּי' (-ti) é o marcador inequívoco da 1ª pessoa do singular ('eu') no tempo Perfeito."}
+                    ]
+                }
+            }
+        },
+        {
+            "hebrew": "וְרֵיקָ֖ם", "transliteration": "ve'reikam", "lemma": "רֵיקָם", "briefTranslation": "e vazia", "contextualTranslation": "...e vazia o SENHOR me fez tornar.",
+            "analysis": {
+                "class": "Advérbio com Conjunção", "gender": "N/A", "number": "N/A", "state": "N/A", "lemmaTranslation": "vazio, de mãos vazias", "extra": "Conjunção 'וְ'.", "reference": "HALOT 1228",
+                "didactic": { "conceptTitle": "Advérbio de Modo", "identification": [{"feature": "Função", "indicator": "O advérbio 'רֵיקָם' (reikam) descreve o modo ou a condição do retorno de Noemi: 'de mãos vazias'."}]}
+            }
+        },
+        {
+            "hebrew": "הֱשִׁיבַ֣נִי", "transliteration": "heshivani", "lemma": "שׁוּב", "briefTranslation": "Ele me fez voltar", "contextualTranslation": "...me fez tornar...",
+            "analysis": {
+                "class": "Verbo com Sufixo Pronominal", "binyan": "Hifil", "tense": "Perfeito", "pgn": "3ms", "lemmaTranslation": "retornar, voltar", "extra": "Hifil causativo. Sufixo da 1ª pessoa 'נִי' (me) como objeto direto.", "reference": "GKC §58i",
+                "didactic": {
+                    "conceptTitle": "Verbo Hifil com Sufixo de Objeto",
+                    "identification": [
+                        {"feature": "Identificação do Tronco (Hifil)", "indicator": "O prefixo 'הֱ־' (he-) é uma marca do Hifil Perfeito."},
+                        {"feature": "Significado Causativo", "indicator": "A raiz 'shuv' no Qal significa 'voltar'. No Hifil, ela se torna causativa: 'fazer voltar', 'trazer de volta'."},
+                        {"feature": "Sufixo de Objeto Direto", "indicator": "A terminação '־נִי' (-ni) é o sufixo pronominal da 1ª pessoa ('me') que se anexa a verbos para indicar o objeto direto da ação."}
+                    ]
+                }
+            }
+        },
+        {
+            "hebrew": "יְהוָ֑ה", "transliteration": "YHWH", "lemma": "יהוה", "briefTranslation": "o SENHOR", "contextualTranslation": "o SENHOR",
+            "analysis": { "class": "Nome Próprio (Divino)", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "lemmaTranslation": "SENHOR", "extra": "Sujeito do verbo 'heshivani'.", "reference": "N/A", "didactic": { "conceptTitle": "O Tetragrama (YHWH)", "identification": [{"feature": "Função", "indicator": "Funciona como o sujeito do verbo 'heshivani' (Ele me fez voltar)."}]}}
+        },
+        {
+            "hebrew": "לָ֤מָּה", "transliteration": "lamah", "lemma": "לָמָה", "briefTranslation": "por que", "contextualTranslation": "Por que, pois, me chamais Noemi...",
+            "analysis": { "class": "Pronome Interrogativo", "gender": "N/A", "number": "N/A", "state": "N/A", "lemmaTranslation": "por que?", "extra": "", "reference": "GKC §100o", "didactic": { "conceptTitle": "Pronome Interrogativo", "identification": [{"feature": "Função", "indicator": "'Lāmmâ' (לָמָּה) é a forma padrão para perguntar 'por quê?', introduzindo uma pergunta retórica."}]}}
+        },
+        {
+            "hebrew": "תִקְרֶ֙אנָה֙", "transliteration": "tikrena", "lemma": "קָרָא", "briefTranslation": "vós chamais", "contextualTranslation": "...me chamais...",
+            "analysis": { "class": "Verbo", "binyan": "Qal", "tense": "Imperfeito", "pgn": "2fp", "lemmaTranslation": "chamar, clamar", "extra": "", "reference": "GKC §107", "didactic": { "conceptTitle": "Verbo: Qal Imperfeito (2fp)", "identification": [{"feature": "PGN - 2fp", "indicator": "O prefixo 'תִּ־' (ti-) e o sufixo '־נָה' (-nah) são a combinação que marca a 2ª pessoa do feminino plural ('vós')."}]}}
+        },
+        {
+            "hebrew": "לִ֣י", "transliteration": "li", "lemma": "לְ", "briefTranslation": "a mim", "contextualTranslation": "...me...",
+            "analysis": { "class": "Preposição com Sufixo", "gender": "Comum", "number": "Singular", "pgn": "1cs", "lemmaTranslation": "para, a", "extra": "", "reference": "GKC §103f", "didactic": { "conceptTitle": "Preposição com Sufixo Pronominal", "identification": [{"feature": "Componentes", "indicator": "A forma é composta da preposição 'לְ' (lə) + o sufixo pronominal da 1ª pessoa do singular '־ִי' (-i)."}]}}
+        },
+        {
+            "hebrew": "נָעֳמִ֔י", "transliteration": "noomi", "lemma": "נָעֳמִי", "briefTranslation": "Noemi", "contextualTranslation": "...Noemi",
+            "analysis": { "class": "Nome Próprio", "gender": "Feminino", "number": "Singular", "state": "Absoluto", "lemmaTranslation": "Noemi", "extra": "", "reference": "HALOT 706", "didactic": { "conceptTitle": "Jogo de Palavras: Noemi", "identification": [{"feature": "Significado vs. Realidade", "indicator": "Noemi rejeita seu nome, que significa 'agradável', porque ele não reflete mais a sua realidade amarga."}]}}
+        },
+        {
+            "hebrew": "וַֽיהוָה֙", "transliteration": "vYHWH", "lemma": "יהוה", "briefTranslation": "visto que o SENHOR", "contextualTranslation": "visto que o SENHOR...",
+            "analysis": {
+                "class": "Nome Próprio (Divino) com Conjunção", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "lemmaTranslation": "SENHOR", "extra": "", "reference": "GKC §161a",
+                "didactic": { "conceptTitle": "Conjunção 'Vav' Circunstancial", "identification": [{"feature": "Uso do 'Vav'", "indicator": "A conjunção 'וְ' (ve) aqui não é apenas aditiva ('e'), mas introduz a circunstância ou a razão pela qual não devem chamá-la de Noemi. Pode ser traduzida como 'visto que' ou 'sendo que'."}]}
+            }
+        },
+        {
+            "hebrew": "עָ֣נָה", "transliteration": "aná", "lemma": "עָנָה", "briefTranslation": "testificou", "contextualTranslation": "...testificou contra mim...",
+            "analysis": {
+                "class": "Verbo", "binyan": "Qal", "tense": "Perfeito", "pgn": "3ms", "lemmaTranslation": "testemunhar contra, afligir", "extra": "", "reference": "HALOT 855",
+                "didactic": { "conceptTitle": "Significado Específico do Verbo", "identification": [{"feature": "Semântica", "indicator": "Embora a raiz 'a.n.h' geralmente signifique 'responder', em contextos legais ou de sofrimento, ela pode assumir o significado mais forte de 'testemunhar contra' ou 'afligir'."}]}
+            }
+        },
+        {
+            "hebrew": "בִ֔י", "transliteration": "bi", "lemma": "בְּ", "briefTranslation": "contra mim", "contextualTranslation": "...contra mim...",
+            "analysis": { "class": "Preposição com Sufixo", "gender": "Comum", "number": "Singular", "pgn": "1cs", "lemmaTranslation": "em, com, contra", "extra": "", "reference": "GKC §103f", "didactic": { "conceptTitle": "Preposição com Sentido Adverso", "identification": [{"feature": "Uso de 'Bə'", "indicator": "A preposição 'בְּ' (bə), geralmente 'em' ou 'com', pode ter um sentido adverso de 'contra' quando usada com verbos de acusação ou aflição."}]}}
+        },
+        {
+            "hebrew": "וְשַׁדַּ֖י", "transliteration": "ve'shadai", "lemma": "שַׁדַּי", "briefTranslation": "e o Todo-Poderoso", "contextualTranslation": "e o Todo-Poderoso...",
+            "analysis": { "class": "Nome Próprio (Divino) com Conjunção", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "lemmaTranslation": "Todo-Poderoso", "extra": "", "reference": "N/A", "didactic": { "conceptTitle": "Nome Divino: 'Shaddai'", "identification": [{"feature": "Uso", "indicator": "'Shaddai' é um nome para Deus que enfatiza seu poder e soberania, que Noemi vê como a fonte de sua aflição."}]}}
+        },
+        {
+            "hebrew": "הֵ֥רַֽע", "transliteration": "hêra", "lemma": "רָעַע", "briefTranslation": "me fez mal", "contextualTranslation": "...me afligiu.",
+            "analysis": {
+                "class": "Verbo", "binyan": "Hifil", "tense": "Perfeito", "pgn": "3ms", "lemmaTranslation": "ser mau, fazer mal", "extra": "Hifil causativo.", "reference": "GKC §53d",
+                "didactic": { "conceptTitle": "Verbo: Tronco Hifil (Causativo)", "identification": [{"feature": "Significado Causativo", "indicator": "A raiz 'r.a.a' significa 'ser mau'. No Hifil, 'hêra' significa 'fazer o mal' ou 'causar aflição'."}]}
+            }
+        },
+        {
+            "hebrew": "לִֽי׃", "transliteration": "li", "lemma": "לְ", "briefTranslation": "a mim", "contextualTranslation": "...me...",
+            "analysis": { "class": "Preposição com Sufixo", "gender": "Comum", "number": "Singular", "pgn": "1cs", "lemmaTranslation": "para, a", "extra": "", "reference": "GKC §103f", "didactic": { "conceptTitle": "Preposição com Sufixo Pronominal", "identification": [{"feature": "Componentes", "indicator": "A forma é composta da preposição 'לְ' (lə) + o sufixo pronominal da 1ª pessoa do singular '־ִי' (-i)."}]}}
+        }
     ]
-},
+}
+,
     "22": {
     "hebrewText": "וַתָּ֤שָׁב נָעֳמִי֙ וְר֨וּת הַמּוֹאֲבִיָּ֤ה כַלָּתָהּ֙ עִמָּ֔הּ הַשָּׁ֖בָה מִשְּׂדֵ֣י מוֹאָ֑ב וְהֵ֗מָּה בָּ֚אוּ בֵּ֣ית לֶ֔חֶם בִּתְחִלַּ֖ת קְצִ֥יר שְׂעֹרִֽים׃",
     "words": [
-        {"hebrew": "וַתָּ֤שָׁב", "transliteration": "wattāšāḇ", "lemma": "שׁוּב", "briefTranslation": "e voltou", "contextualTranslation": "Assim, voltou Noemi...", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Imperfeito com Vav Consecutivo", "pgn": "3fs", "extra": "O sujeito é Noemi.", "reference": "GKC §72s", "didacticKey": "verb_qal_imperfect_vav_consecutive"}},
-        {"hebrew": "נָעֳמִי֙", "transliteration": "nā‘ŏmî", "lemma": "נָעֳמִי", "briefTranslation": "Noemi", "contextualTranslation": "...Noemi...", "analysis": {"class": "Nome Próprio", "gender": "Feminino", "number": "Singular", "state": "Absoluto", "extra": "", "reference": "HALOT 706", "didacticKey": "noun_absolute_state"}},
-        {"hebrew": "וְר֨וּת", "transliteration": "wərûṯ", "lemma": "רוּת", "briefTranslation": "e Rute", "contextualTranslation": "...e com ela Rute...", "analysis": {"class": "Nome Próprio com Conjunção", "gender": "Feminino", "number": "Singular", "state": "Absoluto", "extra": "", "reference": "HALOT 1220", "didacticKey": "noun_absolute_state"}},
-        {"hebrew": "הַמּוֹאֲבִיָּ֤ה", "transliteration": "hammô’ăḇîyâ", "lemma": "מוֹאָבִי", "briefTranslation": "a moabita", "contextualTranslation": "...a moabita...", "analysis": {"class": "Gentílico (Adjetivo)", "gender": "Feminino", "number": "Singular", "state": "Absoluto", "extra": "Com artigo definido 'הַ'.", "reference": "GKC §86k", "didacticKey": "adjective"}},
-        {"hebrew": "כַלָּתָהּ֙", "transliteration": "kallāṯāh", "lemma": "כַּלָּה", "briefTranslation": "sua nora", "contextualTranslation": "...sua nora...", "analysis": {"class": "Substantivo com Sufixo Pronominal", "gender": "Feminino", "number": "Singular", "state": "N/A", "extra": "Sufixo pronominal da 3ª fem. sing. 'הּ' (dela).", "reference": "GKC §91e", "didacticKey": "noun_with_pronominal_suffix"}},
-        {"hebrew": "עִמָּ֔הּ", "transliteration": "‘immāh", "lemma": "עִם", "briefTranslation": "com ela", "contextualTranslation": "...com ela...", "analysis": {"class": "Preposição com Sufixo", "gender": "Feminino", "number": "Singular", "pgn": "3fs", "extra": "", "reference": "GKC §103f", "didacticKey": "noun_with_pronominal_suffix"}},
-        {"hebrew": "הַשָּׁ֖בָה", "transliteration": "haššāḇâ", "lemma": "שׁוּב", "briefTranslation": "a que voltava", "contextualTranslation": "...que voltava dos campos de Moabe.", "analysis": {"class": "Particípio", "binyan": "Qal", "tense": "Particípio Ativo", "gender": "Feminino", "number": "Singular", "extra": "Com artigo definido 'הַ'. Funciona como uma cláusula relativa, modificando Rute.", "reference": "GKC §116d", "didacticKey": "participle_qal_active"}},
-        {"hebrew": "מִשְּׂדֵ֣י", "transliteration": "miśśəḏê", "lemma": "שָׂדֶה", "briefTranslation": "dos campos de", "contextualTranslation": "...dos campos de Moabe.", "analysis": {"class": "Substantivo com Preposição", "gender": "Masculino", "number": "Plural", "state": "Construto", "extra": "Preposição 'מִן'.", "reference": "GKC §19c", "didacticKey": "noun_construct_state"}},
-        {"hebrew": "מוֹאָ֑ב", "transliteration": "mô’āḇ", "lemma": "מוֹאָב", "briefTranslation": "Moabe", "contextualTranslation": "...Moabe.", "analysis": {"class": "Nome Próprio", "gender": "Masculino", "number": "Singular", "state": "N/A", "extra": "", "reference": "N/A", "didacticKey": "noun_absolute_state"}},
-        {"hebrew": "וְהֵ֗מָּה", "transliteration": "wəhēmmâ", "lemma": "הֵמָּה", "briefTranslation": "e elas", "contextualTranslation": "E chegaram a Belém...", "analysis": {"class": "Pronome com Conjunção", "gender": "Masculino", "number": "Plural", "pgn": "3mp", "extra": "Conjunção 'וְ'. A forma masculina 'eles' é usada para o par feminino.", "reference": "GKC §135p", "didacticKey": "pronoun_personal_independent"}},
-        {"hebrew": "בָּ֚אוּ", "transliteration": "bā’û", "lemma": "בּוֹא", "briefTranslation": "elas chegaram", "contextualTranslation": "...chegaram...", "analysis": {"class": "Verbo", "binyan": "Qal", "tense": "Perfeito", "pgn": "3cp (3ª pessoa, comum, plural)", "extra": "", "reference": "GKC §44", "didacticKey": "verb_qal_perfect"}},
-        {"hebrew": "בֵּ֣ית", "transliteration": "bêṯ", "lemma": "בַּיִת", "briefTranslation": "a Casa de", "contextualTranslation": "...a Belém.", "analysis": {"class": "Substantivo", "gender": "Masculino", "number": "Singular", "state": "Construto", "extra": "", "reference": "GKC §129", "didacticKey": "noun_construct_state"}},
-        {"hebrew": "לֶ֔חֶם", "transliteration": "leḥem", "lemma": "לֶחֶם", "briefTranslation": "Pão", "contextualTranslation": "...Belém.", "analysis": {"class": "Substantivo", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "extra": "", "reference": "HALOT 535", "didacticKey": "noun_absolute_state"}},
-        {"hebrew": "בִּתְחִלַּ֖ת", "transliteration": "bitḥillaṯ", "lemma": "תְּחִלָּה", "briefTranslation": "no começo de", "contextualTranslation": "...no princípio da sega da cevada.", "analysis": {"class": "Substantivo com Preposição", "gender": "Feminino", "number": "Singular", "state": "Construto", "extra": "Preposição 'בְּ'.", "reference": "GKC §129", "didacticKey": "noun_construct_state"}},
-        {"hebrew": "קְצִ֥יר", "transliteration": "qəṣîr", "lemma": "קָצִיר", "briefTranslation": "a colheita de", "contextualTranslation": "...a sega...", "analysis": {"class": "Substantivo", "gender": "Masculino", "number": "Singular", "state": "Construto", "extra": "", "reference": "GKC §128", "didacticKey": "noun_construct_state"}},
-        {"hebrew": "שְׂעֹרִֽים׃", "transliteration": "śə‘ōrîm", "lemma": "שְׂעֹרָה", "briefTranslation": "cevada", "contextualTranslation": "...da cevada.", "analysis": {"class": "Substantivo", "gender": "Feminino", "number": "Plural", "state": "Absoluto", "extra": "A forma plural masculina é usada para o grão.", "reference": "HALOT 1327", "didacticKey": "noun_absolute_state"}}
+        {
+            "hebrew": "וַתָּ֤שָׁב",
+            "transliteration": "vatáshav",
+            "lemma": "שׁוּב",
+            "briefTranslation": "e voltou",
+            "contextualTranslation": "Assim, voltou Noemi...",
+            "analysis": {
+                "class": "Verbo",
+                "binyan": "Qal",
+                "tense": "Imperfeito com Vav Consecutivo",
+                "pgn": "3fs",
+                "lemmaTranslation": "retornar, voltar",
+                "extra": "Verbo 'oco' (II-Vav). O sujeito é Noemi.",
+                "reference": "GKC §72s",
+                "didactic": {
+                    "conceptTitle": "Verbo Oco (II-Vav)",
+                    "identification": [
+                        {
+                            "feature": "Identificação da Raiz",
+                            "indicator": "Raízes com 'Vav' como segunda letra são 'ocas'. Na conjugação, essa letra do meio frequentemente contrai-se numa vogal longa. 'Vatáshav' é a forma apocopada (encurtada) de 'vatashuv'."
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "hebrew": "נָעֳמִי֙",
+            "transliteration": "noomi",
+            "lemma": "נָעֳמִי",
+            "briefTranslation": "Noemi",
+            "contextualTranslation": "...Noemi...",
+            "analysis": { "class": "Nome Próprio", "gender": "Feminino", "number": "Singular", "state": "Absoluto", "lemmaTranslation": "Noemi", "extra": "", "reference": "HALOT 706", "didactic": { "conceptTitle": "Nome Próprio", "identification": [{"feature": "Função", "indicator": "Funciona como o sujeito do verbo 'vatáshav'."}]}}
+        },
+        {
+            "hebrew": "וְר֨וּת",
+            "transliteration": "ve'rut",
+            "lemma": "רוּת",
+            "briefTranslation": "e Rute",
+            "contextualTranslation": "...e com ela Rute...",
+            "analysis": { "class": "Nome Próprio com Conjunção", "gender": "Feminino", "number": "Singular", "state": "Absoluto", "lemmaTranslation": "Rute", "extra": "", "reference": "HALOT 1220", "didactic": { "conceptTitle": "Nome Próprio", "identification": [{"feature": "Função", "indicator": "Junta-se a Noemi como parte do sujeito composto."}]}}
+        },
+        {
+            "hebrew": "הַמּוֹאֲבִיָּ֤ה",
+            "transliteration": "hamoaviá",
+            "lemma": "מוֹאָבִי",
+            "briefTranslation": "a moabita",
+            "contextualTranslation": "...a moabita...",
+            "analysis": {
+                "class": "Gentílico (Adjetivo)",
+                "gender": "Feminino",
+                "number": "Singular",
+                "state": "Absoluto",
+                "lemmaTranslation": "moabita",
+                "extra": "Com artigo definido 'הַ'.",
+                "reference": "GKC §86k",
+                "didactic": {
+                    "conceptTitle": "Adjetivo Gentílico Definido",
+                    "identification": [
+                        {
+                            "feature": "Concordância",
+                            "indicator": "O adjetivo 'moaviá' concorda em gênero (feminino) e número (singular) com o nome que modifica, Rute."},
+                        {
+                            "feature": "Definição",
+                            "indicator": "A presença do artigo 'הַ' (ha-) torna o adjetivo definido. O narrador enfatiza a sua identidade estrangeira."
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "hebrew": "כַלָּתָהּ֙",
+            "transliteration": "kalatah",
+            "lemma": "כַּלָּה",
+            "briefTranslation": "sua nora",
+            "contextualTranslation": "...sua nora...",
+            "analysis": { "class": "Substantivo com Sufixo Pronominal", "gender": "Feminino", "number": "Singular", "state": "N/A", "lemmaTranslation": "nora, noiva", "extra": "Sufixo pronominal da 3ª fem. sing. 'הּ' (dela).", "reference": "GKC §91e", "didactic": { "conceptTitle": "Substantivo com Sufixo Pronominal", "identification": [{"feature": "Identificação do Sufixo", "indicator": "A terminação '־ָהּ' (-ah) em um substantivo singular é o sufixo pronominal que indica posse para a 3ª pessoa do feminino singular ('dela')."}]}}
+        },
+        {
+            "hebrew": "עִמָּ֔הּ",
+            "transliteration": "imah",
+            "lemma": "עִם",
+            "briefTranslation": "com ela",
+            "contextualTranslation": "...com ela...",
+            "analysis": { "class": "Preposição com Sufixo", "gender": "Feminino", "number": "Singular", "pgn": "3fs", "lemmaTranslation": "com", "extra": "", "reference": "GKC §103f", "didactic": { "conceptTitle": "Preposição com Sufixo Pronominal", "identification": [{"feature": "Componentes", "indicator": "A forma é composta da preposição 'עִם' (im) + o sufixo pronominal da 3ª pessoa do feminino singular '־ָהּ' (-ah)."}]}}
+        },
+        {
+            "hebrew": "הַשָּׁ֖בָה",
+            "transliteration": "hashavá",
+            "lemma": "שׁוּב",
+            "briefTranslation": "a que voltava",
+            "contextualTranslation": "...que voltava dos campos de Moabe.",
+            "analysis": {
+                "class": "Particípio",
+                "binyan": "Qal",
+                "tense": "Particípio Ativo",
+                "gender": "Feminino",
+                "number": "Singular",
+                "lemmaTranslation": "retornar, voltar",
+                "extra": "Com artigo definido 'הַ'.",
+                "reference": "GKC §116d",
+                "didactic": {
+                    "conceptTitle": "Particípio Ativo como Cláusula Relativa",
+                    "identification": [
+                        {
+                            "feature": "Função",
+                            "indicator": "Um particípio com artigo definido, como 'hashavá', funciona como uma cláusula relativa, modificando o substantivo anterior. Em vez de dizer 'Rute, a moabita, que voltava...', o hebraico diz 'Rute, a moabita, a que voltava...'."
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "hebrew": "מִשְּׂדֵ֣י",
+            "transliteration": "misdei",
+            "lemma": "שָׂדֶה",
+            "briefTranslation": "dos campos de",
+            "contextualTranslation": "...dos campos de Moabe.",
+            "analysis": { "class": "Substantivo com Preposição", "gender": "Masculino", "number": "Plural", "state": "Construto", "lemmaTranslation": "campo, zona rural", "extra": "Preposição 'מִן'.", "reference": "GKC §19c", "didactic": { "conceptTitle": "Preposição 'Min' de Origem", "identification": [{"feature": "Uso da Preposição", "indicator": "A preposição 'מִן' (min) indica o ponto de partida ou origem da ação de retornar: 'a partir dos campos de Moabe'."}]}}
+        },
+        {
+            "hebrew": "מוֹאָ֑ב",
+            "transliteration": "moav",
+            "lemma": "מוֹאָב",
+            "briefTranslation": "Moabe",
+            "contextualTranslation": "...Moabe.",
+            "analysis": { "class": "Nome Próprio", "gender": "Masculino", "number": "Singular", "state": "N/A", "lemmaTranslation": "Moabe", "extra": "", "reference": "N/A", "didactic": { "conceptTitle": "Nome Próprio", "identification": [{"feature": "Função", "indicator": "Completa a cadeia construta, especificando de quais campos ela retornou."}]}}
+        },
+        {
+            "hebrew": "וְהֵ֗מָּה",
+            "transliteration": "vehemah",
+            "lemma": "הֵמָּה",
+            "briefTranslation": "e elas",
+            "contextualTranslation": "E chegaram a Belém...",
+            "analysis": {
+                "class": "Pronome com Conjunção",
+                "gender": "Masculino",
+                "number": "Plural",
+                "pgn": "3mp",
+                "lemmaTranslation": "eles",
+                "extra": "Conjunção 'וְ'.",
+                "reference": "GKC §135p",
+                "didactic": { "conceptTitle": "Pronome Pessoal com Gênero Incomum", "identification": [{"feature": "Forma Incomum", "indicator": "O pronome é masculino ('hemmah', eles), mas refere-se a duas mulheres (Noemi e Rute). Este é um exemplo de como o masculino pode ser usado como uma forma genérica ou padrão em hebraico."}]}
+            }
+        },
+        {
+            "hebrew": "בָּ֚אוּ",
+            "transliteration": "báu",
+            "lemma": "בּוֹא",
+            "briefTranslation": "elas chegaram",
+            "contextualTranslation": "...chegaram...",
+            "analysis": { "class": "Verbo", "binyan": "Qal", "tense": "Perfeito", "pgn": "3cp", "lemmaTranslation": "vir, chegar", "extra": "", "reference": "GKC §44", "didactic": { "conceptTitle": "Verbo: Qal Perfeito (3cp)", "identification": [{"feature": "PGN - 3cp", "indicator": "O sufixo '־וּ' (-u) é o marcador da 3ª pessoa do plural comum (masculino e feminino) no Perfeito."}]}}
+        },
+        {
+            "hebrew": "בֵּ֣ית",
+            "transliteration": "beit",
+            "lemma": "בַּיִת",
+            "briefTranslation": "a Casa de",
+            "contextualTranslation": "...a Belém.",
+            "analysis": { "class": "Substantivo", "gender": "Masculino", "number": "Singular", "state": "Construto", "lemmaTranslation": "casa", "extra": "", "reference": "GKC §129", "didactic": { "conceptTitle": "Substantivo: Estado Construto", "identification": [{"feature": "Função", "indicator": "A forma 'beit' liga-se a 'lechem' para formar o nome próprio 'Beit Lechem' (Belém)."}]}}
+        },
+        {
+            "hebrew": "לֶ֔חֶם",
+            "transliteration": "lechem",
+            "lemma": "לֶחֶם",
+            "briefTranslation": "Pão",
+            "contextualTranslation": "...Belém.",
+            "analysis": { "class": "Substantivo", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "lemmaTranslation": "pão, alimento", "extra": "", "reference": "HALOT 535", "didactic": { "conceptTitle": "Nome de Lugar Composto", "identification": [{"feature": "Significado do Nome", "indicator": "'Beit Lechem' significa literalmente 'Casa do Pão'."}]}}
+        },
+        {
+            "hebrew": "בִּתְחִלַּ֖ת",
+            "transliteration": "bitchilat",
+            "lemma": "תְּחִלָּה",
+            "briefTranslation": "no começo de",
+            "contextualTranslation": "...no princípio da sega da cevada.",
+            "analysis": { "class": "Substantivo com Preposição", "gender": "Feminino", "number": "Singular", "state": "Construto", "lemmaTranslation": "começo, princípio", "extra": "Preposição 'בְּ'.", "reference": "GKC §129", "didactic": { "conceptTitle": "Substantivo: Estado Construto", "identification": [{"feature": "Função", "indicator": "A forma construta 'techillat' liga-se a 'ketsir' para formar a expressão 'o começo da colheita'."}]}}
+        },
+        {
+            "hebrew": "קְצִ֥יר",
+            "transliteration": "ketsir",
+            "lemma": "קָצִיר",
+            "briefTranslation": "a colheita de",
+            "contextualTranslation": "...a sega...",
+            "analysis": { "class": "Substantivo", "gender": "Masculino", "number": "Singular", "state": "Construto", "lemmaTranslation": "colheita, sega", "extra": "", "reference": "GKC §128", "didactic": { "conceptTitle": "Substantivo: Estado Construto", "identification": [{"feature": "Função", "indicator": "A forma 'ketsir' liga-se a 'se'orim' para formar a expressão 'a colheita da cevada'."}]}}
+        },
+        {
+            "hebrew": "שְׂעֹרִֽים׃",
+            "transliteration": "se'orim",
+            "lemma": "שְׂעֹרָה",
+            "briefTranslation": "cevada",
+            "contextualTranslation": "...da cevada.",
+            "analysis": {
+                "class": "Substantivo",
+                "gender": "Feminino",
+                "number": "Plural",
+                "state": "Absoluto",
+                "lemmaTranslation": "cevada",
+                "extra": "A forma plural masculina é usada para o grão.",
+                "reference": "HALOT 1327",
+                "didactic": {
+                    "conceptTitle": "Marcador Temporal Narrativo",
+                    "identification": [
+                        {
+                            "feature": "Função Narrativa",
+                            "indicator": "A menção à 'colheita da cevada' não é apenas uma nota agrícola; é um marcador temporal crucial que estabelece o cenário para os eventos do Capítulo 2, que ocorrerão nos campos de Boaz durante esta mesma colheita."
+                        }
+                    ]
+                }
+            }
+        }
     ]
-} 
+}
+
 }
