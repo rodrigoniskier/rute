@@ -276,20 +276,39 @@ body {
 }
 
 #word-list button {
-    display: block;
+    display: flex; /* MUDANÇA: Usa flexbox para alinhar o conteúdo interno */
+    flex-direction: column; /* MUDANÇA: Alinha os itens verticalmente */
+    align-items: flex-end; /* MUDANÇA: Alinha os itens à direita */
     width: 100%;
-    padding: 1rem;
+    padding: 0.8rem 1rem; /* Ajuste no padding */
     margin-bottom: 0.5rem;
     background-color: var(--card-bg);
-    color: var(--primary-text);
     border: none;
     border-radius: 8px;
-    text-align: right; /* Hebraico */
-    font-family: var(--hebrew-font);
-    font-size: 1.5rem;
     cursor: pointer;
     transition: all 0.3s ease;
     direction: rtl;
+}
+
+/* NOVAS REGRAS para estilizar as informações dentro do botão */
+.hebrew-word {
+    font-family: var(--hebrew-font);
+    font-size: 1.6rem;
+    color: var(--primary-text);
+}
+
+.transliteration-word {
+    font-family: var(--ui-font);
+    font-size: 0.9rem;
+    color: var(--secondary-text);
+    font-style: italic;
+}
+
+.translation-word {
+    font-family: var(--ui-font);
+    font-size: 0.9rem;
+    color: var(--accent-hover);
+    margin-top: 4px; /* Pequeno espaço entre a transliteração e a tradução */
 }
 
 #word-list button:hover {
