@@ -1937,10 +1937,8 @@
             "hebrew": "אֱלֹהָֽי׃", "transliteration": "elohai", "lemma": "אֱלֹהִים", "briefTranslation": "meu Deus", "contextualTranslation": "...o meu Deus.",
             "analysis": { "class": "Substantivo com Sufixo Pronominal", "gender": "Masculino", "number": "Plural", "state": "N/A", "lemmaTranslation": "Deus, deuses", "extra": "Sufixo plural da 1ª sing. 'ַי'.", "reference": "GKC §103f", "didactic": { "conceptTitle": "Substantivo Plural com Sufixo Pronominal", "identification": [{"feature": "Identificação do Sufixo", "indicator": "A terminação '־ַי' (-ay) é o sufixo possessivo da 1ª pessoa do singular em um substantivo plural."}]}}
         }
-        }
     ]
-}
-,
+},
     "17": {
     "hebrewText": "בַּאֲשֶׁ֤ר תָּמ֙וּתִי֙ אָמ֔וּת וְשָׁ֖ם אֶקָּבֵ֑ר כֹּ֤ה יַעֲשֶׂה־לִּ֤י יְהוָה֙ וְכֹ֣ה יֹסִ֔יף כִּ֣י הַמָּ֔וֶת יַפְרִ֖יד בֵּינִ֥י וּבֵינֵֽךְ׃",
     "words": [
