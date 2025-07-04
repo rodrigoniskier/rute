@@ -22,6 +22,7 @@ body {
 /* Sidebar Esquerda */
 .sidebar-left {
     width: 300px;
+    flex-shrink: 0;
     background: linear-gradient(180deg, #8B4513 0%, #A0522D 100%);
     color: #fff;
     padding: 25px;
@@ -137,6 +138,9 @@ body {
 }
 
 /* Visualização de Capítulo */
+#chapter-view {
+    overflow-y: auto;
+}
 #chapter-view h2 {
     color: #8B4513;
     margin-bottom: 30px;
@@ -181,6 +185,7 @@ body {
     text-align: left;
     gap: 20px;
     height: 100%;
+    overflow: hidden;
 }
 
 .sidebar-right {
@@ -248,7 +253,7 @@ body {
     text-align: right;
 }
 
-.word-list-item:hover {
+.word-list-item:hover, .word-list-item.active {
     background: #f0ebe5;
     transform: translateX(3px);
     border-color: #CD853F;
