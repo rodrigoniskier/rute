@@ -1,22 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    // -------------------------------------------------------------------
-    // I. SELETORES DE ELEMENTOS DO DOM E ESTADO DA APLICAÇÃO
-    // -------------------------------------------------------------------
     const chapterNav = document.getElementById('chapter-nav');
     const contentArea = document.getElementById('content-area');
     const wordNav = document.getElementById('word-nav');
     const chapterLinks = document.querySelectorAll('.chapter-link');
     
     const dataCache = {};
-    let grammarLibrary = null; 
     let currentData = null; 
     let currentChapterNumber = null;
     let currentVerseNumber = null;
-
-    // -------------------------------------------------------------------
-    // II. LÓGICA DE RENDERIZAÇÃO E BUSCA DE DADOS
-    // -------------------------------------------------------------------
     
     function displayWelcomeScreen() {
         wordNav.classList.remove('visible');
@@ -28,18 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 <img src="rute.png" alt="Ilustração de Rute nos campos de cevada" class="welcome-image">
             </div>
         `;
-    }
-
-    async function loadGrammarLibrary() {
-        if (grammarLibrary) return; 
-        try {
-            const response = await fetch('./data/grammar-library.json');
-            if (!response.ok) throw new Error('Falha ao carregar a biblioteca de gramática.');
-            grammarLibrary = await response.json();
-        } catch (error) {
-            console.error("ERRO CRÍTICO:", error);
-            contentArea.innerHTML = '<p>Erro fatal: a biblioteca de gramática não pôde ser carregada.</p>';
-        }
     }
     
     function renderChapter(chapterData, chapterNumber) {
@@ -94,9 +74,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const verseData = currentData?.[verseNumber];
         if (!verseData) return;
 
-        const newUrl = `?capitulo=${chapterNumber}&versiculo=${verseNumber}`;
-        history.pushState({ chapter: chapterNumber, verse: verseNumber }, '', newUrl);
-
         contentArea.innerHTML = '<h2>Análise do Versículo</h2><p>Selecione uma palavra no menu à direita para ver sua análise detalhada.</p>';
         wordNav.innerHTML = ''; 
 
@@ -143,21 +120,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function displayWordAnalysis(wordIndex) {
         const wordData = currentData?.[currentVerseNumber]?.words[wordIndex];
-        if (!wordData || !grammarLibrary) {
-            contentArea.innerHTML = "<p>Dados da palavra ou biblioteca de gramática não encontrados.</p>";
+        if (!wordData) {
+            contentArea.innerHTML = "<p>Dados da palavra não encontrados.</p>";
             return;
         }
 
         const analysis = wordData.analysis;
-        const didacticContent = grammarLibrary[analysis.didacticKey]; 
+        const didacticContent = analysis.didactic; 
 
-        // ESTA É A CORREÇÃO CRÍTICA:
-        // As variáveis paradigmHtml e didacticHtml são recriadas do zero a cada chamada da função.
-        // Isso garante que não haja "memória" ou "estado" de cliques anteriores.
         let paradigmHtml = '';
         if (didacticContent && didacticContent.paradigm) {
             const paradigm = didacticContent.paradigm;
-            const headers = (paradigm.type === 'verb' || paradigm.type === 'participle') ? ['Forma', 'Hebraico', 'Transliteração', 'Tradução'] : ['Descrição', 'Hebraico', 'Transliteração', 'Tradução'];
+            const headers = (paradigm.type === 'verb' || paradigm.type === 'participle' || paradigm.type.startsWith('pronominal')) ? ['Forma', 'Hebraico', 'Transliteração', 'Tradução'] : ['Descrição', 'Hebraico', 'Transliteração', 'Tradução'];
             paradigmHtml = `
                 <h4>${paradigm.title}</h4>
                 <table class="paradigm-table">
@@ -167,12 +141,16 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         
         let didacticHtml = '';
-        if (didacticContent) {
+        if (didacticContent && didacticContent.identification) {
+            const identificationSteps = didacticContent.identification.map(step => 
+                `<p class="analysis-item"><strong>${step.feature}:</strong> ${step.indicator}</p>`
+            ).join('');
+
             didacticHtml = `
                 <h3>Revisão Gramatical Didática</h3>
                 <div class="didactic-explanation">
-                    <h4>${didacticContent.title}</h4>
-                    <p>${didacticContent.explanation}</p>
+                    <h4>${didacticContent.conceptTitle}</h4>
+                    ${identificationSteps}
                     ${paradigmHtml}
                 </div>`;
         }
@@ -181,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="word-analysis">
                 <h3>Identificação</h3>
                 <p class="analysis-item"><strong>Palavra:</strong> <span class="hebrew-lemma">${wordData.hebrew}</span></p>
-                <p class="analysis-item"><strong>Lema (Raiz):</strong> <span class="hebrew-lemma">${wordData.lemma}</span></p>
+                <p class="analysis-item"><strong>Lema (Raiz):</strong> <span class="hebrew-lemma">${wordData.lemma}</span> (${analysis.lemmaTranslation})</p>
                 <p class="analysis-item"><strong>Tradução Contextual:</strong> ${wordData.contextualTranslation}</p>
                 <h3>Análise Morfológica</h3>
                 <p class="analysis-item"><strong>Classe Gramatical:</strong> ${analysis.class}</p>
@@ -211,9 +189,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
     
-    // -------------------------------------------------------------------
-    // III. MANIPULADORES DE EVENTOS E INICIALIZAÇÃO
-    // -------------------------------------------------------------------
     chapterNav.addEventListener('click', (e) => {
         if (e.target.matches('.chapter-link')) {
             e.preventDefault();
@@ -233,7 +208,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.target.matches('#btn-back-to-chapter')) {
             e.preventDefault();
             displayWelcomeScreen();
-            history.pushState(null, '', window.location.pathname); 
             return;
         }
 
@@ -247,20 +221,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.target.matches('#btn-prev-verse')) navigateToVerse('previous');
     });
 
-    async function initializeApp() {
-        await loadGrammarLibrary(); 
-        const params = new URLSearchParams(window.location.search);
-        const chapter = params.get('capitulo');
-        const verse = params.get('versiculo');
-
-        if (chapter) {
-            await fetchAndDisplayChapter(chapter);
-            if (verse && currentData[verse]) {
-                displayVerseAnalysisView(chapter, verse);
-            }
-        } else {
-            displayWelcomeScreen();
-        }
+    function initializeApp() {
+        displayWelcomeScreen();
     }
 
     initializeApp();
