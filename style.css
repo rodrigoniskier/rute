@@ -1,333 +1,341 @@
-/* --- Variáveis de Estilo --- */
-:root {
-    --color-background: #F5F5DC; /* Bege (Parchment) */
-    --color-pane-background: #E8DDCB; /* Bege mais escuro (Papiro) */
-    --color-text-primary: #5D4037; /* Marrom escuro */
-    --color-text-secondary: #795548; /* Marrom médio */
-    --color-accent: #8D6E63; /* Marrom claro (para hover/active) */
-    --font-primary: 'Garamond', serif;
-    --font-hebrew: 'Noto Sans Hebrew', 'SBL Hebrew', 'Ezra SIL', sans-serif;
-}
-
-/* --- Reset Básico e Estilo do Corpo --- */
+/* Estilos Gerais */
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: var(--font-primary);
-    background-color: var(--color-background);
-    color: var(--color-text-primary);
+    font-family: 'Garamond', 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f5f1eb 0%, #e8ddd4 100%);
+    color: #333;
+    display: flex;
+    min-height: 100vh;
     line-height: 1.6;
-    font-size: 18px; /* Aumenta a base da fonte */
 }
 
-/* --- Estrutura Principal da Aplicação --- */
-.app-container {
-    display: grid;
-    grid-template-columns: 250px 1fr 300px;
-    grid-template-rows: auto 1fr;
-    grid-template-areas:
-        "header header header"
-        "nav-left content nav-right";
-    height: 100vh;
-    gap: 20px;
-    padding: 20px;
+.container {
+    display: flex;
+    width: 100%;
 }
 
-.app-header {
-    grid-area: header;
+/* Sidebar Esquerda */
+.sidebar-left {
+    width: 300px;
+    background: linear-gradient(180deg, #8B4513 0%, #A0522D 100%);
+    color: #fff;
+    padding: 25px;
+    box-shadow: 4px 0 20px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    padding-bottom: 10px;
-    border-bottom: 2px solid var(--color-accent);
-}
-
-.app-header h1 {
-    font-weight: 700;
-    font-size: 2.5rem; /* Aumentado */
-}
-
-.navigation-pane {
-    background: var(--color-pane-background);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
     overflow-y: auto;
+    animation: slideInFromLeft 0.6s ease-out;
 }
 
-#chapter-nav {
-    grid-area: nav-left;
+.sidebar-left h1 {
+    font-size: 1.9em;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
-#chapter-nav h2, #word-nav h2 {
-    border-bottom: 1px solid var(--color-accent);
-    padding-bottom: 10px;
-    margin-bottom: 15px;
-    font-size: 1.8rem; /* Aumentado */
+.sidebar-left .hero-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-#chapter-nav ul {
-    list-style-type: none;
+.sidebar-left .hero-image:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.4);
 }
 
-#chapter-nav .chapter-link {
-    display: block;
-    padding: 10px 15px;
-    text-decoration: none;
-    color: var(--color-text-primary);
-    border-radius: 5px;
-    margin-bottom: 5px;
-    transition: background-color 0.3s;
-    font-size: 1.2rem; /* Aumentado */
+.sidebar-left p {
+    font-size: 0.95em;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 
-#chapter-nav .chapter-link:hover {
-    background-color: var(--color-accent);
-    color: white;
+.sidebar-left nav ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
 }
 
-#chapter-nav .chapter-link.active {
-    background-color: var(--color-text-primary);
-    color: white;
-    font-weight: bold;
+.sidebar-left nav ul li {
+    margin-bottom: 12px;
 }
 
-.content-pane {
-    grid-area: content;
-    background: url('https://www.transparenttextures.com/patterns/papyrus.png'), var(--color-pane-background);
+.sidebar-left .chapter-button {
+    background: linear-gradient(135deg, #CD853F 0%, #DAA520 100%);
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.05em;
+    font-weight: 600;
+    width: 85%;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.sidebar-left .chapter-button:hover {
+    background: linear-gradient(135deg, #DAA520 0%, #F4A460 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+.sidebar-left .credits {
+    margin-top: auto;
+    font-size: 0.8em;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    padding-top: 15px;
+    width: 100%;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+/* Área de Conteúdo Principal */
+.content-area {
+    flex-grow: 1;
     padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    overflow-y: auto;
+    background: rgba(255, 255, 255, 0.95);
+    display: flex;
+    flex-direction: column;
 }
 
-#word-nav {
-    grid-area: nav-right;
-    display: none; /* Começa escondido */
+#welcome-screen,
+#chapter-view,
+#analysis-view {
+    animation: fadeIn 0.5s ease-in-out;
 }
 
-#word-nav.visible {
-    display: block;
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
-/* --- Estilos de Conteúdo --- */
-.hebrew-text-display .verse {
-    font-family: var(--font-hebrew);
-    font-size: 3.2rem; /* Aumentado */
-    direction: rtl;
-    text-align: right;
+#welcome-screen {
+    text-align: center;
+}
+#welcome-screen h2 {
+    color: #8B4513;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+#welcome-screen p {
+    font-size: 1.1em;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Visualização de Capítulo */
+#chapter-view h2 {
+    color: #8B4513;
     margin-bottom: 30px;
-    line-height: 2.2;
+    font-size: 2em;
+    text-align: center;
+}
+
+.verse-item {
     cursor: pointer;
     padding: 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #f0f0f0;
+    text-align: left;
+    transition: all 0.3s ease;
+    border-radius: 8px;
 }
 
-.hebrew-text-display .verse:hover {
-    background-color: rgba(141, 110, 99, 0.1);
+.verse-item:hover {
+    background: #f8f5f0;
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-bottom-color: #CD853F;
 }
 
 .verse-number {
-    font-family: var(--font-primary);
-    font-size: 2.2rem; /* Aumentado */
     font-weight: bold;
-    color: var(--color-accent);
-    margin-left: 15px;
+    margin-right: 15px;
+    color: #A0522D;
+    font-size: 1.1em;
 }
 
-/* --- Menu de Palavras (Direita) --- */
-.word-btn {
-    display: block;
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 10px;
-    background-color: #fdfaf2;
-    border: 1px solid var(--color-accent);
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: right;
-    transition: background-color 0.3s;
-}
-
-.word-btn:hover {
-    background-color: #fff;
-    border-color: var(--color-text-primary);
-}
-
-.word-btn.active {
-    background-color: var(--color-text-primary);
-    border-color: var(--color-text-primary);
-    color: white;
-}
-
-.word-btn.active .hebrew-word,
-.word-btn.active .transliteration,
-.word-btn.active .translation {
-    color: white;
-}
-
-.hebrew-word {
-    font-family: var(--font-hebrew);
-    font-size: 3rem; /* Aumentado */
-    font-weight: bold;
-    color: var(--color-text-primary);
-}
-
-.transliteration, .translation {
-    font-family: var(--font-primary);
-    font-size: 1.2rem; /* Aumentado */
-    color: var(--color-text-secondary);
-    direction: ltr;
-    text-align: right;
-}
-
-/* --- Área de Análise da Palavra --- */
-.word-analysis h3 {
-    border-bottom: 2px solid var(--color-accent);
-    padding-bottom: 10px;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    font-size: 2.5rem; /* Aumentado */
-}
-
-.word-analysis .hebrew-lemma {
-    font-family: var(--font-hebrew);
-    font-weight: bold;
-    font-size: 3.5rem; /* Aumentado */
-}
-
-.analysis-item {
-    margin-bottom: 15px;
-    font-size: 1.5rem; /* Aumentado */
-}
-
-.analysis-item strong {
-    color: var(--color-text-primary);
-}
-
-.didactic-explanation {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: rgba(93, 64, 55, 0.05);
-    border-left: 4px solid var(--color-accent);
-    font-size: 1.4rem; /* Aumentado */
-}
-
-.grammar-reference {
-    margin-top: 30px;
-    font-size: 1.2rem; /* Aumentado */
-    text-align: right;
-    color: var(--color-text-secondary);
-}
-
-/* Tabela de Paradigmas */
-.paradigm-table {
-    width: 100%;
-    margin-top: 20px;
-    border-collapse: collapse;
-    font-size: 1.3rem; /* Aumentado */
-}
-
-.paradigm-table th, .paradigm-table td {
-    border: 1px solid var(--color-accent);
-    padding: 12px 15px;
-    text-align: left;
-}
-
-.paradigm-table thead {
-    background-color: var(--color-text-primary);
-    color: white;
-}
-
-.paradigm-table .hebrew-form {
-    font-family: var(--font-hebrew);
-    font-size: 2rem; /* Aumentado */
+.hebrew-text {
+    font-family: 'Noto Sans Hebrew', serif;
+    font-size: 1.3em;
     direction: rtl;
+    line-height: 1.8;
 }
-/* --- Estilos para Navegação de Versículos (Adicionar ao final do style.css) --- */
+
+/* Visualização de Análise */
+#analysis-view {
+    display: flex;
+    text-align: left;
+    gap: 20px;
+    height: 100%;
+}
+
+.sidebar-right {
+    width: 280px;
+    flex-shrink: 0;
+    background: #f8f5f0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    overflow-y: auto;
+    border: 1px solid rgba(139, 69, 19, 0.1);
+    animation: slideInFromRight 0.6s ease-out;
+}
+
+.sidebar-right h3 {
+    color: #8B4513;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    border-bottom: 2px solid #CD853F;
+    padding-bottom: 10px;
+}
 
 .verse-nav-controls {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
-
-.verse-nav-btn {
-    padding: 8px 16px;
-    font-family: var(--font-primary);
-    font-size: 1rem;
-    background-color: var(--color-text-secondary);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.verse-nav-btn:hover:not(:disabled) {
-    background-color: var(--color-text-primary);
-}
-
-.verse-nav-btn:disabled {
-    background-color: #C8BDB7; /* Um cinza-marrom para indicar desabilitado */
-    cursor: not-allowed;
-}
-/* --- Estilo para o Rodapé da Navegação (Adicionar ao final do style.css) --- */
-
-.nav-footer {
-    margin-top: 40px; /* Adiciona espaço entre os links e o rodapé */
-    padding-top: 20px;
-    border-top: 1px solid var(--color-accent);
-    text-align: center;
-    font-size: 0.9rem;
-    color: var(--color-text-secondary);
-    line-height: 1.5;
-}
-/* --- Estilo para Imagem de Boas-Vindas (Adicionar ao final do style.css) --- */
-
-.welcome-image {
-    max-width: 100%; /* Garante que a imagem nunca seja mais larga que o contêiner */
-    max-height: 400px; /* Limita a altura máxima */
-    object-fit: contain; /* Garante que toda a imagem apareça, sem cortar */
-    display: block;
-    margin: 30px auto 10px auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(93, 64, 55, 0.2);
-}
-/* --- Estilos para o Cabeçalho do Painel de Palavras (Adicionar ao final do style.css) --- */
-
-.word-pane-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid var(--color-accent);
-    padding-bottom: 10px;
     margin-bottom: 15px;
 }
 
-.word-pane-header h2 {
-    margin: 0;
-    padding: 0;
+.verse-nav-controls button {
+    width: 48%;
+}
+
+.sidebar-right button {
+    background: linear-gradient(135deg, #CD853F 0%, #DAA520 100%);
+    color: #fff;
     border: none;
-}
-
-#btn-back-to-chapter {
-    background: none;
-    border: 1px solid var(--color-text-secondary);
-    color: var(--color-text-secondary);
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: 10px;
+    border-radius: 8px;
     cursor: pointer;
-    font-size: 0.9rem;
-    font-family: var(--font-primary);
-    transition: all 0.3s;
+    font-size: 0.95em;
+    font-weight: 600;
+    width: 100%;
+    transition: all 0.3s ease;
 }
 
-#btn-back-to-chapter:hover {
-    background-color: var(--color-text-secondary);
-    color: white;
+.sidebar-right button:hover:not(:disabled) {
+    background: linear-gradient(135deg, #DAA520 0%, #F4A460 100%);
+    transform: translateY(-2px);
+}
+
+.sidebar-right button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.word-list-item {
+    background: #fff;
+    border: 1px solid rgba(139, 69, 19, 0.2);
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: right;
+}
+
+.word-list-item:hover {
+    background: #f0ebe5;
+    transform: translateX(3px);
+    border-color: #CD853F;
+}
+
+.word-list-item .hebrew-word {
+    font-family: 'Noto Sans Hebrew', serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #8B4513;
+}
+
+.word-list-item .transliteration, .word-list-item .basic-translation {
+    font-size: 0.9em;
+    color: #666;
+    display: block;
+    direction: ltr;
+}
+
+.word-analysis-area {
+    flex-grow: 1;
+    padding: 25px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    border: 1px solid rgba(139, 69, 19, 0.1);
+    overflow-y: auto;
+}
+
+.word-analysis-area h3 {
+    color: #8B4513;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 1.5em;
+    border-bottom: 3px solid #CD853F;
+    padding-bottom: 15px;
+}
+
+.word-details p {
+    margin-bottom: 15px;
+    line-height: 1.7;
+    font-size: 1.05em;
+}
+
+.word-details strong {
+    color: #A0522D;
+    font-weight: 700;
+}
+
+.word-details h4 {
+    color: #8B4513;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    border-left: 4px solid #CD853F;
+    padding-left: 15px;
+}
+
+.paradigm-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.paradigm-table th, .paradigm-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    font-size: 0.95em;
+}
+
+.paradigm-table th {
+    background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
+    color: #fff;
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    .container, #analysis-view {
+        flex-direction: column;
+    }
+    .sidebar-left, .sidebar-right {
+        width: 100%;
+        max-height: none;
+        border-radius: 0;
+    }
 }
