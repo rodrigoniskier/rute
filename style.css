@@ -122,7 +122,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start; /* Alinha no topo */
-    flex-direction: column; /* Organiza a imagem e o texto em coluna */
     padding-top: 5rem; /* Adiciona um espaço no topo para não ficar colado */
     gap: 2rem;
 }
