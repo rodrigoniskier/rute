@@ -22,13 +22,20 @@ document.addEventListener("DOMContentLoaded", () => {
     // --- Funções de Lógica ---
 
     async function loadChapter(chapterNum) {
+        // Mostra uma mensagem de carregamento
+        welcomeScreen.style.display = "none";
+        analysisView.style.display = "none";
+        chapterView.style.display = "block";
+        verseList.innerHTML = "<p>Carregando dados do capítulo...</p>";
+
         if (dataCache[chapterNum]) {
             currentChapterData = dataCache[chapterNum];
             displayChapter(chapterNum);
             return;
         }
         try {
-            const response = await fetch(`ruth-ch${chapterNum}.json`);
+            // CORREÇÃO: Caminho explícito para a pasta 'data'
+            const response = await fetch(`./data/ruth-ch${chapterNum}.json`);
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             const data = await response.json();
             dataCache[chapterNum] = data;
@@ -36,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
             displayChapter(chapterNum);
         } catch (error) {
             console.error("Erro ao carregar o capítulo:", error);
-            alert(`Erro ao carregar o capítulo ${chapterNum}. Verifique se o arquivo 'ruth-ch${chapterNum}.json' existe na mesma pasta.`);
+            verseList.innerHTML = `<p style="color: red;">Erro ao carregar o capítulo ${chapterNum}. Verifique se o arquivo 'ruth-ch${chapterNum}.json' existe dentro de uma pasta chamada 'data'.</p>`;
         }
     }
 
@@ -51,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (!currentChapterData) return;
         
-        // ADAPTADO: Itera sobre as chaves do objeto, não um array
+        // CORREÇÃO: Itera sobre as chaves do objeto, não sobre um array
         for (const verseNumber in currentChapterData) {
             const verseData = currentChapterData[verseNumber];
             const verseDiv = document.createElement("div");
