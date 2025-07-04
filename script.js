@@ -28,8 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
         try {
-            // Usando o nome do arquivo que você forneceu
-            const response = await fetch(`./ruth-ch${chapterNum}.json`);
+            const response = await fetch(`ruth-ch${chapterNum}.json`);
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             const data = await response.json();
             dataCache[chapterNum] = data;
@@ -79,7 +78,6 @@ document.addEventListener("DOMContentLoaded", () => {
         analysisView.style.display = "flex";
 
         currentVerseNum = verseNum;
-        // ADAPTADO: Acessa o versículo pela chave do objeto
         const verse = currentChapterData[currentVerseNum];
         analysisVerseNumber.textContent = `Versículo ${currentChapterNum}:${verseNum}`;
 
@@ -158,7 +156,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function updateNavigationButtons() {
-        // ADAPTADO: Funciona com chaves de objeto em vez de índices de array
         const verseKeys = Object.keys(currentChapterData).map(Number).sort((a, b) => a - b);
         const currentIndex = verseKeys.indexOf(Number(currentVerseNum));
         prevVerseButton.disabled = currentIndex === 0;
