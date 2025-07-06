@@ -843,7 +843,6 @@
                 }
             }
         ]
-    }
 },
 "6": {
         "hebrewText": "וַיַּ֙עַן֙ הַנַּ֙עַר֙ הַנִּצָּ֣ב עַל־הַקּוֹצְרִ֔ים וַיֹּאמַ֕ר נַעֲרָ֤ה מוֹאֲבִיָּה֙ הִ֔יא הַשָּׁ֥בָה עִם־נָעֳמִ֖י מִשְּׂדֵ֥י מוֹאָֽב׃",
@@ -1629,9 +1628,7 @@
                 }
             }
         ]
-    }
-}
-{
+},
     "11": {
         "hebrewText": "וַיַּעַן בֹּעַז וַיֹּאמֶר לָהּ הֻגֵּד הֻגַּד לִי כֹּל אֲשֶׁר־עָשִׂית אֶת־חֲמוֹתֵךְ אַחֲרֵי מוֹת אִישֵׁךְ וַתַּעַזְבִי אָבִיךְ וְאִמֵּךְ וְאֶרֶץ מוֹלַדְתֵּךְ וַתֵּלְכִי אֶל־עַם אֲשֶׁר לֹא־יָדַעַתְּ תְּמוֹל שִׁלְשֽׁוֹם׃",
         "words": [
@@ -2569,9 +2566,7 @@
                 }
             }
         ]
-    }
-}
-{
+    },
     "18": {
         "hebrewText": "וַתִּשָּׂא וַתָּבוֹא הָעִיר וַתֵּרֶא חֲמוֹתָהּ אֵת אֲשֶׁר־לִקֵּטָה וַתּוֹצֵא וַתִּתֶּן־לָהּ אֵת אֲשֶׁר־הוֹתִרָה מִשָּׂבְעָֽהּ׃",
         "words": [
@@ -2910,46 +2905,46 @@
         "hebrewText": "וַתֹּאמֶר נָעֳמִי לְכַלָּתָהּ בָּרוּךְ הוּא לַיהוָה אֲשֶׁר לֹא־עָזַב חַסְדּוֹ אֶת־הַחַיִּים וְאֶת־הַמֵּתִים וַתֹּאמֶר לָהּ נָעֳמִי קָרוֹב לָנוּ הָאִישׁ הוּא מִגֹּאֲלֵנוּ הֽוּא׃",
         "words": [
             { "hebrew": "וַתֹּאמֶר", "transliteration": "vatômer", "lemma": "אָמַר", "briefTranslation": "e disse", "contextualTranslation": "E disse Noemi...", "analysis": { "class": "Verbo", "binyan": "Qal", "tense": "Imperfeito com Vav Consecutivo", "pgn": "3fs", "lemmaTranslation": "dizer", "extra": "", "reference": "GKC §49c", "didactic": { "conceptTitle": "Reconhecimento e Esperança", "identification": [{"feature": "Função Narrativa", "indicator": "A resposta de Noemi é o clímax emocional e teológico do capítulo. Ela reconhece a mão de Deus e a importância da identidade de Boaz."}]}
-            },
+            }},
             { "hebrew": "נָעֳמִי", "transliteration": "noomi", "lemma": "נָעֳמִי", "briefTranslation": "Noemi", "contextualTranslation": "...Noemi...", "analysis": { "class": "Nome Próprio", "gender": "Feminino", "number": "Singular", "state": "Absoluto", "lemmaTranslation": "Noemi", "extra": "", "reference": "HALOT 706", "didactic": { "conceptTitle": "Mudança de Perspectiva", "identification": [{"feature": "Desenvolvimento do Personagem", "indicator": "A Noemi que se chamava de 'Mara' (Amarga) agora pronuncia uma bênção. Este é o início de sua transformação de volta para 'Noemi' (Agradável)."}]}
-            },
+            }},
             { "hebrew": "לְכַלָּתָהּ", "transliteration": "lechalatah", "lemma": "כַּלָּה", "briefTranslation": "à sua nora", "contextualTranslation": "...à sua nora:", "analysis": { "class": "Substantivo com Preposição e Sufixo", "gender": "Feminino", "number": "Singular", "state": "N/A", "lemmaTranslation": "nora, noiva", "extra": "Preposição 'לְ' + sufixo 3fs.", "reference": "GKC §91e", "didactic": { "conceptTitle": "Substantivo com Sufixo", "identification": [{"feature": "Função", "indicator": "Indica o destinatário da fala de Noemi."}]}
-            },
+            }},
             { "hebrew": "בָּרוּךְ", "transliteration": "baruch", "lemma": "בָּרַךְ", "briefTranslation": "Bendito", "contextualTranslation": "Bendito seja ele...", "analysis": { "class": "Verbo (Particípio Passivo)", "binyan": "Qal", "tense": "Particípio Passivo", "gender": "Masculino", "number": "Singular", "lemmaTranslation": "abençoar", "extra": "", "reference": "GKC §116k", "didactic": { "conceptTitle": "Bênção", "identification": [{"feature": "Função", "indicator": "Noemi começa com uma bênção sobre Boaz."}]}
-            },
+            }},
             { "hebrew": "הוּא", "transliteration": "hu", "lemma": "הוּא", "briefTranslation": "ele", "contextualTranslation": "...ele...", "analysis": { "class": "Pronome", "gender": "Masculino", "number": "Singular", "pgn": "3ms", "lemmaTranslation": "ele", "extra": "Refere-se a Boaz.", "reference": "GKC §135a", "didactic": { "conceptTitle": "Pronome Pessoal", "identification": [{"feature": "Função", "indicator": "Funciona como sujeito da frase nominal 'bendito [é] ele'."}]}
-            },
+            }},
             { "hebrew": "לַיהוָה", "transliteration": "laYHWH", "lemma": "יהוה", "briefTranslation": "pelo SENHOR", "contextualTranslation": "...pelo SENHOR,",
               "analysis": { "class": "Nome Próprio (Divino) com Preposição", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "lemmaTranslation": "SENHOR", "extra": "Preposição 'לְ'.", "reference": "GKC §119s", "didactic": { "conceptTitle": "Agente da Bênção", "identification": [{"feature": "Função", "indicator": "O 'lamed' aqui indica o agente da bênção. 'Bendito seja ele pelo SENHOR' significa que a bênção vem de Deus."}]}
-            },
+            }},
             { "hebrew": "אֲשֶׁר", "transliteration": "asher", "lemma": "אֲשֶׁר", "briefTranslation": "que", "contextualTranslation": "...que...", "analysis": { "class": "Pronome Relativo", "gender": "N/A", "number": "N/A", "state": "N/A", "lemmaTranslation": "que, o qual, onde", "extra": "Refere-se a YHWH.", "reference": "GKC §155", "didactic": { "conceptTitle": "Pronome Relativo", "identification": [{"feature": "Função", "indicator": "Conecta a cláusula descritiva ('não abandonou sua bondade...') ao antecedente (YHWH)."}]}
-            },
+            }},
             { "hebrew": "לֹא־עָזַב", "transliteration": "lô-azav", "lemma": "עָזַב", "briefTranslation": "não abandonou", "contextualTranslation": "...não abandonou...", "analysis": { "class": "Verbo", "binyan": "Qal", "tense": "Perfeito", "pgn": "3ms", "lemmaTranslation": "deixar, abandonar", "extra": "Negação com 'לֹא'.", "reference": "GKC §107c", "didactic": { "conceptTitle": "Verbo: Qal Perfeito Negativo", "identification": [{"feature": "Negação", "indicator": "A partícula 'לֹא' (lô) é usada antes de um verbo no Perfeito para negar uma ação passada."}]}
-            },
+            }},
             { "hebrew": "חַסְדּוֹ", "transliteration": "chasdô", "lemma": "חֶסֶד", "briefTranslation": "sua bondade", "contextualTranslation": "...a sua benevolência...", "analysis": { "class": "Substantivo com Sufixo Pronominal", "gender": "Masculino", "number": "Singular", "state": "N/A", "lemmaTranslation": "bondade, lealdade, misericórdia", "extra": "Sufixo 3ms.", "reference": "GKC §91e", "didactic": { "conceptTitle": "Conceito Teológico: 'Hesed'", "identification": [{"feature": "Significado", "indicator": "'Hesed' é a lealdade e o amor fiel pactual. Noemi reconhece que Deus não abandonou sua aliança e continua a agir com bondade para com sua família."}]}
-            },
+            }},
             { "hebrew": "אֶת־הַחַיִּים", "transliteration": "et-hachayim", "lemma": "חַי", "briefTranslation": "para com os vivos", "contextualTranslation": "...para com os vivos...", "analysis": { "class": "Adjetivo (Substantivado) com Preposição e Artigo", "gender": "Masculino", "number": "Plural", "state": "Absoluto", "lemmaTranslation": "vivo", "extra": "Preposição 'אֶת' (com).", "reference": "GKC §117n", "didactic": { "conceptTitle": "Preposição 'Et' (com)", "identification": [{"feature": "Significado", "indicator": "A preposição 'אֶת' aqui significa 'com' ou 'em relação a'. A bondade de Deus é para com os vivos (Rute e Noemi)..."}]}
-            },
+            }},
             { "hebrew": "וְאֶת־הַמֵּתִים", "transliteration": "ve'et-hametim", "lemma": "מֵת", "briefTranslation": "e para com os mortos", "contextualTranslation": "...e para com os mortos.", "analysis": { "class": "Particípio (Substantivado) com Preposição e Artigo", "binyan": "Qal", "tense": "Particípio Ativo", "gender": "Masculino", "number": "Plural", "lemmaTranslation": "morrer", "extra": "Preposição 'אֶת' (com).", "reference": "GKC §116a", "didactic": { "conceptTitle": "Continuidade Familiar", "identification": [{"feature": "Teologia", "indicator": "...e também para com os mortos (Elimeleque e seus filhos). A provisão de um herdeiro através do resgate manteria vivo o nome dos falecidos, mostrando a fidelidade de Deus através das gerações."}]}
-            },
+            }},
             { "hebrew": "וַתֹּאמֶר", "transliteration": "vatômer", "lemma": "אָמַר", "briefTranslation": "e disse", "contextualTranslation": "E disse-lhe Noemi:", "analysis": { "class": "Verbo", "binyan": "Qal", "tense": "Imperfeito com Vav Consecutivo", "pgn": "3fs", "lemmaTranslation": "dizer", "extra": "", "reference": "GKC §49c", "didactic": { "conceptTitle": "Explicação", "identification": [{"feature": "Função", "indicator": "Noemi agora explica a Rute o significado de sua descoberta."}]}
-            },
+            }},
             { "hebrew": "לָהּ", "transliteration": "lah", "lemma": "לְ", "briefTranslation": "para ela", "contextualTranslation": "...lhe...", "analysis": { "class": "Preposição com Sufixo", "gender": "Feminino", "number": "Singular", "pgn": "3fs", "lemmaTranslation": "para, a", "extra": "", "reference": "GKC §103f", "didactic": { "conceptTitle": "Preposição com Sufixo", "identification": [{"feature": "Função", "indicator": "Refere-se a Rute."}]}
-            },
+            }},
             { "hebrew": "נָעֳמִי", "transliteration": "noomi", "lemma": "נָעֳמִי", "briefTranslation": "Noemi", "contextualTranslation": "...Noemi...", "analysis": { "class": "Nome Próprio", "gender": "Feminino", "number": "Singular", "state": "Absoluto", "lemmaTranslation": "Noemi", "extra": "", "reference": "HALOT 706", "didactic": { "conceptTitle": "Nome Próprio", "identification": [{"feature": "Função", "indicator": "Sujeito do verbo 'vatômer'."}]}
-            },
+            }},
             { "hebrew": "קָרוֹב", "transliteration": "karov", "lemma": "קָרוֹב", "briefTranslation": "Parente próximo", "contextualTranslation": "Este homem é nosso parente próximo...", "analysis": { "class": "Adjetivo", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "lemmaTranslation": "próximo, perto", "extra": "Funciona como substantivo.", "reference": "HALOT 1222", "didactic": { "conceptTitle": "Adjetivo Substantivado", "identification": [{"feature": "Função", "indicator": "O adjetivo 'karov' ('próximo') é usado como um substantivo para significar 'parente próximo'."}]}
-            },
+            }},
             { "hebrew": "לָנוּ", "transliteration": "lánu", "lemma": "לְ", "briefTranslation": "de nós", "contextualTranslation": "...nosso...", "analysis": { "class": "Preposição com Sufixo", "gender": "Comum", "number": "Plural", "pgn": "1cp", "lemmaTranslation": "para, a", "extra": "", "reference": "GKC §103f", "didactic": { "conceptTitle": "Preposição de Posse", "identification": [{"feature": "Função", "indicator": "O 'lamed' com sufixo ('lánu' - para nós) indica posse ou relação: 'um parente para nós'."}]}
-            },
+            }},
             { "hebrew": "הָאִישׁ", "transliteration": "ha'ísh", "lemma": "אִישׁ", "briefTranslation": "o homem", "contextualTranslation": "...o homem...", "analysis": { "class": "Substantivo com Artigo", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "lemmaTranslation": "homem, marido", "extra": "", "reference": "GKC §126a", "didactic": { "conceptTitle": "Substantivo Definido", "identification": [{"feature": "Função", "indicator": "Sujeito da frase nominal."}]}
-            },
+            }},
             { "hebrew": "הוּא", "transliteration": "hu", "lemma": "הוּא", "briefTranslation": "ele", "contextualTranslation": "...ele...", "analysis": { "class": "Pronome", "gender": "Masculino", "number": "Singular", "pgn": "3ms", "lemmaTranslation": "ele", "extra": "Enfatiza a identidade.", "reference": "GKC §135a", "didactic": { "conceptTitle": "Pronome Pessoal", "identification": [{"feature": "Função", "indicator": "Pode ser omitido, mas sua presença adiciona ênfase à identificação."}]}
-            },
+            }},
             { "hebrew": "מִגֹּאֲלֵנוּ", "transliteration": "migo'alênu", "lemma": "גָּאַל", "briefTranslation": "dos nossos resgatadores", "contextualTranslation": "...e um dos nossos resgatadores é.", "analysis": { "class": "Verbo (Particípio) com Preposição e Sufixo", "binyan": "Qal", "tense": "Particípio Ativo", "lemmaTranslation": "resgatar, redimir", "extra": "Preposição 'מִן' + particípio 'גֹּאֵל' + sufixo 1cp.", "reference": "HALOT 161", "didactic": { "conceptTitle": "Conceito Chave: O 'Go'el' (Resgatador)", "identification": [{"feature": "Significado Legal e Teológico", "indicator": "O 'Go'el' era o 'parente-resgatador'. Ele tinha a responsabilidade legal de proteger a família, o que incluía: 1) resgatar a terra da família que havia sido vendida por pobreza; 2) resgatar um parente que se vendeu como escravo; 3) casar-se com a viúva de um parente falecido para dar-lhe um herdeiro e manter o nome da família vivo (casamento levirato). A identificação de Boaz como um potencial 'Go'el' é a principal esperança de restauração para Noemi e Rute."}]}
-            },
+            }},
             { "hebrew": "הֽוּא׃", "transliteration": "hu", "lemma": "הוּא", "briefTranslation": "ele é", "contextualTranslation": "...é.", "analysis": { "class": "Pronome", "gender": "Masculino", "number": "Singular", "pgn": "3ms", "lemmaTranslation": "ele", "extra": "", "reference": "GKC §135a", "didactic": { "conceptTitle": "Pronome Pessoal", "identification": [{"feature": "Função", "indicator": "Enfatiza a conclusão da frase: 'ele é um de nossos resgatadores'."}]}
-            }
+            }}
         ]
     },
     "21": {
@@ -3017,7 +3012,7 @@
             { "hebrew": "אַחֵֽר׃", "transliteration": "acher", "lemma": "אַחֵר", "briefTranslation": "outro", "contextualTranslation": "...outro.", "analysis": { "class": "Adjetivo", "gender": "Masculino", "number": "Singular", "state": "Absoluto", "lemmaTranslation": "outro", "extra": "", "reference": "GKC §126w", "didactic": { "conceptTitle": "Adjetivo Indefinido", "identification": [{"feature": "Concordância", "indicator": "O adjetivo 'acher' modifica 'sadeh' e concorda com ele em indefinição."}]}
             }
         ]
-    },
+    }
     "23": {
         "hebrewText": "וַתִּדְבַּק בְּנַעֲרוֹת בֹּעַז לְלַקֵּט עַד־כְּלוֹת קְצִיר־הַשְּׂעֹרִים וּקְצִיר הַֽחִטִּים וַתֵּשֶׁב אֶת־חֲמוֹתָֽהּ׃",
         "words": [
