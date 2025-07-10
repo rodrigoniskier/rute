@@ -1,0 +1,261 @@
+{
+    "1": {
+        "hebrewText": "וַתֹּאמֶר לָהּ נָעֳמִי חֲמוֹתָהּ בִּתִּי הֲלֹא אֲבַקֶּשׁ־לָךְ מָנוֹחַ אֲשֶׁר יִיטַב־לָֽךְ׃",
+        "words": [
+            {
+                "hebrew": "וַתֹּאמֶר",
+                "transliteration": "vatômer",
+                "lemma": "אָמַר",
+                "briefTranslation": "e disse",
+                "contextualTranslation": "E disse-lhe Noemi...",
+                "analysis": {
+                    "class": "Verbo",
+                    "binyan": "Qal",
+                    "tense": "Imperfeito com Vav Consecutivo",
+                    "pgn": "3fs",
+                    "lemmaTranslation": "dizer",
+                    "extra": "Sujeito: Noemi.",
+                    "reference": "GKC §49c",
+                    "didactic": {
+                        "conceptTitle": "Iniciativa de Noemi",
+                        "identification": [
+                            {
+                                "feature": "Função Narrativa",
+                                "indicator": "O capítulo começa com a iniciativa de Noemi, que agora age para assegurar o futuro de Rute. Isso marca uma mudança de sua passividade e amargura no capítulo 1."
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "hebrew": "לָהּ",
+                "transliteration": "lah",
+                "lemma": "לְ",
+                "briefTranslation": "para ela",
+                "contextualTranslation": "...lhe...",
+                "analysis": {
+                    "class": "Preposição com Sufixo",
+                    "gender": "Feminino",
+                    "number": "Singular",
+                    "pgn": "3fs",
+                    "lemmaTranslation": "para, a",
+                    "extra": "Refere-se a Rute.",
+                    "reference": "GKC §103f",
+                    "didactic": {
+                        "conceptTitle": "Preposição com Sufixo Pronominal",
+                        "identification": [
+                            {
+                                "feature": "Componentes",
+                                "indicator": "A forma é composta da preposição 'לְ' (lə) + o sufixo pronominal da 3ª pessoa do feminino singular '־ָהּ' (-ah)."
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "hebrew": "נָעֳמִי",
+                "transliteration": "noomi",
+                "lemma": "נָעֳמִי",
+                "briefTranslation": "Noemi",
+                "contextualTranslation": "...Noemi...",
+                "analysis": {
+                    "class": "Nome Próprio",
+                    "gender": "Feminino",
+                    "number": "Singular",
+                    "state": "Absoluto",
+                    "lemmaTranslation": "Noemi",
+                    "extra": "",
+                    "reference": "HALOT 706",
+                    "didactic": {
+                        "conceptTitle": "Nome Próprio",
+                        "identification": [
+                            {
+                                "feature": "Função",
+                                "indicator": "Funciona como o sujeito do verbo 'vatômer'."
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "hebrew": "חֲמוֹתָהּ",
+                "transliteration": "chamotah",
+                "lemma": "חָמוֹת",
+                "briefTranslation": "sua sogra",
+                "contextualTranslation": "...sua sogra...",
+                "analysis": {
+                    "class": "Substantivo com Sufixo Pronominal",
+                    "gender": "Feminino",
+                    "number": "Singular",
+                    "state": "N/A",
+                    "lemmaTranslation": "sogra",
+                    "extra": "Sufixo 3fs. Em aposição a Noemi.",
+                    "reference": "GKC §91e",
+                    "didactic": {
+                        "conceptTitle": "Aposição",
+                        "identification": [
+                            {
+                                "feature": "Função Sintática",
+                                "indicator": "A palavra 'sua sogra' funciona como um descritor adicional para 'Noemi', reforçando a relação entre elas."
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "hebrew": "בִּתִּי",
+                "transliteration": "biti",
+                "lemma": "בַּת",
+                "briefTranslation": "minha filha",
+                "contextualTranslation": "Minha filha...",
+                "analysis": {
+                    "class": "Substantivo com Sufixo Pronominal",
+                    "gender": "Feminino",
+                    "number": "Singular",
+                    "state": "N/A",
+                    "lemmaTranslation": "filha",
+                    "extra": "Sufixo pronominal da 1ª pessoa 'ִי'.",
+                    "reference": "GKC §91e",
+                    "didactic": {
+                        "conceptTitle": "Termo Afetuoso",
+                        "identification": [
+                            {
+                                "feature": "Tom",
+                                "indicator": "Noemi continua a usar o termo carinhoso 'minha filha', mostrando seu cuidado e afeição por Rute."
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "hebrew": "הֲלֹא",
+                "transliteration": "halô",
+                "lemma": "הֲלוֹא",
+                "briefTranslation": "Não...?",
+                "contextualTranslation": "Não hei de eu buscar...",
+                "analysis": {
+                    "class": "Partícula Interrogativa Composta",
+                    "gender": "N/A",
+                    "number": "N/A",
+                    "state": "N/A",
+                    "lemmaTranslation": "não...?",
+                    "extra": "Partícula interrogativa 'הֲ' + negação 'לֹא'.",
+                    "reference": "GKC §150e",
+                    "didactic": {
+                        "conceptTitle": "Pergunta Retórica Afirmativa",
+                        "identification": [
+                            {
+                                "feature": "Função",
+                                "indicator": "A pergunta 'halô' ('Não...?') é uma pergunta retórica que espera uma resposta afirmativa. É uma forma enfática de fazer uma declaração: 'Certamente eu buscarei'."
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "hebrew": "אֲבַקֶּשׁ־לָךְ",
+                "transliteration": "avakkesh-lach",
+                "lemma": "בָּקַשׁ",
+                "briefTranslation": "buscarei para ti",
+                "contextualTranslation": "...buscarei para ti...",
+                "analysis": {
+                    "class": "Verbo com Preposição e Sufixo",
+                    "binyan": "Piel",
+                    "tense": "Imperfeito",
+                    "pgn": "1cs",
+                    "lemmaTranslation": "buscar, procurar",
+                    "extra": "",
+                    "reference": "GKC §52f",
+                    "didactic": {
+                        "conceptTitle": "Verbo: Piel Imperfeito",
+                        "identification": [
+                            {
+                                "feature": "Tronco (Binyan) - Piel",
+                                "indicator": "O dagesh na segunda letra da raiz (ק) e o padrão de vogais indicam o tronco Piel, que aqui sugere uma busca diligente e intencional."
+                            },
+                            {
+                                "feature": "PGN - 1cs",
+                                "indicator": "O prefixo 'אֲ־' (a-) é o marcador da 1ª pessoa do singular ('eu') no Imperfeito."
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "hebrew": "מָנוֹחַ",
+                "transliteration": "manôach",
+                "lemma": "מָנוֹחַ",
+                "briefTranslation": "descanso",
+                "contextualTranslation": "...descanso...",
+                "analysis": {
+                    "class": "Substantivo",
+                    "gender": "Masculino",
+                    "number": "Singular",
+                    "state": "Absoluto",
+                    "lemmaTranslation": "descanso, lugar de repouso",
+                    "extra": "Derivado da raiz 'נוּחַ' (descansar).",
+                    "reference": "HALOT 629",
+                    "didactic": {
+                        "conceptTitle": "Tema do 'Descanso'",
+                        "identification": [
+                            {
+                                "feature": "Significado",
+                                "indicator": "A palavra 'manôach' refere-se a um lugar de segurança, estabilidade e bem-estar, que no contexto social da época era encontrado principalmente no casamento e no lar."
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "hebrew": "אֲשֶׁר",
+                "transliteration": "asher",
+                "lemma": "אֲשֶׁר",
+                "briefTranslation": "para que",
+                "contextualTranslation": "...para que te vá bem?",
+                "analysis": {
+                    "class": "Pronome Relativo",
+                    "gender": "N/A",
+                    "number": "N/A",
+                    "state": "N/A",
+                    "lemmaTranslation": "que, o qual, onde",
+                    "extra": "Introduz uma cláusula de resultado.",
+                    "reference": "GKC §155",
+                    "didactic": {
+                        "conceptTitle": "Pronome Relativo 'Asher'",
+                        "identification": [
+                            {
+                                "feature": "Função",
+                                "indicator": "Conecta a cláusula de resultado ('te vá bem') ao substantivo ('descanso')."
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "hebrew": "יִיטַב־לָֽךְ׃",
+                "transliteration": "iitav-lach",
+                "lemma": "יָטַב",
+                "briefTranslation": "seja bom para ti",
+                "contextualTranslation": "...te vá bem?",
+                "analysis": {
+                    "class": "Verbo com Preposição e Sufixo",
+                    "binyan": "Qal",
+                    "tense": "Imperfeito",
+                    "pgn": "3ms",
+                    "lemmaTranslation": "ser bom, ir bem",
+                    "extra": "Raiz I-Yod.",
+                    "reference": "GKC §69s",
+                    "didactic": {
+                        "conceptTitle": "Verbo: Qal Imperfeito",
+                        "identification": [
+                            {
+                                "feature": "Significado",
+                                "indicator": "O verbo 'yatav' significa 'ser bom'. A expressão 'iitav lach' é um idioma que significa 'para que te vá bem' ou 'para que estejas segura e próspera'."
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}
