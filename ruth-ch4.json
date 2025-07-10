@@ -1,0 +1,4303 @@
+{
+  "1": {
+    "hebrewText": "וּבֹעַז עָלָה הַשַּׁעַר וַיֵּשֶׁב שָׁם וְהִנֵּה הַגֹּאֵל עֹבֵר אֲשֶׁר דִּבֶּר־בֹּעַז וַיֹּאמֶר סוּרָה שְׁבָה־פֹּה פְּלֹנִי אַלְמֹנִי וַיָּסַר וַיֵּשֵׁב",
+    "words": [
+      {
+        "hebrew": "וּבֹעַז",
+        "transliteration": "u-Bó-az",
+        "briefTranslation": "e Boaz",
+        "contextualTranslation": "Então Boaz subiu à porta, e assentou-se ali; e eis que o remidor de quem Boaz tinha falado ia passando; e disse-lhe: Ó fulano, desvia-te para cá, assenta-te aqui. E desviou-se, e assentou-se.",
+        "analysis": {
+          "lemma": "בועז",
+          "lemmaTranslation": "Boaz",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Conjunção ו + Nome"
+        }
+      },
+      {
+        "hebrew": "עָלָה",
+        "transliteration": "a-láh",
+        "briefTranslation": "subiu",
+        "contextualTranslation": "Então Boaz subiu à porta, e assentou-se ali; e eis que o remidor de quem Boaz tinha falado ia passando; e disse-lhe: Ó fulano, desvia-te para cá, assenta-te aqui. E desviou-se, e assentou-se.",
+        "analysis": {
+          "lemma": "עלה",
+          "lemmaTranslation": "subir",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Perfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ע.ל.ה"
+        }
+      },
+      {
+        "hebrew": "הַשַּׁעַר",
+        "transliteration": "hash-shá-ar",
+        "briefTranslation": "a porta",
+        "contextualTranslation": "Então Boaz subiu à porta, e assentou-se ali; e eis que o remidor de quem Boaz tinha falado ia passando; e disse-lhe: Ó fulano, desvia-te para cá, assenta-te aqui. E desviou-se, e assentou-se.",
+        "analysis": {
+          "lemma": "שער",
+          "lemmaTranslation": "porta, portão",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "וַיֵּשֶׁב",
+        "transliteration": "vai-yé-shev",
+        "briefTranslation": "e assentou-se",
+        "contextualTranslation": "Então Boaz subiu à porta, e assentou-se ali; e eis que o remidor de quem Boaz tinha falado ia passando; e disse-lhe: Ó fulano, desvia-te para cá, assenta-te aqui. E desviou-se, e assentou-se.",
+        "analysis": {
+          "lemma": "ישׁב",
+          "lemmaTranslation": "assentar, sentar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: י.ש.ב"
+        }
+      },
+      {
+        "hebrew": "שָׁם",
+        "transliteration": "sham",
+        "briefTranslation": "lá",
+        "contextualTranslation": "Então Boaz subiu à porta, e assentou-se ali; e eis que o remidor de quem Boaz tinha falado ia passando; e disse-lhe: Ó fulano, desvia-te para cá, assenta-te aqui. E desviou-se, e assentou-se.",
+        "analysis": {
+          "lemma": "שׁם",
+          "lemmaTranslation": "lá",
+          "class": "Advérbio de Lugar"
+        }
+      },
+      {
+        "hebrew": "וְהִנֵּה",
+        "transliteration": "ve-hin-néh",
+        "briefTranslation": "e eis que",
+        "contextualTranslation": "Então Boaz subiu à porta, e assentou-se ali; e eis que o remidor de quem Boaz tinha falado ia passando; e disse-lhe: Ó fulano, desvia-te para cá, assenta-te aqui. E desviou-se, e assentou-se.",
+        "analysis": {
+          "lemma": "הנה",
+          "lemmaTranslation": "eis que",
+          "class": "Partícula",
+          "extra": "Conjunção ו + Partícula"
+        }
+      },
+      {
+        "hebrew": "הַגֹּאֵל",
+        "transliteration": "hag-go-él",
+        "briefTranslation": "o remidor",
+        "contextualTranslation": "Então Boaz subiu à porta, e assentou-se ali; e eis que o remidor de quem Boaz tinha falado ia passando; e disse-lhe: Ó fulano, desvia-te para cá, assenta-te aqui. E desviou-se, e assentou-se.",
+        "analysis": {
+          "lemma": "גאל",
+          "lemmaTranslation": "remir, resgatar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Particípio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Artigo definido + Raiz: ג.א.ל"
+        }
+      },
+      {
+        "hebrew": "עֹבֵר",
+        "transliteration": "o-vér",
+        "briefTranslation": "passando",
+        "contextualTranslation": "Então Boaz subiu à porta, e assentou-se ali; e eis que o remidor de quem Boaz tinha falado ia passando; e disse-lhe: Ó fulano, desvia-te para cá, assenta-te aqui. E desviou-se, e assentou-se.",
+        "analysis": {
+          "lemma": "עבר",
+          "lemmaTranslation": "passar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Particípio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ע.ב.ר"
+        }
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "a-shér",
+        "briefTranslation": "que",
+        "contextualTranslation": "Então Boaz subiu à porta, e assentou-se ali; e eis que o remidor de quem Boaz tinha falado ia passando; e disse-lhe: Ó fulano, desvia-te para cá, assenta-te aqui. E desviou-se, e assentou-se.",
+        "analysis": {
+          "lemma": "אשר",
+          "lemmaTranslation": "que, o qual",
+          "class": "Pronome Relativo"
+        }
+      },
+      {
+        "hebrew": "דִּבֶּר־בֹּעַז",
+        "transliteration": "dib-bér-Bó-az",
+        "briefTranslation": "Boaz tinha falado",
+        "contextualTranslation": "Então Boaz subiu à porta, e assentou-se ali; e eis que o remidor de quem Boaz tinha falado ia passando; e disse-lhe: Ó fulano, desvia-te para cá, assenta-te aqui. E desviou-se, e assentou-se.",
+        "analysis": {
+          "lemma": "דבר",
+          "lemmaTranslation": "falar",
+          "class": "Verbo",
+          "binyan": "Piel",
+          "tense": "Perfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ד.ב.ר + Nome próprio"
+        }
+      },
+      {
+        "hebrew": "וַיֹּאמֶר",
+        "transliteration": "vai-yó-mer",
+        "briefTranslation": "e disse",
+        "contextualTranslation": "Então Boaz subiu à porta, e assentou-se ali; e eis que o remidor de quem Boaz tinha falado ia passando; e disse-lhe: Ó fulano, desvia-te para cá, assenta-te aqui. E desviou-se, e assentou-se.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "סוּרָה",
+        "transliteration": "su-ráh",
+        "briefTranslation": "desvia-te",
+        "contextualTranslation": "Então Boaz subiu à porta, e assentou-se ali; e eis que o remidor de quem Boaz tinha falado ia passando; e disse-lhe: Ó fulano, desvia-te para cá, assenta-te aqui. E desviou-se, e assentou-se.",
+        "analysis": {
+          "lemma": "סור",
+          "lemmaTranslation": "desviar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperativo",
+          "pgn": "2ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ס.ו.ר"
+        }
+      },
+      {
+        "hebrew": "שְׁבָה־פֹּה",
+        "transliteration": "she-váh-póh",
+        "briefTranslation": "assenta-te aqui",
+        "contextualTranslation": "Então Boaz subiu à porta, e assentou-se ali; e eis que o remidor de quem Boaz tinha falado ia passando; e disse-lhe: Ó fulano, desvia-te para cá, assenta-te aqui. E desviou-se, e assentou-se.",
+        "analysis": {
+          "lemma": "ישׁב",
+          "lemmaTranslation": "assentar, sentar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperativo",
+          "pgn": "2ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: י.ש.ב + Advérbio de lugar (פה)"
+        }
+      },
+      {
+        "hebrew": "פְּלֹנִי",
+        "transliteration": "pe-ló-ni",
+        "briefTranslation": "fulano",
+        "contextualTranslation": "Então Boaz subiu à porta, e assentou-se ali; e eis que o remidor de quem Boaz tinha falado ia passando; e disse-lhe: Ó fulano, desvia-te para cá, assenta-te aqui. E desviou-se, e assentou-se.",
+        "analysis": {
+          "lemma": "פלני",
+          "lemmaTranslation": "fulano",
+          "class": "Pronome Indefinido"
+        }
+      },
+      {
+        "hebrew": "אַלְמֹנִי",
+        "transliteration": "al-mó-ni",
+        "briefTranslation": "sicrano",
+        "contextualTranslation": "Então Boaz subiu à porta, e assentou-se ali; e eis que o remidor de quem Boaz tinha falado ia passando; e disse-lhe: Ó fulano, desvia-te para cá, assenta-te aqui. E desviou-se, e assentou-se.",
+        "analysis": {
+          "lemma": "אלמני",
+          "lemmaTranslation": "sicrano",
+          "class": "Pronome Indefinido"
+        }
+      },
+      {
+        "hebrew": "וַיָּסַר",
+        "transliteration": "vai-yá-sar",
+        "briefTranslation": "e desviou-se",
+        "contextualTranslation": "Então Boaz subiu à porta, e assentou-se ali; e eis que o remidor de quem Boaz tinha falado ia passando; e disse-lhe: Ó fulano, desvia-te para cá, assenta-te aqui. E desviou-se, e assentou-se.",
+        "analysis": {
+          "lemma": "סור",
+          "lemmaTranslation": "desviar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ס.ו.ר"
+        }
+      },
+      {
+        "hebrew": "וַיֵּשֵׁב",
+        "transliteration": "vai-yé-shev",
+        "briefTranslation": "e assentou-se",
+        "contextualTranslation": "Então Boaz subiu à porta, e assentou-se ali; e eis que o remidor de quem Boaz tinha falado ia passando; e disse-lhe: Ó fulano, desvia-te para cá, assenta-te aqui. E desviou-se, e assentou-se.",
+        "analysis": {
+          "lemma": "ישׁב",
+          "lemmaTranslation": "assentar, sentar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: י.ש.ב"
+        }
+      }
+    ]
+  }
+
+
+,
+  "2": {
+    "hebrewText": "וַיִּקַּח עֲשָׂרָה אֲנָשִׁים מִזִּקְנֵי הָעִיר וַיֹּאמֶר שְׁבוּ־פֹה וַיֵּשֵׁבוּ",
+    "words": [
+      {
+        "hebrew": "וַיִּקַּח",
+        "transliteration": "vai-yik-kákh",
+        "briefTranslation": "e tomou",
+        "contextualTranslation": "Então tomou dez homens dos anciãos da cidade, e disse: Assentai-vos aqui. E assentaram-se.",
+        "analysis": {
+          "lemma": "לקח",
+          "lemmaTranslation": "tomar, pegar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ל.ק.ח"
+        }
+      },
+      {
+        "hebrew": "עֲשָׂרָה",
+        "transliteration": "a-sa-ráh",
+        "briefTranslation": "dez",
+        "contextualTranslation": "Então tomou dez homens dos anciãos da cidade, e disse: Assentai-vos aqui. E assentaram-se.",
+        "analysis": {
+          "lemma": "עשׂר",
+          "lemmaTranslation": "dez",
+          "class": "Numeral"
+        }
+      },
+      {
+        "hebrew": "אֲנָשִׁים",
+        "transliteration": "a-na-shím",
+        "briefTranslation": "homens",
+        "contextualTranslation": "Então tomou dez homens dos anciãos da cidade, e disse: Assentai-vos aqui. E assentaram-se.",
+        "analysis": {
+          "lemma": "איש",
+          "lemmaTranslation": "homem",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Plural"
+        }
+      },
+      {
+        "hebrew": "מִזִּקְנֵי",
+        "transliteration": "miz-zik-néy",
+        "briefTranslation": "dos anciãos de",
+        "contextualTranslation": "Então tomou dez homens dos anciãos da cidade, e disse: Assentai-vos aqui. E assentaram-se.",
+        "analysis": {
+          "lemma": "זקן",
+          "lemmaTranslation": "ancião",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Plural",
+          "extra": "Preposição מן (de) + Estado construto"
+        }
+      },
+      {
+        "hebrew": "הָעִיר",
+        "transliteration": "ha-ír",
+        "briefTranslation": "da cidade",
+        "contextualTranslation": "Então tomou dez homens dos anciãos da cidade, e disse: Assentai-vos aqui. E assentaram-se.",
+        "analysis": {
+          "lemma": "עיר",
+          "lemmaTranslation": "cidade",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "וַיֹּאמֶר",
+        "transliteration": "vai-yó-mer",
+        "briefTranslation": "e disse",
+        "contextualTranslation": "Então tomou dez homens dos anciãos da cidade, e disse: Assentai-vos aqui. E assentaram-se.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "שְׁבוּ־פֹה",
+        "transliteration": "she-vú-fóh",
+        "briefTranslation": "assentai-vos aqui",
+        "contextualTranslation": "Então tomou dez homens dos anciãos da cidade, e disse: Assentai-vos aqui. E assentaram-se.",
+        "analysis": {
+          "lemma": "ישׁב",
+          "lemmaTranslation": "assentar, sentar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperativo",
+          "pgn": "2mp",
+          "gender": "Masculino",
+          "number": "Plural",
+          "extra": "Raiz: י.ש.ב + Advérbio de lugar (פה)"
+        }
+      },
+      {
+        "hebrew": "וַיֵּשֵׁבוּ",
+        "transliteration": "vai-ye-she-vú",
+        "briefTranslation": "e assentaram-se",
+        "contextualTranslation": "Então tomou dez homens dos anciãos da cidade, e disse: Assentai-vos aqui. E assentaram-se.",
+        "analysis": {
+          "lemma": "ישׁב",
+          "lemmaTranslation": "assentar, sentar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3mp",
+          "gender": "Masculino",
+          "number": "Plural",
+          "extra": "Raiz: י.ש.ב"
+        }
+      }
+    ]
+  }
+
+
+,
+  "3": {
+    "hebrewText": "וַיֹּאמֶר לַגֹּאֵל נָעֳמִי הַשָּׁבָה מִשְּׂדֵה מוֹאָב מָכְרָה אֶת־חֶלְקַת הַשָּׂדֶה אֲשֶׁר לְאָחִינוּ אֱלִימֶלֶךְ",
+    "words": [
+      {
+        "hebrew": "וַיֹּאמֶר",
+        "transliteration": "vai-yó-mer",
+        "briefTranslation": "e disse",
+        "contextualTranslation": "Então disse ao remidor: Noemi, que voltou da terra de Moabe, vendeu a parte da terra que pertencia ao nosso irmão Elimeleque.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "לַגֹּאֵל",
+        "transliteration": "lag-go-él",
+        "briefTranslation": "ao remidor",
+        "contextualTranslation": "Então disse ao remidor: Noemi, que voltou da terra de Moabe, vendeu a parte da terra que pertencia ao nosso irmão Elimeleque.",
+        "analysis": {
+          "lemma": "גאל",
+          "lemmaTranslation": "remir, resgatar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Particípio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição ל (a) + Artigo definido + Raiz: ג.א.ל"
+        }
+      },
+      {
+        "hebrew": "נָעֳמִי",
+        "transliteration": "Naomi",
+        "briefTranslation": "Noemi",
+        "contextualTranslation": "Então disse ao remidor: Noemi, que voltou da terra de Moabe, vendeu a parte da terra que pertencia ao nosso irmão Elimeleque.",
+        "analysis": {
+          "lemma": "נעמי",
+          "lemmaTranslation": "Noemi",
+          "class": "Nome Próprio",
+          "gender": "Feminino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "הַשָּׁבָה",
+        "transliteration": "hash-sha-váh",
+        "briefTranslation": "que voltou",
+        "contextualTranslation": "Então disse ao remidor: Noemi, que voltou da terra de Moabe, vendeu a parte da terra que pertencia ao nosso irmão Elimeleque.",
+        "analysis": {
+          "lemma": "שׁוב",
+          "lemmaTranslation": "voltar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Particípio",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Artigo definido + Raiz: שׁ.ו.ב"
+        }
+      },
+      {
+        "hebrew": "מִשְּׂדֵה",
+        "transliteration": "mis-se-déh",
+        "briefTranslation": "do campo de",
+        "contextualTranslation": "Então disse ao remidor: Noemi, que voltou da terra de Moabe, vendeu a parte da terra que pertencia ao nosso irmão Elimeleque.",
+        "analysis": {
+          "lemma": "שׂדה",
+          "lemmaTranslation": "campo",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição מן (de) + Estado construto"
+        }
+      },
+      {
+        "hebrew": "מוֹאָב",
+        "transliteration": "Mo-áv",
+        "briefTranslation": "Moabe",
+        "contextualTranslation": "Então disse ao remidor: Noemi, que voltou da terra de Moabe, vendeu a parte da terra que pertencia ao nosso irmão Elimeleque.",
+        "analysis": {
+          "lemma": "מואב",
+          "lemmaTranslation": "Moabe",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "מָכְרָה",
+        "transliteration": "ma-khe-ráh",
+        "briefTranslation": "vendeu",
+        "contextualTranslation": "Então disse ao remidor: Noemi, que voltou da terra de Moabe, vendeu a parte da terra que pertencia ao nosso irmão Elimeleque.",
+        "analysis": {
+          "lemma": "מכר",
+          "lemmaTranslation": "vender",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Perfeito",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: מ.כ.ר"
+        }
+      },
+      {
+        "hebrew": "אֶת־חֶלְקַת",
+        "transliteration": "et-chel-kát",
+        "briefTranslation": "a porção de",
+        "contextualTranslation": "Então disse ao remidor: Noemi, que voltou da terra de Moabe, vendeu a parte da terra que pertencia ao nosso irmão Elimeleque.",
+        "analysis": {
+          "lemma": "חלקה",
+          "lemmaTranslation": "porção, parte",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Partícula de objeto direto (את) + Estado construto"
+        }
+      },
+      {
+        "hebrew": "הַשָּׂדֶה",
+        "transliteration": "has-sa-déh",
+        "briefTranslation": "do campo",
+        "contextualTranslation": "Então disse ao remidor: Noemi, que voltou da terra de Moabe, vendeu a parte da terra que pertencia ao nosso irmão Elimeleque.",
+        "analysis": {
+          "lemma": "שׂדה",
+          "lemmaTranslation": "campo",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "a-shér",
+        "briefTranslation": "que",
+        "contextualTranslation": "Então disse ao remidor: Noemi, que voltou da terra de Moabe, vendeu a parte da terra que pertencia ao nosso irmão Elimeleque.",
+        "analysis": {
+          "lemma": "אשר",
+          "lemmaTranslation": "que, o qual",
+          "class": "Pronome Relativo"
+        }
+      },
+      {
+        "hebrew": "לְאָחִינוּ",
+        "transliteration": "le-a-chí-nu",
+        "briefTranslation": "ao nosso irmão",
+        "contextualTranslation": "Então disse ao remidor: Noemi, que voltou da terra de Moabe, vendeu a parte da terra que pertencia ao nosso irmão Elimeleque.",
+        "analysis": {
+          "lemma": "אח",
+          "lemmaTranslation": "irmão",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição ל (a) + Sufixo pronominal 1cp"
+        }
+      },
+      {
+        "hebrew": "אֱלִימֶלֶךְ",
+        "transliteration": "E-li-mé-lekh",
+        "briefTranslation": "Elimeleque",
+        "contextualTranslation": "Então disse ao remidor: Noemi, que voltou da terra de Moabe, vendeu a parte da terra que pertencia ao nosso irmão Elimeleque.",
+        "analysis": {
+          "lemma": "אלימלך",
+          "lemmaTranslation": "Elimeleque",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      }
+    ]
+  }
+
+
+,
+  "4": {
+    "hebrewText": "וַאֲנִי אָמַרְתִּי אֶגְלֶה אָזְנְךָ לֵאמֹר קְנֵה לְנֶגֶד הַיֹּשְׁבִים וּלְנֶגֶד זִקְנֵי עַמִּי אִם־תִּגְאַל גְּאָל וְאִם־לֹא יִגְאַל הַגִּידָה לִּי וְאֵדְעָה כִּי אֵין זוּלָתְךָ גּוֹאֵל לְךָ וְאָנֹכִי אַחֲרֶיךָ וַיֹּאמֶר אֶגְאָל",
+    "words": [
+      {
+        "hebrew": "וַאֲנִי",
+        "transliteration": "va-a-ní",
+        "briefTranslation": "e eu",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "אני",
+          "lemmaTranslation": "eu",
+          "class": "Pronome Pessoal",
+          "gender": "Comum",
+          "number": "Singular",
+          "extra": "Conjunção ו + Pronome"
+        }
+      },
+      {
+        "hebrew": "אָמַרְתִּי",
+        "transliteration": "a-már-ti",
+        "briefTranslation": "disse",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Perfeito",
+          "pgn": "1cs",
+          "gender": "Comum",
+          "number": "Singular",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "אֶגְלֶה",
+        "transliteration": "eg-léh",
+        "briefTranslation": "desvendarei",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "גלה",
+          "lemmaTranslation": "desvendar, revelar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito",
+          "pgn": "1cs",
+          "gender": "Comum",
+          "number": "Singular",
+          "extra": "Raiz: ג.ל.ה"
+        }
+      },
+      {
+        "hebrew": "אָזְנְךָ",
+        "transliteration": "oz-ne-khá",
+        "briefTranslation": "teu ouvido",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "אזן",
+          "lemmaTranslation": "ouvido",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal 2ms"
+        }
+      },
+      {
+        "hebrew": "לֵאמֹר",
+        "transliteration": "le-mór",
+        "briefTranslation": "dizendo",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Infinitivo Construto",
+          "extra": "Preposição ל (para) + Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "קְנֵה",
+        "transliteration": "ke-néh",
+        "briefTranslation": "compra",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "קנה",
+          "lemmaTranslation": "comprar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperativo",
+          "pgn": "2ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ק.נ.ה"
+        }
+      },
+      {
+        "hebrew": "לְנֶגֶד",
+        "transliteration": "le-né-ged",
+        "briefTranslation": "diante de",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "נגד",
+          "lemmaTranslation": "diante de",
+          "class": "Preposição"
+        }
+      },
+      {
+        "hebrew": "הַיֹּשְׁבִים",
+        "transliteration": "hay-yo-she-vím",
+        "briefTranslation": "os que estão sentados",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "ישׁב",
+          "lemmaTranslation": "sentar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Particípio",
+          "gender": "Masculino",
+          "number": "Plural",
+          "extra": "Artigo definido + Raiz: י.ש.ב"
+        }
+      },
+      {
+        "hebrew": "וּלְנֶגֶד",
+        "transliteration": "u-le-né-ged",
+        "briefTranslation": "e diante de",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "נגד",
+          "lemmaTranslation": "diante de",
+          "class": "Preposição",
+          "extra": "Conjunção ו + Preposição"
+        }
+      },
+      {
+        "hebrew": "זִקְנֵי",
+        "transliteration": "zik-néy",
+        "briefTranslation": "anciãos de",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "זקן",
+          "lemmaTranslation": "ancião",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Plural",
+          "extra": "Estado construto"
+        }
+      },
+      {
+        "hebrew": "עַמִּי",
+        "transliteration": "am-mí",
+        "briefTranslation": "meu povo",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "עם",
+          "lemmaTranslation": "povo",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal 1cs"
+        }
+      },
+      {
+        "hebrew": "אִם־תִּגְאַל",
+        "transliteration": "im-tig-ál",
+        "briefTranslation": "se remires",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "גאל",
+          "lemmaTranslation": "remir, resgatar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito",
+          "pgn": "2ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Partícula אִם (se) + Raiz: ג.א.ל"
+        }
+      },
+      {
+        "hebrew": "גְּאָל",
+        "transliteration": "ge-ál",
+        "briefTranslation": "reme",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "גאל",
+          "lemmaTranslation": "remir, resgatar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperativo",
+          "pgn": "2ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ג.א.ל"
+        }
+      },
+      {
+        "hebrew": "וְאִם־לֹא",
+        "transliteration": "ve-im-ló",
+        "briefTranslation": "e se não",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "לא",
+          "lemmaTranslation": "não",
+          "class": "Partícula",
+          "extra": "Conjunção ו + Partícula אִם (se) + Partícula negativa"
+        }
+      },
+      {
+        "hebrew": "יִגְאַל",
+        "transliteration": "yig-ál",
+        "briefTranslation": "ele remir",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "גאל",
+          "lemmaTranslation": "remir, resgatar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ג.א.ל"
+        }
+      },
+      {
+        "hebrew": "הַגִּידָה",
+        "transliteration": "hag-gi-dáh",
+        "briefTranslation": "declara",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "נגד",
+          "lemmaTranslation": "declarar, dizer",
+          "class": "Verbo",
+          "binyan": "Hifil",
+          "tense": "Imperativo",
+          "pgn": "2ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: נ.ג.ד"
+        }
+      },
+      {
+        "hebrew": "לִּי",
+        "transliteration": "li",
+        "briefTranslation": "a mim",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "ל",
+          "lemmaTranslation": "para, a",
+          "class": "Preposição",
+          "pgn": "1cs",
+          "gender": "Comum",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "וְאֵדְעָה",
+        "transliteration": "ve-e-de-áh",
+        "briefTranslation": "e eu saiba",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "ידע",
+          "lemmaTranslation": "saber, conhecer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "1cs",
+          "gender": "Comum",
+          "number": "Singular",
+          "extra": "Raiz: י.ד.ע"
+        }
+      },
+      {
+        "hebrew": "כִּי",
+        "transliteration": "ki",
+        "briefTranslation": "porque",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "כי",
+          "lemmaTranslation": "porque, que",
+          "class": "Conjunção"
+        }
+      },
+      {
+        "hebrew": "אֵין",
+        "transliteration": "én",
+        "briefTranslation": "não há",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "אין",
+          "lemmaTranslation": "não há",
+          "class": "Partícula"
+        }
+      },
+      {
+        "hebrew": "זוּלָתְךָ",
+        "transliteration": "zu-la-te-khá",
+        "briefTranslation": "senão tu",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "זולת",
+          "lemmaTranslation": "exceto, senão",
+          "class": "Preposição",
+          "extra": "Sufixo pronominal 2ms"
+        }
+      },
+      {
+        "hebrew": "גּוֹאֵל",
+        "transliteration": "go-él",
+        "briefTranslation": "remidor",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "גאל",
+          "lemmaTranslation": "remir, resgatar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Particípio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ג.א.ל"
+        }
+      },
+      {
+        "hebrew": "לְךָ",
+        "transliteration": "le-khá",
+        "briefTranslation": "para ti",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "ל",
+          "lemmaTranslation": "para, a",
+          "class": "Preposição",
+          "pgn": "2ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "וְאָנֹכִי",
+        "transliteration": "ve-a-no-khí",
+        "briefTranslation": "e eu",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "אנוכי",
+          "lemmaTranslation": "eu",
+          "class": "Pronome Pessoal",
+          "gender": "Comum",
+          "number": "Singular",
+          "extra": "Conjunção ו + Pronome"
+        }
+      },
+      {
+        "hebrew": "אַחֲרֶיךָ",
+        "transliteration": "a-cha-ré-kha",
+        "briefTranslation": "depois de ti",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "אחרי",
+          "lemmaTranslation": "depois de",
+          "class": "Preposição",
+          "extra": "Sufixo pronominal 2ms"
+        }
+      },
+      {
+        "hebrew": "וַיֹּאמֶר",
+        "transliteration": "vai-yó-mer",
+        "briefTranslation": "e disse",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "אֶגְאָל",
+        "transliteration": "eg-ál",
+        "briefTranslation": "eu remirei",
+        "contextualTranslation": "Então eu disse: Desvendarei o teu ouvido, dizendo: Compra-a diante dos que estão sentados e diante dos anciãos do meu povo. Se a queres remir, reme; e se não a queres remir, declara-mo, para que eu o saiba; porque não há outro remidor senão tu, e eu depois de ti. Então disse ele: Eu a remirei.",
+        "analysis": {
+          "lemma": "גאל",
+          "lemmaTranslation": "remir, resgatar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito",
+          "pgn": "1cs",
+          "gender": "Comum",
+          "number": "Singular",
+          "extra": "Raiz: ג.א.ל"
+        }
+      }
+    ]
+  }
+
+
+,
+  "5": {
+    "hebrewText": "וַיֹּאמֶר בֹּעַז בְּיוֹם־קְנוֹתְךָ הַשָּׂדֶה מִיַּד נָעֳמִי וּמֵאֵת רוּת הַמּוֹאֲבִיָּה אֵשֶׁת הַמֵּת קָנִיתָ לְהָקִים שֵׁם הַמֵּת עַל־נַחֲלָתוֹ",
+    "words": [
+      {
+        "hebrew": "וַיֹּאמֶר",
+        "transliteration": "vai-yó-mer",
+        "briefTranslation": "e disse",
+        "contextualTranslation": "Então disse Boaz: No dia em que comprares o campo da mão de Noemi, também o comprarás da mão de Rute, a moabita, mulher do falecido, para restaurar o nome do falecido sobre a sua herança.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "בֹּעַז",
+        "transliteration": "Bó-az",
+        "briefTranslation": "Boaz",
+        "contextualTranslation": "Então disse Boaz: No dia em que comprares o campo da mão de Noemi, também o comprarás da mão de Rute, a moabita, mulher do falecido, para restaurar o nome do falecido sobre a sua herança.",
+        "analysis": {
+          "lemma": "בועז",
+          "lemmaTranslation": "Boaz",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "בְּיוֹם־קְנוֹתְךָ",
+        "transliteration": "be-yom-ke-not-khá",
+        "briefTranslation": "no dia em que comprares",
+        "contextualTranslation": "Então disse Boaz: No dia em que comprares o campo da mão de Noemi, também o comprarás da mão de Rute, a moabita, mulher do falecido, para restaurar o nome do falecido sobre a sua herança.",
+        "analysis": {
+          "lemma": "קנה",
+          "lemmaTranslation": "comprar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Infinitivo Construto",
+          "extra": "Preposição ב (em) + Substantivo (יום) + Sufixo pronominal 2ms + Raiz: ק.נ.ה"
+        }
+      },
+      {
+        "hebrew": "הַשָּׂדֶה",
+        "transliteration": "has-sa-déh",
+        "briefTranslation": "o campo",
+        "contextualTranslation": "Então disse Boaz: No dia em que comprares o campo da mão de Noemi, também o comprarás da mão de Rute, a moabita, mulher do falecido, para restaurar o nome do falecido sobre a sua herança.",
+        "analysis": {
+          "lemma": "שׂדה",
+          "lemmaTranslation": "campo",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "מִיַּד",
+        "transliteration": "mi-yád",
+        "briefTranslation": "da mão de",
+        "contextualTranslation": "Então disse Boaz: No dia em que comprares o campo da mão de Noemi, também o comprarás da mão de Rute, a moabita, mulher do falecido, para restaurar o nome do falecido sobre a sua herança.",
+        "analysis": {
+          "lemma": "יד",
+          "lemmaTranslation": "mão",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Preposição מן (de) + Substantivo"
+        }
+      },
+      {
+        "hebrew": "נָעֳמִי",
+        "transliteration": "Naomi",
+        "briefTranslation": "Noemi",
+        "contextualTranslation": "Então disse Boaz: No dia em que comprares o campo da mão de Noemi, também o comprarás da mão de Rute, a moabita, mulher do falecido, para restaurar o nome do falecido sobre a sua herança.",
+        "analysis": {
+          "lemma": "נעמי",
+          "lemmaTranslation": "Noemi",
+          "class": "Nome Próprio",
+          "gender": "Feminino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "וּמֵאֵת",
+        "transliteration": "u-me-ét",
+        "briefTranslation": "e de",
+        "contextualTranslation": "Então disse Boaz: No dia em que comprares o campo da mão de Noemi, também o comprarás da mão de Rute, a moabita, mulher do falecido, para restaurar o nome do falecido sobre a sua herança.",
+        "analysis": {
+          "lemma": "את",
+          "lemmaTranslation": "com, de",
+          "class": "Preposição",
+          "extra": "Conjunção ו + Preposição מן (de) + Preposição (את)"
+        }
+      },
+      {
+        "hebrew": "רוּת",
+        "transliteration": "Rut",
+        "briefTranslation": "Rute",
+        "contextualTranslation": "Então disse Boaz: No dia em que comprares o campo da mão de Noemi, também o comprarás da mão de Rute, a moabita, mulher do falecido, para restaurar o nome do falecido sobre a sua herança.",
+        "analysis": {
+          "lemma": "רות",
+          "lemmaTranslation": "Rute",
+          "class": "Nome Próprio",
+          "gender": "Feminino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "הַמּוֹאֲבִיָּה",
+        "transliteration": "ham-mo-a-vi-yáh",
+        "briefTranslation": "a moabita",
+        "contextualTranslation": "Então disse Boaz: No dia em que comprares o campo da mão de Noemi, também o comprarás da mão de Rute, a moabita, mulher do falecido, para restaurar o nome do falecido sobre a sua herança.",
+        "analysis": {
+          "lemma": "מואביה",
+          "lemmaTranslation": "moabita",
+          "class": "Adjetivo Gentílico",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "אֵשֶׁת",
+        "transliteration": "é-shet",
+        "briefTranslation": "mulher de",
+        "contextualTranslation": "Então disse Boaz: No dia em que comprares o campo da mão de Noemi, também o comprarás da mão de Rute, a moabita, mulher do falecido, para restaurar o nome do falecido sobre a sua herança.",
+        "analysis": {
+          "lemma": "אשה",
+          "lemmaTranslation": "mulher",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Estado construto"
+        }
+      },
+      {
+        "hebrew": "הַמֵּת",
+        "transliteration": "ham-mét",
+        "briefTranslation": "o falecido",
+        "contextualTranslation": "Então disse Boaz: No dia em que comprares o campo da mão de Noemi, também o comprarás da mão de Rute, a moabita, mulher do falecido, para restaurar o nome do falecido sobre a sua herança.",
+        "analysis": {
+          "lemma": "מת",
+          "lemmaTranslation": "morto, falecido",
+          "class": "Adjetivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "קָנִיתָ",
+        "transliteration": "ka-ní-ta",
+        "briefTranslation": "compraste",
+        "contextualTranslation": "Então disse Boaz: No dia em que comprares o campo da mão de Noemi, também o comprarás da mão de Rute, a moabita, mulher do falecido, para restaurar o nome do falecido sobre a sua herança.",
+        "analysis": {
+          "lemma": "קנה",
+          "lemmaTranslation": "comprar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Perfeito",
+          "pgn": "2ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ק.נ.ה"
+        }
+      },
+      {
+        "hebrew": "לְהָקִים",
+        "transliteration": "le-ha-kím",
+        "briefTranslation": "para levantar",
+        "contextualTranslation": "Então disse Boaz: No dia em que comprares o campo da mão de Noemi, também o comprarás da mão de Rute, a moabita, mulher do falecido, para restaurar o nome do falecido sobre a sua herança.",
+        "analysis": {
+          "lemma": "קום",
+          "lemmaTranslation": "levantar, estabelecer",
+          "class": "Verbo",
+          "binyan": "Hifil",
+          "tense": "Infinitivo Construto",
+          "extra": "Preposição ל (para) + Raiz: ק.ו.ם"
+        }
+      },
+      {
+        "hebrew": "שֵׁם",
+        "transliteration": "shem",
+        "briefTranslation": "nome",
+        "contextualTranslation": "Então disse Boaz: No dia em que comprares o campo da mão de Noemi, também o comprarás da mão de Rute, a moabita, mulher do falecido, para restaurar o nome do falecido sobre a sua herança.",
+        "analysis": {
+          "lemma": "שׁם",
+          "lemmaTranslation": "nome",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "הַמֵּת",
+        "transliteration": "ham-mét",
+        "briefTranslation": "do falecido",
+        "contextualTranslation": "Então disse Boaz: No dia em que comprares o campo da mão de Noemi, também o comprarás da mão de Rute, a moabita, mulher do falecido, para restaurar o nome do falecido sobre a sua herança.",
+        "analysis": {
+          "lemma": "מת",
+          "lemmaTranslation": "morto, falecido",
+          "class": "Adjetivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "עַל־נַחֲלָתוֹ",
+        "transliteration": "al-na-cha-la-tó",
+        "briefTranslation": "sobre sua herança",
+        "contextualTranslation": "Então disse Boaz: No dia em que comprares o campo da mão de Noemi, também o comprarás da mão de Rute, a moabita, mulher do falecido, para restaurar o nome do falecido sobre a sua herança.",
+        "analysis": {
+          "lemma": "נחלה",
+          "lemmaTranslation": "herança",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Preposição על (sobre) + Sufixo pronominal 3ms"
+        }
+      }
+    ]
+  }
+
+
+,
+  "6": {
+    "hebrewText": "וַיֹּאמֶר הַגֹּאֵל לֹא אוּכַל לִגְאֹל־לִי פֶּן־אַשְׁחִית אֶת־נַחֲלָתִי גְּאַל־לְךָ אַתָּה אֶת־גְּאֻלָּתִי כִּי לֹא אוּכַל לִגְאֹל",
+    "words": [
+      {
+        "hebrew": "וַיֹּאמֶר",
+        "transliteration": "vai-yó-mer",
+        "briefTranslation": "e disse",
+        "contextualTranslation": "Então disse o remidor: Não poderei remir para mim, para que não prejudique a minha herança; reme tu o meu direito de remir, porque eu não poderei remir.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "הַגֹּאֵל",
+        "transliteration": "hag-go-él",
+        "briefTranslation": "o remidor",
+        "contextualTranslation": "Então disse o remidor: Não poderei remir para mim, para que não prejudique a minha herança; reme tu o meu direito de remir, porque eu não poderei remir.",
+        "analysis": {
+          "lemma": "גאל",
+          "lemmaTranslation": "remir, resgatar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Particípio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Artigo definido + Raiz: ג.א.ל"
+        }
+      },
+      {
+        "hebrew": "לֹא",
+        "transliteration": "ló",
+        "briefTranslation": "não",
+        "contextualTranslation": "Então disse o remidor: Não poderei remir para mim, para que não prejudique a minha herança; reme tu o meu direito de remir, porque eu não poderei remir.",
+        "analysis": {
+          "lemma": "לא",
+          "lemmaTranslation": "não",
+          "class": "Partícula Negativa"
+        }
+      },
+      {
+        "hebrew": "אוּכַל",
+        "transliteration": "u-khál",
+        "briefTranslation": "poderei",
+        "contextualTranslation": "Então disse o remidor: Não poderei remir para mim, para que não prejudique a minha herança; reme tu o meu direito de remir, porque eu não poderei remir.",
+        "analysis": {
+          "lemma": "יכל",
+          "lemmaTranslation": "poder",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito",
+          "pgn": "1cs",
+          "gender": "Comum",
+          "number": "Singular",
+          "extra": "Raiz: י.כ.ל"
+        }
+      },
+      {
+        "hebrew": "לִגְאֹל־לִי",
+        "transliteration": "lig-ól-li",
+        "briefTranslation": "remir para mim",
+        "contextualTranslation": "Então disse o remidor: Não poderei remir para mim, para que não prejudique a minha herança; reme tu o meu direito de remir, porque eu não poderei remir.",
+        "analysis": {
+          "lemma": "גאל",
+          "lemmaTranslation": "remir, resgatar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Infinitivo Construto",
+          "extra": "Preposição ל (para) + Sufixo pronominal 1cs + Raiz: ג.א.ל"
+        }
+      },
+      {
+        "hebrew": "פֶּן־אַשְׁחִית",
+        "transliteration": "pen-ash-chít",
+        "briefTranslation": "para que não prejudique",
+        "contextualTranslation": "Então disse o remidor: Não poderei remir para mim, para que não prejudique a minha herança; reme tu o meu direito de remir, porque eu não poderei remir.",
+        "analysis": {
+          "lemma": "שׁחת",
+          "lemmaTranslation": "prejudicar, corromper",
+          "class": "Verbo",
+          "binyan": "Hifil",
+          "tense": "Imperfeito",
+          "pgn": "1cs",
+          "gender": "Comum",
+          "number": "Singular",
+          "extra": "Partícula פֶּן (para que não) + Raiz: שׁ.ח.ת"
+        }
+      },
+      {
+        "hebrew": "אֶת־נַחֲלָתִי",
+        "transliteration": "et-na-cha-la-tí",
+        "briefTranslation": "minha herança",
+        "contextualTranslation": "Então disse o remidor: Não poderei remir para mim, para que não prejudique a minha herança; reme tu o meu direito de remir, porque eu não poderei remir.",
+        "analysis": {
+          "lemma": "נחלה",
+          "lemmaTranslation": "herança",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Partícula de objeto direto (את) + Sufixo pronominal 1cs"
+        }
+      },
+      {
+        "hebrew": "גְּאַל־לְךָ",
+        "transliteration": "ge-al-le-khá",
+        "briefTranslation": "reme para ti",
+        "contextualTranslation": "Então disse o remidor: Não poderei remir para mim, para que não prejudique a minha herança; reme tu o meu direito de remir, porque eu não poderei remir.",
+        "analysis": {
+          "lemma": "גאל",
+          "lemmaTranslation": "remir, resgatar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperativo",
+          "pgn": "2ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ג.א.ל + Preposição ל + Sufixo pronominal 2ms"
+        }
+      },
+      {
+        "hebrew": "אַתָּה",
+        "transliteration": "at-táh",
+        "briefTranslation": "tu",
+        "contextualTranslation": "Então disse o remidor: Não poderei remir para mim, para que não prejudique a minha herança; reme tu o meu direito de remir, porque eu não poderei remir.",
+        "analysis": {
+          "lemma": "אתה",
+          "lemmaTranslation": "tu",
+          "class": "Pronome Pessoal",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "אֶת־גְּאֻלָּתִי",
+        "transliteration": "et-ge-ul-la-tí",
+        "briefTranslation": "meu direito de remir",
+        "contextualTranslation": "Então disse o remidor: Não poderei remir para mim, para que não prejudique a minha herança; reme tu o meu direito de remir, porque eu não poderei remir.",
+        "analysis": {
+          "lemma": "גאלה",
+          "lemmaTranslation": "redenção, direito de remir",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Partícula de objeto direto (את) + Sufixo pronominal 1cs"
+        }
+      },
+      {
+        "hebrew": "כִּי",
+        "transliteration": "ki",
+        "briefTranslation": "porque",
+        "contextualTranslation": "Então disse o remidor: Não poderei remir para mim, para que não prejudique a minha herança; reme tu o meu direito de remir, porque eu não poderei remir.",
+        "analysis": {
+          "lemma": "כי",
+          "lemmaTranslation": "porque, que",
+          "class": "Conjunção"
+        }
+      },
+      {
+        "hebrew": "לֹא",
+        "transliteration": "ló",
+        "briefTranslation": "não",
+        "contextualTranslation": "Então disse o remidor: Não poderei remir para mim, para que não prejudique a minha herança; reme tu o meu direito de remir, porque eu não poderei remir.",
+        "analysis": {
+          "lemma": "לא",
+          "lemmaTranslation": "não",
+          "class": "Partícula Negativa"
+        }
+      },
+      {
+        "hebrew": "אוּכַל",
+        "transliteration": "u-khál",
+        "briefTranslation": "poderei",
+        "contextualTranslation": "Então disse o remidor: Não poderei remir para mim, para que não prejudique a minha herança; reme tu o meu direito de remir, porque eu não poderei remir.",
+        "analysis": {
+          "lemma": "יכל",
+          "lemmaTranslation": "poder",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito",
+          "pgn": "1cs",
+          "gender": "Comum",
+          "number": "Singular",
+          "extra": "Raiz: י.כ.ל"
+        }
+      },
+      {
+        "hebrew": "לִגְאֹל",
+        "transliteration": "lig-ól",
+        "briefTranslation": "remir",
+        "contextualTranslation": "Então disse o remidor: Não poderei remir para mim, para que não prejudique a minha herança; reme tu o meu direito de remir, porque eu não poderei remir.",
+        "analysis": {
+          "lemma": "גאל",
+          "lemmaTranslation": "remir, resgatar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Infinitivo Construto",
+          "extra": "Preposição ל (para) + Raiz: ג.א.ל"
+        }
+      }
+    ]
+  }
+
+
+,
+  "7": {
+    "hebrewText": "וְזֹאת לְפָנִים בְּיִשְׂרָאֵל עַל־הַגְּאוּלָּה וְעַל־הַתְּמוּרָה לְקַיֵּם כָּל־דָּבָר שָׁלַף אִישׁ נַעֲלוֹ וְנָתַן לְרֵעֵהוּ וְזֹאת הַתְּעוּדָה בְּיִשְׂרָאֵל",
+    "words": [
+      {
+        "hebrew": "וְזֹאת",
+        "transliteration": "ve-zót",
+        "briefTranslation": "e este",
+        "contextualTranslation": "Ora, o costume antigo em Israel, para confirmar todo o negócio, tanto a respeito de remissão como de troca, era que o homem descalçava o sapato e o dava ao seu próximo; e isto era por testemunho em Israel.",
+        "analysis": {
+          "lemma": "זאת",
+          "lemmaTranslation": "este, esta",
+          "class": "Pronome Demonstrativo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Conjunção ו + Pronome"
+        }
+      },
+      {
+        "hebrew": "לְפָנִים",
+        "transliteration": "le-fa-ním",
+        "briefTranslation": "antigamente",
+        "contextualTranslation": "Ora, o costume antigo em Israel, para confirmar todo o negócio, tanto a respeito de remissão como de troca, era que o homem descalçava o sapato e o dava ao seu próximo; e isto era por testemunho em Israel.",
+        "analysis": {
+          "lemma": "פנים",
+          "lemmaTranslation": "face, antes",
+          "class": "Substantivo",
+          "extra": "Preposição ל (para) + Substantivo (plural)"
+        }
+      },
+      {
+        "hebrew": "בְּיִשְׂרָאֵל",
+        "transliteration": "be-Yis-ra-él",
+        "briefTranslation": "em Israel",
+        "contextualTranslation": "Ora, o costume antigo em Israel, para confirmar todo o negócio, tanto a respeito de remissão como de troca, era que o homem descalçava o sapato e o dava ao seu próximo; e isto era por testemunho em Israel.",
+        "analysis": {
+          "lemma": "ישׂראל",
+          "lemmaTranslation": "Israel",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição ב (em)"
+        }
+      },
+      {
+        "hebrew": "עַל־הַגְּאוּלָּה",
+        "transliteration": "al-hag-ge-ul-láh",
+        "briefTranslation": "sobre a remissão",
+        "contextualTranslation": "Ora, o costume antigo em Israel, para confirmar todo o negócio, tanto a respeito de remissão como de troca, era que o homem descalçava o sapato e o dava ao seu próximo; e isto era por testemunho em Israel.",
+        "analysis": {
+          "lemma": "גאלה",
+          "lemmaTranslation": "redenção, remissão",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Preposição על (sobre) + Artigo definido"
+        }
+      },
+      {
+        "hebrew": "וְעַל־הַתְּמוּרָה",
+        "transliteration": "ve-al-hat-te-mu-ráh",
+        "briefTranslation": "e sobre a troca",
+        "contextualTranslation": "Ora, o costume antigo em Israel, para confirmar todo o negócio, tanto a respeito de remissão como de troca, era que o homem descalçava o sapato e o dava ao seu próximo; e isto era por testemunho em Israel.",
+        "analysis": {
+          "lemma": "תמורה",
+          "lemmaTranslation": "troca",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Conjunção ו + Preposição על (sobre) + Artigo definido"
+        }
+      },
+      {
+        "hebrew": "לְקַיֵּם",
+        "transliteration": "le-kay-yém",
+        "briefTranslation": "para confirmar",
+        "contextualTranslation": "Ora, o costume antigo em Israel, para confirmar todo o negócio, tanto a respeito de remissão como de troca, era que o homem descalçava o sapato e o dava ao seu próximo; e isto era por testemunho em Israel.",
+        "analysis": {
+          "lemma": "קום",
+          "lemmaTranslation": "confirmar, estabelecer",
+          "class": "Verbo",
+          "binyan": "Piel",
+          "tense": "Infinitivo Construto",
+          "extra": "Preposição ל (para) + Raiz: ק.ו.ם"
+        }
+      },
+      {
+        "hebrew": "כָּל־דָּבָר",
+        "transliteration": "kol-da-vár",
+        "briefTranslation": "todo o negócio",
+        "contextualTranslation": "Ora, o costume antigo em Israel, para confirmar todo o negócio, tanto a respeito de remissão como de troca, era que o homem descalçava o sapato e o dava ao seu próximo; e isto era por testemunho em Israel.",
+        "analysis": {
+          "lemma": "דבר",
+          "lemmaTranslation": "palavra, coisa, negócio",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Estado construto"
+        }
+      },
+      {
+        "hebrew": "שָׁלַף",
+        "transliteration": "sha-láf",
+        "briefTranslation": "descalçava",
+        "contextualTranslation": "Ora, o costume antigo em Israel, para confirmar todo o negócio, tanto a respeito de remissão como de troca, era que o homem descalçava o sapato e o dava ao seu próximo; e isto era por testemunho em Israel.",
+        "analysis": {
+          "lemma": "שׁלף",
+          "lemmaTranslation": "descalçar, tirar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Perfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: שׁ.ל.ף"
+        }
+      },
+      {
+        "hebrew": "אִישׁ",
+        "transliteration": "ísh",
+        "briefTranslation": "homem",
+        "contextualTranslation": "Ora, o costume antigo em Israel, para confirmar todo o negócio, tanto a respeito de remissão como de troca, era que o homem descalçava o sapato e o dava ao seu próximo; e isto era por testemunho em Israel.",
+        "analysis": {
+          "lemma": "איש",
+          "lemmaTranslation": "homem",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "נַעֲלוֹ",
+        "transliteration": "na-a-ló",
+        "briefTranslation": "seu sapato",
+        "contextualTranslation": "Ora, o costume antigo em Israel, para confirmar todo o negócio, tanto a respeito de remissão como de troca, era que o homem descalçava o sapato e o dava ao seu próximo; e isto era por testemunho em Israel.",
+        "analysis": {
+          "lemma": "נעל",
+          "lemmaTranslation": "sapato",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal 3ms"
+        }
+      },
+      {
+        "hebrew": "וְנָתַן",
+        "transliteration": "ve-na-tán",
+        "briefTranslation": "e dava",
+        "contextualTranslation": "Ora, o costume antigo em Israel, para confirmar todo o negócio, tanto a respeito de remissão como de troca, era que o homem descalçava o sapato e o dava ao seu próximo; e isto era por testemunho em Israel.",
+        "analysis": {
+          "lemma": "נתן",
+          "lemmaTranslation": "dar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: נ.ת.ן"
+        }
+      },
+      {
+        "hebrew": "לְרֵעֵהוּ",
+        "transliteration": "le-re-é-hu",
+        "briefTranslation": "ao seu próximo",
+        "contextualTranslation": "Ora, o costume antigo em Israel, para confirmar todo o negócio, tanto a respeito de remissão como de troca, era que o homem descalçava o sapato e o dava ao seu próximo; e isto era por testemunho em Israel.",
+        "analysis": {
+          "lemma": "רע",
+          "lemmaTranslation": "próximo, amigo",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição ל (a) + Sufixo pronominal 3ms"
+        }
+      },
+      {
+        "hebrew": "וְזֹאת",
+        "transliteration": "ve-zót",
+        "briefTranslation": "e este",
+        "contextualTranslation": "Ora, o costume antigo em Israel, para confirmar todo o negócio, tanto a respeito de remissão como de troca, era que o homem descalçava o sapato e o dava ao seu próximo; e isto era por testemunho em Israel.",
+        "analysis": {
+          "lemma": "זאת",
+          "lemmaTranslation": "este, esta",
+          "class": "Pronome Demonstrativo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Conjunção ו + Pronome"
+        }
+      },
+      {
+        "hebrew": "הַתְּעוּדָה",
+        "transliteration": "hat-te-u-dáh",
+        "briefTranslation": "o testemunho",
+        "contextualTranslation": "Ora, o costume antigo em Israel, para confirmar todo o negócio, tanto a respeito de remissão como de troca, era que o homem descalçava o sapato e o dava ao seu próximo; e isto era por testemunho em Israel.",
+        "analysis": {
+          "lemma": "תעודה",
+          "lemmaTranslation": "testemunho",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "בְּיִשְׂרָאֵל",
+        "transliteration": "be-Yis-ra-él",
+        "briefTranslation": "em Israel",
+        "contextualTranslation": "Ora, o costume antigo em Israel, para confirmar todo o negócio, tanto a respeito de remissão como de troca, era que o homem descalçava o sapato e o dava ao seu próximo; e isto era por testemunho em Israel.",
+        "analysis": {
+          "lemma": "ישׂראל",
+          "lemmaTranslation": "Israel",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição ב (em)"
+        }
+      }
+    ]
+  }
+
+
+,
+  "8": {
+    "hebrewText": "וַיֹּאמֶר הַגֹּאֵל לְבֹעַז קְנֵה־לָךְ וַיִּשְׁלֹף נַעֲלוֹ",
+    "words": [
+      {
+        "hebrew": "וַיֹּאמֶר",
+        "transliteration": "vai-yó-mer",
+        "briefTranslation": "e disse",
+        "contextualTranslation": "Então o remidor disse a Boaz: Compra-a para ti. E descalçou o seu sapato.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "הַגֹּאֵל",
+        "transliteration": "hag-go-él",
+        "briefTranslation": "o remidor",
+        "contextualTranslation": "Então o remidor disse a Boaz: Compra-a para ti. E descalçou o seu sapato.",
+        "analysis": {
+          "lemma": "גאל",
+          "lemmaTranslation": "remir, resgatar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Particípio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Artigo definido + Raiz: ג.א.ל"
+        }
+      },
+      {
+        "hebrew": "לְבֹעַז",
+        "transliteration": "le-Bó-az",
+        "briefTranslation": "a Boaz",
+        "contextualTranslation": "Então o remidor disse a Boaz: Compra-a para ti. E descalçou o seu sapato.",
+        "analysis": {
+          "lemma": "בועז",
+          "lemmaTranslation": "Boaz",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição ל (a)"
+        }
+      },
+      {
+        "hebrew": "קְנֵה־לָךְ",
+        "transliteration": "ke-néh-lákh",
+        "briefTranslation": "compra para ti",
+        "contextualTranslation": "Então o remidor disse a Boaz: Compra-a para ti. E descalçou o seu sapato.",
+        "analysis": {
+          "lemma": "קנה",
+          "lemmaTranslation": "comprar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperativo",
+          "pgn": "2ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ק.נ.ה + Preposição ל + Sufixo pronominal 2ms"
+        }
+      },
+      {
+        "hebrew": "וַיִּשְׁלֹף",
+        "transliteration": "vai-yish-lóf",
+        "briefTranslation": "e descalçou",
+        "contextualTranslation": "Então o remidor disse a Boaz: Compra-a para ti. E descalçou o seu sapato.",
+        "analysis": {
+          "lemma": "שׁלף",
+          "lemmaTranslation": "descalçar, tirar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: שׁ.ל.ף"
+        }
+      },
+      {
+        "hebrew": "נַעֲלוֹ",
+        "transliteration": "na-a-ló",
+        "briefTranslation": "seu sapato",
+        "contextualTranslation": "Então o remidor disse a Boaz: Compra-a para ti. E descalçou o seu sapato.",
+        "analysis": {
+          "lemma": "נעל",
+          "lemmaTranslation": "sapato",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal 3ms"
+        }
+      }
+    ]
+  }
+
+
+,
+  "9": {
+    "hebrewText": "וַיֹּאמֶר בֹּעַז לַזְּקֵנִים וְכָל־הָעָם הָעֹמְדִים בַּשַּׁעַר עֵדִים אַתֶּם הַיּוֹם כִּי קָנִיתִי אֶת־כָּל־אֲשֶׁר לֶאֱלִימֶלֶךְ וְאֵת כָּל־אֲשֶׁר לְכִלְיוֹן וּמַחְלוֹן מִיַּד נָעֳמִי",
+    "words": [
+      {
+        "hebrew": "וַיֹּאמֶר",
+        "transliteration": "vai-yó-mer",
+        "briefTranslation": "e disse",
+        "contextualTranslation": "Então Boaz disse aos anciãos e a todo o povo: Sois hoje testemunhas de que comprei da mão de Noemi tudo o que foi de Elimeleque, e tudo o que foi de Quiliom e de Malom.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "בֹּעַז",
+        "transliteration": "Bó-az",
+        "briefTranslation": "Boaz",
+        "contextualTranslation": "Então Boaz disse aos anciãos e a todo o povo: Sois hoje testemunhas de que comprei da mão de Noemi tudo o que foi de Elimeleque, e tudo o que foi de Quiliom e de Malom.",
+        "analysis": {
+          "lemma": "בועז",
+          "lemmaTranslation": "Boaz",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "לַזְּקֵנִים",
+        "transliteration": "laz-ze-ke-ním",
+        "briefTranslation": "aos anciãos",
+        "contextualTranslation": "Então Boaz disse aos anciãos e a todo o povo: Sois hoje testemunhas de que comprei da mão de Noemi tudo o que foi de Elimeleque, e tudo o que foi de Quiliom e de Malom.",
+        "analysis": {
+          "lemma": "זקן",
+          "lemmaTranslation": "ancião",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Plural",
+          "extra": "Preposição ל (a) + Artigo definido"
+        }
+      },
+      {
+        "hebrew": "וְכָל־הָעָם",
+        "transliteration": "ve-khol-ha-ám",
+        "briefTranslation": "e todo o povo",
+        "contextualTranslation": "Então Boaz disse aos anciãos e a todo o povo: Sois hoje testemunhas de que comprei da mão de Noemi tudo o que foi de Elimeleque, e tudo o que foi de Quiliom e de Malom.",
+        "analysis": {
+          "lemma": "עם",
+          "lemmaTranslation": "povo",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Conjunção ו + כל (todo) + Artigo definido"
+        }
+      },
+      {
+        "hebrew": "הָעֹמְדִים",
+        "transliteration": "ha-o-me-dím",
+        "briefTranslation": "os que estavam em pé",
+        "contextualTranslation": "Então Boaz disse aos anciãos e a todo o povo: Sois hoje testemunhas de que comprei da mão de Noemi tudo o que foi de Elimeleque, e tudo o que foi de Quiliom e de Malom.",
+        "analysis": {
+          "lemma": "עמד",
+          "lemmaTranslation": "estar em pé",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Particípio",
+          "gender": "Masculino",
+          "number": "Plural",
+          "extra": "Artigo definido + Raiz: ע.מ.ד"
+        }
+      },
+      {
+        "hebrew": "בַּשַּׁעַר",
+        "transliteration": "bash-shá-ar",
+        "briefTranslation": "na porta",
+        "contextualTranslation": "Então Boaz disse aos anciãos e a todo o povo: Sois hoje testemunhas de que comprei da mão de Noemi tudo o que foi de Elimeleque, e tudo o que foi de Quiliom e de Malom.",
+        "analysis": {
+          "lemma": "שער",
+          "lemmaTranslation": "porta, portão",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição ב (em) + Artigo definido"
+        }
+      },
+      {
+        "hebrew": "עֵדִים",
+        "transliteration": "e-dím",
+        "briefTranslation": "testemunhas",
+        "contextualTranslation": "Então Boaz disse aos anciãos e a todo o povo: Sois hoje testemunhas de que comprei da mão de Noemi tudo o que foi de Elimeleque, e tudo o que foi de Quiliom e de Malom.",
+        "analysis": {
+          "lemma": "עד",
+          "lemmaTranslation": "testemunha",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Plural"
+        }
+      },
+      {
+        "hebrew": "אַתֶּם",
+        "transliteration": "at-tém",
+        "briefTranslation": "vós",
+        "contextualTranslation": "Então Boaz disse aos anciãos e a todo o povo: Sois hoje testemunhas de que comprei da mão de Noemi tudo o que foi de Elimeleque, e tudo o que foi de Quiliom e de Malom.",
+        "analysis": {
+          "lemma": "אתם",
+          "lemmaTranslation": "vós",
+          "class": "Pronome Pessoal",
+          "gender": "Masculino",
+          "number": "Plural"
+        }
+      },
+      {
+        "hebrew": "הַיּוֹם",
+        "transliteration": "hay-yóm",
+        "briefTranslation": "hoje",
+        "contextualTranslation": "Então Boaz disse aos anciãos e a todo o povo: Sois hoje testemunhas de que comprei da mão de Noemi tudo o que foi de Elimeleque, e tudo o que foi de Quiliom e de Malom.",
+        "analysis": {
+          "lemma": "יום",
+          "lemmaTranslation": "dia",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "כִּי",
+        "transliteration": "ki",
+        "briefTranslation": "que",
+        "contextualTranslation": "Então Boaz disse aos anciãos e a todo o povo: Sois hoje testemunhas de que comprei da mão de Noemi tudo o que foi de Elimeleque, e tudo o que foi de Quiliom e de Malom.",
+        "analysis": {
+          "lemma": "כי",
+          "lemmaTranslation": "porque, que",
+          "class": "Conjunção"
+        }
+      },
+      {
+        "hebrew": "קָנִיתִי",
+        "transliteration": "ka-ní-ti",
+        "briefTranslation": "comprei",
+        "contextualTranslation": "Então Boaz disse aos anciãos e a todo o povo: Sois hoje testemunhas de que comprei da mão de Noemi tudo o que foi de Elimeleque, e tudo o que foi de Quiliom e de Malom.",
+        "analysis": {
+          "lemma": "קנה",
+          "lemmaTranslation": "comprar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Perfeito",
+          "pgn": "1cs",
+          "gender": "Comum",
+          "number": "Singular",
+          "extra": "Raiz: ק.נ.ה"
+        }
+      },
+      {
+        "hebrew": "אֶת־כָּל־אֲשֶׁר",
+        "transliteration": "et-kol-a-shér",
+        "briefTranslation": "tudo o que",
+        "contextualTranslation": "Então Boaz disse aos anciãos e a todo o povo: Sois hoje testemunhas de que comprei da mão de Noemi tudo o que foi de Elimeleque, e tudo o que foi de Quiliom e de Malom.",
+        "analysis": {
+          "lemma": "אשר",
+          "lemmaTranslation": "que, o qual",
+          "class": "Pronome Relativo",
+          "extra": "Partícula de objeto direto (את) + כל (todo)"
+        }
+      },
+      {
+        "hebrew": "לֶאֱלִימֶלֶךְ",
+        "transliteration": "le-E-li-mé-lekh",
+        "briefTranslation": "de Elimeleque",
+        "contextualTranslation": "Então Boaz disse aos anciãos e a todo o povo: Sois hoje testemunhas de que comprei da mão de Noemi tudo o que foi de Elimeleque, e tudo o que foi de Quiliom e de Malom.",
+        "analysis": {
+          "lemma": "אלימלך",
+          "lemmaTranslation": "Elimeleque",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição ל (de)"
+        }
+      },
+      {
+        "hebrew": "וְאֵת",
+        "transliteration": "ve-ét",
+        "briefTranslation": "e",
+        "contextualTranslation": "Então Boaz disse aos anciãos e a todo o povo: Sois hoje testemunhas de que comprei da mão de Noemi tudo o que foi de Elimeleque, e tudo o que foi de Quiliom e de Malom.",
+        "analysis": {
+          "lemma": "את",
+          "lemmaTranslation": "(partícula de objeto direto)",
+          "class": "Partícula",
+          "extra": "Conjunção ו + Partícula"
+        }
+      },
+      {
+        "hebrew": "כָּל־אֲשֶׁר",
+        "transliteration": "kol-a-shér",
+        "briefTranslation": "tudo o que",
+        "contextualTranslation": "Então Boaz disse aos anciãos e a todo o povo: Sois hoje testemunhas de que comprei da mão de Noemi tudo o que foi de Elimeleque, e tudo o que foi de Quiliom e de Malom.",
+        "analysis": {
+          "lemma": "אשר",
+          "lemmaTranslation": "que, o qual",
+          "class": "Pronome Relativo",
+          "extra": "כל (todo)"
+        }
+      },
+      {
+        "hebrew": "לְכִלְיוֹן",
+        "transliteration": "le-khil-yón",
+        "briefTranslation": "de Quiliom",
+        "contextualTranslation": "Então Boaz disse aos anciãos e a todo o povo: Sois hoje testemunhas de que comprei da mão de Noemi tudo o que foi de Elimeleque, e tudo o que foi de Quiliom e de Malom.",
+        "analysis": {
+          "lemma": "כליון",
+          "lemmaTranslation": "Quiliom",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição ל (de)"
+        }
+      },
+      {
+        "hebrew": "וּמַחְלוֹן",
+        "transliteration": "u-mach-lón",
+        "briefTranslation": "e Malom",
+        "contextualTranslation": "Então Boaz disse aos anciãos e a todo o povo: Sois hoje testemunhas de que comprei da mão de Noemi tudo o que foi de Elimeleque, e tudo o que foi de Quiliom e de Malom.",
+        "analysis": {
+          "lemma": "מחלון",
+          "lemmaTranslation": "Malom",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Conjunção ו + Nome"
+        }
+      },
+      {
+        "hebrew": "מִיַּד",
+        "transliteration": "mi-yád",
+        "briefTranslation": "da mão de",
+        "contextualTranslation": "Então Boaz disse aos anciãos e a todo o povo: Sois hoje testemunhas de que comprei da mão de Noemi tudo o que foi de Elimeleque, e tudo o que foi de Quiliom e de Malom.",
+        "analysis": {
+          "lemma": "יד",
+          "lemmaTranslation": "mão",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Preposição מן (de) + Substantivo"
+        }
+      },
+      {
+        "hebrew": "נָעֳמִי",
+        "transliteration": "Naomi",
+        "briefTranslation": "Noemi",
+        "contextualTranslation": "Então Boaz disse aos anciãos e a todo o povo: Sois hoje testemunhas de que comprei da mão de Noemi tudo o que foi de Elimeleque, e tudo o que foi de Quiliom e de Malom.",
+        "analysis": {
+          "lemma": "נעמי",
+          "lemmaTranslation": "Noemi",
+          "class": "Nome Próprio",
+          "gender": "Feminino",
+          "number": "Singular"
+        }
+      }
+    ]
+  }
+
+
+,
+  "10": {
+    "hebrewText": "וְגַם אֶת־רוּת הַמּוֹאֲבִיָּה אֵשֶׁת מַחְלוֹן קָנִיתִי לִי לְאִשָּׁה לְהָקִים שֵׁם הַמֵּת עַל־נַחֲלָתוֹ וְלֹא־יִכָּרֵת שֵׁם הַמֵּת מֵעִם אֶחָיו וּמִשַּׁעַר מְקוֹמוֹ עֵדִים אַתֶּם הַיּוֹם",
+    "words": [
+      {
+        "hebrew": "וְגַם",
+        "transliteration": "ve-gam",
+        "briefTranslation": "e também",
+        "contextualTranslation": "E também a Rute, a moabita, mulher de Malom, adquiri para mim por mulher, para suscitar o nome do falecido sobre a sua herança, para que o nome do falecido não seja extinto entre seus irmãos e na porta do seu lugar; vós sois hoje testemunhas.",
+        "analysis": {
+          "lemma": "גם",
+          "lemmaTranslation": "também",
+          "class": "Conjunção",
+          "extra": "Conjunção ו + Partícula"
+        }
+      },
+      {
+        "hebrew": "אֶת־רוּת",
+        "transliteration": "et-Rut",
+        "briefTranslation": "a Rute",
+        "contextualTranslation": "E também a Rute, a moabita, mulher de Malom, adquiri para mim por mulher, para suscitar o nome do falecido sobre a sua herança, para que o nome do falecido não seja extinto entre seus irmãos e na porta do seu lugar; vós sois hoje testemunhas.",
+        "analysis": {
+          "lemma": "רות",
+          "lemmaTranslation": "Rute",
+          "class": "Nome Próprio",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Partícula de objeto direto (את)"
+        }
+      },
+      {
+        "hebrew": "הַמּוֹאֲבִיָּה",
+        "transliteration": "ham-mo-a-vi-yáh",
+        "briefTranslation": "a moabita",
+        "contextualTranslation": "E também a Rute, a moabita, mulher de Malom, adquiri para mim por mulher, para suscitar o nome do falecido sobre a sua herança, para que o nome do falecido não seja extinto entre seus irmãos e na porta do seu lugar; vós sois hoje testemunhas.",
+        "analysis": {
+          "lemma": "מואביה",
+          "lemmaTranslation": "moabita",
+          "class": "Adjetivo Gentílico",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "אֵשֶׁת",
+        "transliteration": "é-shet",
+        "briefTranslation": "mulher de",
+        "contextualTranslation": "E também a Rute, a moabita, mulher de Malom, adquiri para mim por mulher, para suscitar o nome do falecido sobre a sua herança, para que o nome do falecido não seja extinto entre seus irmãos e na porta do seu lugar; vós sois hoje testemunhas.",
+        "analysis": {
+          "lemma": "אשה",
+          "lemmaTranslation": "mulher",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Estado construto"
+        }
+      },
+      {
+        "hebrew": "מַחְלוֹן",
+        "transliteration": "mach-lón",
+        "briefTranslation": "Malom",
+        "contextualTranslation": "E também a Rute, a moabita, mulher de Malom, adquiri para mim por mulher, para suscitar o nome do falecido sobre a sua herança, para que o nome do falecido não seja extinto entre seus irmãos e na porta do seu lugar; vós sois hoje testemunhas.",
+        "analysis": {
+          "lemma": "מחלון",
+          "lemmaTranslation": "Malom",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "קָנִיתִי",
+        "transliteration": "ka-ní-ti",
+        "briefTranslation": "adquiri",
+        "contextualTranslation": "E também a Rute, a moabita, mulher de Malom, adquiri para mim por mulher, para suscitar o nome do falecido sobre a sua herança, para que o nome do falecido não seja extinto entre seus irmãos e na porta do seu lugar; vós sois hoje testemunhas.",
+        "analysis": {
+          "lemma": "קנה",
+          "lemmaTranslation": "adquirir, comprar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Perfeito",
+          "pgn": "1cs",
+          "gender": "Comum",
+          "number": "Singular",
+          "extra": "Raiz: ק.נ.ה"
+        }
+      },
+      {
+        "hebrew": "לִי",
+        "transliteration": "li",
+        "briefTranslation": "para mim",
+        "contextualTranslation": "E também a Rute, a moabita, mulher de Malom, adquiri para mim por mulher, para suscitar o nome do falecido sobre a sua herança, para que o nome do falecido não seja extinto entre seus irmãos e na porta do seu lugar; vós sois hoje testemunhas.",
+        "analysis": {
+          "lemma": "ל",
+          "lemmaTranslation": "para, a",
+          "class": "Preposição",
+          "pgn": "1cs",
+          "gender": "Comum",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "לְאִשָּׁה",
+        "transliteration": "le-ish-sháh",
+        "briefTranslation": "por mulher",
+        "contextualTranslation": "E também a Rute, a moabita, mulher de Malom, adquiri para mim por mulher, para suscitar o nome do falecido sobre a sua herança, para que o nome do falecido não seja extinto entre seus irmãos e na porta do seu lugar; vós sois hoje testemunhas.",
+        "analysis": {
+          "lemma": "אשה",
+          "lemmaTranslation": "mulher",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Preposição ל (para)"
+        }
+      },
+      {
+        "hebrew": "לְהָקִים",
+        "transliteration": "le-ha-kím",
+        "briefTranslation": "para suscitar",
+        "contextualTranslation": "E também a Rute, a moabita, mulher de Malom, adquiri para mim por mulher, para suscitar o nome do falecido sobre a sua herança, para que o nome do falecido não seja extinto entre seus irmãos e na porta do seu lugar; vós sois hoje testemunhas.",
+        "analysis": {
+          "lemma": "קום",
+          "lemmaTranslation": "levantar, suscitar",
+          "class": "Verbo",
+          "binyan": "Hifil",
+          "tense": "Infinitivo Construto",
+          "extra": "Preposição ל (para) + Raiz: ק.ו.ם"
+        }
+      },
+      {
+        "hebrew": "שֵׁם",
+        "transliteration": "shem",
+        "briefTranslation": "nome",
+        "contextualTranslation": "E também a Rute, a moabita, mulher de Malom, adquiri para mim por mulher, para suscitar o nome do falecido sobre a sua herança, para que o nome do falecido não seja extinto entre seus irmãos e na porta do seu lugar; vós sois hoje testemunhas.",
+        "analysis": {
+          "lemma": "שׁם",
+          "lemmaTranslation": "nome",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "הַמֵּת",
+        "transliteration": "ham-mét",
+        "briefTranslation": "do falecido",
+        "contextualTranslation": "E também a Rute, a moabita, mulher de Malom, adquiri para mim por mulher, para suscitar o nome do falecido sobre a sua herança, para que o nome do falecido não seja extinto entre seus irmãos e na porta do seu lugar; vós sois hoje testemunhas.",
+        "analysis": {
+          "lemma": "מת",
+          "lemmaTranslation": "morto, falecido",
+          "class": "Adjetivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "עַל־נַחֲלָתוֹ",
+        "transliteration": "al-na-cha-la-tó",
+        "briefTranslation": "sobre sua herança",
+        "contextualTranslation": "E também a Rute, a moabita, mulher de Malom, adquiri para mim por mulher, para suscitar o nome do falecido sobre a sua herança, para que o nome do falecido não seja extinto entre seus irmãos e na porta do seu lugar; vós sois hoje testemunhas.",
+        "analysis": {
+          "lemma": "נחלה",
+          "lemmaTranslation": "herança",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Preposição על (sobre) + Sufixo pronominal 3ms"
+        }
+      },
+      {
+        "hebrew": "וְלֹא־יִכָּרֵת",
+        "transliteration": "ve-ló-yik-ka-rét",
+        "briefTranslation": "e não seja extinto",
+        "contextualTranslation": "E também a Rute, a moabita, mulher de Malom, adquiri para mim por mulher, para suscitar o nome do falecido sobre a sua herança, para que o nome do falecido não seja extinto entre seus irmãos e na porta do seu lugar; vós sois hoje testemunhas.",
+        "analysis": {
+          "lemma": "כרת",
+          "lemmaTranslation": "cortar, extinguir",
+          "class": "Verbo",
+          "binyan": "Nifal",
+          "tense": "Imperfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Conjunção ו + Partícula negativa (לא) + Raiz: כ.ר.ת"
+        }
+      },
+      {
+        "hebrew": "שֵׁם",
+        "transliteration": "shem",
+        "briefTranslation": "nome",
+        "contextualTranslation": "E também a Rute, a moabita, mulher de Malom, adquiri para mim por mulher, para suscitar o nome do falecido sobre a sua herança, para que o nome do falecido não seja extinto entre seus irmãos e na porta do seu lugar; vós sois hoje testemunhas.",
+        "analysis": {
+          "lemma": "שׁם",
+          "lemmaTranslation": "nome",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "הַמֵּת",
+        "transliteration": "ham-mét",
+        "briefTranslation": "do falecido",
+        "contextualTranslation": "E também a Rute, a moabita, mulher de Malom, adquiri para mim por mulher, para suscitar o nome do falecido sobre a sua herança, para que o nome do falecido não seja extinto entre seus irmãos e na porta do seu lugar; vós sois hoje testemunhas.",
+        "analysis": {
+          "lemma": "מת",
+          "lemmaTranslation": "morto, falecido",
+          "class": "Adjetivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "מֵעִם",
+        "transliteration": "me-ím",
+        "briefTranslation": "de entre",
+        "contextualTranslation": "E também a Rute, a moabita, mulher de Malom, adquiri para mim por mulher, para suscitar o nome do falecido sobre a sua herança, para que o nome do falecido não seja extinto entre seus irmãos e na porta do seu lugar; vós sois hoje testemunhas.",
+        "analysis": {
+          "lemma": "עם",
+          "lemmaTranslation": "com, entre",
+          "class": "Preposição",
+          "extra": "Preposição מן (de) + Preposição"
+        }
+      },
+      {
+        "hebrew": "אֶחָיו",
+        "transliteration": "e-cháv",
+        "briefTranslation": "seus irmãos",
+        "contextualTranslation": "E também a Rute, a moabita, mulher de Malom, adquiri para mim por mulher, para suscitar o nome do falecido sobre a sua herança, para que o nome do falecido não seja extinto entre seus irmãos e na porta do seu lugar; vós sois hoje testemunhas.",
+        "analysis": {
+          "lemma": "אח",
+          "lemmaTranslation": "irmão",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Plural",
+          "extra": "Sufixo pronominal 3ms"
+        }
+      },
+      {
+        "hebrew": "וּמִשַּׁעַר",
+        "transliteration": "u-mish-shá-ar",
+        "briefTranslation": "e da porta de",
+        "contextualTranslation": "E também a Rute, a moabita, mulher de Malom, adquiri para mim por mulher, para suscitar o nome do falecido sobre a sua herança, para que o nome do falecido não seja extinto entre seus irmãos e na porta do seu lugar; vós sois hoje testemunhas.",
+        "analysis": {
+          "lemma": "שער",
+          "lemmaTranslation": "porta, portão",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Conjunção ו + Preposição מן (de) + Estado construto"
+        }
+      },
+      {
+        "hebrew": "מְקוֹמוֹ",
+        "transliteration": "me-ko-mó",
+        "briefTranslation": "seu lugar",
+        "contextualTranslation": "E também a Rute, a moabita, mulher de Malom, adquiri para mim por mulher, para suscitar o nome do falecido sobre a sua herança, para que o nome do falecido não seja extinto entre seus irmãos e na porta do seu lugar; vós sois hoje testemunhas.",
+        "analysis": {
+          "lemma": "מקום",
+          "lemmaTranslation": "lugar",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal 3ms"
+        }
+      },
+      {
+        "hebrew": "עֵדִים",
+        "transliteration": "e-dím",
+        "briefTranslation": "testemunhas",
+        "contextualTranslation": "E também a Rute, a moabita, mulher de Malom, adquiri para mim por mulher, para suscitar o nome do falecido sobre a sua herança, para que o nome do falecido não seja extinto entre seus irmãos e na porta do seu lugar; vós sois hoje testemunhas.",
+        "analysis": {
+          "lemma": "עד",
+          "lemmaTranslation": "testemunha",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Plural"
+        }
+      },
+      {
+        "hebrew": "אַתֶּם",
+        "transliteration": "at-tém",
+        "briefTranslation": "vós",
+        "contextualTranslation": "E também a Rute, a moabita, mulher de Malom, adquiri para mim por mulher, para suscitar o nome do falecido sobre a sua herança, para que o nome do falecido não seja extinto entre seus irmãos e na porta do seu lugar; vós sois hoje testemunhas.",
+        "analysis": {
+          "lemma": "אתם",
+          "lemmaTranslation": "vós",
+          "class": "Pronome Pessoal",
+          "gender": "Masculino",
+          "number": "Plural"
+        }
+      },
+      {
+        "hebrew": "הַיּוֹם",
+        "transliteration": "hay-yóm",
+        "briefTranslation": "hoje",
+        "contextualTranslation": "E também a Rute, a moabita, mulher de Malom, adquiri para mim por mulher, para suscitar o nome do falecido sobre a sua herança, para que o nome do falecido não seja extinto entre seus irmãos e na porta do seu lugar; vós sois hoje testemunhas.",
+        "analysis": {
+          "lemma": "יום",
+          "lemmaTranslation": "dia",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      }
+    ]
+  }
+
+
+,
+  "11": {
+    "hebrewText": "וַיֹּאמְרוּ כָּל־הָעָם אֲשֶׁר־בַּשַּׁעַר וְהַזְּקֵנִים עֵדִים יִתֵּן יְהוָה אֶת־הָאִשָּׁה הַבָּאָה אֶל־בֵּיתֶךָ כְּרָחֵל וּכְלֵאָה אֲשֶׁר בָּנוּ שְׁתֵּיהֶם אֶת־בֵּית יִשְׂרָאֵל וַעֲשֵׂה־חַיִל בְּאֶפְרָתָה וּקְרָא־שֵׁם בְּבֵית לָחֶם",
+    "words": [
+      {
+        "hebrew": "וַיֹּאמְרוּ",
+        "transliteration": "vai-yó-me-ru",
+        "briefTranslation": "e disseram",
+        "contextualTranslation": "Então todo o povo que estava na porta, e os anciãos, disseram: Somos testemunhas. O Senhor faça a esta mulher, que entra em tua casa, como a Raquel e como a Lia, as quais edificaram ambas a casa de Israel; e porta-te valorosamente em Efrata, e faze-te nome em Belém.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3mp",
+          "gender": "Masculino",
+          "number": "Plural",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "כָּל־הָעָם",
+        "transliteration": "kol-ha-ám",
+        "briefTranslation": "todo o povo",
+        "contextualTranslation": "Então todo o povo que estava na porta, e os anciãos, disseram: Somos testemunhas. O Senhor faça a esta mulher, que entra em tua casa, como a Raquel e como a Lia, as quais edificaram ambas a casa de Israel; e porta-te valorosamente em Efrata, e faze-te nome em Belém.",
+        "analysis": {
+          "lemma": "עם",
+          "lemmaTranslation": "povo",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "כל (todo) + Artigo definido"
+        }
+      },
+      {
+        "hebrew": "אֲשֶׁר־בַּשַּׁעַר",
+        "transliteration": "a-shér-bash-shá-ar",
+        "briefTranslation": "que estava na porta",
+        "contextualTranslation": "Então todo o povo que estava na porta, e os anciãos, disseram: Somos testemunhas. O Senhor faça a esta mulher, que entra em tua casa, como a Raquel e como a Lia, as quais edificaram ambas a casa de Israel; e porta-te valorosamente em Efrata, e faze-te nome em Belém.",
+        "analysis": {
+          "lemma": "שער",
+          "lemmaTranslation": "porta, portão",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Pronome relativo (אשר) + Preposição ב (em) + Artigo definido"
+        }
+      },
+      {
+        "hebrew": "וְהַזְּקֵנִים",
+        "transliteration": "ve-haz-ze-ke-ním",
+        "briefTranslation": "e os anciãos",
+        "contextualTranslation": "Então todo o povo que estava na porta, e os anciãos, disseram: Somos testemunhas. O Senhor faça a esta mulher, que entra em tua casa, como a Raquel e como a Lia, as quais edificaram ambas a casa de Israel; e porta-te valorosamente em Efrata, e faze-te nome em Belém.",
+        "analysis": {
+          "lemma": "זקן",
+          "lemmaTranslation": "ancião",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Plural",
+          "extra": "Conjunção ו + Artigo definido"
+        }
+      },
+      {
+        "hebrew": "עֵדִים",
+        "transliteration": "e-dím",
+        "briefTranslation": "testemunhas",
+        "contextualTranslation": "Então todo o povo que estava na porta, e os anciãos, disseram: Somos testemunhas. O Senhor faça a esta mulher, que entra em tua casa, como a Raquel e como a Lia, as quais edificaram ambas a casa de Israel; e porta-te valorosamente em Efrata, e faze-te nome em Belém.",
+        "analysis": {
+          "lemma": "עד",
+          "lemmaTranslation": "testemunha",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Plural"
+        }
+      },
+      {
+        "hebrew": "יִתֵּן",
+        "transliteration": "yit-tén",
+        "briefTranslation": "dê",
+        "contextualTranslation": "Então todo o povo que estava na porta, e os anciãos, disseram: Somos testemunhas. O Senhor faça a esta mulher, que entra em tua casa, como a Raquel e como a Lia, as quais edificaram ambas a casa de Israel; e porta-te valorosamente em Efrata, e faze-te nome em Belém.",
+        "analysis": {
+          "lemma": "נתן",
+          "lemmaTranslation": "dar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: נ.ת.ן"
+        }
+      },
+      {
+        "hebrew": "יְהוָה",
+        "transliteration": "Adonai",
+        "briefTranslation": "Senhor",
+        "contextualTranslation": "Então todo o povo que estava na porta, e os anciãos, disseram: Somos testemunhas. O Senhor faça a esta mulher, que entra em tua casa, como a Raquel e como a Lia, as quais edificaram ambas a casa de Israel; e porta-te valorosamente em Efrata, e faze-te nome em Belém.",
+        "analysis": {
+          "lemma": "יהוה",
+          "lemmaTranslation": "YHWH (Senhor)",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "אֶת־הָאִשָּׁה",
+        "transliteration": "et-ha-ish-sháh",
+        "briefTranslation": "a mulher",
+        "contextualTranslation": "Então todo o povo que estava na porta, e os anciãos, disseram: Somos testemunhas. O Senhor faça a esta mulher, que entra em tua casa, como a Raquel e como a Lia, as quais edificaram ambas a casa de Israel; e porta-te valorosamente em Efrata, e faze-te nome em Belém.",
+        "analysis": {
+          "lemma": "אשה",
+          "lemmaTranslation": "mulher",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Partícula de objeto direto (את) + Artigo definido"
+        }
+      },
+      {
+        "hebrew": "הַבָּאָה",
+        "transliteration": "hab-ba-áh",
+        "briefTranslation": "que entra",
+        "contextualTranslation": "Então todo o povo que estava na porta, e os anciãos, disseram: Somos testemunhas. O Senhor faça a esta mulher, que entra em tua casa, como a Raquel e como a Lia, as quais edificaram ambas a casa de Israel; e porta-te valorosamente em Efrata, e faze-te nome em Belém.",
+        "analysis": {
+          "lemma": "בוא",
+          "lemmaTranslation": "vir, entrar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Particípio",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Artigo definido + Raiz: ב.ו.א"
+        }
+      },
+      {
+        "hebrew": "אֶל־בֵּיתֶךָ",
+        "transliteration": "el-be-té-kha",
+        "briefTranslation": "em tua casa",
+        "contextualTranslation": "Então todo o povo que estava na porta, e os anciãos, disseram: Somos testemunhas. O Senhor faça a esta mulher, que entra em tua casa, como a Raquel e como a Lia, as quais edificaram ambas a casa de Israel; e porta-te valorosamente em Efrata, e faze-te nome em Belém.",
+        "analysis": {
+          "lemma": "בית",
+          "lemmaTranslation": "casa",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição אל (em) + Sufixo pronominal 2ms"
+        }
+      },
+      {
+        "hebrew": "כְּרָחֵל",
+        "transliteration": "ke-ra-chél",
+        "briefTranslation": "como Raquel",
+        "contextualTranslation": "Então todo o povo que estava na porta, e os anciãos, disseram: Somos testemunhas. O Senhor faça a esta mulher, que entra em tua casa, como a Raquel e como a Lia, as quais edificaram ambas a casa de Israel; e porta-te valorosamente em Efrata, e faze-te nome em Belém.",
+        "analysis": {
+          "lemma": "רחל",
+          "lemmaTranslation": "Raquel",
+          "class": "Nome Próprio",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Preposição כ (como)"
+        }
+      },
+      {
+        "hebrew": "וּכְלֵאָה",
+        "transliteration": "u-khe-le-áh",
+        "briefTranslation": "e como Lia",
+        "contextualTranslation": "Então todo o povo que estava na porta, e os anciãos, disseram: Somos testemunhas. O Senhor faça a esta mulher, que entra em tua casa, como a Raquel e como a Lia, as quais edificaram ambas a casa de Israel; e porta-te valorosamente em Efrata, e faze-te nome em Belém.",
+        "analysis": {
+          "lemma": "לאה",
+          "lemmaTranslation": "Lia",
+          "class": "Nome Próprio",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Conjunção ו + Preposição כ (como)"
+        }
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "a-shér",
+        "briefTranslation": "as quais",
+        "contextualTranslation": "Então todo o povo que estava na porta, e os anciãos, disseram: Somos testemunhas. O Senhor faça a esta mulher, que entra em tua casa, como a Raquel e como a Lia, as quais edificaram ambas a casa de Israel; e porta-te valorosamente em Efrata, e faze-te nome em Belém.",
+        "analysis": {
+          "lemma": "אשר",
+          "lemmaTranslation": "que, o qual",
+          "class": "Pronome Relativo"
+        }
+      },
+      {
+        "hebrew": "בָּנוּ",
+        "transliteration": "ba-nú",
+        "briefTranslation": "edificaram",
+        "contextualTranslation": "Então todo o povo que estava na porta, e os anciãos, disseram: Somos testemunhas. O Senhor faça a esta mulher, que entra em tua casa, como a Raquel e como a Lia, as quais edificaram ambas a casa de Israel; e porta-te valorosamente em Efrata, e faze-te nome em Belém.",
+        "analysis": {
+          "lemma": "בנה",
+          "lemmaTranslation": "edificar, construir",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Perfeito",
+          "pgn": "3fp",
+          "gender": "Feminino",
+          "number": "Plural",
+          "extra": "Raiz: ב.נ.ה"
+        }
+      },
+      {
+        "hebrew": "שְׁתֵּיהֶם",
+        "transliteration": "she-té-hem",
+        "briefTranslation": "ambas",
+        "contextualTranslation": "Então todo o povo que estava na porta, e os anciãos, disseram: Somos testemunhas. O Senhor faça a esta mulher, que entra em tua casa, como a Raquel e como a Lia, as quais edificaram ambas a casa de Israel; e porta-te valorosamente em Efrata, e faze-te nome em Belém.",
+        "analysis": {
+          "lemma": "שׁתי",
+          "lemmaTranslation": "dois, duas",
+          "class": "Numeral",
+          "extra": "Sufixo pronominal 3fp"
+        }
+      },
+      {
+        "hebrew": "אֶת־בֵּית",
+        "transliteration": "et-bet",
+        "briefTranslation": "a casa de",
+        "contextualTranslation": "Então todo o povo que estava na porta, e os anciãos, disseram: Somos testemunhas. O Senhor faça a esta mulher, que entra em tua casa, como a Raquel e como a Lia, as quais edificaram ambas a casa de Israel; e porta-te valorosamente em Efrata, e faze-te nome em Belém.",
+        "analysis": {
+          "lemma": "בית",
+          "lemmaTranslation": "casa",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Partícula de objeto direto (את) + Estado construto"
+        }
+      },
+      {
+        "hebrew": "יִשְׂרָאֵל",
+        "transliteration": "Yis-ra-él",
+        "briefTranslation": "Israel",
+        "contextualTranslation": "Então todo o povo que estava na porta, e os anciãos, disseram: Somos testemunhas. O Senhor faça a esta mulher, que entra em tua casa, como a Raquel e como a Lia, as quais edificaram ambas a casa de Israel; e porta-te valorosamente em Efrata, e faze-te nome em Belém.",
+        "analysis": {
+          "lemma": "ישׂראל",
+          "lemmaTranslation": "Israel",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "וַעֲשֵׂה־חַיִל",
+        "transliteration": "va-a-séh-chá-yil",
+        "briefTranslation": "e porta-te valorosamente",
+        "contextualTranslation": "Então todo o povo que estava na porta, e os anciãos, disseram: Somos testemunhas. O Senhor faça a esta mulher, que entra em tua casa, como a Raquel e como a Lia, as quais edificaram ambas a casa de Israel; e porta-te valorosamente em Efrata, e faze-te nome em Belém.",
+        "analysis": {
+          "lemma": "עשׂה",
+          "lemmaTranslation": "fazer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperativo",
+          "pgn": "2ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Conjunção ו + Raiz: ע.שׂ.ה + Substantivo (חַיִל - força, valor)"
+        }
+      },
+      {
+        "hebrew": "בְּאֶפְרָתָה",
+        "transliteration": "be-Ef-ra-táh",
+        "briefTranslation": "em Efrata",
+        "contextualTranslation": "Então todo o povo que estava na porta, e os anciãos, disseram: Somos testemunhas. O Senhor faça a esta mulher, que entra em tua casa, como a Raquel e como a Lia, as quais edificaram ambas a casa de Israel; e porta-te valorosamente em Efrata, e faze-te nome em Belém.",
+        "analysis": {
+          "lemma": "אפרתה",
+          "lemmaTranslation": "Efrata",
+          "class": "Nome Próprio",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Preposição ב (em)"
+        }
+      },
+      {
+        "hebrew": "וּקְרָא־שֵׁם",
+        "transliteration": "u-ke-rá-shem",
+        "briefTranslation": "e faze-te nome",
+        "contextualTranslation": "Então todo o povo que estava na porta, e os anciãos, disseram: Somos testemunhas. O Senhor faça a esta mulher, que entra em tua casa, como a Raquel e como a Lia, as quais edificaram ambas a casa de Israel; e porta-te valorosamente em Efrata, e faze-te nome em Belém.",
+        "analysis": {
+          "lemma": "קרא",
+          "lemmaTranslation": "chamar, proclamar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperativo",
+          "pgn": "2ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Conjunção ו + Raiz: ק.ר.א + Substantivo (שֵׁם - nome)"
+        }
+      },
+      {
+        "hebrew": "בְּבֵית לָחֶם",
+        "transliteration": "be-vet Lá-chem",
+        "briefTranslation": "em Belém",
+        "contextualTranslation": "Então todo o povo que estava na porta, e os anciãos, disseram: Somos testemunhas. O Senhor faça a esta mulher, que entra em tua casa, como a Raquel e como a Lia, as quais edificaram ambas a casa de Israel; e porta-te valorosamente em Efrata, e faze-te nome em Belém.",
+        "analysis": {
+          "lemma": "בית לחם",
+          "lemmaTranslation": "Belém",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição ב (em)"
+        }
+      }
+    ]
+  }
+
+
+,
+  "12": {
+    "hebrewText": "וִיהִי בֵיתְךָ כְּבֵית פֶּרֶץ אֲשֶׁר יָלְדָה תָמָר לִיהוּדָה מִן־הַזֶּרַע אֲשֶׁר יִתֵּן יְהוָה לְךָ מִן־הַנַּעֲרָה הַזֹּאת",
+    "words": [
+      {
+        "hebrew": "וִיהִי",
+        "transliteration": "vi-hí",
+        "briefTranslation": "e seja",
+        "contextualTranslation": "E seja a tua casa como a casa de Perez, que Tamar deu a Judá, da semente que o Senhor te der desta moça.",
+        "analysis": {
+          "lemma": "היה",
+          "lemmaTranslation": "ser, acontecer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ה.י.ה"
+        }
+      },
+      {
+        "hebrew": "בֵיתְךָ",
+        "transliteration": "be-ték-ha",
+        "briefTranslation": "tua casa",
+        "contextualTranslation": "E seja a tua casa como a casa de Perez, que Tamar deu a Judá, da semente que o Senhor te der desta moça.",
+        "analysis": {
+          "lemma": "בית",
+          "lemmaTranslation": "casa",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal 2ms"
+        }
+      },
+      {
+        "hebrew": "כְּבֵית",
+        "transliteration": "ke-vet",
+        "briefTranslation": "como a casa de",
+        "contextualTranslation": "E seja a tua casa como a casa de Perez, que Tamar deu a Judá, da semente que o Senhor te der desta moça.",
+        "analysis": {
+          "lemma": "בית",
+          "lemmaTranslation": "casa",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição כ (como) + Estado construto"
+        }
+      },
+      {
+        "hebrew": "פֶּרֶץ",
+        "transliteration": "Pé-retz",
+        "briefTranslation": "Perez",
+        "contextualTranslation": "E seja a tua casa como a casa de Perez, que Tamar deu a Judá, da semente que o Senhor te der desta moça.",
+        "analysis": {
+          "lemma": "פרץ",
+          "lemmaTranslation": "Perez",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "a-shér",
+        "briefTranslation": "que",
+        "contextualTranslation": "E seja a tua casa como a casa de Perez, que Tamar deu a Judá, da semente que o Senhor te der desta moça.",
+        "analysis": {
+          "lemma": "אשר",
+          "lemmaTranslation": "que, o qual",
+          "class": "Pronome Relativo"
+        }
+      },
+      {
+        "hebrew": "יָלְדָה",
+        "transliteration": "ya-le-dáh",
+        "briefTranslation": "deu à luz",
+        "contextualTranslation": "E seja a tua casa como a casa de Perez, que Tamar deu a Judá, da semente que o Senhor te der desta moça.",
+        "analysis": {
+          "lemma": "ילד",
+          "lemmaTranslation": "dar à luz, gerar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Perfeito",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: י.ל.ד"
+        }
+      },
+      {
+        "hebrew": "תָמָר",
+        "transliteration": "Ta-már",
+        "briefTranslation": "Tamar",
+        "contextualTranslation": "E seja a tua casa como a casa de Perez, que Tamar deu a Judá, da semente que o Senhor te der desta moça.",
+        "analysis": {
+          "lemma": "תמר",
+          "lemmaTranslation": "Tamar",
+          "class": "Nome Próprio",
+          "gender": "Feminino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "לִיהוּדָה",
+        "transliteration": "li-Hu-dáh",
+        "briefTranslation": "a Judá",
+        "contextualTranslation": "E seja a tua casa como a casa de Perez, que Tamar deu a Judá, da semente que o Senhor te der desta moça.",
+        "analysis": {
+          "lemma": "יהודה",
+          "lemmaTranslation": "Judá",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição ל (a)"
+        }
+      },
+      {
+        "hebrew": "מִן־הַזֶּרַע",
+        "transliteration": "min-haz-zé-ra",
+        "briefTranslation": "da semente",
+        "contextualTranslation": "E seja a tua casa como a casa de Perez, que Tamar deu a Judá, da semente que o Senhor te der desta moça.",
+        "analysis": {
+          "lemma": "זרע",
+          "lemmaTranslation": "semente, descendência",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição מן (de) + Artigo definido"
+        }
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "a-shér",
+        "briefTranslation": "que",
+        "contextualTranslation": "E seja a tua casa como a casa de Perez, que Tamar deu a Judá, da semente que o Senhor te der desta moça.",
+        "analysis": {
+          "lemma": "אשר",
+          "lemmaTranslation": "que, o qual",
+          "class": "Pronome Relativo"
+        }
+      },
+      {
+        "hebrew": "יִתֵּן",
+        "transliteration": "yit-tén",
+        "briefTranslation": "der",
+        "contextualTranslation": "E seja a tua casa como a casa de Perez, que Tamar deu a Judá, da semente que o Senhor te der desta moça.",
+        "analysis": {
+          "lemma": "נתן",
+          "lemmaTranslation": "dar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: נ.ת.ן"
+        }
+      },
+      {
+        "hebrew": "יְהוָה",
+        "transliteration": "Adonai",
+        "briefTranslation": "Senhor",
+        "contextualTranslation": "E seja a tua casa como a casa de Perez, que Tamar deu a Judá, da semente que o Senhor te der desta moça.",
+        "analysis": {
+          "lemma": "יהוה",
+          "lemmaTranslation": "YHWH (Senhor)",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "לְךָ",
+        "transliteration": "le-khá",
+        "briefTranslation": "a ti",
+        "contextualTranslation": "E seja a tua casa como a casa de Perez, que Tamar deu a Judá, da semente que o Senhor te der desta moça.",
+        "analysis": {
+          "lemma": "ל",
+          "lemmaTranslation": "para, a",
+          "class": "Preposição",
+          "pgn": "2ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "מִן־הַנַּעֲרָה",
+        "transliteration": "min-han-na-a-ráh",
+        "briefTranslation": "desta moça",
+        "contextualTranslation": "E seja a tua casa como a casa de Perez, que Tamar deu a Judá, da semente que o Senhor te der desta moça.",
+        "analysis": {
+          "lemma": "נערה",
+          "lemmaTranslation": "moça, jovem",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Preposição מן (de) + Artigo definido"
+        }
+      },
+      {
+        "hebrew": "הַזֹּאת",
+        "transliteration": "haz-zót",
+        "briefTranslation": "esta",
+        "contextualTranslation": "E seja a tua casa como a casa de Perez, que Tamar deu a Judá, da semente que o Senhor te der desta moça.",
+        "analysis": {
+          "lemma": "זאת",
+          "lemmaTranslation": "este, esta",
+          "class": "Pronome Demonstrativo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      }
+    ]
+  }
+
+
+,
+  "13": {
+    "hebrewText": "וַיִּקַּח בֹּעַז אֶת־רוּת וַתְּהִי־לוֹ לְאִשָּׁה וַיָּבֹא אֵלֶיהָ וַיִּתֵּן יְהוָה לָהּ הֵרָיוֹן וַתֵּלֶד בֵּן",
+    "words": [
+      {
+        "hebrew": "וַיִּקַּח",
+        "transliteration": "vai-yik-kákh",
+        "briefTranslation": "e tomou",
+        "contextualTranslation": "Assim, Boaz tomou a Rute, e ela lhe foi por mulher; e ele a possuiu, e o Senhor lhe deu concepção, e ela deu à luz um filho.",
+        "analysis": {
+          "lemma": "לקח",
+          "lemmaTranslation": "tomar, pegar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ל.ק.ח"
+        }
+      },
+      {
+        "hebrew": "בֹּעַז",
+        "transliteration": "Bó-az",
+        "briefTranslation": "Boaz",
+        "contextualTranslation": "Assim, Boaz tomou a Rute, e ela lhe foi por mulher; e ele a possuiu, e o Senhor lhe deu concepção, e ela deu à luz um filho.",
+        "analysis": {
+          "lemma": "בועז",
+          "lemmaTranslation": "Boaz",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "אֶת־רוּת",
+        "transliteration": "et-Rut",
+        "briefTranslation": "a Rute",
+        "contextualTranslation": "Assim, Boaz tomou a Rute, e ela lhe foi por mulher; e ele a possuiu, e o Senhor lhe deu concepção, e ela deu à luz um filho.",
+        "analysis": {
+          "lemma": "רות",
+          "lemmaTranslation": "Rute",
+          "class": "Nome Próprio",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Partícula de objeto direto (את)"
+        }
+      },
+      {
+        "hebrew": "וַתְּהִי־לוֹ",
+        "transliteration": "vat-te-hí-lo",
+        "briefTranslation": "e ela lhe foi",
+        "contextualTranslation": "Assim, Boaz tomou a Rute, e ela lhe foi por mulher; e ele a possuiu, e o Senhor lhe deu concepção, e ela deu à luz um filho.",
+        "analysis": {
+          "lemma": "היה",
+          "lemmaTranslation": "ser, estar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: ה.י.ה + Preposição ל + Sufixo pronominal 3ms"
+        }
+      },
+      {
+        "hebrew": "לְאִשָּׁה",
+        "transliteration": "le-ish-sháh",
+        "briefTranslation": "por mulher",
+        "contextualTranslation": "Assim, Boaz tomou a Rute, e ela lhe foi por mulher; e ele a possuiu, e o Senhor lhe deu concepção, e ela deu à luz um filho.",
+        "analysis": {
+          "lemma": "אשה",
+          "lemmaTranslation": "mulher",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Preposição ל (para)"
+        }
+      },
+      {
+        "hebrew": "וַיָּבֹא",
+        "transliteration": "vai-yá-vo",
+        "briefTranslation": "e ele a possuiu",
+        "contextualTranslation": "Assim, Boaz tomou a Rute, e ela lhe foi por mulher; e ele a possuiu, e o Senhor lhe deu concepção, e ela deu à luz um filho.",
+        "analysis": {
+          "lemma": "בוא",
+          "lemmaTranslation": "vir, entrar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ב.ו.א"
+        }
+      },
+      {
+        "hebrew": "אֵלֶיהָ",
+        "transliteration": "e-lé-ha",
+        "briefTranslation": "a ela",
+        "contextualTranslation": "Assim, Boaz tomou a Rute, e ela lhe foi por mulher; e ele a possuiu, e o Senhor lhe deu concepção, e ela deu à luz um filho.",
+        "analysis": {
+          "lemma": "אל",
+          "lemmaTranslation": "a, para",
+          "class": "Preposição",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "וַיִּתֵּן",
+        "transliteration": "vai-yit-tén",
+        "briefTranslation": "e deu",
+        "contextualTranslation": "Assim, Boaz tomou a Rute, e ela lhe foi por mulher; e ele a possuiu, e o Senhor lhe deu concepção, e ela deu à luz um filho.",
+        "analysis": {
+          "lemma": "נתן",
+          "lemmaTranslation": "dar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: נ.ת.ן"
+        }
+      },
+      {
+        "hebrew": "יְהוָה",
+        "transliteration": "Adonai",
+        "briefTranslation": "Senhor",
+        "contextualTranslation": "Assim, Boaz tomou a Rute, e ela lhe foi por mulher; e ele a possuiu, e o Senhor lhe deu concepção, e ela deu à luz um filho.",
+        "analysis": {
+          "lemma": "יהוה",
+          "lemmaTranslation": "YHWH (Senhor)",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "לָהּ",
+        "transliteration": "láh",
+        "briefTranslation": "a ela",
+        "contextualTranslation": "Assim, Boaz tomou a Rute, e ela lhe foi por mulher; e ele a possuiu, e o Senhor lhe deu concepção, e ela deu à luz um filho.",
+        "analysis": {
+          "lemma": "ל",
+          "lemmaTranslation": "para, a",
+          "class": "Preposição",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "הֵרָיוֹן",
+        "transliteration": "he-ra-yón",
+        "briefTranslation": "concepção",
+        "contextualTranslation": "Assim, Boaz tomou a Rute, e ela lhe foi por mulher; e ele a possuiu, e o Senhor lhe deu concepção, e ela deu à luz um filho.",
+        "analysis": {
+          "lemma": "הריון",
+          "lemmaTranslation": "concepção, gravidez",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "וַתֵּלֶד",
+        "transliteration": "vat-té-led",
+        "briefTranslation": "e ela deu à luz",
+        "contextualTranslation": "Assim, Boaz tomou a Rute, e ela lhe foi por mulher; e ele a possuiu, e o Senhor lhe deu concepção, e ela deu à luz um filho.",
+        "analysis": {
+          "lemma": "ילד",
+          "lemmaTranslation": "dar à luz, gerar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: י.ל.ד"
+        }
+      },
+      {
+        "hebrew": "בֵּן",
+        "transliteration": "ben",
+        "briefTranslation": "um filho",
+        "contextualTranslation": "Assim, Boaz tomou a Rute, e ela lhe foi por mulher; e ele a possuiu, e o Senhor lhe deu concepção, e ela deu à luz um filho.",
+        "analysis": {
+          "lemma": "בן",
+          "lemmaTranslation": "filho",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      }
+    ]
+  }
+
+
+,
+  "14": {
+    "hebrewText": "וַתֹּאמַרְנָה הַנָּשִׁים אֶל־נָעֳמִי בָּרוּךְ יְהוָה אֲשֶׁר לֹא הִשְׁבִּית לָךְ גֹּאֵל הַיּוֹם וְיִקָּרֵא שְׁמוֹ בְּיִשְׂרָאֵל",
+    "words": [
+      {
+        "hebrew": "וַתֹּאמַרְנָה",
+        "transliteration": "vat-to-már-nah",
+        "briefTranslation": "e disseram",
+        "contextualTranslation": "Então as mulheres disseram a Noemi: Bendito seja o Senhor, que não te deixou hoje sem remidor, e seja o seu nome afamado em Israel.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fp",
+          "gender": "Feminino",
+          "number": "Plural",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "הַנָּשִׁים",
+        "transliteration": "han-na-shím",
+        "briefTranslation": "as mulheres",
+        "contextualTranslation": "Então as mulheres disseram a Noemi: Bendito seja o Senhor, que não te deixou hoje sem remidor, e seja o seu nome afamado em Israel.",
+        "analysis": {
+          "lemma": "אשה",
+          "lemmaTranslation": "mulher",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Plural",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "אֶל־נָעֳמִי",
+        "transliteration": "el-Naomi",
+        "briefTranslation": "a Noemi",
+        "contextualTranslation": "Então as mulheres disseram a Noemi: Bendito seja o Senhor, que não te deixou hoje sem remidor, e seja o seu nome afamado em Israel.",
+        "analysis": {
+          "lemma": "נעמי",
+          "lemmaTranslation": "Noemi",
+          "class": "Nome Próprio",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Preposição אל (a)"
+        }
+      },
+      {
+        "hebrew": "בָּרוּךְ",
+        "transliteration": "ba-rúkh",
+        "briefTranslation": "bendito",
+        "contextualTranslation": "Então as mulheres disseram a Noemi: Bendito seja o Senhor, que não te deixou hoje sem remidor, e seja o seu nome afamado em Israel.",
+        "analysis": {
+          "lemma": "ברך",
+          "lemmaTranslation": "abençoar",
+          "class": "Verbo",
+          "binyan": "Pa'ul (Particípio Passivo)",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ב.ר.ך"
+        }
+      },
+      {
+        "hebrew": "יְהוָה",
+        "transliteration": "Adonai",
+        "briefTranslation": "Senhor",
+        "contextualTranslation": "Então as mulheres disseram a Noemi: Bendito seja o Senhor, que não te deixou hoje sem remidor, e seja o seu nome afamado em Israel.",
+        "analysis": {
+          "lemma": "יהוה",
+          "lemmaTranslation": "YHWH (Senhor)",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "a-shér",
+        "briefTranslation": "que",
+        "contextualTranslation": "Então as mulheres disseram a Noemi: Bendito seja o Senhor, que não te deixou hoje sem remidor, e seja o seu nome afamado em Israel.",
+        "analysis": {
+          "lemma": "אשר",
+          "lemmaTranslation": "que, o qual",
+          "class": "Pronome Relativo"
+        }
+      },
+      {
+        "hebrew": "לֹא",
+        "transliteration": "ló",
+        "briefTranslation": "não",
+        "contextualTranslation": "Então as mulheres disseram a Noemi: Bendito seja o Senhor, que não te deixou hoje sem remidor, e seja o seu nome afamado em Israel.",
+        "analysis": {
+          "lemma": "לא",
+          "lemmaTranslation": "não",
+          "class": "Partícula Negativa"
+        }
+      },
+      {
+        "hebrew": "הִשְׁבִּית",
+        "transliteration": "hish-bít",
+        "briefTranslation": "deixou sem",
+        "contextualTranslation": "Então as mulheres disseram a Noemi: Bendito seja o Senhor, que não te deixou hoje sem remidor, e seja o seu nome afamado em Israel.",
+        "analysis": {
+          "lemma": "שׁבת",
+          "lemmaTranslation": "cessar, deixar",
+          "class": "Verbo",
+          "binyan": "Hifil",
+          "tense": "Perfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: שׁ.ב.ת"
+        }
+      },\n      {
+        "hebrew": "לָךְ",
+        "transliteration": "lákh",
+        "briefTranslation": "a ti",
+        "contextualTranslation": "Então as mulheres disseram a Noemi: Bendito seja o Senhor, que não te deixou hoje sem remidor, e seja o seu nome afamado em Israel.",
+        "analysis": {
+          "lemma": "ל",
+          "lemmaTranslation": "para, a",
+          "class": "Preposição",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "גֹּאֵל",
+        "transliteration": "go-él",
+        "briefTranslation": "remidor",
+        "contextualTranslation": "Então as mulheres disseram a Noemi: Bendito seja o Senhor, que não te deixou hoje sem remidor, e seja o seu nome afamado em Israel.",
+        "analysis": {
+          "lemma": "גאל",
+          "lemmaTranslation": "remir, resgatar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Particípio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ג.א.ל"
+        }
+      },
+      {
+        "hebrew": "הַיּוֹם",
+        "transliteration": "hay-yóm",
+        "briefTranslation": "hoje",
+        "contextualTranslation": "Então as mulheres disseram a Noemi: Bendito seja o Senhor, que não te deixou hoje sem remidor, e seja o seu nome afamado em Israel.",
+        "analysis": {
+          "lemma": "יום",
+          "lemmaTranslation": "dia",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "וְיִקָּרֵא",
+        "transliteration": "ve-yik-ka-ré",
+        "briefTranslation": "e seja chamado",
+        "contextualTranslation": "Então as mulheres disseram a Noemi: Bendito seja o Senhor, que não te deixou hoje sem remidor, e seja o seu nome afamado em Israel.",
+        "analysis": {
+          "lemma": "קרא",
+          "lemmaTranslation": "chamar, proclamar",
+          "class": "Verbo",
+          "binyan": "Nifal",
+          "tense": "Imperfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Conjunção ו + Raiz: ק.ר.א"
+        }
+      },
+      {
+        "hebrew": "שְׁמוֹ",
+        "transliteration": "she-mó",
+        "briefTranslation": "seu nome",
+        "contextualTranslation": "Então as mulheres disseram a Noemi: Bendito seja o Senhor, que não te deixou hoje sem remidor, e seja o seu nome afamado em Israel.",
+        "analysis": {
+          "lemma": "שׁם",
+          "lemmaTranslation": "nome",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal 3ms"
+        }
+      },
+      {
+        "hebrew": "בְּיִשְׂרָאֵל",
+        "transliteration": "be-Yis-ra-él",
+        "briefTranslation": "em Israel",
+        "contextualTranslation": "Então as mulheres disseram a Noemi: Bendito seja o Senhor, que não te deixou hoje sem remidor, e seja o seu nome afamado em Israel.",
+        "analysis": {
+          "lemma": "ישׂראל",
+          "lemmaTranslation": "Israel",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição ב (em)"
+        }
+      }
+    ]
+  }
+
+
+,
+  "15": {
+    "hebrewText": "וְהָיָה לָךְ לְמֵשִׁיב נֶפֶשׁ וּלְכַלְכֵּל אֶת־שֵׂיבָתֵךְ כִּי כַלָּתֵךְ אֲשֶׁר אֲהֵבָתֶּךְ יְלָדַתּוּ אֲשֶׁר־הִיא טוֹבָה לָךְ מִשִּׁבְעָה בָּנִים",
+    "words": [
+      {
+        "hebrew": "וְהָיָה",
+        "transliteration": "ve-ha-yáh",
+        "briefTranslation": "e ele será",
+        "contextualTranslation": "E ele te será restaurador da alma, e sustentará a tua velhice; porque tua nora, que te ama, o deu à luz, e ela te é melhor do que sete filhos.",
+        "analysis": {
+          "lemma": "היה",
+          "lemmaTranslation": "ser, acontecer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ה.י.ה"
+        }
+      },
+      {
+        "hebrew": "לָךְ",
+        "transliteration": "lákh",
+        "briefTranslation": "para ti",
+        "contextualTranslation": "E ele te será restaurador da alma, e sustentará a tua velhice; porque tua nora, que te ama, o deu à luz, e ela te é melhor do que sete filhos.",
+        "analysis": {
+          "lemma": "ל",
+          "lemmaTranslation": "para, a",
+          "class": "Preposição",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "לְמֵשִׁיב",
+        "transliteration": "le-me-shív",
+        "briefTranslation": "para restaurador",
+        "contextualTranslation": "E ele te será restaurador da alma, e sustentará a tua velhice; porque tua nora, que te ama, o deu à luz, e ela te é melhor do que sete filhos.",
+        "analysis": {
+          "lemma": "שׁוב",
+          "lemmaTranslation": "restaurar, fazer voltar",
+          "class": "Verbo",
+          "binyan": "Hifil",
+          "tense": "Particípio",
+          "extra": "Preposição ל (para) + Raiz: שׁ.ו.ב"
+        }
+      },
+      {
+        "hebrew": "נֶפֶשׁ",
+        "transliteration": "né-fesh",
+        "briefTranslation": "alma",
+        "contextualTranslation": "E ele te será restaurador da alma, e sustentará a tua velhice; porque tua nora, que te ama, o deu à luz, e ela te é melhor do que sete filhos.",
+        "analysis": {
+          "lemma": "נפש",
+          "lemmaTranslation": "alma, vida",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "וּלְכַלְכֵּל",
+        "transliteration": "u-le-khal-kél",
+        "briefTranslation": "e para sustentar",
+        "contextualTranslation": "E ele te será restaurador da alma, e sustentará a tua velhice; porque tua nora, que te ama, o deu à luz, e ela te é melhor do que sete filhos.",
+        "analysis": {
+          "lemma": "כלכל",
+          "lemmaTranslation": "sustentar, manter",
+          "class": "Verbo",
+          "binyan": "Pilpel",
+          "tense": "Infinitivo Construto",
+          "extra": "Conjunção ו + Preposição ל (para) + Raiz: כ.ל.כ.ל"
+        }
+      },
+      {
+        "hebrew": "אֶת־שֵׂיבָתֵךְ",
+        "transliteration": "et-se-va-tékh",
+        "briefTranslation": "tua velhice",
+        "contextualTranslation": "E ele te será restaurador da alma, e sustentará a tua velhice; porque tua nora, que te ama, o deu à luz, e ela te é melhor do que sete filhos.",
+        "analysis": {
+          "lemma": "שׂיבה",
+          "lemmaTranslation": "velhice",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Partícula de objeto direto (את) + Sufixo pronominal 2fs"
+        }
+      },
+      {
+        "hebrew": "כִּי",
+        "transliteration": "ki",
+        "briefTranslation": "porque",
+        "contextualTranslation": "E ele te será restaurador da alma, e sustentará a tua velhice; porque tua nora, que te ama, o deu à luz, e ela te é melhor do que sete filhos.",
+        "analysis": {
+          "lemma": "כי",
+          "lemmaTranslation": "porque, que",
+          "class": "Conjunção"
+        }
+      },
+      {
+        "hebrew": "כַלָּתֵךְ",
+        "transliteration": "kal-la-tékh",
+        "briefTranslation": "tua nora",
+        "contextualTranslation": "E ele te será restaurador da alma, e sustentará a tua velhice; porque tua nora, que te ama, o deu à luz, e ela te é melhor do que sete filhos.",
+        "analysis": {
+          "lemma": "כלה",
+          "lemmaTranslation": "nora",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal 2fs"
+        }
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "a-shér",
+        "briefTranslation": "que",
+        "contextualTranslation": "E ele te será restaurador da alma, e sustentará a tua velhice; porque tua nora, que te ama, o deu à luz, e ela te é melhor do que sete filhos.",
+        "analysis": {
+          "lemma": "אשר",
+          "lemmaTranslation": "que, o qual",
+          "class": "Pronome Relativo"
+        }
+      },
+      {
+        "hebrew": "אֲהֵבָתֶּךְ",
+        "transliteration": "a-he-vá-tekh",
+        "briefTranslation": "te ama",
+        "contextualTranslation": "E ele te será restaurador da alma, e sustentará a tua velhice; porque tua nora, que te ama, o deu à luz, e ela te é melhor do que sete filhos.",
+        "analysis": {
+          "lemma": "אהב",
+          "lemmaTranslation": "amar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Perfeito",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: א.ה.ב + Sufixo pronominal 2fs"
+        }
+      },
+      {
+        "hebrew": "יְלָדַתּוּ",
+        "transliteration": "ye-la-dat-tú",
+        "briefTranslation": "o deu à luz",
+        "contextualTranslation": "E ele te será restaurador da alma, e sustentará a tua velhice; porque tua nora, que te ama, o deu à luz, e ela te é melhor do que sete filhos.",
+        "analysis": {
+          "lemma": "ילד",
+          "lemmaTranslation": "dar à luz, gerar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Perfeito",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: י.ל.ד + Sufixo pronominal 3ms"
+        }
+      },
+      {
+        "hebrew": "אֲשֶׁר־הִיא",
+        "transliteration": "a-shér-hi",
+        "briefTranslation": "que ela",
+        "contextualTranslation": "E ele te será restaurador da alma, e sustentará a tua velhice; porque tua nora, que te ama, o deu à luz, e ela te é melhor do que sete filhos.",
+        "analysis": {
+          "lemma": "היא",
+          "lemmaTranslation": "ela",
+          "class": "Pronome Pessoal",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Pronome relativo (אשר)"
+        }
+      },
+      {
+        "hebrew": "טוֹבָה",
+        "transliteration": "to-váh",
+        "briefTranslation": "melhor",
+        "contextualTranslation": "E ele te será restaurador da alma, e sustentará a tua velhice; porque tua nora, que te ama, o deu à luz, e ela te é melhor do que sete filhos.",
+        "analysis": {
+          "lemma": "טוב",
+          "lemmaTranslation": "bom, melhor",
+          "class": "Adjetivo",
+          "gender": "Feminino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "לָךְ",
+        "transliteration": "lákh",
+        "briefTranslation": "para ti",
+        "contextualTranslation": "E ele te será restaurador da alma, e sustentará a tua velhice; porque tua nora, que te ama, o deu à luz, e ela te é melhor do que sete filhos.",
+        "analysis": {
+          "lemma": "ל",
+          "lemmaTranslation": "para, a",
+          "class": "Preposição",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "מִשִּׁבְעָה",
+        "transliteration": "mish-shiv-áh",
+        "briefTranslation": "do que sete",
+        "contextualTranslation": "E ele te será restaurador da alma, e sustentará a tua velhice; porque tua nora, que te ama, o deu à luz, e ela te é melhor do que sete filhos.",
+        "analysis": {
+          "lemma": "שׁבע",
+          "lemmaTranslation": "sete",
+          "class": "Numeral",
+          "extra": "Preposição מן (do que)"
+        }
+      },
+      {
+        "hebrew": "בָּנִים",
+        "transliteration": "ba-ním",
+        "briefTranslation": "filhos",
+        "contextualTranslation": "E ele te será restaurador da alma, e sustentará a tua velhice; porque tua nora, que te ama, o deu à luz, e ela te é melhor do que sete filhos.",
+        "analysis": {
+          "lemma": "בן",
+          "lemmaTranslation": "filho",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Plural"
+        }
+      }
+    ]
+  }
+
+
+,
+  "16": {
+    "hebrewText": "וַתִּקַּח נָעֳמִי אֶת־הַיֶּלֶד וַתְּשִׁתֵהוּ בְחֵיקָהּ וַתְּהִי־לוֹ לְאֹמֶנֶת",
+    "words": [
+      {
+        "hebrew": "וַתִּקַּח",
+        "transliteration": "vat-tik-kákh",
+        "briefTranslation": "e tomou",
+        "contextualTranslation": "E Noemi tomou o menino, e o pôs no seu regaço, e foi sua ama.",
+        "analysis": {
+          "lemma": "לקח",
+          "lemmaTranslation": "tomar, pegar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: ל.ק.ח"
+        }
+      },
+      {
+        "hebrew": "נָעֳמִי",
+        "transliteration": "Naomi",
+        "briefTranslation": "Noemi",
+        "contextualTranslation": "E Noemi tomou o menino, e o pôs no seu regaço, e foi sua ama.",
+        "analysis": {
+          "lemma": "נעמי",
+          "lemmaTranslation": "Noemi",
+          "class": "Nome Próprio",
+          "gender": "Feminino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "אֶת־הַיֶּלֶד",
+        "transliteration": "et-hay-yé-led",
+        "briefTranslation": "o menino",
+        "contextualTranslation": "E Noemi tomou o menino, e o pôs no seu regaço, e foi sua ama.",
+        "analysis": {
+          "lemma": "ילד",
+          "lemmaTranslation": "menino, criança",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Partícula de objeto direto (את) + Artigo definido"
+        }
+      },
+      {
+        "hebrew": "וַתְּשִׁתֵהוּ",
+        "transliteration": "vat-te-shi-té-hu",
+        "briefTranslation": "e o pôs",
+        "contextualTranslation": "E Noemi tomou o menino, e o pôs no seu regaço, e foi sua ama.",
+        "analysis": {
+          "lemma": "שׁית",
+          "lemmaTranslation": "pôr, colocar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: שׁ.י.ת + Sufixo pronominal 3ms"
+        }
+      },
+      {
+        "hebrew": "בְחֵיקָהּ",
+        "transliteration": "be-che-káh",
+        "briefTranslation": "no seu regaço",
+        "contextualTranslation": "E Noemi tomou o menino, e o pôs no seu regaço, e foi sua ama.",
+        "analysis": {
+          "lemma": "חיק",
+          "lemmaTranslation": "regaço, seio",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição ב (em) + Sufixo pronominal 3fs"
+        }
+      },
+      {
+        "hebrew": "וַתְּהִי־לוֹ",
+        "transliteration": "vat-te-hí-lo",
+        "briefTranslation": "e foi sua",
+        "contextualTranslation": "E Noemi tomou o menino, e o pôs no seu regaço, e foi sua ama.",
+        "analysis": {
+          "lemma": "היה",
+          "lemmaTranslation": "ser, estar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: ה.י.ה + Preposição ל + Sufixo pronominal 3ms"
+        }
+      },
+      {
+        "hebrew": "לְאֹמֶנֶת",
+        "transliteration": "le-o-mé-net",
+        "briefTranslation": "por ama",
+        "contextualTranslation": "E Noemi tomou o menino, e o pôs no seu regaço, e foi sua ama.",
+        "analysis": {
+          "lemma": "אמן",
+          "lemmaTranslation": "ama, nutriz",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Preposição ל (por)"
+        }
+      }
+    ]
+  }
+
+
+,
+  "17": {
+    "hebrewText": "וַתִּקְרֶאנָה לוֹ הַשְּׁכֵנוֹת שֵׁם לֵאמֹר יֻלַּד־בֵּן לְנָעֳמִי וַתִּקְרֶאנָה שְׁמוֹ עוֹבֵד הוּא אֲבִי־יִשַׁי אֲבִי דָוִד",
+    "words": [
+      {
+        "hebrew": "וַתִּקְרֶאנָה",
+        "transliteration": "vat-tik-ré-nah",
+        "briefTranslation": "e chamaram",
+        "contextualTranslation": "E as vizinhas lhe deram nome, dizendo: Nasceu um filho a Noemi. E chamaram o seu nome Obede; este é o pai de Jessé, pai de Davi.",
+        "analysis": {
+          "lemma": "קרא",
+          "lemmaTranslation": "chamar, nomear",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fp",
+          "gender": "Feminino",
+          "number": "Plural",
+          "extra": "Raiz: ק.ר.א"
+        }
+      },
+      {
+        "hebrew": "לוֹ",
+        "transliteration": "ló",
+        "briefTranslation": "a ele",
+        "contextualTranslation": "E as vizinhas lhe deram nome, dizendo: Nasceu um filho a Noemi. E chamaram o seu nome Obede; este é o pai de Jessé, pai de Davi.",
+        "analysis": {
+          "lemma": "ל",
+          "lemmaTranslation": "para, a",
+          "class": "Preposição",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "הַשְּׁכֵנוֹת",
+        "transliteration": "hash-she-khe-nót",
+        "briefTranslation": "as vizinhas",
+        "contextualTranslation": "E as vizinhas lhe deram nome, dizendo: Nasceu um filho a Noemi. E chamaram o seu nome Obede; este é o pai de Jessé, pai de Davi.",
+        "analysis": {
+          "lemma": "שׁכנה",
+          "lemmaTranslation": "vizinha",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Plural",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "שֵׁם",
+        "transliteration": "shem",
+        "briefTranslation": "nome",
+        "contextualTranslation": "E as vizinhas lhe deram nome, dizendo: Nasceu um filho a Noemi. E chamaram o seu nome Obede; este é o pai de Jessé, pai de Davi.",
+        "analysis": {
+          "lemma": "שׁם",
+          "lemmaTranslation": "nome",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "לֵאמֹר",
+        "transliteration": "le-mór",
+        "briefTranslation": "dizendo",
+        "contextualTranslation": "E as vizinhas lhe deram nome, dizendo: Nasceu um filho a Noemi. E chamaram o seu nome Obede; este é o pai de Jessé, pai de Davi.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Infinitivo Construto",
+          "extra": "Preposição ל (para) + Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "יֻלַּד־בֵּן",
+        "transliteration": "yul-lád-ben",
+        "briefTranslation": "nasceu um filho",
+        "contextualTranslation": "E as vizinhas lhe deram nome, dizendo: Nasceu um filho a Noemi. E chamaram o seu nome Obede; este é o pai de Jessé, pai de Davi.",
+        "analysis": {
+          "lemma": "ילד",
+          "lemmaTranslation": "nascer, gerar",
+          "class": "Verbo",
+          "binyan": "Pual",
+          "tense": "Perfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: י.ל.ד + Substantivo (בן - filho)"
+        }
+      },
+      {
+        "hebrew": "לְנָעֳמִי",
+        "transliteration": "le-Naomi",
+        "briefTranslation": "a Noemi",
+        "contextualTranslation": "E as vizinhas lhe deram nome, dizendo: Nasceu um filho a Noemi. E chamaram o seu nome Obede; este é o pai de Jessé, pai de Davi.",
+        "analysis": {
+          "lemma": "נעמי",
+          "lemmaTranslation": "Noemi",
+          "class": "Nome Próprio",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Preposição ל (a)"
+        }
+      },
+      {
+        "hebrew": "וַתִּקְרֶאנָה",
+        "transliteration": "vat-tik-ré-nah",
+        "briefTranslation": "e chamaram",
+        "contextualTranslation": "E as vizinhas lhe deram nome, dizendo: Nasceu um filho a Noemi. E chamaram o seu nome Obede; este é o pai de Jessé, pai de Davi.",
+        "analysis": {
+          "lemma": "קרא",
+          "lemmaTranslation": "chamar, nomear",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fp",
+          "gender": "Feminino",
+          "number": "Plural",
+          "extra": "Raiz: ק.ר.א"
+        }
+      },
+      {
+        "hebrew": "שְׁמוֹ",
+        "transliteration": "she-mó",
+        "briefTranslation": "seu nome",
+        "contextualTranslation": "E as vizinhas lhe deram nome, dizendo: Nasceu um filho a Noemi. E chamaram o seu nome Obede; este é o pai de Jessé, pai de Davi.",
+        "analysis": {
+          "lemma": "שׁם",
+          "lemmaTranslation": "nome",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal 3ms"
+        }
+      },
+      {
+        "hebrew": "עוֹבֵד",
+        "transliteration": "O-véd",
+        "briefTranslation": "Obede",
+        "contextualTranslation": "E as vizinhas lhe deram nome, dizendo: Nasceu um filho a Noemi. E chamaram o seu nome Obede; este é o pai de Jessé, pai de Davi.",
+        "analysis": {
+          "lemma": "עובד",
+          "lemmaTranslation": "Obede",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "הוּא",
+        "transliteration": "hu",
+        "briefTranslation": "ele",
+        "contextualTranslation": "E as vizinhas lhe deram nome, dizendo: Nasceu um filho a Noemi. E chamaram o seu nome Obede; este é o pai de Jessé, pai de Davi.",
+        "analysis": {
+          "lemma": "הוא",
+          "lemmaTranslation": "ele",
+          "class": "Pronome Pessoal",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "אֲבִי־יִשַׁי",
+        "transliteration": "a-ví-Yishay",
+        "briefTranslation": "pai de Jessé",
+        "contextualTranslation": "E as vizinhas lhe deram nome, dizendo: Nasceu um filho a Noemi. E chamaram o seu nome Obede; este é o pai de Jessé, pai de Davi.",
+        "analysis": {
+          "lemma": "אב",
+          "lemmaTranslation": "pai",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Estado construto + Nome próprio (ישׁי - Jessé)"
+        }
+      },
+      {
+        "hebrew": "אֲבִי",
+        "transliteration": "a-ví",
+        "briefTranslation": "pai de",
+        "contextualTranslation": "E as vizinhas lhe deram nome, dizendo: Nasceu um filho a Noemi. E chamaram o seu nome Obede; este é o pai de Jessé, pai de Davi.",
+        "analysis": {
+          "lemma": "אב",
+          "lemmaTranslation": "pai",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Estado construto"
+        }
+      },
+      {
+        "hebrew": "דָוִד",
+        "transliteration": "Da-víd",
+        "briefTranslation": "Davi",
+        "contextualTranslation": "E as vizinhas lhe deram nome, dizendo: Nasceu um filho a Noemi. E chamaram o seu nome Obede; este é o pai de Jessé, pai de Davi.",
+        "analysis": {
+          "lemma": "דוד",
+          "lemmaTranslation": "Davi",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      }
+    ]
+  }
+
+
+,
+  "18": {
+    "hebrewText": "וְאֵלֶּה תּוֹלְדוֹת פָּרֶץ פֶּרֶץ הוֹלִיד אֶת־חֶצְרוֹן",
+    "words": [
+      {
+        "hebrew": "וְאֵלֶּה",
+        "transliteration": "ve-él-leh",
+        "briefTranslation": "e estas são",
+        "contextualTranslation": "Estas, pois, são as gerações de Perez: Perez gerou a Hezrom.",
+        "analysis": {
+          "lemma": "אלה",
+          "lemmaTranslation": "estes, estas",
+          "class": "Pronome Demonstrativo",
+          "extra": "Conjunção ו + Pronome"
+        }
+      },
+      {
+        "hebrew": "תּוֹלְדוֹת",
+        "transliteration": "tol-dót",
+        "briefTranslation": "gerações",
+        "contextualTranslation": "Estas, pois, são as gerações de Perez: Perez gerou a Hezrom.",
+        "analysis": {
+          "lemma": "תולדה",
+          "lemmaTranslation": "geração, descendência",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Plural"
+        }
+      },
+      {
+        "hebrew": "פָּרֶץ",
+        "transliteration": "Pé-retz",
+        "briefTranslation": "Perez",
+        "contextualTranslation": "Estas, pois, são as gerações de Perez: Perez gerou a Hezrom.",
+        "analysis": {
+          "lemma": "פרץ",
+          "lemmaTranslation": "Perez",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "פֶּרֶץ",
+        "transliteration": "Pé-retz",
+        "briefTranslation": "Perez",
+        "contextualTranslation": "Estas, pois, são as gerações de Perez: Perez gerou a Hezrom.",
+        "analysis": {
+          "lemma": "פרץ",
+          "lemmaTranslation": "Perez",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "הוֹלִיד",
+        "transliteration": "ho-líd",
+        "briefTranslation": "gerou",
+        "contextualTranslation": "Estas, pois, são as gerações de Perez: Perez gerou a Hezrom.",
+        "analysis": {
+          "lemma": "ילד",
+          "lemmaTranslation": "gerar",
+          "class": "Verbo",
+          "binyan": "Hifil",
+          "tense": "Perfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: י.ל.ד"
+        }
+      },
+      {
+        "hebrew": "אֶת־חֶצְרוֹן",
+        "transliteration": "et-Chetz-rón",
+        "briefTranslation": "a Hezrom",
+        "contextualTranslation": "Estas, pois, são as gerações de Perez: Perez gerou a Hezrom.",
+        "analysis": {
+          "lemma": "חצרון",
+          "lemmaTranslation": "Hezrom",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Partícula de objeto direto (את)"
+        }
+      }
+    ]
+  }
+
+
+,
+  "19": {
+    "hebrewText": "וְחֶצְרוֹן הוֹלִיד אֶת־רָם וְרָם הוֹלִיד אֶת־עַמִּינָדָב",
+    "words": [
+      {
+        "hebrew": "וְחֶצְרוֹן",
+        "transliteration": "ve-Chetz-rón",
+        "briefTranslation": "e Hezrom",
+        "contextualTranslation": "Hezrom gerou a Ram, e Ram gerou a Aminadabe.",
+        "analysis": {
+          "lemma": "חצרון",
+          "lemmaTranslation": "Hezrom",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Conjunção ו + Nome"
+        }
+      },
+      {
+        "hebrew": "הוֹלִיד",
+        "transliteration": "ho-líd",
+        "briefTranslation": "gerou",
+        "contextualTranslation": "Hezrom gerou a Ram, e Ram gerou a Aminadabe.",
+        "analysis": {
+          "lemma": "ילד",
+          "lemmaTranslation": "gerar",
+          "class": "Verbo",
+          "binyan": "Hifil",
+          "tense": "Perfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: י.ל.ד"
+        }
+      },
+      {
+        "hebrew": "אֶת־רָם",
+        "transliteration": "et-Ram",
+        "briefTranslation": "a Ram",
+        "contextualTranslation": "Hezrom gerou a Ram, e Ram gerou a Aminadabe.",
+        "analysis": {
+          "lemma": "רם",
+          "lemmaTranslation": "Ram",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Partícula de objeto direto (את)"
+        }
+      },
+      {
+        "hebrew": "וְרָם",
+        "transliteration": "ve-Ram",
+        "briefTranslation": "e Ram",
+        "contextualTranslation": "Hezrom gerou a Ram, e Ram gerou a Aminadabe.",
+        "analysis": {
+          "lemma": "רם",
+          "lemmaTranslation": "Ram",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Conjunção ו + Nome"
+        }
+      },
+      {
+        "hebrew": "הוֹלִיד",
+        "transliteration": "ho-líd",
+        "briefTranslation": "gerou",
+        "contextualTranslation": "Hezrom gerou a Ram, e Ram gerou a Aminadabe.",
+        "analysis": {
+          "lemma": "ילד",
+          "lemmaTranslation": "gerar",
+          "class": "Verbo",
+          "binyan": "Hifil",
+          "tense": "Perfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: י.ל.ד"
+        }
+      },
+      {
+        "hebrew": "אֶת־עַמִּינָדָב",
+        "transliteration": "et-Am-mi-na-dáv",
+        "briefTranslation": "a Aminadabe",
+        "contextualTranslation": "Hezrom gerou a Ram, e Ram gerou a Aminadabe.",
+        "analysis": {
+          "lemma": "עמינדב",
+          "lemmaTranslation": "Aminadabe",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Partícula de objeto direto (את)"
+        }
+      }
+    ]
+  }
+
+
+,
+  "20": {
+    "hebrewText": "וְעַמִּינָדָב הוֹלִיד אֶת־נַחְשׁוֹן וְנַחְשׁוֹן הוֹלִיד אֶת־שַׂלְמָה",
+    "words": [
+      {
+        "hebrew": "וְעַמִּינָדָב",
+        "transliteration": "ve-Am-mi-na-dáv",
+        "briefTranslation": "e Aminadabe",
+        "contextualTranslation": "Aminadabe gerou a Naassom, e Naassom gerou a Salmom.",
+        "analysis": {
+          "lemma": "עמינדב",
+          "lemmaTranslation": "Aminadabe",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Conjunção ו + Nome"
+        }
+      },
+      {
+        "hebrew": "הוֹלִיד",
+        "transliteration": "ho-líd",
+        "briefTranslation": "gerou",
+        "contextualTranslation": "Aminadabe gerou a Naassom, e Naassom gerou a Salmom.",
+        "analysis": {
+          "lemma": "ילד",
+          "lemmaTranslation": "gerar",
+          "class": "Verbo",
+          "binyan": "Hifil",
+          "tense": "Perfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: י.ל.ד"
+        }
+      },
+      {
+        "hebrew": "אֶת־נַחְשׁוֹן",
+        "transliteration": "et-Nach-shón",
+        "briefTranslation": "a Naassom",
+        "contextualTranslation": "Aminadabe gerou a Naassom, e Naassom gerou a Salmom.",
+        "analysis": {
+          "lemma": "נחשון",
+          "lemmaTranslation": "Naassom",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Partícula de objeto direto (את)"
+        }
+      },
+      {
+        "hebrew": "וְנַחְשׁוֹן",
+        "transliteration": "ve-Nach-shón",
+        "briefTranslation": "e Naassom",
+        "contextualTranslation": "Aminadabe gerou a Naassom, e Naassom gerou a Salmom.",
+        "analysis": {
+          "lemma": "נחשון",
+          "lemmaTranslation": "Naassom",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Conjunção ו + Nome"
+        }
+      },
+      {
+        "hebrew": "הוֹלִיד",
+        "transliteration": "ho-líd",
+        "briefTranslation": "gerou",
+        "contextualTranslation": "Aminadabe gerou a Naassom, e Naassom gerou a Salmom.",
+        "analysis": {
+          "lemma": "ילד",
+          "lemmaTranslation": "gerar",
+          "class": "Verbo",
+          "binyan": "Hifil",
+          "tense": "Perfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: י.ל.ד"
+        }
+      },
+      {
+        "hebrew": "אֶת־שַׂלְמָה",
+        "transliteration": "et-Sal-máh",
+        "briefTranslation": "a Salmom",
+        "contextualTranslation": "Aminadabe gerou a Naassom, e Naassom gerou a Salmom.",
+        "analysis": {
+          "lemma": "שׂלמה",
+          "lemmaTranslation": "Salmom",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Partícula de objeto direto (את)"
+        }
+      }
+    ]
+  }
+
+
+,
+  "21": {
+    "hebrewText": "וְשַׂלְמוֹן הוֹלִיד אֶת־בֹּעַז וּבֹעַז הוֹלִיד אֶת־עוֹבֵד",
+    "words": [
+      {
+        "hebrew": "וְשַׂלְמוֹן",
+        "transliteration": "ve-Sal-món",
+        "briefTranslation": "e Salmom",
+        "contextualTranslation": "Salmom gerou a Boaz, e Boaz gerou a Obede.",
+        "analysis": {
+          "lemma": "שׂלמון",
+          "lemmaTranslation": "Salmom",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Conjunção ו + Nome"
+        }
+      },
+      {
+        "hebrew": "הוֹלִיד",
+        "transliteration": "ho-líd",
+        "briefTranslation": "gerou",
+        "contextualTranslation": "Salmom gerou a Boaz, e Boaz gerou a Obede.",
+        "analysis": {
+          "lemma": "ילד",
+          "lemmaTranslation": "gerar",
+          "class": "Verbo",
+          "binyan": "Hifil",
+          "tense": "Perfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: י.ל.ד"
+        }
+      },
+      {
+        "hebrew": "אֶת־בֹּעַז",
+        "transliteration": "et-Bó-az",
+        "briefTranslation": "a Boaz",
+        "contextualTranslation": "Salmom gerou a Boaz, e Boaz gerou a Obede.",
+        "analysis": {
+          "lemma": "בועז",
+          "lemmaTranslation": "Boaz",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Partícula de objeto direto (את)"
+        }
+      },
+      {
+        "hebrew": "וּבֹעַז",
+        "transliteration": "u-Bó-az",
+        "briefTranslation": "e Boaz",
+        "contextualTranslation": "Salmom gerou a Boaz, e Boaz gerou a Obede.",
+        "analysis": {
+          "lemma": "בועז",
+          "lemmaTranslation": "Boaz",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Conjunção ו + Nome"
+        }
+      },
+      {
+        "hebrew": "הוֹלִיד",
+        "transliteration": "ho-líd",
+        "briefTranslation": "gerou",
+        "contextualTranslation": "Salmom gerou a Boaz, e Boaz gerou a Obede.",
+        "analysis": {
+          "lemma": "ילד",
+          "lemmaTranslation": "gerar",
+          "class": "Verbo",
+          "binyan": "Hifil",
+          "tense": "Perfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: י.ל.ד"
+        }
+      },
+      {
+        "hebrew": "אֶת־עוֹבֵד",
+        "transliteration": "et-O-véd",
+        "briefTranslation": "a Obede",
+        "contextualTranslation": "Salmom gerou a Boaz, e Boaz gerou a Obede.",
+        "analysis": {
+          "lemma": "עובד",
+          "lemmaTranslation": "Obede",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Partícula de objeto direto (את)"
+        }
+      }
+    ]
+  }
+
+
+,
+  "22": {
+    "hebrewText": "וְעוֹבֵד הוֹלִיד אֶת־יִשָׁי וְיִשַׁי הוֹלִיד אֶת־דָּוִד",
+    "words": [
+      {
+        "hebrew": "וְעוֹבֵד",
+        "transliteration": "ve-O-véd",
+        "briefTranslation": "e Obede",
+        "contextualTranslation": "Obede gerou a Jessé, e Jessé gerou a Davi.",
+        "analysis": {
+          "lemma": "עובד",
+          "lemmaTranslation": "Obede",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Conjunção ו + Nome"
+        }
+      },
+      {
+        "hebrew": "הוֹלִיד",
+        "transliteration": "ho-líd",
+        "briefTranslation": "gerou",
+        "contextualTranslation": "Obede gerou a Jessé, e Jessé gerou a Davi.",
+        "analysis": {
+          "lemma": "ילד",
+          "lemmaTranslation": "gerar",
+          "class": "Verbo",
+          "binyan": "Hifil",
+          "tense": "Perfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: י.ל.ד"
+        }
+      },
+      {
+        "hebrew": "אֶת־יִשָׁי",
+        "transliteration": "et-Yishay",
+        "briefTranslation": "a Jessé",
+        "contextualTranslation": "Obede gerou a Jessé, e Jessé gerou a Davi.",
+        "analysis": {
+          "lemma": "ישׁי",
+          "lemmaTranslation": "Jessé",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Partícula de objeto direto (את)"
+        }
+      },
+      {
+        "hebrew": "וְיִשַׁי",
+        "transliteration": "ve-Yishay",
+        "briefTranslation": "e Jessé",
+        "contextualTranslation": "Obede gerou a Jessé, e Jessé gerou a Davi.",
+        "analysis": {
+          "lemma": "ישׁי",
+          "lemmaTranslation": "Jessé",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Conjunção ו + Nome"
+        }
+      },
+      {
+        "hebrew": "הוֹלִיד",
+        "transliteration": "ho-líd",
+        "briefTranslation": "gerou",
+        "contextualTranslation": "Obede gerou a Jessé, e Jessé gerou a Davi.",
+        "analysis": {
+          "lemma": "ילד",
+          "lemmaTranslation": "gerar",
+          "class": "Verbo",
+          "binyan": "Hifil",
+          "tense": "Perfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: י.ל.ד"
+        }
+      },
+      {
+        "hebrew": "אֶת־דָּוִד",
+        "transliteration": "et-Da-víd",
+        "briefTranslation": "a Davi",
+        "contextualTranslation": "Obede gerou a Jessé, e Jessé gerou a Davi.",
+        "analysis": {
+          "lemma": "דוד",
+          "lemmaTranslation": "Davi",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Partícula de objeto direto (את)"
+        }
+      }
+    ]
+  }
+}
+

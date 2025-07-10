@@ -1,0 +1,3499 @@
+{
+  "1": {
+    "hebrewText": "וַתֹּאמֶר לָהּ נָעֳמִי חֲמוֹתָהּ בִּתִּי הֲלֹא אֲבַקֶּשׁ לָךְ מָנוֹחַ אֲשֶׁר יִיטַב לָךְ",
+    "words": [
+      {
+        "hebrew": "וַתֹּאמֶר",
+        "transliteration": "va-tó-mer",
+        "briefTranslation": "e disse",
+        "contextualTranslation": "E Noemi, sua sogra, disse-lhe: Minha filha, não te buscarei um descanso, para que te vá bem?",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "לָהּ",
+        "transliteration": "láh",
+        "briefTranslation": "a ela",
+        "contextualTranslation": "E Noemi, sua sogra, disse-lhe: Minha filha, não te buscarei um descanso, para que te vá bem?",
+        "analysis": {
+          "lemma": "ל",
+          "lemmaTranslation": "para, a",
+          "class": "Preposição",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "נָעֳמִי",
+        "transliteration": "Na'omi",
+        "briefTranslation": "Noemi",
+        "contextualTranslation": "E Noemi, sua sogra, disse-lhe: Minha filha, não te buscarei um descanso, para que te vá bem?",
+        "analysis": {
+          "lemma": "נָעֳמִי",
+          "lemmaTranslation": "Noemi",
+          "class": "Nome Próprio",
+          "gender": "Feminino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "חֲמוֹתָהּ",
+        "transliteration": "chamotah",
+        "briefTranslation": "sua sogra",
+        "contextualTranslation": "E Noemi, sua sogra, disse-lhe: Minha filha, não te buscarei um descanso, para que te vá bem?",
+        "analysis": {
+          "lemma": "חמות",
+          "lemmaTranslation": "sogra",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "state": "Absoluto",
+          "extra": "Sufixo pronominal 3fs"
+        }
+      },
+      {
+        "hebrew": "בִּתִּי",
+        "transliteration": "bitti",
+        "briefTranslation": "minha filha",
+        "contextualTranslation": "E Noemi, sua sogra, disse-lhe: Minha filha, não te buscarei um descanso, para que te vá bem?",
+        "analysis": {
+          "lemma": "בת",
+          "lemmaTranslation": "filha",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal 1cs"
+        }
+      },
+      {
+        "hebrew": "הֲלֹא",
+        "transliteration": "ha-ló",
+        "briefTranslation": "não (interrogativo)",
+        "contextualTranslation": "E Noemi, sua sogra, disse-lhe: Minha filha, não te buscarei um descanso, para que te vá bem?",
+        "analysis": {
+          "lemma": "הֲלֹא",
+          "lemmaTranslation": "não (interrogativo)",
+          "class": "Partícula",
+          "extra": "Indica pergunta retórica"
+        }
+      },
+      {
+        "hebrew": "אֲבַקֶּשׁ",
+        "transliteration": "a-va-késh",
+        "briefTranslation": "buscarei",
+        "contextualTranslation": "E Noemi, sua sogra, disse-lhe: Minha filha, não te buscarei um descanso, para que te vá bem?",
+        "analysis": {
+          "lemma": "בקש",
+          "lemmaTranslation": "buscar",
+          "class": "Verbo",
+          "binyan": "Piel",
+          "tense": "Imperfeito",
+          "pgn": "1cs",
+          "gender": "Comum",
+          "number": "Singular",
+          "extra": "Raiz: ב.ק.ש"
+        }
+      },
+      {
+        "hebrew": "לָךְ",
+        "transliteration": "lákh",
+        "briefTranslation": "para ti",
+        "contextualTranslation": "E Noemi, sua sogra, disse-lhe: Minha filha, não te buscarei um descanso, para que te vá bem?",
+        "analysis": {
+          "lemma": "ל",
+          "lemmaTranslation": "para, a",
+          "class": "Preposição",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "מָנוֹחַ",
+        "transliteration": "ma-nó-ach",
+        "briefTranslation": "descanso",
+        "contextualTranslation": "E Noemi, sua sogra, disse-lhe: Minha filha, não te buscarei um descanso, para que te vá bem?",
+        "analysis": {
+          "lemma": "מנוח",
+          "lemmaTranslation": "descanso",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "a-shér",
+        "briefTranslation": "que",
+        "contextualTranslation": "E Noemi, sua sogra, disse-lhe: Minha filha, não te buscarei um descanso, para que te vá bem?",
+        "analysis": {
+          "lemma": "אשר",
+          "lemmaTranslation": "que, o qual",
+          "class": "Pronome Relativo"
+        }
+      },
+      {
+        "hebrew": "יִיטַב",
+        "transliteration": "yi-táv",
+        "briefTranslation": "te vá bem",
+        "contextualTranslation": "E Noemi, sua sogra, disse-lhe: Minha filha, não te buscarei um descanso, para que te vá bem?",
+        "analysis": {
+          "lemma": "יטב",
+          "lemmaTranslation": "ser bom, ir bem",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: י.ט.ב"
+        }
+      },
+      {
+        "hebrew": "לָךְ",
+        "transliteration": "lákh",
+        "briefTranslation": "para ti",
+        "contextualTranslation": "E Noemi, sua sogra, disse-lhe: Minha filha, não te buscarei um descanso, para que te vá bem?",
+        "analysis": {
+          "lemma": "ל",
+          "lemmaTranslation": "para, a",
+          "class": "Preposição",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      }
+    ]
+  }
+}
+
+
+,
+  "2": {
+    "hebrewText": "וְעַתָּה הֲלֹא בֹעַז מֹדַעְתָּנוּ אֲשֶׁר הָיִית אִתּוֹ הִנֵּה הוּא זֹרֶה אֶת־גֹּרֶן הַשְּׂעֹרִים הַלָּיְלָה",
+    "words": [
+      {
+        "hebrew": "וְעַתָּה",
+        "transliteration": "ve-at-táh",
+        "briefTranslation": "e agora",
+        "contextualTranslation": "E agora, não é Boaz, nosso parente, com quem estiveste? Eis que ele joeira a cevada esta noite na eira.",
+        "analysis": {
+          "lemma": "עתה",
+          "lemmaTranslation": "agora",
+          "class": "Advérbio",
+          "extra": "Conjunção 'e' + advérbio"
+        }
+      },
+      {
+        "hebrew": "הֲלֹא",
+        "transliteration": "ha-ló",
+        "briefTranslation": "não (interrogativo)",
+        "contextualTranslation": "E agora, não é Boaz, nosso parente, com quem estiveste? Eis que ele joeira a cevada esta noite na eira.",
+        "analysis": {
+          "lemma": "הֲלֹא",
+          "lemmaTranslation": "não (interrogativo)",
+          "class": "Partícula",
+          "extra": "Indica pergunta retórica"
+        }
+      },
+      {
+        "hebrew": "בֹעַז",
+        "transliteration": "Bó-az",
+        "briefTranslation": "Boaz",
+        "contextualTranslation": "E agora, não é Boaz, nosso parente, com quem estiveste? Eis que ele joeira a cevada esta noite na eira.",
+        "analysis": {
+          "lemma": "בועז",
+          "lemmaTranslation": "Boaz",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "מֹדַעְתָּנוּ",
+        "transliteration": "mo-da'tá-nu",
+        "briefTranslation": "nosso parente",
+        "contextualTranslation": "E agora, não é Boaz, nosso parente, com quem estiveste? Eis que ele joeira a cevada esta noite na eira.",
+        "analysis": {
+          "lemma": "מודעת",
+          "lemmaTranslation": "conhecido, parente",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal 1cp"
+        }
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "a-shér",
+        "briefTranslation": "que",
+        "contextualTranslation": "E agora, não é Boaz, nosso parente, com quem estiveste? Eis que ele joeira a cevada esta noite na eira.",
+        "analysis": {
+          "lemma": "אשר",
+          "lemmaTranslation": "que, o qual",
+          "class": "Pronome Relativo"
+        }
+      },
+      {
+        "hebrew": "הָיִית",
+        "transliteration": "ha-yít",
+        "briefTranslation": "estiveste",
+        "contextualTranslation": "E agora, não é Boaz, nosso parente, com quem estiveste? Eis que ele joeira a cevada esta noite na eira.",
+        "analysis": {
+          "lemma": "היה",
+          "lemmaTranslation": "ser, estar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Perfeito",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: ה.י.ה"
+        }
+      },
+      {
+        "hebrew": "אִתּוֹ",
+        "transliteration": "it-tó",
+        "briefTranslation": "com ele",
+        "contextualTranslation": "E agora, não é Boaz, nosso parente, com quem estiveste? Eis que ele joeira a cevada esta noite na eira.",
+        "analysis": {
+          "lemma": "את",
+          "lemmaTranslation": "com",
+          "class": "Preposição",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "הִנֵּה",
+        "transliteration": "hin-néh",
+        "briefTranslation": "eis que",
+        "contextualTranslation": "E agora, não é Boaz, nosso parente, com quem estiveste? Eis que ele joeira a cevada esta noite na eira.",
+        "analysis": {
+          "lemma": "הנה",
+          "lemmaTranslation": "eis que",
+          "class": "Partícula"
+        }
+      },
+      {
+        "hebrew": "הוּא",
+        "transliteration": "hu",
+        "briefTranslation": "ele",
+        "contextualTranslation": "E agora, não é Boaz, nosso parente, com quem estiveste? Eis que ele joeira a cevada esta noite na eira.",
+        "analysis": {
+          "lemma": "הוא",
+          "lemmaTranslation": "ele",
+          "class": "Pronome Pessoal",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "זֹרֶה",
+        "transliteration": "zo-réh",
+        "briefTranslation": "joeira",
+        "contextualTranslation": "E agora, não é Boaz, nosso parente, com quem estiveste? Eis que ele joeira a cevada esta noite na eira.",
+        "analysis": {
+          "lemma": "זרה",
+          "lemmaTranslation": "joeirar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Particípio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ז.ר.ה"
+        }
+      },
+      {
+        "hebrew": "אֶת־",
+        "transliteration": "et-",
+        "briefTranslation": "(partícula de objeto direto)",
+        "contextualTranslation": "E agora, não é Boaz, nosso parente, com quem estiveste? Eis que ele joeira a cevada esta noite na eira.",
+        "analysis": {
+          "lemma": "את",
+          "lemmaTranslation": "(partícula de objeto direto)",
+          "class": "Partícula"
+        }
+      },
+      {
+        "hebrew": "גֹּרֶן",
+        "transliteration": "gó-ren",
+        "briefTranslation": "eira",
+        "contextualTranslation": "E agora, não é Boaz, nosso parente, com quem estiveste? Eis que ele joeira a cevada esta noite na eira.",
+        "analysis": {
+          "lemma": "גורן",
+          "lemmaTranslation": "eira",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "הַשְּׂעֹרִים",
+        "transliteration": "ha-se'o-rím",
+        "briefTranslation": "a cevada",
+        "contextualTranslation": "E agora, não é Boaz, nosso parente, com quem estiveste? Eis que ele joeira a cevada esta noite na eira.",
+        "analysis": {
+          "lemma": "שעורה",
+          "lemmaTranslation": "cevada",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Plural",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "הַלָּיְלָה",
+        "transliteration": "hal-láy-lah",
+        "briefTranslation": "esta noite",
+        "contextualTranslation": "E agora, não é Boaz, nosso parente, com quem estiveste? Eis que ele joeira a cevada esta noite na eira.",
+        "analysis": {
+          "lemma": "לילה",
+          "lemmaTranslation": "noite",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      }
+    ]
+  }
+
+
+,
+  "3": {
+    "hebrewText": "וְרָחַצְתְּ וָסַכְתְּ וְשַׂמְתְּ שִׂמְלֹתַיִךְ עָלַיִךְ וְיָרַדְתְּ הַגֹּרֶן אַל־תִּוָּדְעִי לָאִישׁ עַד כַּלֹּתוֹ לֶאֱכֹל וְלִשְׁתּוֹת",
+    "words": [
+      {
+        "hebrew": "וְרָחַצְתְּ",
+        "transliteration": "ve-ra-chátst",
+        "briefTranslation": "e te lavarás",
+        "contextualTranslation": "Lava-te, pois, e unge-te, e veste os teus melhores vestidos, e desce à eira; porém não te dês a conhecer ao homem, até que tenha acabado de comer e beber.",
+        "analysis": {
+          "lemma": "רחץ",
+          "lemmaTranslation": "lavar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: ר.ח.ץ"
+        }
+      },
+      {
+        "hebrew": "וָסַכְתְּ",
+        "transliteration": "va-sákht",
+        "briefTranslation": "e te ungirás",
+        "contextualTranslation": "Lava-te, pois, e unge-te, e veste os teus melhores vestidos, e desce à eira; porém não te dês a conhecer ao homem, até que tenha acabado de comer e beber.",
+        "analysis": {
+          "lemma": "סוך",
+          "lemmaTranslation": "ungir",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: ס.ו.ך"
+        }
+      },
+      {
+        "hebrew": "וְשַׂמְתְּ",
+        "transliteration": "ve-sám-t",
+        "briefTranslation": "e porás",
+        "contextualTranslation": "Lava-te, pois, e unge-te, e veste os teus melhores vestidos, e desce à eira; porém não te dês a conhecer ao homem, até que tenha acabado de comer e beber.",
+        "analysis": {
+          "lemma": "שׂים",
+          "lemmaTranslation": "pôr, colocar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: שׂ.י.ם"
+        }
+      },
+      {
+        "hebrew": "שִׂמְלֹתַיִךְ",
+        "transliteration": "sim-lo-táyikh",
+        "briefTranslation": "teus vestidos",
+        "contextualTranslation": "Lava-te, pois, e unge-te, e veste os teus melhores vestidos, e desce à eira; porém não te dês a conhecer ao homem, até que tenha acabado de comer e beber.",
+        "analysis": {
+          "lemma": "שׂמלה",
+          "lemmaTranslation": "vestido",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Plural",
+          "extra": "Sufixo pronominal 2fs"
+        }
+      },
+      {
+        "hebrew": "עָלַיִךְ",
+        "transliteration": "a-lá-yikh",
+        "briefTranslation": "sobre ti",
+        "contextualTranslation": "Lava-te, pois, e unge-te, e veste os teus melhores vestidos, e desce à eira; porém não te dês a conhecer ao homem, até que tenha acabado de comer e beber.",
+        "analysis": {
+          "lemma": "על",
+          "lemmaTranslation": "sobre",
+          "class": "Preposição",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "וְיָרַדְתְּ",
+        "transliteration": "ve-ya-rádt",
+        "briefTranslation": "e descerás",
+        "contextualTranslation": "Lava-te, pois, e unge-te, e veste os teus melhores vestidos, e desce à eira; porém não te dês a conhecer ao homem, até que tenha acabado de comer e beber.",
+        "analysis": {
+          "lemma": "ירד",
+          "lemmaTranslation": "descer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: י.ר.ד"
+        }
+      },
+      {
+        "hebrew": "הַגֹּרֶן",
+        "transliteration": "ha-gó-ren",
+        "briefTranslation": "a eira",
+        "contextualTranslation": "Lava-te, pois, e unge-te, e veste os teus melhores vestidos, e desce à eira; porém não te dês a conhecer ao homem, até que tenha acabado de comer e beber.",
+        "analysis": {
+          "lemma": "גורן",
+          "lemmaTranslation": "eira",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "אַל־תִּוָּדְעִי",
+        "transliteration": "al-tiv-va-de-í",
+        "briefTranslation": "não te dês a conhecer",
+        "contextualTranslation": "Lava-te, pois, e unge-te, e veste os teus melhores vestidos, e desce à eira; porém não te dês a conhecer ao homem, até que tenha acabado de comer e beber.",
+        "analysis": {
+          "lemma": "ידע",
+          "lemmaTranslation": "saber, conhecer",
+          "class": "Verbo",
+          "binyan": "Nifal",
+          "tense": "Imperfeito",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Proibição (אַל) + Raiz: י.ד.ע"
+        }
+      },
+      {
+        "hebrew": "לָאִישׁ",
+        "transliteration": "la-ísh",
+        "briefTranslation": "ao homem",
+        "contextualTranslation": "Lava-te, pois, e unge-te, e veste os teus melhores vestidos, e desce à eira; porém não te dês a conhecer ao homem, até que tenha acabado de comer e beber.",
+        "analysis": {
+          "lemma": "איש",
+          "lemmaTranslation": "homem",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição ל + Artigo definido"
+        }
+      },
+      {
+        "hebrew": "עַד",
+        "transliteration": "ad",
+        "briefTranslation": "até",
+        "contextualTranslation": "Lava-te, pois, e unge-te, e veste os teus melhores vestidos, e desce à eira; porém não te dês a conhecer ao homem, até que tenha acabado de comer e beber.",
+        "analysis": {
+          "lemma": "עד",
+          "lemmaTranslation": "até",
+          "class": "Preposição"
+        }
+      },
+      {
+        "hebrew": "כַּלֹּתוֹ",
+        "transliteration": "kal-lo-tó",
+        "briefTranslation": "ele acabar",
+        "contextualTranslation": "Lava-te, pois, e unge-te, e veste os teus melhores vestidos, e desce à eira; porém não te dês a conhecer ao homem, até que tenha acabado de comer e beber.",
+        "analysis": {
+          "lemma": "כלה",
+          "lemmaTranslation": "acabar, terminar",
+          "class": "Verbo",
+          "binyan": "Piel",
+          "tense": "Infinitivo Construto",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal 3ms + Raiz: כ.ל.ה"
+        }
+      },
+      {
+        "hebrew": "לֶאֱכֹל",
+        "transliteration": "le-e-khól",
+        "briefTranslation": "comer",
+        "contextualTranslation": "Lava-te, pois, e unge-te, e veste os teus melhores vestidos, e desce à eira; porém não te dês a conhecer ao homem, até que tenha acabado de comer e beber.",
+        "analysis": {
+          "lemma": "אכל",
+          "lemmaTranslation": "comer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Infinitivo Construto",
+          "extra": "Preposição ל + Raiz: א.כ.ל"
+        }
+      },
+      {
+        "hebrew": "וְלִשְׁתּוֹת",
+        "transliteration": "ve-lish-tót",
+        "briefTranslation": "e beber",
+        "contextualTranslation": "Lava-te, pois, e unge-te, e veste os teus melhores vestidos, e desce à eira; porém não te dês a conhecer ao homem, até que tenha acabado de comer e beber.",
+        "analysis": {
+          "lemma": "שתה",
+          "lemmaTranslation": "beber",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Infinitivo Construto",
+          "extra": "Conjunção ו + Preposição ל + Raiz: שׁ.ת.ה"
+        }
+      }
+    ]
+  }
+
+
+,
+  "4": {
+    "hebrewText": "וִיהִי בְשָׁכְבוֹ וְיָדַעַתְּ אֶת־הַמָּקוֹם אֲשֶׁר יִשְׁכַּב־שָׁם וּבָאת וְגִלִּית מַרְגְּלֹתָיו וְשָׁכַבְתְּ וְהוּא יַגִּיד לָךְ אֵת אֲשֶׁר תַּעֲשִׂין",
+    "words": [
+      {
+        "hebrew": "וִיהִי",
+        "transliteration": "vi-hí",
+        "briefTranslation": "e será",
+        "contextualTranslation": "E será que, quando ele se deitar, notarás o lugar em que se deita; então entrarás, e descobrirás os seus pés, e te deitarás; e ele te declarará o que deves fazer.",
+        "analysis": {
+          "lemma": "היה",
+          "lemmaTranslation": "ser, estar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ה.י.ה"
+        }
+      },
+      {
+        "hebrew": "בְשָׁכְבוֹ",
+        "transliteration": "ve-shokh-vó",
+        "briefTranslation": "ao deitar-se ele",
+        "contextualTranslation": "E será que, quando ele se deitar, notarás o lugar em que se deita; então entrarás, e descobrirás os seus pés, e te deitarás; e ele te declarará o que deves fazer.",
+        "analysis": {
+          "lemma": "שכב",
+          "lemmaTranslation": "deitar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Infinitivo Construto",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição ב + Sufixo pronominal 3ms + Raiz: שׁ.כ.ב"
+        }
+      },
+      {
+        "hebrew": "וְיָדַעַתְּ",
+        "transliteration": "ve-ya-dá-at",
+        "briefTranslation": "e saberás",
+        "contextualTranslation": "E será que, quando ele se deitar, notarás o lugar em que se deita; então entrarás, e descobrirás os seus pés, e te deitarás; e ele te declarará o que deves fazer.",
+        "analysis": {
+          "lemma": "ידע",
+          "lemmaTranslation": "saber, conhecer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: י.ד.ע"
+        }
+      },
+      {
+        "hebrew": "אֶת־",
+        "transliteration": "et-",
+        "briefTranslation": "(partícula de objeto direto)",
+        "contextualTranslation": "E será que, quando ele se deitar, notarás o lugar em que se deita; então entrarás, e descobrirás os seus pés, e te deitarás; e ele te declarará o que deves fazer.",
+        "analysis": {
+          "lemma": "את",
+          "lemmaTranslation": "(partícula de objeto direto)",
+          "class": "Partícula"
+        }
+      },
+      {
+        "hebrew": "הַמָּקוֹם",
+        "transliteration": "ham-ma-kóm",
+        "briefTranslation": "o lugar",
+        "contextualTranslation": "E será que, quando ele se deitar, notarás o lugar em que se deita; então entrarás, e descobrirás os seus pés, e te deitarás; e ele te declarará o que deves fazer.",
+        "analysis": {
+          "lemma": "מקום",
+          "lemmaTranslation": "lugar",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "a-shér",
+        "briefTranslation": "que",
+        "contextualTranslation": "E será que, quando ele se deitar, notarás o lugar em que se deita; então entrarás, e descobrirás os seus pés, e te deitarás; e ele te declarará o que deves fazer.",
+        "analysis": {
+          "lemma": "אשר",
+          "lemmaTranslation": "que, o qual",
+          "class": "Pronome Relativo"
+        }
+      },
+      {
+        "hebrew": "יִשְׁכַּב־שָׁם",
+        "transliteration": "yish-káv-sham",
+        "briefTranslation": "ele se deitará lá",
+        "contextualTranslation": "E será que, quando ele se deitar, notarás o lugar em que se deita; então entrarás, e descobrirás os seus pés, e te deitarás; e ele te declarará o que deves fazer.",
+        "analysis": {
+          "lemma": "שכב",
+          "lemmaTranslation": "deitar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: שׁ.כ.ב + Advérbio de lugar: שם (lá)"
+        }
+      },
+      {
+        "hebrew": "וּבָאת",
+        "transliteration": "u-vá-at",
+        "briefTranslation": "e virás",
+        "contextualTranslation": "E será que, quando ele se deitar, notarás o lugar em que se deita; então entrarás, e descobrirás os seus pés, e te deitarás; e ele te declarará o que deves fazer.",
+        "analysis": {
+          "lemma": "בוא",
+          "lemmaTranslation": "vir, entrar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: ב.ו.א"
+        }
+      },
+      {
+        "hebrew": "וְגִלִּית",
+        "transliteration": "ve-gil-lít",
+        "briefTranslation": "e descobrirás",
+        "contextualTranslation": "E será que, quando ele se deitar, notarás o lugar em que se deita; então entrarás, e descobrirás os seus pés, e te deitarás; e ele te declarará o que deves fazer.",
+        "analysis": {
+          "lemma": "גלה",
+          "lemmaTranslation": "descobrir, revelar",
+          "class": "Verbo",
+          "binyan": "Piel",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: ג.ל.ה"
+        }
+      },
+      {
+        "hebrew": "מַרְגְּלֹתָיו",
+        "transliteration": "mar-ge-lo-táv",
+        "briefTranslation": "seus pés",
+        "contextualTranslation": "E será que, quando ele se deitar, notarás o lugar em que se deita; então entrarás, e descobrirás os seus pés, e te deitarás; e ele te declarará o que deves fazer.",
+        "analysis": {
+          "lemma": "מרגלות",
+          "lemmaTranslation": "pés (parte inferior da cama)",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Plural",
+          "extra": "Sufixo pronominal 3ms"
+        }
+      },
+      {
+        "hebrew": "וְשָׁכַבְתְּ",
+        "transliteration": "ve-sha-khávt",
+        "briefTranslation": "e te deitarás",
+        "contextualTranslation": "E será que, quando ele se deitar, notarás o lugar em que se deita; então entrarás, e descobrirás os seus pés, e te deitarás; e ele te declarará o que deves fazer.",
+        "analysis": {
+          "lemma": "שכב",
+          "lemmaTranslation": "deitar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: שׁ.כ.ב"
+        }
+      },
+      {
+        "hebrew": "וְהוּא",
+        "transliteration": "ve-hu",
+        "briefTranslation": "e ele",
+        "contextualTranslation": "E será que, quando ele se deitar, notarás o lugar em que se deita; então entrarás, e descobrirás os seus pés, e te deitarás; e ele te declarará o que deves fazer.",
+        "analysis": {
+          "lemma": "הוא",
+          "lemmaTranslation": "ele",
+          "class": "Pronome Pessoal",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Conjunção ו + Pronome"
+        }
+      },
+      {
+        "hebrew": "יַגִּיד",
+        "transliteration": "yag-gíd",
+        "briefTranslation": "declarará",
+        "contextualTranslation": "E será que, quando ele se deitar, notarás o lugar em que se deita; então entrarás, e descobrirás os seus pés, e te deitarás; e ele te declarará o que deves fazer.",
+        "analysis": {
+          "lemma": "נגד",
+          "lemmaTranslation": "declarar, dizer",
+          "class": "Verbo",
+          "binyan": "Hifil",
+          "tense": "Imperfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: נ.ג.ד"
+        }
+      },
+      {
+        "hebrew": "לָךְ",
+        "transliteration": "lákh",
+        "briefTranslation": "a ti",
+        "contextualTranslation": "E será que, quando ele se deitar, notarás o lugar em que se deita; então entrarás, e descobrirás os seus pés, e te deitarás; e ele te declarará o que deves fazer.",
+        "analysis": {
+          "lemma": "ל",
+          "lemmaTranslation": "para, a",
+          "class": "Preposição",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "אֵת",
+        "transliteration": "et",
+        "briefTranslation": "(partícula de objeto direto)",
+        "contextualTranslation": "E será que, quando ele se deitar, notarás o lugar em que se deita; então entrarás, e descobrirás os seus pés, e te deitarás; e ele te declarará o que deves fazer.",
+        "analysis": {
+          "lemma": "את",
+          "lemmaTranslation": "(partícula de objeto direto)",
+          "class": "Partícula"
+        }
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "a-shér",
+        "briefTranslation": "o que",
+        "contextualTranslation": "E será que, quando ele se deitar, notarás o lugar em que se deita; então entrarás, e descobrirás os seus pés, e te deitarás; e ele te declarará o que deves fazer.",
+        "analysis": {
+          "lemma": "אשר",
+          "lemmaTranslation": "que, o qual",
+          "class": "Pronome Relativo"
+        }
+      },
+      {
+        "hebrew": "תַעֲשִׂין",
+        "transliteration": "ta-a-sín",
+        "briefTranslation": "farás",
+        "contextualTranslation": "E será que, quando ele se deitar, notarás o lugar em que se deita; então entrarás, e descobrirás os seus pés, e te deitarás; e ele te declarará o que deves fazer.",
+        "analysis": {
+          "lemma": "עשׂה",
+          "lemmaTranslation": "fazer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: ע.שׂ.ה"
+        }
+      }
+    ]
+  }
+
+
+,
+  "5": {
+    "hebrewText": "וַתֹּאמֶר אֵלֶיהָ כֹּל אֲשֶׁר אָמַרְתְּ אֵלַי אֶעֱשֶׂה",
+    "words": [
+      {
+        "hebrew": "וַתֹּאמֶר",
+        "transliteration": "va-tó-mer",
+        "briefTranslation": "e disse",
+        "contextualTranslation": "E ela lhe disse: Tudo quanto me disseres, farei.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "אֵלֶיהָ",
+        "transliteration": "e-lé-ha",
+        "briefTranslation": "a ela",
+        "contextualTranslation": "E ela lhe disse: Tudo quanto me disseres, farei.",
+        "analysis": {
+          "lemma": "אל",
+          "lemmaTranslation": "a, para",
+          "class": "Preposição",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "כֹּל",
+        "transliteration": "kol",
+        "briefTranslation": "tudo",
+        "contextualTranslation": "E ela lhe disse: Tudo quanto me disseres, farei.",
+        "analysis": {
+          "lemma": "כל",
+          "lemmaTranslation": "tudo, todo",
+          "class": "Substantivo"
+        }
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "a-shér",
+        "briefTranslation": "que",
+        "contextualTranslation": "E ela lhe disse: Tudo quanto me disseres, farei.",
+        "analysis": {
+          "lemma": "אשר",
+          "lemmaTranslation": "que, o qual",
+          "class": "Pronome Relativo"
+        }
+      },
+      {
+        "hebrew": "אָמַרְתְּ",
+        "transliteration": "a-márt",
+        "briefTranslation": "disseste",
+        "contextualTranslation": "E ela lhe disse: Tudo quanto me disseres, farei.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Perfeito",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "אֵלַי",
+        "transliteration": "e-láy",
+        "briefTranslation": "a mim",
+        "contextualTranslation": "E ela lhe disse: Tudo quanto me disseres, farei.",
+        "analysis": {
+          "lemma": "אל",
+          "lemmaTranslation": "a, para",
+          "class": "Preposição",
+          "pgn": "1cs",
+          "gender": "Comum",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "אֶעֱשֶׂה",
+        "transliteration": "e-e-séh",
+        "briefTranslation": "farei",
+        "contextualTranslation": "E ela lhe disse: Tudo quanto me disseres, farei.",
+        "analysis": {
+          "lemma": "עשׂה",
+          "lemmaTranslation": "fazer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito",
+          "pgn": "1cs",
+          "gender": "Comum",
+          "number": "Singular",
+          "extra": "Raiz: ע.שׂ.ה"
+        }
+      }
+    ]
+  }
+
+
+,
+  "6": {
+    "hebrewText": "וַתֵּרֶד הַגֹּרֶן וַתַּעַשׂ כְּכֹל אֲשֶׁר צִוַּתָּה חֲמוֹתָהּ",
+    "words": [
+      {
+        "hebrew": "וַתֵּרֶד",
+        "transliteration": "va-té-red",
+        "briefTranslation": "e desceu",
+        "contextualTranslation": "Então desceu à eira, e fez conforme tudo quanto sua sogra lhe tinha ordenado.",
+        "analysis": {
+          "lemma": "ירד",
+          "lemmaTranslation": "descer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: י.ר.ד"
+        }
+      },
+      {
+        "hebrew": "הַגֹּרֶן",
+        "transliteration": "ha-gó-ren",
+        "briefTranslation": "a eira",
+        "contextualTranslation": "Então desceu à eira, e fez conforme tudo quanto sua sogra lhe tinha ordenado.",
+        "analysis": {
+          "lemma": "גורן",
+          "lemmaTranslation": "eira",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "וַתַּעַשׂ",
+        "transliteration": "va-tá-as",
+        "briefTranslation": "e fez",
+        "contextualTranslation": "Então desceu à eira, e fez conforme tudo quanto sua sogra lhe tinha ordenado.",
+        "analysis": {
+          "lemma": "עשׂה",
+          "lemmaTranslation": "fazer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: ע.שׂ.ה"
+        }
+      },
+      {
+        "hebrew": "כְּכֹל",
+        "transliteration": "ke-kól",
+        "briefTranslation": "conforme tudo",
+        "contextualTranslation": "Então desceu à eira, e fez conforme tudo quanto sua sogra lhe tinha ordenado.",
+        "analysis": {
+          "lemma": "כל",
+          "lemmaTranslation": "tudo, todo",
+          "class": "Substantivo",
+          "extra": "Preposição כ (como) + Substantivo"
+        }
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "a-shér",
+        "briefTranslation": "que",
+        "contextualTranslation": "Então desceu à eira, e fez conforme tudo quanto sua sogra lhe tinha ordenado.",
+        "analysis": {
+          "lemma": "אשר",
+          "lemmaTranslation": "que, o qual",
+          "class": "Pronome Relativo"
+        }
+      },
+      {
+        "hebrew": "צִוַּתָּה",
+        "transliteration": "tziv-vá-tah",
+        "briefTranslation": "ordenou",
+        "contextualTranslation": "Então desceu à eira, e fez conforme tudo quanto sua sogra lhe tinha ordenado.",
+        "analysis": {
+          "lemma": "צוה",
+          "lemmaTranslation": "ordenar",
+          "class": "Verbo",
+          "binyan": "Piel",
+          "tense": "Perfeito",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: צ.ו.ה"
+        }
+      },
+      {
+        "hebrew": "חֲמוֹתָהּ",
+        "transliteration": "chamotah",
+        "briefTranslation": "sua sogra",
+        "contextualTranslation": "Então desceu à eira, e fez conforme tudo quanto sua sogra lhe tinha ordenado.",
+        "analysis": {
+          "lemma": "חמות",
+          "lemmaTranslation": "sogra",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "state": "Absoluto",
+          "extra": "Sufixo pronominal 3fs"
+        }
+      }
+    ]
+  }
+
+
+,
+  "7": {
+    "hebrewText": "וַיֹּאכַל בֹּעַז וַיֵּשְׁתְּ וַיִּיטַב לִבּוֹ וַיָּבֹא לִשְׁכַּב בִּקְצֵה הָעֲרֵמָה וַתָּבֹא בַלָּט וַתְּגַל מַרְגְּלֹתָיו וַתִּשְׁכָּב",
+    "words": [
+      {
+        "hebrew": "וַיֹּאכַל",
+        "transliteration": "vai-yó-khal",
+        "briefTranslation": "e comeu",
+        "contextualTranslation": "Havendo, pois, Boaz comido e bebido, e estando já de coração alegre, veio deitar-se ao pé de um montão de grãos; então ela veio de mansinho, e descobriu-lhe os pés, e se deitou.",
+        "analysis": {
+          "lemma": "אכל",
+          "lemmaTranslation": "comer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: א.כ.ל"
+        }
+      },
+      {
+        "hebrew": "בֹּעַז",
+        "transliteration": "Bó-az",
+        "briefTranslation": "Boaz",
+        "contextualTranslation": "Havendo, pois, Boaz comido e bebido, e estando já de coração alegre, veio deitar-se ao pé de um montão de grãos; então ela veio de mansinho, e descobriu-lhe os pés, e se deitou.",
+        "analysis": {
+          "lemma": "בועז",
+          "lemmaTranslation": "Boaz",
+          "class": "Nome Próprio",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "וַיֵּשְׁתְּ",
+        "transliteration": "vai-yésht",
+        "briefTranslation": "e bebeu",
+        "contextualTranslation": "Havendo, pois, Boaz comido e bebido, e estando já de coração alegre, veio deitar-se ao pé de um montão de grãos; então ela veio de mansinho, e descobriu-lhe os pés, e se deitou.",
+        "analysis": {
+          "lemma": "שתה",
+          "lemmaTranslation": "beber",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: שׁ.ת.ה"
+        }
+      },
+      {
+        "hebrew": "וַיִּיטַב",
+        "transliteration": "vai-yí-tav",
+        "briefTranslation": "e se alegrou",
+        "contextualTranslation": "Havendo, pois, Boaz comido e bebido, e estando já de coração alegre, veio deitar-se ao pé de um montão de grãos; então ela veio de mansinho, e descobriu-lhe os pés, e se deitou.",
+        "analysis": {
+          "lemma": "יטב",
+          "lemmaTranslation": "ser bom, alegrar-se",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: י.ט.ב"
+        }
+      },
+      {
+        "hebrew": "לִבּוֹ",
+        "transliteration": "lib-bó",
+        "briefTranslation": "seu coração",
+        "contextualTranslation": "Havendo, pois, Boaz comido e bebido, e estando já de coração alegre, veio deitar-se ao pé de um montão de grãos; então ela veio de mansinho, e descobriu-lhe os pés, e se deitou.",
+        "analysis": {
+          "lemma": "לב",
+          "lemmaTranslation": "coração",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal 3ms"
+        }
+      },
+      {
+        "hebrew": "וַיָּבֹא",
+        "transliteration": "vai-yá-vo",
+        "briefTranslation": "e veio",
+        "contextualTranslation": "Havendo, pois, Boaz comido e bebido, e estando já de coração alegre, veio deitar-se ao pé de um montão de grãos; então ela veio de mansinho, e descobriu-lhe os pés, e se deitou.",
+        "analysis": {
+          "lemma": "בוא",
+          "lemmaTranslation": "vir, entrar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ב.ו.א"
+        }
+      },
+      {
+        "hebrew": "לִשְׁכַּב",
+        "transliteration": "lish-káv",
+        "briefTranslation": "para deitar-se",
+        "contextualTranslation": "Havendo, pois, Boaz comido e bebido, e estando já de coração alegre, veio deitar-se ao pé de um montão de grãos; então ela veio de mansinho, e descobriu-lhe os pés, e se deitou.",
+        "analysis": {
+          "lemma": "שכב",
+          "lemmaTranslation": "deitar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Infinitivo Construto",
+          "extra": "Preposição ל + Raiz: שׁ.כ.ב"
+        }
+      },
+      {
+        "hebrew": "בִּקְצֵה",
+        "transliteration": "bik-tzéh",
+        "briefTranslation": "na extremidade de",
+        "contextualTranslation": "Havendo, pois, Boaz comido e bebido, e estando já de coração alegre, veio deitar-se ao pé de um montão de grãos; então ela veio de mansinho, e descobriu-lhe os pés, e se deitou.",
+        "analysis": {
+          "lemma": "קצה",
+          "lemmaTranslation": "extremidade",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição ב (em) + Substantivo"
+        }
+      },
+      {
+        "hebrew": "הָעֲרֵמָה",
+        "transliteration": "ha-a-re-máh",
+        "briefTranslation": "do montão",
+        "contextualTranslation": "Havendo, pois, Boaz comido e bebido, e estando já de coração alegre, veio deitar-se ao pé de um montão de grãos; então ela veio de mansinho, e descobriu-lhe os pés, e se deitou.",
+        "analysis": {
+          "lemma": "ערמה",
+          "lemmaTranslation": "montão, pilha",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "וַתָּבֹא",
+        "transliteration": "va-tá-vo",
+        "briefTranslation": "e veio",
+        "contextualTranslation": "Havendo, pois, Boaz comido e bebido, e estando já de coração alegre, veio deitar-se ao pé de um montão de grãos; então ela veio de mansinho, e descobriu-lhe os pés, e se deitou.",
+        "analysis": {
+          "lemma": "בוא",
+          "lemmaTranslation": "vir, entrar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: ב.ו.א"
+        }
+      },
+      {
+        "hebrew": "בַלָּט",
+        "transliteration": "bal-lát",
+        "briefTranslation": "de mansinho",
+        "contextualTranslation": "Havendo, pois, Boaz comido e bebido, e estando já de coração alegre, veio deitar-se ao pé de um montão de grãos; então ela veio de mansinho, e descobriu-lhe os pés, e se deitou.",
+        "analysis": {
+          "lemma": "לט",
+          "lemmaTranslation": "segredo, mansinho",
+          "class": "Advérbio",
+          "extra": "Preposição ב (em) + Substantivo"
+        }
+      },
+      {
+        "hebrew": "וַתְּגַל",
+        "transliteration": "va-te-gál",
+        "briefTranslation": "e descobriu",
+        "contextualTranslation": "Havendo, pois, Boaz comido e bebido, e estando já de coração alegre, veio deitar-se ao pé de um montão de grãos; então ela veio de mansinho, e descobriu-lhe os pés, e se deitou.",
+        "analysis": {
+          "lemma": "גלה",
+          "lemmaTranslation": "descobrir, revelar",
+          "class": "Verbo",
+          "binyan": "Piel",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: ג.ל.ה"
+        }
+      },
+      {
+        "hebrew": "מַרְגְּלֹתָיו",
+        "transliteration": "mar-ge-lo-táv",
+        "briefTranslation": "seus pés",
+        "contextualTranslation": "Havendo, pois, Boaz comido e bebido, e estando já de coração alegre, veio deitar-se ao pé de um montão de grãos; então ela veio de mansinho, e descobriu-lhe os pés, e se deitou.",
+        "analysis": {
+          "lemma": "מרגלות",
+          "lemmaTranslation": "pés (parte inferior da cama)",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Plural",
+          "extra": "Sufixo pronominal 3ms"
+        }
+      },
+      {
+        "hebrew": "וַתִּשְׁכָּב",
+        "transliteration": "va-tish-káv",
+        "briefTranslation": "e se deitou",
+        "contextualTranslation": "Havendo, pois, Boaz comido e bebido, e estando já de coração alegre, veio deitar-se ao pé de um montão de grãos; então ela veio de mansinho, e descobriu-lhe os pés, e se deitou.",
+        "analysis": {
+          "lemma": "שכב",
+          "lemmaTranslation": "deitar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: שׁ.כ.ב"
+        }
+      }
+    ]
+  }
+
+
+,
+  "8": {
+    "hebrewText": "וַיְהִי בַּחֲצִי הַלַּיְלָה וַיֶּחֱרַד הָאִישׁ וַיִּלָּפֵת וְהִנֵּה אִשָּׁה שֹׁכֶבֶת מַרְגְּלֹתָיו",
+    "words": [
+      {
+        "hebrew": "וַיְהִי",
+        "transliteration": "vai-yhi",
+        "briefTranslation": "e aconteceu",
+        "contextualTranslation": "E sucedeu que, à meia-noite, o homem estremeceu, e se voltou, e eis que uma mulher estava deitada a seus pés.",
+        "analysis": {
+          "lemma": "היה",
+          "lemmaTranslation": "ser, acontecer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ה.י.ה"
+        }
+      },
+      {
+        "hebrew": "בַּחֲצִי",
+        "transliteration": "ba-cha-tzí",
+        "briefTranslation": "na metade",
+        "contextualTranslation": "E sucedeu que, à meia-noite, o homem estremeceu, e se voltou, e eis que uma mulher estava deitada a seus pés.",
+        "analysis": {
+          "lemma": "חצי",
+          "lemmaTranslation": "metade",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição ב (em) + Artigo definido"
+        }
+      },
+      {
+        "hebrew": "הַלַּיְלָה",
+        "transliteration": "hal-láy-lah",
+        "briefTranslation": "da noite",
+        "contextualTranslation": "E sucedeu que, à meia-noite, o homem estremeceu, e se voltou, e eis que uma mulher estava deitada a seus pés.",
+        "analysis": {
+          "lemma": "לילה",
+          "lemmaTranslation": "noite",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "וַיֶּחֱרַד",
+        "transliteration": "vai-ye-che-rád",
+        "briefTranslation": "e estremeceu",
+        "contextualTranslation": "E sucedeu que, à meia-noite, o homem estremeceu, e se voltou, e eis que uma mulher estava deitada a seus pés.",
+        "analysis": {
+          "lemma": "חרד",
+          "lemmaTranslation": "estremecer, tremer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ח.ר.ד"
+        }
+      },
+      {
+        "hebrew": "הָאִישׁ",
+        "transliteration": "ha-ísh",
+        "briefTranslation": "o homem",
+        "contextualTranslation": "E sucedeu que, à meia-noite, o homem estremeceu, e se voltou, e eis que uma mulher estava deitada a seus pés.",
+        "analysis": {
+          "lemma": "איש",
+          "lemmaTranslation": "homem",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "וַיִּלָּפֵת",
+        "transliteration": "vai-yil-la-fét",
+        "briefTranslation": "e se voltou",
+        "contextualTranslation": "E sucedeu que, à meia-noite, o homem estremeceu, e se voltou, e eis que uma mulher estava deitada a seus pés.",
+        "analysis": {
+          "lemma": "לפת",
+          "lemmaTranslation": "voltar, virar",
+          "class": "Verbo",
+          "binyan": "Nifal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ל.פ.ת"
+        }
+      },
+      {
+        "hebrew": "וְהִנֵּה",
+        "transliteration": "ve-hin-néh",
+        "briefTranslation": "e eis que",
+        "contextualTranslation": "E sucedeu que, à meia-noite, o homem estremeceu, e se voltou, e eis que uma mulher estava deitada a seus pés.",
+        "analysis": {
+          "lemma": "הנה",
+          "lemmaTranslation": "eis que",
+          "class": "Partícula",
+          "extra": "Conjunção ו + Partícula"
+        }
+      },
+      {
+        "hebrew": "אִשָּׁה",
+        "transliteration": "ish-sháh",
+        "briefTranslation": "mulher",
+        "contextualTranslation": "E sucedeu que, à meia-noite, o homem estremeceu, e se voltou, e eis que uma mulher estava deitada a seus pés.",
+        "analysis": {
+          "lemma": "אשה",
+          "lemmaTranslation": "mulher",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "שֹׁכֶבֶת",
+        "transliteration": "sho-khé-vet",
+        "briefTranslation": "deitada",
+        "contextualTranslation": "E sucedeu que, à meia-noite, o homem estremeceu, e se voltou, e eis que uma mulher estava deitada a seus pés.",
+        "analysis": {
+          "lemma": "שכב",
+          "lemmaTranslation": "deitar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Particípio",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: שׁ.כ.ב"
+        }
+      },
+      {
+        "hebrew": "מַרְגְּלֹתָיו",
+        "transliteration": "mar-ge-lo-táv",
+        "briefTranslation": "a seus pés",
+        "contextualTranslation": "E sucedeu que, à meia-noite, o homem estremeceu, e se voltou, e eis que uma mulher estava deitada a seus pés.",
+        "analysis": {
+          "lemma": "מרגלות",
+          "lemmaTranslation": "pés (parte inferior da cama)",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Plural",
+          "extra": "Sufixo pronominal 3ms"
+        }
+      }
+    ]
+  }
+
+
+,
+  "9": {
+    "hebrewText": "וַיֹּאמֶר מִי־אָתְּ וַתֹּאמֶר אָנֹכִי רוּת אֲמָתֶךָ וּפָרַשְׂתָּ כְנָפֶךָ עַל־אֲמָתְךָ כִּי גֹאֵל אָתָּה",
+    "words": [
+      {
+        "hebrew": "וַיֹּאמֶר",
+        "transliteration": "vai-yó-mer",
+        "briefTranslation": "e disse",
+        "contextualTranslation": "Então disse ele: Quem és tu? E ela disse: Eu sou Rute, tua serva; estende, pois, a tua capa sobre a tua serva, porque tu és remidor.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "מִי־אָתְּ",
+        "transliteration": "mi-át",
+        "briefTranslation": "quem és tu?",
+        "contextualTranslation": "Então disse ele: Quem és tu? E ela disse: Eu sou Rute, tua serva; estende, pois, a tua capa sobre a tua serva, porque tu és remidor.",
+        "analysis": {
+          "lemma": "מי",
+          "lemmaTranslation": "quem",
+          "class": "Pronome Interrogativo",
+          "extra": "Pronome pessoal 2fs (את)"
+        }
+      },
+      {
+        "hebrew": "וַתֹּאמֶר",
+        "transliteration": "va-tó-mer",
+        "briefTranslation": "e disse",
+        "contextualTranslation": "Então disse ele: Quem és tu? E ela disse: Eu sou Rute, tua serva; estende, pois, a tua capa sobre a tua serva, porque tu és remidor.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "אָנֹכִי",
+        "transliteration": "a-no-khí",
+        "briefTranslation": "eu",
+        "contextualTranslation": "Então disse ele: Quem és tu? E ela disse: Eu sou Rute, tua serva; estende, pois, a tua capa sobre a tua serva, porque tu és remidor.",
+        "analysis": {
+          "lemma": "אנוכי",
+          "lemmaTranslation": "eu",
+          "class": "Pronome Pessoal",
+          "gender": "Comum",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "רוּת",
+        "transliteration": "Rut",
+        "briefTranslation": "Rute",
+        "contextualTranslation": "Então disse ele: Quem és tu? E ela disse: Eu sou Rute, tua serva; estende, pois, a tua capa sobre a tua serva, porque tu és remidor.",
+        "analysis": {
+          "lemma": "רות",
+          "lemmaTranslation": "Rute",
+          "class": "Nome Próprio",
+          "gender": "Feminino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "אֲמָתֶךָ",
+        "transliteration": "a-ma-té-kha",
+        "briefTranslation": "tua serva",
+        "contextualTranslation": "Então disse ele: Quem és tu? E ela disse: Eu sou Rute, tua serva; estende, pois, a tua capa sobre a tua serva, porque tu és remidor.",
+        "analysis": {
+          "lemma": "אמה",
+          "lemmaTranslation": "serva",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal 2ms"
+        }
+      },
+      {
+        "hebrew": "וּפָרַשְׂתָּ",
+        "transliteration": "u-fa-rást",
+        "briefTranslation": "e estende",
+        "contextualTranslation": "Então disse ele: Quem és tu? E ela disse: Eu sou Rute, tua serva; estende, pois, a tua capa sobre a tua serva, porque tu és remidor.",
+        "analysis": {
+          "lemma": "פרשׂ",
+          "lemmaTranslation": "estender",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperativo",
+          "pgn": "2ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Conjunção ו + Raiz: פ.ר.שׂ"
+        }
+      },
+      {
+        "hebrew": "כְנָפֶךָ",
+        "transliteration": "ke-na-fé-kha",
+        "briefTranslation": "tua capa",
+        "contextualTranslation": "Então disse ele: Quem és tu? E ela disse: Eu sou Rute, tua serva; estende, pois, a tua capa sobre a tua serva, porque tu és remidor.",
+        "analysis": {
+          "lemma": "כנף",
+          "lemmaTranslation": "asa, capa",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal 2ms"
+        }
+      },
+      {
+        "hebrew": "עַל־",
+        "transliteration": "al-",
+        "briefTranslation": "sobre",
+        "contextualTranslation": "Então disse ele: Quem és tu? E ela disse: Eu sou Rute, tua serva; estende, pois, a tua capa sobre a tua serva, porque tu és remidor.",
+        "analysis": {
+          "lemma": "על",
+          "lemmaTranslation": "sobre",
+          "class": "Preposição"
+        }
+      },
+      {
+        "hebrew": "אֲמָתְךָ",
+        "transliteration": "a-ma-te-khá",
+        "briefTranslation": "tua serva",
+        "contextualTranslation": "Então disse ele: Quem és tu? E ela disse: Eu sou Rute, tua serva; estende, pois, a tua capa sobre a tua serva, porque tu és remidor.",
+        "analysis": {
+          "lemma": "אמה",
+          "lemmaTranslation": "serva",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal 2ms"
+        }
+      },
+      {
+        "hebrew": "כִּי",
+        "transliteration": "ki",
+        "briefTranslation": "porque",
+        "contextualTranslation": "Então disse ele: Quem és tu? E ela disse: Eu sou Rute, tua serva; estende, pois, a tua capa sobre a tua serva, porque tu és remidor.",
+        "analysis": {
+          "lemma": "כי",
+          "lemmaTranslation": "porque, que",
+          "class": "Conjunção"
+        }
+      },
+      {
+        "hebrew": "גֹאֵל",
+        "transliteration": "go-él",
+        "briefTranslation": "remidor",
+        "contextualTranslation": "Então disse ele: Quem és tu? E ela disse: Eu sou Rute, tua serva; estende, pois, a tua capa sobre a tua serva, porque tu és remidor.",
+        "analysis": {
+          "lemma": "גאל",
+          "lemmaTranslation": "remir, resgatar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Particípio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ג.א.ל"
+        }
+      },
+      {
+        "hebrew": "אָתָּה",
+        "transliteration": "at-táh",
+        "briefTranslation": "tu és",
+        "contextualTranslation": "Então disse ele: Quem és tu? E ela disse: Eu sou Rute, tua serva; estende, pois, a tua capa sobre a tua serva, porque tu és remidor.",
+        "analysis": {
+          "lemma": "אתה",
+          "lemmaTranslation": "tu",
+          "class": "Pronome Pessoal",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      }
+    ]
+  }
+
+
+,
+  "10": {
+    "hebrewText": "וַיֹּאמֶר בְּרוּכָה אַתְּ לַיהוָה בִּתִּי הֵיטַבְתְּ חַסְדֵּךְ הָאַחֲרוֹן מִן־הָרִאשׁוֹן לְבִלְתִּי לֶכֶת אַחֲרֵי הַבַּחוּרִים אִם־דַּל וְאִם־עָשִׁיר",
+    "words": [
+      {
+        "hebrew": "וַיֹּאמֶר",
+        "transliteration": "vai-yó-mer",
+        "briefTranslation": "e disse",
+        "contextualTranslation": "Então disse ele: Bendita sejas tu do Senhor, minha filha; melhor mostraste a tua última benevolência do que a primeira, não seguindo os jovens, quer pobres quer ricos.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "בְּרוּכָה",
+        "transliteration": "be-ru-kháh",
+        "briefTranslation": "bendita",
+        "contextualTranslation": "Então disse ele: Bendita sejas tu do Senhor, minha filha; melhor mostraste a tua última benevolência do que a primeira, não seguindo os jovens, quer pobres quer ricos.",
+        "analysis": {
+          "lemma": "ברך",
+          "lemmaTranslation": "abençoar",
+          "class": "Verbo",
+          "binyan": "Pual",
+          "tense": "Particípio",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: ב.ר.ך"
+        }
+      },
+      {
+        "hebrew": "אַתְּ",
+        "transliteration": "at",
+        "briefTranslation": "tu",
+        "contextualTranslation": "Então disse ele: Bendita sejas tu do Senhor, minha filha; melhor mostraste a tua última benevolência do que a primeira, não seguindo os jovens, quer pobres quer ricos.",
+        "analysis": {
+          "lemma": "את",
+          "lemmaTranslation": "tu",
+          "class": "Pronome Pessoal",
+          "gender": "Feminino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "לַיהוָה",
+        "transliteration": "la-YHWH",
+        "briefTranslation": "do Senhor",
+        "contextualTranslation": "Então disse ele: Bendita sejas tu do Senhor, minha filha; melhor mostraste a tua última benevolência do que a primeira, não seguindo os jovens, quer pobres quer ricos.",
+        "analysis": {
+          "lemma": "יהוה",
+          "lemmaTranslation": "YHWH (Senhor)",
+          "class": "Nome Próprio",
+          "extra": "Preposição ל (para, de)"
+        }
+      },
+      {
+        "hebrew": "בִּתִּי",
+        "transliteration": "bitti",
+        "briefTranslation": "minha filha",
+        "contextualTranslation": "Então disse ele: Bendita sejas tu do Senhor, minha filha; melhor mostraste a tua última benevolência do que a primeira, não seguindo os jovens, quer pobres quer ricos.",
+        "analysis": {
+          "lemma": "בת",
+          "lemmaTranslation": "filha",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal 1cs"
+        }
+      },
+      {
+        "hebrew": "הֵיטַבְתְּ",
+        "transliteration": "he-távt",
+        "briefTranslation": "mostraste bem",
+        "contextualTranslation": "Então disse ele: Bendita sejas tu do Senhor, minha filha; melhor mostraste a tua última benevolência do que a primeira, não seguindo os jovens, quer pobres quer ricos.",
+        "analysis": {
+          "lemma": "יטב",
+          "lemmaTranslation": "fazer bem",
+          "class": "Verbo",
+          "binyan": "Hifil",
+          "tense": "Perfeito",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: י.ט.ב"
+        }
+      },
+      {
+        "hebrew": "חַסְדֵּךְ",
+        "transliteration": "chas-dékh",
+        "briefTranslation": "tua benevolência",
+        "contextualTranslation": "Então disse ele: Bendita sejas tu do Senhor, minha filha; melhor mostraste a tua última benevolência do que a primeira, não seguindo os jovens, quer pobres quer ricos.",
+        "analysis": {
+          "lemma": "חסד",
+          "lemmaTranslation": "benevolência, bondade",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal 2fs"
+        }
+      },
+      {
+        "hebrew": "הָאַחֲרוֹן",
+        "transliteration": "ha-a-cha-rón",
+        "briefTranslation": "a última",
+        "contextualTranslation": "Então disse ele: Bendita sejas tu do Senhor, minha filha; melhor mostraste a tua última benevolência do que a primeira, não seguindo os jovens, quer pobres quer ricos.",
+        "analysis": {
+          "lemma": "אחרון",
+          "lemmaTranslation": "último",
+          "class": "Adjetivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "מִן־הָרִאשׁוֹן",
+        "transliteration": "min-ha-ri-shón",
+        "briefTranslation": "do que a primeira",
+        "contextualTranslation": "Então disse ele: Bendita sejas tu do Senhor, minha filha; melhor mostraste a tua última benevolência do que a primeira, não seguindo os jovens, quer pobres quer ricos.",
+        "analysis": {
+          "lemma": "ראשון",
+          "lemmaTranslation": "primeiro",
+          "class": "Adjetivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição מן (de) + Artigo definido"
+        }
+      },
+      {
+        "hebrew": "לְבִלְתִּי",
+        "transliteration": "le-vil-tí",
+        "briefTranslation": "para não",
+        "contextualTranslation": "Então disse ele: Bendita sejas tu do Senhor, minha filha; melhor mostraste a tua última benevolência do que a primeira, não seguindo os jovens, quer pobres quer ricos.",
+        "analysis": {
+          "lemma": "בלתי",
+          "lemmaTranslation": "não, exceto",
+          "class": "Partícula",
+          "extra": "Preposição ל (para) + Partícula"
+        }
+      },
+      {
+        "hebrew": "לֶכֶת",
+        "transliteration": "lé-khet",
+        "briefTranslation": "seguir",
+        "contextualTranslation": "Então disse ele: Bendita sejas tu do Senhor, minha filha; melhor mostraste a tua última benevolência do que a primeira, não seguindo os jovens, quer pobres quer ricos.",
+        "analysis": {
+          "lemma": "הלך",
+          "lemmaTranslation": "ir, andar, seguir",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Infinitivo Construto",
+          "extra": "Raiz: ה.ל.ך"
+        }
+      },
+      {
+        "hebrew": "אַחֲרֵי",
+        "transliteration": "a-cha-réy",
+        "briefTranslation": "após",
+        "contextualTranslation": "Então disse ele: Bendita sejas tu do Senhor, minha filha; melhor mostraste a tua última benevolência do que a primeira, não seguindo os jovens, quer pobres quer ricos.",
+        "analysis": {
+          "lemma": "אחרי",
+          "lemmaTranslation": "após",
+          "class": "Preposição"
+        }
+      },
+      {
+        "hebrew": "הַבַּחוּרִים",
+        "transliteration": "hab-ba-chu-rím",
+        "briefTranslation": "os jovens",
+        "contextualTranslation": "Então disse ele: Bendita sejas tu do Senhor, minha filha; melhor mostraste a tua última benevolência do que a primeira, não seguindo os jovens, quer pobres quer ricos.",
+        "analysis": {
+          "lemma": "בחור",
+          "lemmaTranslation": "jovem",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Plural",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "אִם־דַּל",
+        "transliteration": "im-dal",
+        "briefTranslation": "quer pobre",
+        "contextualTranslation": "Então disse ele: Bendita sejas tu do Senhor, minha filha; melhor mostraste a tua última benevolência do que a primeira, não seguindo os jovens, quer pobres quer ricos.",
+        "analysis": {
+          "lemma": "דל",
+          "lemmaTranslation": "pobre",
+          "class": "Adjetivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Partícula אִם (se, quer)"
+        }
+      },
+      {
+        "hebrew": "וְאִם־עָשִׁיר",
+        "transliteration": "ve-im-a-shír",
+        "briefTranslation": "quer rico",
+        "contextualTranslation": "Então disse ele: Bendita sejas tu do Senhor, minha filha; melhor mostraste a tua última benevolência do que a primeira, não seguindo os jovens, quer pobres quer ricos.",
+        "analysis": {
+          "lemma": "עשיר",
+          "lemmaTranslation": "rico",
+          "class": "Adjetivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Conjunção ו (e) + Partícula אִם (se, quer)"
+        }
+      }
+    ]
+  }
+
+
+,
+  "11": {
+    "hebrewText": "וְעַתָּה בִּתִּי אַל־תִּירְאִי כֹּל אֲשֶׁר תֹּאמְרִי אֶעֱשֶׂה לָּךְ כִּי יוֹדֵעַ כָּל־שַׁעַר עַמִּי כִּי אֵשֶׁת חַיִל אָתְּ",
+    "words": [
+      {
+        "hebrew": "וְעַתָּה",
+        "transliteration": "ve-at-táh",
+        "briefTranslation": "e agora",
+        "contextualTranslation": "Agora, pois, minha filha, não temas; tudo quanto disseres me farei por ti, pois toda a cidade do meu povo sabe que és mulher virtuosa.",
+        "analysis": {
+          "lemma": "עתה",
+          "lemmaTranslation": "agora",
+          "class": "Advérbio",
+          "extra": "Conjunção ו + Advérbio"
+        }
+      },
+      {
+        "hebrew": "בִּתִּי",
+        "transliteration": "bitti",
+        "briefTranslation": "minha filha",
+        "contextualTranslation": "Agora, pois, minha filha, não temas; tudo quanto disseres me farei por ti, pois toda a cidade do meu povo sabe que és mulher virtuosa.",
+        "analysis": {
+          "lemma": "בת",
+          "lemmaTranslation": "filha",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal 1cs"
+        }
+      },
+      {
+        "hebrew": "אַל־תִּירְאִי",
+        "transliteration": "al-ti-re-í",
+        "briefTranslation": "não temas",
+        "contextualTranslation": "Agora, pois, minha filha, não temas; tudo quanto disseres me farei por ti, pois toda a cidade do meu povo sabe que és mulher virtuosa.",
+        "analysis": {
+          "lemma": "ירא",
+          "lemmaTranslation": "temer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Proibição (אַל) + Raiz: י.ר.א"
+        }
+      },
+      {
+        "hebrew": "כֹּל",
+        "transliteration": "kol",
+        "briefTranslation": "tudo",
+        "contextualTranslation": "Agora, pois, minha filha, não temas; tudo quanto disseres me farei por ti, pois toda a cidade do meu povo sabe que és mulher virtuosa.",
+        "analysis": {
+          "lemma": "כל",
+          "lemmaTranslation": "tudo, todo",
+          "class": "Substantivo"
+        }
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "a-shér",
+        "briefTranslation": "que",
+        "contextualTranslation": "Agora, pois, minha filha, não temas; tudo quanto disseres me farei por ti, pois toda a cidade do meu povo sabe que és mulher virtuosa.",
+        "analysis": {
+          "lemma": "אשר",
+          "lemmaTranslation": "que, o qual",
+          "class": "Pronome Relativo"
+        }
+      },
+      {
+        "hebrew": "תֹּאמְרִי",
+        "transliteration": "tó-me-ri",
+        "briefTranslation": "disserdes",
+        "contextualTranslation": "Agora, pois, minha filha, não temas; tudo quanto disseres me farei por ti, pois toda a cidade do meu povo sabe que és mulher virtuosa.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "אֶעֱשֶׂה",
+        "transliteration": "e-e-séh",
+        "briefTranslation": "farei",
+        "contextualTranslation": "Agora, pois, minha filha, não temas; tudo quanto disseres me farei por ti, pois toda a cidade do meu povo sabe que és mulher virtuosa.",
+        "analysis": {
+          "lemma": "עשׂה",
+          "lemmaTranslation": "fazer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito",
+          "pgn": "1cs",
+          "gender": "Comum",
+          "number": "Singular",
+          "extra": "Raiz: ע.שׂ.ה"
+        }
+      },
+      {
+        "hebrew": "לָּךְ",
+        "transliteration": "lákh",
+        "briefTranslation": "por ti",
+        "contextualTranslation": "Agora, pois, minha filha, não temas; tudo quanto disseres me farei por ti, pois toda a cidade do meu povo sabe que és mulher virtuosa.",
+        "analysis": {
+          "lemma": "ל",
+          "lemmaTranslation": "para, por",
+          "class": "Preposição",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "כִּי",
+        "transliteration": "ki",
+        "briefTranslation": "porque",
+        "contextualTranslation": "Agora, pois, minha filha, não temas; tudo quanto disseres me farei por ti, pois toda a cidade do meu povo sabe que és mulher virtuosa.",
+        "analysis": {
+          "lemma": "כי",
+          "lemmaTranslation": "porque, que",
+          "class": "Conjunção"
+        }
+      },
+      {
+        "hebrew": "יוֹדֵעַ",
+        "transliteration": "yo-dé-a",
+        "briefTranslation": "sabe",
+        "contextualTranslation": "Agora, pois, minha filha, não temas; tudo quanto disseres me farei por ti, pois toda a cidade do meu povo sabe que és mulher virtuosa.",
+        "analysis": {
+          "lemma": "ידע",
+          "lemmaTranslation": "saber, conhecer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Particípio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: י.ד.ע"
+        }
+      },
+      {
+        "hebrew": "כָּל־שַׁעַר",
+        "transliteration": "kol-shá-ar",
+        "briefTranslation": "toda a porta",
+        "contextualTranslation": "Agora, pois, minha filha, não temas; tudo quanto disseres me farei por ti, pois toda a cidade do meu povo sabe que és mulher virtuosa.",
+        "analysis": {
+          "lemma": "שער",
+          "lemmaTranslation": "porta, cidade",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Estado construto"
+        }
+      },
+      {
+        "hebrew": "עַמִּי",
+        "transliteration": "am-mí",
+        "briefTranslation": "do meu povo",
+        "contextualTranslation": "Agora, pois, minha filha, não temas; tudo quanto disseres me farei por ti, pois toda a cidade do meu povo sabe que és mulher virtuosa.",
+        "analysis": {
+          "lemma": "עם",
+          "lemmaTranslation": "povo",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal 1cs"
+        }
+      },
+      {
+        "hebrew": "כִּי",
+        "transliteration": "ki",
+        "briefTranslation": "que",
+        "contextualTranslation": "Agora, pois, minha filha, não temas; tudo quanto disseres me farei por ti, pois toda a cidade do meu povo sabe que és mulher virtuosa.",
+        "analysis": {
+          "lemma": "כי",
+          "lemmaTranslation": "porque, que",
+          "class": "Conjunção"
+        }
+      },
+      {
+        "hebrew": "אֵשֶׁת",
+        "transliteration": "é-shet",
+        "briefTranslation": "mulher de",
+        "contextualTranslation": "Agora, pois, minha filha, não temas; tudo quanto disseres me farei por ti, pois toda a cidade do meu povo sabe que és mulher virtuosa.",
+        "analysis": {
+          "lemma": "אשה",
+          "lemmaTranslation": "mulher",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Estado construto"
+        }
+      },
+      {
+        "hebrew": "חַיִל",
+        "transliteration": "chá-yil",
+        "briefTranslation": "virtude, valor",
+        "contextualTranslation": "Agora, pois, minha filha, não temas; tudo quanto disseres me farei por ti, pois toda a cidade do meu povo sabe que és mulher virtuosa.",
+        "analysis": {
+          "lemma": "חיל",
+          "lemmaTranslation": "força, valor, virtude",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "אָתְּ",
+        "transliteration": "at",
+        "briefTranslation": "tu és",
+        "contextualTranslation": "Agora, pois, minha filha, não temas; tudo quanto disseres me farei por ti, pois toda a cidade do meu povo sabe que és mulher virtuosa.",
+        "analysis": {
+          "lemma": "את",
+          "lemmaTranslation": "tu",
+          "class": "Pronome Pessoal",
+          "gender": "Feminino",
+          "number": "Singular"
+        }
+      }
+    ]
+  }
+
+
+,
+  "12": {
+    "hebrewText": "וְעַתָּה כִּי אָמְנָם כִּי גֹאֵל אָנֹכִי וְגַם יֵשׁ גֹּאֵל קָרוֹב מִמֶּנִּי",
+    "words": [
+      {
+        "hebrew": "וְעַתָּה",
+        "transliteration": "ve-at-táh",
+        "briefTranslation": "e agora",
+        "contextualTranslation": "Agora, pois, é verdade que eu sou remidor, mas ainda há um remidor mais chegado do que eu.",
+        "analysis": {
+          "lemma": "עתה",
+          "lemmaTranslation": "agora",
+          "class": "Advérbio",
+          "extra": "Conjunção ו + Advérbio"
+        }
+      },
+      {
+        "hebrew": "כִּי",
+        "transliteration": "ki",
+        "briefTranslation": "porque",
+        "contextualTranslation": "Agora, pois, é verdade que eu sou remidor, mas ainda há um remidor mais chegado do que eu.",
+        "analysis": {
+          "lemma": "כי",
+          "lemmaTranslation": "porque, que",
+          "class": "Conjunção"
+        }
+      },
+      {
+        "hebrew": "אָמְנָם",
+        "transliteration": "om-nám",
+        "briefTranslation": "certamente",
+        "contextualTranslation": "Agora, pois, é verdade que eu sou remidor, mas ainda há um remidor mais chegado do que eu.",
+        "analysis": {
+          "lemma": "אמן",
+          "lemmaTranslation": "ser firme, verdadeiro",
+          "class": "Advérbio",
+          "extra": "Raiz: א.מ.ן"
+        }
+      },
+      {
+        "hebrew": "כִּי",
+        "transliteration": "ki",
+        "briefTranslation": "que",
+        "contextualTranslation": "Agora, pois, é verdade que eu sou remidor, mas ainda há um remidor mais chegado do que eu.",
+        "analysis": {
+          "lemma": "כי",
+          "lemmaTranslation": "porque, que",
+          "class": "Conjunção"
+        }
+      },
+      {
+        "hebrew": "גֹאֵל",
+        "transliteration": "go-él",
+        "briefTranslation": "remidor",
+        "contextualTranslation": "Agora, pois, é verdade que eu sou remidor, mas ainda há um remidor mais chegado do que eu.",
+        "analysis": {
+          "lemma": "גאל",
+          "lemmaTranslation": "remir, resgatar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Particípio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ג.א.ל"
+        }
+      },
+      {
+        "hebrew": "אָנֹכִי",
+        "transliteration": "a-no-khí",
+        "briefTranslation": "eu",
+        "contextualTranslation": "Agora, pois, é verdade que eu sou remidor, mas ainda há um remidor mais chegado do que eu.",
+        "analysis": {
+          "lemma": "אנוכי",
+          "lemmaTranslation": "eu",
+          "class": "Pronome Pessoal",
+          "gender": "Comum",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "וְגַם",
+        "transliteration": "ve-gam",
+        "briefTranslation": "e também",
+        "contextualTranslation": "Agora, pois, é verdade que eu sou remidor, mas ainda há um remidor mais chegado do que eu.",
+        "analysis": {
+          "lemma": "גם",
+          "lemmaTranslation": "também",
+          "class": "Conjunção",
+          "extra": "Conjunção ו + Conjunção"
+        }
+      },
+      {
+        "hebrew": "יֵשׁ",
+        "transliteration": "yesh",
+        "briefTranslation": "há",
+        "contextualTranslation": "Agora, pois, é verdade que eu sou remidor, mas ainda há um remidor mais chegado do que eu.",
+        "analysis": {
+          "lemma": "ישׁ",
+          "lemmaTranslation": "há, existe",
+          "class": "Partícula"
+        }
+      },
+      {
+        "hebrew": "גֹּאֵל",
+        "transliteration": "go-él",
+        "briefTranslation": "remidor",
+        "contextualTranslation": "Agora, pois, é verdade que eu sou remidor, mas ainda há um remidor mais chegado do que eu.",
+        "analysis": {
+          "lemma": "גאל",
+          "lemmaTranslation": "remir, resgatar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Particípio",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ג.א.ל"
+        }
+      },
+      {
+        "hebrew": "קָרוֹב",
+        "transliteration": "ka-róv",
+        "briefTranslation": "próximo",
+        "contextualTranslation": "Agora, pois, é verdade que eu sou remidor, mas ainda há um remidor mais chegado do que eu.",
+        "analysis": {
+          "lemma": "קרוב",
+          "lemmaTranslation": "próximo",
+          "class": "Adjetivo",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "מִמֶּנִּי",
+        "transliteration": "mim-mén-ni",
+        "briefTranslation": "do que eu",
+        "contextualTranslation": "Agora, pois, é verdade que eu sou remidor, mas ainda há um remidor mais chegado do que eu.",
+        "analysis": {
+          "lemma": "מן",
+          "lemmaTranslation": "de, do que",
+          "class": "Preposição",
+          "pgn": "1cs",
+          "gender": "Comum",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      }
+    ]
+  }
+
+
+,
+  "13": {
+    "hebrewText": "לִינִי הַלַּיְלָה וְהָיָה בַבֹּקֶר אִם־יִגְאָלֵךְ טוֹב יִגְאָל וְאִם־לֹא יַחְפֹּץ לְגָאֳלֵךְ וּגְאַלְתִּיךְ אָנֹכִי חַי־יְהוָה שִׁכְבִי עַד־הַבֹּקֶר",
+    "words": [
+      {
+        "hebrew": "לִינִי",
+        "transliteration": "lí-ni",
+        "briefTranslation": "pernoita",
+        "contextualTranslation": "Pernoita aqui esta noite, e será que pela manhã, se ele te remir, bem está, que te remir; porém, se não quiser remir-te, eu te remirei, vive o Senhor. Deita-te até à manhã.",
+        "analysis": {
+          "lemma": "לון",
+          "lemmaTranslation": "pernoitar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperativo",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: ל.ו.ן"
+        }
+      },
+      {
+        "hebrew": "הַלַּיְלָה",
+        "transliteration": "hal-láy-lah",
+        "briefTranslation": "esta noite",
+        "contextualTranslation": "Pernoita aqui esta noite, e será que pela manhã, se ele te remir, bem está, que te remir; porém, se não quiser remir-te, eu te remirei, vive o Senhor. Deita-te até à manhã.",
+        "analysis": {
+          "lemma": "לילה",
+          "lemmaTranslation": "noite",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "וְהָיָה",
+        "transliteration": "ve-ha-yáh",
+        "briefTranslation": "e será",
+        "contextualTranslation": "Pernoita aqui esta noite, e será que pela manhã, se ele te remir, bem está, que te remir; porém, se não quiser remir-te, eu te remirei, vive o Senhor. Deita-te até à manhã.",
+        "analysis": {
+          "lemma": "היה",
+          "lemmaTranslation": "ser, acontecer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ה.י.ה"
+        }
+      },
+      {
+        "hebrew": "בַבֹּקֶר",
+        "transliteration": "bab-bó-ker",
+        "briefTranslation": "pela manhã",
+        "contextualTranslation": "Pernoita aqui esta noite, e será que pela manhã, se ele te remir, bem está, que te remir; porém, se não quiser remir-te, eu te remirei, vive o Senhor. Deita-te até à manhã.",
+        "analysis": {
+          "lemma": "בקר",
+          "lemmaTranslation": "manhã",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição ב (em) + Artigo definido"
+        }
+      },
+      {
+        "hebrew": "אִם־יִגְאָלֵךְ",
+        "transliteration": "im-yig-a-lékh",
+        "briefTranslation": "se ele te remir",
+        "contextualTranslation": "Pernoita aqui esta noite, e será que pela manhã, se ele te remir, bem está, que te remir; porém, se não quiser remir-te, eu te remirei, vive o Senhor. Deita-te até à manhã.",
+        "analysis": {
+          "lemma": "גאל",
+          "lemmaTranslation": "remir, resgatar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Partícula אִם (se) + Sufixo pronominal 2fs + Raiz: ג.א.ל"
+        }
+      },
+      {
+        "hebrew": "טוֹב",
+        "transliteration": "tov",
+        "briefTranslation": "bem",
+        "contextualTranslation": "Pernoita aqui esta noite, e será que pela manhã, se ele te remir, bem está, que te remir; porém, se não quiser remir-te, eu te remirei, vive o Senhor. Deita-te até à manhã.",
+        "analysis": {
+          "lemma": "טוב",
+          "lemmaTranslation": "bom, bem",
+          "class": "Adjetivo",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "יִגְאָל",
+        "transliteration": "yig-ál",
+        "briefTranslation": "ele remirá",
+        "contextualTranslation": "Pernoita aqui esta noite, e será que pela manhã, se ele te remir, bem está, que te remir; porém, se não quiser remir-te, eu te remirei, vive o Senhor. Deita-te até à manhã.",
+        "analysis": {
+          "lemma": "גאל",
+          "lemmaTranslation": "remir, resgatar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ג.א.ל"
+        }
+      },
+      {
+        "hebrew": "וְאִם־לֹא",
+        "transliteration": "ve-im-ló",
+        "briefTranslation": "e se não",
+        "contextualTranslation": "Pernoita aqui esta noite, e será que pela manhã, se ele te remir, bem está, que te remir; porém, se não quiser remir-te, eu te remirei, vive o Senhor. Deita-te até à manhã.",
+        "analysis": {
+          "lemma": "לא",
+          "lemmaTranslation": "não",
+          "class": "Partícula",
+          "extra": "Conjunção ו + Partícula אִם (se) + Partícula negativa"
+        }
+      },
+      {
+        "hebrew": "יַחְפֹּץ",
+        "transliteration": "yach-pótz",
+        "briefTranslation": "ele quiser",
+        "contextualTranslation": "Pernoita aqui esta noite, e será que pela manhã, se ele te remir, bem está, que te remir; porém, se não quiser remir-te, eu te remirei, vive o Senhor. Deita-te até à manhã.",
+        "analysis": {
+          "lemma": "חפץ",
+          "lemmaTranslation": "querer, desejar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ח.פ.ץ"
+        }
+      },
+      {
+        "hebrew": "לְגָאֳלֵךְ",
+        "transliteration": "le-go-a-lékh",
+        "briefTranslation": "remir-te",
+        "contextualTranslation": "Pernoita aqui esta noite, e será que pela manhã, se ele te remir, bem está, que te remir; porém, se não quiser remir-te, eu te remirei, vive o Senhor. Deita-te até à manhã.",
+        "analysis": {
+          "lemma": "גאל",
+          "lemmaTranslation": "remir, resgatar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Infinitivo Construto",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Preposição ל + Sufixo pronominal 2fs + Raiz: ג.א.ל"
+        }
+      },
+      {
+        "hebrew": "וּגְאַלְתִּיךְ",
+        "transliteration": "u-ge-al-tíkh",
+        "briefTranslation": "e eu te remirei",
+        "contextualTranslation": "Pernoita aqui esta noite, e será que pela manhã, se ele te remir, bem está, que te remir; porém, se não quiser remir-te, eu te remirei, vive o Senhor. Deita-te até à manhã.",
+        "analysis": {
+          "lemma": "גאל",
+          "lemmaTranslation": "remir, resgatar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Perfeito (Vav-Consecutivo)",
+          "pgn": "1cs",
+          "gender": "Comum",
+          "number": "Singular",
+          "extra": "Sufixo pronominal 2fs + Raiz: ג.א.ל"
+        }
+      },
+      {
+        "hebrew": "אָנֹכִי",
+        "transliteration": "a-no-khí",
+        "briefTranslation": "eu",
+        "contextualTranslation": "Pernoita aqui esta noite, e será que pela manhã, se ele te remir, bem está, que te remir; porém, se não quiser remir-te, eu te remirei, vive o Senhor. Deita-te até à manhã.",
+        "analysis": {
+          "lemma": "אנוכי",
+          "lemmaTranslation": "eu",
+          "class": "Pronome Pessoal",
+          "gender": "Comum",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "חַי־יְהוָה",
+        "transliteration": "chai-YHWH",
+        "briefTranslation": "vive o Senhor",
+        "contextualTranslation": "Pernoita aqui esta noite, e será que pela manhã, se ele te remir, bem está, que te remir; porém, se não quiser remir-te, eu te remirei, vive o Senhor. Deita-te até à manhã.",
+        "analysis": {
+          "lemma": "חי",
+          "lemmaTranslation": "vivo",
+          "class": "Adjetivo",
+          "extra": "Expressão idiomática"
+        }
+      },
+      {
+        "hebrew": "שִׁכְבִי",
+        "transliteration": "shikh-ví",
+        "briefTranslation": "deita-te",
+        "contextualTranslation": "Pernoita aqui esta noite, e será que pela manhã, se ele te remir, bem está, que te remir; porém, se não quiser remir-te, eu te remirei, vive o Senhor. Deita-te até à manhã.",
+        "analysis": {
+          "lemma": "שכב",
+          "lemmaTranslation": "deitar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperativo",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: שׁ.כ.ב"
+        }
+      },
+      {
+        "hebrew": "עַד־הַבֹּקֶר",
+        "transliteration": "ad-hab-bó-ker",
+        "briefTranslation": "até à manhã",
+        "contextualTranslation": "Pernoita aqui esta noite, e será que pela manhã, se ele te remir, bem está, que te remir; porém, se não quiser remir-te, eu te remirei, vive o Senhor. Deita-te até à manhã.",
+        "analysis": {
+          "lemma": "בקר",
+          "lemmaTranslation": "manhã",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição עד (até) + Artigo definido"
+        }
+      }
+    ]
+  }
+
+
+,
+  "14": {
+    "hebrewText": "וַתִּשְׁכַּב מַרְגְּלוֹתָיו עַד־הַבֹּקֶר וַתָּקָם בְּטֶרֶם יַכִּיר אִישׁ אֶת־רֵעֵהוּ וַתֹּאמֶר אַל־יִוָּדַע כִּי־בָאָה הָאִשָּׁה הַגֹּרֶן",
+    "words": [
+      {
+        "hebrew": "וַתִּשְׁכַּב",
+        "transliteration": "va-tish-káv",
+        "briefTranslation": "e deitou-se",
+        "contextualTranslation": "Assim, ela se deitou a seus pés até pela manhã; e levantou-se antes que um pudesse conhecer o outro; porque ele disse: Não se saiba que mulher alguma veio à eira.",
+        "analysis": {
+          "lemma": "שכב",
+          "lemmaTranslation": "deitar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: שׁ.כ.ב"
+        }
+      },
+      {
+        "hebrew": "מַרְגְּלוֹתָיו",
+        "transliteration": "mar-ge-lo-táv",
+        "briefTranslation": "a seus pés",
+        "contextualTranslation": "Assim, ela se deitou a seus pés até pela manhã; e levantou-se antes que um pudesse conhecer o outro; porque ele disse: Não se saiba que mulher alguma veio à eira.",
+        "analysis": {
+          "lemma": "מרגלות",
+          "lemmaTranslation": "pés (parte inferior da cama)",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Plural",
+          "extra": "Sufixo pronominal 3ms"
+        }
+      },
+      {
+        "hebrew": "עַד־הַבֹּקֶר",
+        "transliteration": "ad-hab-bó-ker",
+        "briefTranslation": "até à manhã",
+        "contextualTranslation": "Assim, ela se deitou a seus pés até pela manhã; e levantou-se antes que um pudesse conhecer o outro; porque ele disse: Não se saiba que mulher alguma veio à eira.",
+        "analysis": {
+          "lemma": "בקר",
+          "lemmaTranslation": "manhã",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Preposição עד (até) + Artigo definido"
+        }
+      },
+      {
+        "hebrew": "וַתָּקָם",
+        "transliteration": "va-tá-kam",
+        "briefTranslation": "e levantou-se",
+        "contextualTranslation": "Assim, ela se deitou a seus pés até pela manhã; e levantou-se antes que um pudesse conhecer o outro; porque ele disse: Não se saiba que mulher alguma veio à eira.",
+        "analysis": {
+          "lemma": "קום",
+          "lemmaTranslation": "levantar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: ק.ו.ם"
+        }
+      },
+      {
+        "hebrew": "בְּטֶרֶם",
+        "transliteration": "be-té-rem",
+        "briefTranslation": "antes que",
+        "contextualTranslation": "Assim, ela se deitou a seus pés até pela manhã; e levantou-se antes que um pudesse conhecer o outro; porque ele disse: Não se saiba que mulher alguma veio à eira.",
+        "analysis": {
+          "lemma": "טרם",
+          "lemmaTranslation": "antes que",
+          "class": "Conjunção",
+          "extra": "Preposição ב (em) + Conjunção"
+        }
+      },
+      {
+        "hebrew": "יַכִּיר",
+        "transliteration": "yak-kír",
+        "briefTranslation": "conhecesse",
+        "contextualTranslation": "Assim, ela se deitou a seus pés até pela manhã; e levantou-se antes que um pudesse conhecer o outro; porque ele disse: Não se saiba que mulher alguma veio à eira.",
+        "analysis": {
+          "lemma": "נכר",
+          "lemmaTranslation": "conhecer, reconhecer",
+          "class": "Verbo",
+          "binyan": "Hifil",
+          "tense": "Imperfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: נ.כ.ר"
+        }
+      },
+      {
+        "hebrew": "אִישׁ",
+        "transliteration": "ísh",
+        "briefTranslation": "homem",
+        "contextualTranslation": "Assim, ela se deitou a seus pés até pela manhã; e levantou-se antes que um pudesse conhecer o outro; porque ele disse: Não se saiba que mulher alguma veio à eira.",
+        "analysis": {
+          "lemma": "איש",
+          "lemmaTranslation": "homem",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "אֶת־רֵעֵהוּ",
+        "transliteration": "et-re-é-hu",
+        "briefTranslation": "seu próximo",
+        "contextualTranslation": "Assim, ela se deitou a seus pés até pela manhã; e levantou-se antes que um pudesse conhecer o outro; porque ele disse: Não se saiba que mulher alguma veio à eira.",
+        "analysis": {
+          "lemma": "רע",
+          "lemmaTranslation": "próximo, amigo",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Partícula de objeto direto (את) + Sufixo pronominal 3ms"
+        }
+      },
+      {
+        "hebrew": "וַתֹּאמֶר",
+        "transliteration": "va-tó-mer",
+        "briefTranslation": "e disse",
+        "contextualTranslation": "Assim, ela se deitou a seus pés até pela manhã; e levantou-se antes que um pudesse conhecer o outro; porque ele disse: Não se saiba que mulher alguma veio à eira.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "אַל־יִוָּדַע",
+        "transliteration": "al-yiv-vá-da",
+        "briefTranslation": "não se saiba",
+        "contextualTranslation": "Assim, ela se deitou a seus pés até pela manhã; e levantou-se antes que um pudesse conhecer o outro; porque ele disse: Não se saiba que mulher alguma veio à eira.",
+        "analysis": {
+          "lemma": "ידע",
+          "lemmaTranslation": "saber, conhecer",
+          "class": "Verbo",
+          "binyan": "Nifal",
+          "tense": "Imperfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Proibição (אַל) + Raiz: י.ד.ע"
+        }
+      },
+      {
+        "hebrew": "כִּי־בָאָה",
+        "transliteration": "ki-vá-ah",
+        "briefTranslation": "que veio",
+        "contextualTranslation": "Assim, ela se deitou a seus pés até pela manhã; e levantou-se antes que um pudesse conhecer o outro; porque ele disse: Não se saiba que mulher alguma veio à eira.",
+        "analysis": {
+          "lemma": "בוא",
+          "lemmaTranslation": "vir, entrar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Perfeito",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Conjunção כי + Raiz: ב.ו.א"
+        }
+      },
+      {
+        "hebrew": "הָאִשָּׁה",
+        "transliteration": "ha-ish-sháh",
+        "briefTranslation": "a mulher",
+        "contextualTranslation": "Assim, ela se deitou a seus pés até pela manhã; e levantou-se antes que um pudesse conhecer o outro; porque ele disse: Não se saiba que mulher alguma veio à eira.",
+        "analysis": {
+          "lemma": "אשה",
+          "lemmaTranslation": "mulher",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "הַגֹּרֶן",
+        "transliteration": "ha-gó-ren",
+        "briefTranslation": "à eira",
+        "contextualTranslation": "Assim, ela se deitou a seus pés até pela manhã; e levantou-se antes que um pudesse conhecer o outro; porque ele disse: Não se saiba que mulher alguma veio à eira.",
+        "analysis": {
+          "lemma": "גורן",
+          "lemmaTranslation": "eira",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      }
+    ]
+  }
+
+
+,
+  "15": {
+    "hebrewText": "וַיֹּאמֶר הָבִי הַמִּטְפַּחַת אֲשֶׁר עָלַיִךְ וְאֶחְזִי בָהּ וַתֹּאחֶז בָּהּ וַיָּמָד שֵׁשׁ שְׂעֹרִים וַיָּשֶׁת עָלֶיהָ וַיָּבֹא הָעִיר",
+    "words": [
+      {
+        "hebrew": "וַיֹּאמֶר",
+        "transliteration": "vai-yó-mer",
+        "briefTranslation": "e disse",
+        "contextualTranslation": "Disse mais: Traze aqui o manto que tens sobre ti, e segura-o. E ela o segurou. Então mediu seis medidas de cevada, e lhas pôs às costas; e entrou na cidade.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "הָבִי",
+        "transliteration": "há-vi",
+        "briefTranslation": "traze",
+        "contextualTranslation": "Disse mais: Traze aqui o manto que tens sobre ti, e segura-o. E ela o segurou. Então mediu seis medidas de cevada, e lhas pôs às costas; e entrou na cidade.",
+        "analysis": {
+          "lemma": "יב",
+          "lemmaTranslation": "trazer",
+          "class": "Verbo",
+          "binyan": "Hifil",
+          "tense": "Imperativo",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: י.ב.א"
+        }
+      },
+      {
+        "hebrew": "הַמִּטְפַּחַת",
+        "transliteration": "ham-mit-pá-chat",
+        "briefTranslation": "o manto",
+        "contextualTranslation": "Disse mais: Traze aqui o manto que tens sobre ti, e segura-o. E ela o segurou. Então mediu seis medidas de cevada, e lhas pôs às costas; e entrou na cidade.",
+        "analysis": {
+          "lemma": "מטפחת",
+          "lemmaTranslation": "manto, véu",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "a-shér",
+        "briefTranslation": "que",
+        "contextualTranslation": "Disse mais: Traze aqui o manto que tens sobre ti, e segura-o. E ela o segurou. Então mediu seis medidas de cevada, e lhas pôs às costas; e entrou na cidade.",
+        "analysis": {
+          "lemma": "אשר",
+          "lemmaTranslation": "que, o qual",
+          "class": "Pronome Relativo"
+        }
+      },
+      {
+        "hebrew": "עָלַיִךְ",
+        "transliteration": "a-lá-yikh",
+        "briefTranslation": "sobre ti",
+        "contextualTranslation": "Disse mais: Traze aqui o manto que tens sobre ti, e segura-o. E ela o segurou. Então mediu seis medidas de cevada, e lhas pôs às costas; e entrou na cidade.",
+        "analysis": {
+          "lemma": "על",
+          "lemmaTranslation": "sobre",
+          "class": "Preposição",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "וְאֶחְזִי",
+        "transliteration": "ve-ech-zí",
+        "briefTranslation": "e segura-o",
+        "contextualTranslation": "Disse mais: Traze aqui o manto que tens sobre ti, e segura-o. E ela o segurou. Então mediu seis medidas de cevada, e lhas pôs às costas; e entrou na cidade.",
+        "analysis": {
+          "lemma": "אחז",
+          "lemmaTranslation": "segurar, agarrar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperativo",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Conjunção ו + Raiz: א.ח.ז"
+        }
+      },
+      {
+        "hebrew": "בָהּ",
+        "transliteration": "báh",
+        "briefTranslation": "nela",
+        "contextualTranslation": "Disse mais: Traze aqui o manto que tens sobre ti, e segura-o. E ela o segurou. Então mediu seis medidas de cevada, e lhas pôs às costas; e entrou na cidade.",
+        "analysis": {
+          "lemma": "ב",
+          "lemmaTranslation": "em, com",
+          "class": "Preposição",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "וַתֹּאחֶז",
+        "transliteration": "va-tó-chez",
+        "briefTranslation": "e segurou",
+        "contextualTranslation": "Disse mais: Traze aqui o manto que tens sobre ti, e segura-o. E ela o segurou. Então mediu seis medidas de cevada, e lhas pôs às costas; e entrou na cidade.",
+        "analysis": {
+          "lemma": "אחז",
+          "lemmaTranslation": "segurar, agarrar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: א.ח.ז"
+        }
+      },
+      {
+        "hebrew": "בָּהּ",
+        "transliteration": "báh",
+        "briefTranslation": "nela",
+        "contextualTranslation": "Disse mais: Traze aqui o manto que tens sobre ti, e segura-o. E ela o segurou. Então mediu seis medidas de cevada, e lhas pôs às costas; e entrou na cidade.",
+        "analysis": {
+          "lemma": "ב",
+          "lemmaTranslation": "em, com",
+          "class": "Preposição",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "וַיָּמָד",
+        "transliteration": "vai-ya-mád",
+        "briefTranslation": "e mediu",
+        "contextualTranslation": "Disse mais: Traze aqui o manto que tens sobre ti, e segura-o. E ela o segurou. Então mediu seis medidas de cevada, e lhas pôs às costas; e entrou na cidade.",
+        "analysis": {
+          "lemma": "מדד",
+          "lemmaTranslation": "medir",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: מ.ד.ד"
+        }
+      },
+      {
+        "hebrew": "שֵׁשׁ",
+        "transliteration": "shesh",
+        "briefTranslation": "seis",
+        "contextualTranslation": "Disse mais: Traze aqui o manto que tens sobre ti, e segura-o. E ela o segurou. Então mediu seis medidas de cevada, e lhas pôs às costas; e entrou na cidade.",
+        "analysis": {
+          "lemma": "שׁשׁ",
+          "lemmaTranslation": "seis",
+          "class": "Numeral"
+        }
+      },
+      {
+        "hebrew": "שְׂעֹרִים",
+        "transliteration": "se-o-rím",
+        "briefTranslation": "de cevada",
+        "contextualTranslation": "Disse mais: Traze aqui o manto que tens sobre ti, e segura-o. E ela o segurou. Então mediu seis medidas de cevada, e lhas pôs às costas; e entrou na cidade.",
+        "analysis": {
+          "lemma": "שעורה",
+          "lemmaTranslation": "cevada",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Plural"
+        }
+      },
+      {
+        "hebrew": "וַיָּשֶׁת",
+        "transliteration": "vai-yá-shet",
+        "briefTranslation": "e pôs",
+        "contextualTranslation": "Disse mais: Traze aqui o manto que tens sobre ti, e segura-o. E ela o segurou. Então mediu seis medidas de cevada, e lhas pôs às costas; e entrou na cidade.",
+        "analysis": {
+          "lemma": "שׁית",
+          "lemmaTranslation": "pôr, colocar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: שׁ.י.ת"
+        }
+      },
+      {
+        "hebrew": "עָלֶיהָ",
+        "transliteration": "a-lé-ha",
+        "briefTranslation": "sobre ela",
+        "contextualTranslation": "Disse mais: Traze aqui o manto que tens sobre ti, e segura-o. E ela o segurou. Então mediu seis medidas de cevada, e lhas pôs às costas; e entrou na cidade.",
+        "analysis": {
+          "lemma": "על",
+          "lemmaTranslation": "sobre",
+          "class": "Preposição",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "וַיָּבֹא",
+        "transliteration": "vai-yá-vo",
+        "briefTranslation": "e entrou",
+        "contextualTranslation": "Disse mais: Traze aqui o manto que tens sobre ti, e segura-o. E ela o segurou. Então mediu seis medidas de cevada, e lhas pôs às costas; e entrou na cidade.",
+        "analysis": {
+          "lemma": "בוא",
+          "lemmaTranslation": "vir, entrar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ב.ו.א"
+        }
+      },
+      {
+        "hebrew": "הָעִיר",
+        "transliteration": "ha-ír",
+        "briefTranslation": "na cidade",
+        "contextualTranslation": "Disse mais: Traze aqui o manto que tens sobre ti, e segura-o. E ela o segurou. Então mediu seis medidas de cevada, e lhas pôs às costas; e entrou na cidade.",
+        "analysis": {
+          "lemma": "עיר",
+          "lemmaTranslation": "cidade",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      }
+    ]
+  }
+
+
+,
+  "16": {
+    "hebrewText": "וַתָּבֹא אֶל־חֲמוֹתָהּ וַתֹּאמֶר מִי־אַתְּ בִּתִּי וַתַּגֶּד־לָהּ אֵת כָּל־אֲשֶׁר עָשָׂה־לָהּ הָאִישׁ",
+    "words": [
+      {
+        "hebrew": "וַתָּבֹא",
+        "transliteration": "va-tá-vo",
+        "briefTranslation": "e veio",
+        "contextualTranslation": "Quando ela chegou à sua sogra, esta lhe perguntou: Quem és tu, minha filha? E ela lhe contou tudo o que o homem lhe fizera.",
+        "analysis": {
+          "lemma": "בוא",
+          "lemmaTranslation": "vir, entrar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: ב.ו.א"
+        }
+      },
+      {
+        "hebrew": "אֶל־חֲמוֹתָהּ",
+        "transliteration": "el-chamotah",
+        "briefTranslation": "à sua sogra",
+        "contextualTranslation": "Quando ela chegou à sua sogra, esta lhe perguntou: Quem és tu, minha filha? E ela lhe contou tudo o que o homem lhe fizera.",
+        "analysis": {
+          "lemma": "חמות",
+          "lemmaTranslation": "sogra",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Preposição אל (a, para) + Sufixo pronominal 3fs"
+        }
+      },
+      {
+        "hebrew": "וַתֹּאמֶר",
+        "transliteration": "va-tó-mer",
+        "briefTranslation": "e disse",
+        "contextualTranslation": "Quando ela chegou à sua sogra, esta lhe perguntou: Quem és tu, minha filha? E ela lhe contou tudo o que o homem lhe fizera.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "מִי־אַתְּ",
+        "transliteration": "mi-at",
+        "briefTranslation": "quem és tu?",
+        "contextualTranslation": "Quando ela chegou à sua sogra, esta lhe perguntou: Quem és tu, minha filha? E ela lhe contou tudo o que o homem lhe fizera.",
+        "analysis": {
+          "lemma": "מי",
+          "lemmaTranslation": "quem",
+          "class": "Pronome Interrogativo",
+          "extra": "Pronome pessoal 2fs (את)"
+        }
+      },
+      {
+        "hebrew": "בִּתִּי",
+        "transliteration": "bitti",
+        "briefTranslation": "minha filha",
+        "contextualTranslation": "Quando ela chegou à sua sogra, esta lhe perguntou: Quem és tu, minha filha? E ela lhe contou tudo o que o homem lhe fizera.",
+        "analysis": {
+          "lemma": "בת",
+          "lemmaTranslation": "filha",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal 1cs"
+        }
+      },
+      {
+        "hebrew": "וַתַּגֶּד־לָהּ",
+        "transliteration": "va-tag-géd-láh",
+        "briefTranslation": "e contou-lhe",
+        "contextualTranslation": "Quando ela chegou à sua sogra, esta lhe perguntou: Quem és tu, minha filha? E ela lhe contou tudo o que o homem lhe fizera.",
+        "analysis": {
+          "lemma": "נגד",
+          "lemmaTranslation": "contar, declarar",
+          "class": "Verbo",
+          "binyan": "Hifil",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: נ.ג.ד + Preposição ל + Sufixo pronominal 3fs"
+        }
+      },
+      {
+        "hebrew": "אֵת",
+        "transliteration": "et",
+        "briefTranslation": "(partícula de objeto direto)",
+        "contextualTranslation": "Quando ela chegou à sua sogra, esta lhe perguntou: Quem és tu, minha filha? E ela lhe contou tudo o que o homem lhe fizera.",
+        "analysis": {
+          "lemma": "את",
+          "lemmaTranslation": "(partícula de objeto direto)",
+          "class": "Partícula"
+        }
+      },
+      {
+        "hebrew": "כָּל־אֲשֶׁר",
+        "transliteration": "kol-a-shér",
+        "briefTranslation": "tudo o que",
+        "contextualTranslation": "Quando ela chegou à sua sogra, esta lhe perguntou: Quem és tu, minha filha? E ela lhe contou tudo o que o homem lhe fizera.",
+        "analysis": {
+          "lemma": "כל",
+          "lemmaTranslation": "tudo, todo",
+          "class": "Substantivo",
+          "extra": "Pronome relativo"
+        }
+      },
+      {
+        "hebrew": "עָשָׂה־לָהּ",
+        "transliteration": "a-sáh-láh",
+        "briefTranslation": "lhe fizera",
+        "contextualTranslation": "Quando ela chegou à sua sogra, esta lhe perguntou: Quem és tu, minha filha? E ela lhe contou tudo o que o homem lhe fizera.",
+        "analysis": {
+          "lemma": "עשׂה",
+          "lemmaTranslation": "fazer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Perfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: ע.שׂ.ה + Preposição ל + Sufixo pronominal 3fs"
+        }
+      },
+      {
+        "hebrew": "הָאִישׁ",
+        "transliteration": "ha-ísh",
+        "briefTranslation": "o homem",
+        "contextualTranslation": "Quando ela chegou à sua sogra, esta lhe perguntou: Quem és tu, minha filha? E ela lhe contou tudo o que o homem lhe fizera.",
+        "analysis": {
+          "lemma": "איש",
+          "lemmaTranslation": "homem",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      }
+    ]
+  }
+
+
+,
+  "17": {
+    "hebrewText": "וַתֹּאמֶר שֵׁשׁ הַשְּׂעֹרִים הָאֵלֶּה נָתַן לִי כִּי אָמַר אֵלַי אַל־תָּבֹאִי רֵיקָם אֶל־חֲמוֹתֵךְ",
+    "words": [
+      {
+        "hebrew": "וַתֹּאמֶר",
+        "transliteration": "va-tó-mer",
+        "briefTranslation": "e disse",
+        "contextualTranslation": "Disse mais: Estas seis medidas de cevada me deu, porque disse: Não irás vazia para a tua sogra.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "שֵׁשׁ",
+        "transliteration": "shesh",
+        "briefTranslation": "seis",
+        "contextualTranslation": "Disse mais: Estas seis medidas de cevada me deu, porque disse: Não irás vazia para a tua sogra.",
+        "analysis": {
+          "lemma": "שׁשׁ",
+          "lemmaTranslation": "seis",
+          "class": "Numeral"
+        }
+      },
+      {
+        "hebrew": "הַשְּׂעֹרִים",
+        "transliteration": "ha-se-o-rím",
+        "briefTranslation": "da cevada",
+        "contextualTranslation": "Disse mais: Estas seis medidas de cevada me deu, porque disse: Não irás vazia para a tua sogra.",
+        "analysis": {
+          "lemma": "שעורה",
+          "lemmaTranslation": "cevada",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Plural",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "הָאֵלֶּה",
+        "transliteration": "ha-él-leh",
+        "briefTranslation": "estas",
+        "contextualTranslation": "Disse mais: Estas seis medidas de cevada me deu, porque disse: Não irás vazia para a tua sogra.",
+        "analysis": {
+          "lemma": "אלה",
+          "lemmaTranslation": "estes, estas",
+          "class": "Pronome Demonstrativo",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "נָתַן",
+        "transliteration": "na-tán",
+        "briefTranslation": "deu",
+        "contextualTranslation": "Disse mais: Estas seis medidas de cevada me deu, porque disse: Não irás vazia para a tua sogra.",
+        "analysis": {
+          "lemma": "נתן",
+          "lemmaTranslation": "dar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Perfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: נ.ת.ן"
+        }
+      },
+      {
+        "hebrew": "לִי",
+        "transliteration": "li",
+        "briefTranslation": "a mim",
+        "contextualTranslation": "Disse mais: Estas seis medidas de cevada me deu, porque disse: Não irás vazia para a tua sogra.",
+        "analysis": {
+          "lemma": "ל",
+          "lemmaTranslation": "para, a",
+          "class": "Preposição",
+          "pgn": "1cs",
+          "gender": "Comum",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "כִּי",
+        "transliteration": "ki",
+        "briefTranslation": "porque",
+        "contextualTranslation": "Disse mais: Estas seis medidas de cevada me deu, porque disse: Não irás vazia para a tua sogra.",
+        "analysis": {
+          "lemma": "כי",
+          "lemmaTranslation": "porque, que",
+          "class": "Conjunção"
+        }
+      },
+      {
+        "hebrew": "אָמַר",
+        "transliteration": "a-már",
+        "briefTranslation": "disse",
+        "contextualTranslation": "Disse mais: Estas seis medidas de cevada me deu, porque disse: Não irás vazia para a tua sogra.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Perfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "אֵלַי",
+        "transliteration": "e-láy",
+        "briefTranslation": "a mim",
+        "contextualTranslation": "Disse mais: Estas seis medidas de cevada me deu, porque disse: Não irás vazia para a tua sogra.",
+        "analysis": {
+          "lemma": "אל",
+          "lemmaTranslation": "a, para",
+          "class": "Preposição",
+          "pgn": "1cs",
+          "gender": "Comum",
+          "number": "Singular",
+          "extra": "Sufixo pronominal"
+        }
+      },
+      {
+        "hebrew": "אַל־תָּבֹאִי",
+        "transliteration": "al-ta-vo-í",
+        "briefTranslation": "não virás",
+        "contextualTranslation": "Disse mais: Estas seis medidas de cevada me deu, porque disse: Não irás vazia para a tua sogra.",
+        "analysis": {
+          "lemma": "בוא",
+          "lemmaTranslation": "vir, entrar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Proibição (אַל) + Raiz: ב.ו.א"
+        }
+      },
+      {
+        "hebrew": "רֵיקָם",
+        "transliteration": "re-kám",
+        "briefTranslation": "vazia",
+        "contextualTranslation": "Disse mais: Estas seis medidas de cevada me deu, porque disse: Não irás vazia para a tua sogra.",
+        "analysis": {
+          "lemma": "ריקם",
+          "lemmaTranslation": "vazio",
+          "class": "Advérbio"
+        }
+      },
+      {
+        "hebrew": "אֶל־חֲמוֹתֵךְ",
+        "transliteration": "el-chamotékh",
+        "briefTranslation": "para tua sogra",
+        "contextualTranslation": "Disse mais: Estas seis medidas de cevada me deu, porque disse: Não irás vazia para a tua sogra.",
+        "analysis": {
+          "lemma": "חמות",
+          "lemmaTranslation": "sogra",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Preposição אל (a, para) + Sufixo pronominal 2fs"
+        }
+      }
+    ]
+  }
+
+
+,
+  "18": {
+    "hebrewText": "וַתֹּאמֶר שְׁבִי בִתִּי עַד אֲשֶׁר תֵּדְעִין אֵיךְ יִפֹּל דָּבָר כִּי לֹא יִשְׁקֹט הָאִישׁ כִּי אִם־כִּלָּה הַדָּבָר הַיּוֹם",
+    "words": [
+      {
+        "hebrew": "וַתֹּאמֶר",
+        "transliteration": "va-tó-mer",
+        "briefTranslation": "e disse",
+        "contextualTranslation": "Então disse ela: Espera, minha filha, até que saibas como o negócio se resolverá; porque aquele homem não descansará, enquanto não concluir hoje este negócio.",
+        "analysis": {
+          "lemma": "אמר",
+          "lemmaTranslation": "dizer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito (Vav-Consecutivo)",
+          "pgn": "3fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: א.מ.ר"
+        }
+      },
+      {
+        "hebrew": "שְׁבִי",
+        "transliteration": "she-ví",
+        "briefTranslation": "espera",
+        "contextualTranslation": "Então disse ela: Espera, minha filha, até que saibas como o negócio se resolverá; porque aquele homem não descansará, enquanto não concluir hoje este negócio.",
+        "analysis": {
+          "lemma": "ישׁב",
+          "lemmaTranslation": "sentar, esperar",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperativo",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: י.ש.ב"
+        }
+      },
+      {
+        "hebrew": "בִתִּי",
+        "transliteration": "bitti",
+        "briefTranslation": "minha filha",
+        "contextualTranslation": "Então disse ela: Espera, minha filha, até que saibas como o negócio se resolverá; porque aquele homem não descansará, enquanto não concluir hoje este negócio.",
+        "analysis": {
+          "lemma": "בת",
+          "lemmaTranslation": "filha",
+          "class": "Substantivo",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Sufixo pronominal 1cs"
+        }
+      },
+      {
+        "hebrew": "עַד",
+        "transliteration": "ad",
+        "briefTranslation": "até",
+        "contextualTranslation": "Então disse ela: Espera, minha filha, até que saibas como o negócio se resolverá; porque aquele homem não descansará, enquanto não concluir hoje este negócio.",
+        "analysis": {
+          "lemma": "עד",
+          "lemmaTranslation": "até",
+          "class": "Preposição"
+        }
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "a-shér",
+        "briefTranslation": "que",
+        "contextualTranslation": "Então disse ela: Espera, minha filha, até que saibas como o negócio se resolverá; porque aquele homem não descansará, enquanto não concluir hoje este negócio.",
+        "analysis": {
+          "lemma": "אשר",
+          "lemmaTranslation": "que, o qual",
+          "class": "Pronome Relativo"
+        }
+      },
+      {
+        "hebrew": "תֵּדְעִין",
+        "transliteration": "te-de-ín",
+        "briefTranslation": "saibas",
+        "contextualTranslation": "Então disse ela: Espera, minha filha, até que saibas como o negócio se resolverá; porque aquele homem não descansará, enquanto não concluir hoje este negócio.",
+        "analysis": {
+          "lemma": "ידע",
+          "lemmaTranslation": "saber, conhecer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito",
+          "pgn": "2fs",
+          "gender": "Feminino",
+          "number": "Singular",
+          "extra": "Raiz: י.ד.ע"
+        }
+      },
+      {
+        "hebrew": "אֵיךְ",
+        "transliteration": "ékh",
+        "briefTranslation": "como",
+        "contextualTranslation": "Então disse ela: Espera, minha filha, até que saibas como o negócio se resolverá; porque aquele homem não descansará, enquanto não concluir hoje este negócio.",
+        "analysis": {
+          "lemma": "איך",
+          "lemmaTranslation": "como",
+          "class": "Advérbio Interrogativo"
+        }
+      },
+      {
+        "hebrew": "יִפֹּל",
+        "transliteration": "yip-pól",
+        "briefTranslation": "se resolverá",
+        "contextualTranslation": "Então disse ela: Espera, minha filha, até que saibas como o negócio se resolverá; porque aquele homem não descansará, enquanto não concluir hoje este negócio.",
+        "analysis": {
+          "lemma": "נפל",
+          "lemmaTranslation": "cair, acontecer",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: נ.פ.ל"
+        }
+      },
+      {
+        "hebrew": "דָּבָר",
+        "transliteration": "da-vár",
+        "briefTranslation": "o negócio",
+        "contextualTranslation": "Então disse ela: Espera, minha filha, até que saibas como o negócio se resolverá; porque aquele homem não descansará, enquanto não concluir hoje este negócio.",
+        "analysis": {
+          "lemma": "דבר",
+          "lemmaTranslation": "palavra, coisa, negócio",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular"
+        }
+      },
+      {
+        "hebrew": "כִּי",
+        "transliteration": "ki",
+        "briefTranslation": "porque",
+        "contextualTranslation": "Então disse ela: Espera, minha filha, até que saibas como o negócio se resolverá; porque aquele homem não descansará, enquanto não concluir hoje este negócio.",
+        "analysis": {
+          "lemma": "כי",
+          "lemmaTranslation": "porque, que",
+          "class": "Conjunção"
+        }
+      },
+      {
+        "hebrew": "לֹא",
+        "transliteration": "ló",
+        "briefTranslation": "não",
+        "contextualTranslation": "Então disse ela: Espera, minha filha, até que saibas como o negócio se resolverá; porque aquele homem não descansará, enquanto não concluir hoje este negócio.",
+        "analysis": {
+          "lemma": "לא",
+          "lemmaTranslation": "não",
+          "class": "Partícula Negativa"
+        }
+      },
+      {
+        "hebrew": "יִשְׁקֹט",
+        "transliteration": "yish-kót",
+        "briefTranslation": "descansará",
+        "contextualTranslation": "Então disse ela: Espera, minha filha, até que saibas como o negócio se resolverá; porque aquele homem não descansará, enquanto não concluir hoje este negócio.",
+        "analysis": {
+          "lemma": "שׁקט",
+          "lemmaTranslation": "descansar, estar quieto",
+          "class": "Verbo",
+          "binyan": "Qal",
+          "tense": "Imperfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Raiz: שׁ.ק.ט"
+        }
+      },
+      {
+        "hebrew": "הָאִישׁ",
+        "transliteration": "ha-ísh",
+        "briefTranslation": "o homem",
+        "contextualTranslation": "Então disse ela: Espera, minha filha, até que saibas como o negócio se resolverá; porque aquele homem não descansará, enquanto não concluir hoje este negócio.",
+        "analysis": {
+          "lemma": "איש",
+          "lemmaTranslation": "homem",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "כִּי",
+        "transliteration": "ki",
+        "briefTranslation": "até que",
+        "contextualTranslation": "Então disse ela: Espera, minha filha, até que saibas como o negócio se resolverá; porque aquele homem não descansará, enquanto não concluir hoje este negócio.",
+        "analysis": {
+          "lemma": "כי",
+          "lemmaTranslation": "porque, que, até que",
+          "class": "Conjunção"
+        }
+      },
+      {
+        "hebrew": "אִם־כִּלָּה",
+        "transliteration": "im-kil-láh",
+        "briefTranslation": "se ele concluir",
+        "contextualTranslation": "Então disse ela: Espera, minha filha, até que saibas como o negócio se resolverá; porque aquele homem não descansará, enquanto não concluir hoje este negócio.",
+        "analysis": {
+          "lemma": "כלה",
+          "lemmaTranslation": "concluir, terminar",
+          "class": "Verbo",
+          "binyan": "Piel",
+          "tense": "Perfeito",
+          "pgn": "3ms",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Partícula אִם (se) + Raiz: כ.ל.ה"
+        }
+      },
+      {
+        "hebrew": "הַדָּבָר",
+        "transliteration": "had-da-vár",
+        "briefTranslation": "o negócio",
+        "contextualTranslation": "Então disse ela: Espera, minha filha, até que saibas como o negócio se resolverá; porque aquele homem não descansará, enquanto não concluir hoje este negócio.",
+        "analysis": {
+          "lemma": "דבר",
+          "lemmaTranslation": "palavra, coisa, negócio",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      },
+      {
+        "hebrew": "הַיּוֹם",
+        "transliteration": "hay-yóm",
+        "briefTranslation": "hoje",
+        "contextualTranslation": "Então disse ela: Espera, minha filha, até que saibas como o negócio se resolverá; porque aquele homem não descansará, enquanto não concluir hoje este negócio.",
+        "analysis": {
+          "lemma": "יום",
+          "lemmaTranslation": "dia",
+          "class": "Substantivo",
+          "gender": "Masculino",
+          "number": "Singular",
+          "extra": "Artigo definido"
+        }
+      }
+    ]
+  }
+}
+
