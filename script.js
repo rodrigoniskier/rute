@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const btn = document.createElement('button');
             btn.textContent = `Capítulo ${i}`;
             btn.dataset.chapter = i;
-            if (i > 2) { 
+            if (i > 4) { 
                 btn.disabled = true;
                 btn.style.cursor = 'not-allowed';
                 btn.title = 'Ainda não disponível';
