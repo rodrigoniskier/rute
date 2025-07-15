@@ -117,46 +117,49 @@ document.addEventListener('DOMContentLoaded', () => {
      * Constrói e exibe a análise gramatical detalhada de uma palavra.
      * @param {object} wordData - O objeto contendo todos os dados da palavra.
      */
-    function displayWordAnalysis(wordData) {
-        const analysis = wordData.analysis;
-        const didactic = analysis.didactic;
-        let analysisHTML = `...`; // O restante da função continua igual
-        
-        analysisHTML = `
-            <div class="analysis-card">
-                <p class="analysis-hebrew">${wordData.hebrew}</p>
-                <div class="analysis-header">
-                    <h2>${wordData.transliteration}</h2>
-                    <p>"${wordData.contextualTranslation}"</p>
-                </div>
-                <div class="analysis-section">
-                    <h3>Análise Principal</h3>
-                    <div class="analysis-item"><strong>Tradução Breve:</strong> <span>${wordData.briefTranslation}</span></div>
-                    <div class="analysis-item"><strong>Lema:</strong> <span>${wordData.lemma} (${analysis.lemmaTranslation})</span></div>
-                    <div class="analysis-item"><strong>Classe:</strong> <span>${analysis.class}</span></div>
-                    ${analysis.binyan ? `<div class="analysis-item"><strong>Binyan:</strong> <span>${analysis.binyan}</span></div>` : ''}
-                    ${analysis.tense ? `<div class="analysis-item"><strong>Tempo/Aspecto:</strong> <span>${analysis.tense}</span></div>` : ''}
-                    ${analysis.pgn ? `<div class="analysis-item"><strong>PGN:</strong> <span>${analysis.pgn}</span></div>` : ''}
-                    ${analysis.gender ? `<div class="analysis-item"><strong>Gênero:</strong> <span>${analysis.gender}</span></div>` : ''}
-                    ${analysis.number ? `<div class="analysis-item"><strong>Número:</strong> <span>${analysis.number}</span></div>` : ''}
-                    ${analysis.state ? `<div class="analysis-item"><strong>Estado:</strong> <span>${analysis.state}</span></div>` : ''}
-                    ${analysis.extra ? `<div class="analysis-item"><strong>Extra:</strong> <span>${analysis.extra}</span></div>` : ''}
-                </div>
-        `;
-        if (didactic) {
-            analysisHTML += `<div class="analysis-section"><h3>Análise Didática: ${didactic.conceptTitle}</h3>`;
-            didactic.identification.forEach(item => {
-                analysisHTML += `<p><strong>${item.feature}:</strong> ${item.indicator}</p>`;
-            });
-            if (didactic.paradigm) {
-                analysisHTML += createParadigmTable(didactic.paradigm);
-            }
-            analysisHTML += `</div>`;
+   function displayWordAnalysis(wordData) {
+    const analysis = wordData.analysis;
+    
+    // --- CORREÇÃO APLICADA AQUI ---
+    // Procura por 'didactic' dentro de 'analysis', como deveria ser.
+    // Se não encontrar, procura no nível principal da palavra para ser compatível com o erro.
+    const didactic = analysis.didactic || wordData.didactic; 
+    
+    let analysisHTML = `
+        <div class="analysis-card">
+            <p class="analysis-hebrew">${wordData.hebrew}</p>
+            <div class="analysis-header">
+                <h2>${wordData.transliteration}</h2>
+                <p>"${wordData.contextualTranslation}"</p>
+            </div>
+            <div class="analysis-section">
+                <h3>Análise Principal</h3>
+                <div class="analysis-item"><strong>Tradução Breve:</strong> <span>${wordData.briefTranslation}</span></div>
+                <div class="analysis-item"><strong>Lema:</strong> <span>${wordData.lemma} (${analysis.lemmaTranslation})</span></div>
+                <div class="analysis-item"><strong>Classe:</strong> <span>${analysis.class}</span></div>
+                ${analysis.binyan ? `<div class="analysis-item"><strong>Binyan:</strong> <span>${analysis.binyan}</span></div>` : ''}
+                ${analysis.tense ? `<div class="analysis-item"><strong>Tempo/Aspecto:</strong> <span>${analysis.tense}</span></div>` : ''}
+                ${analysis.pgn ? `<div class="analysis-item"><strong>PGN:</strong> <span>${analysis.pgn}</span></div>` : ''}
+                ${analysis.gender ? `<div class="analysis-item"><strong>Gênero:</strong> <span>${analysis.gender}</span></div>` : ''}
+                ${analysis.number ? `<div class="analysis-item"><strong>Número:</strong> <span>${analysis.number}</span></div>` : ''}
+                ${analysis.state ? `<div class="analysis-item"><strong>Estado:</strong> <span>${analysis.state}</span></div>` : ''}
+                ${analysis.extra ? `<div class="analysis-item"><strong>Extra:</strong> <span>${analysis.extra}</span></div>` : ''}
+            </div>
+    `;
+    if (didactic) {
+        analysisHTML += `<div class="analysis-section"><h3>Análise Didática: ${didactic.conceptTitle}</h3>`;
+        didactic.identification.forEach(item => {
+            analysisHTML += `<p><strong>${item.feature}:</strong> ${item.indicator}</p>`;
+        });
+        if (didactic.paradigm) {
+            analysisHTML += createParadigmTable(didactic.paradigm);
         }
         analysisHTML += `</div>`;
-        wordAnalysisView.innerHTML = analysisHTML;
-        showMainView(wordAnalysisView);
     }
+    analysisHTML += `</div>`;
+    wordAnalysisView.innerHTML = analysisHTML;
+    showMainView(wordAnalysisView);
+}
     
     function createParadigmTable(paradigmData) {
         let tableHTML = `<br><h4>${paradigmData.title}</h4><table class="paradigm-table">`;
